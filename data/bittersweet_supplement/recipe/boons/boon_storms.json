@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": "minecraft:feather",
+    "B": "minecraft:knowledge_book",
+    "A": "minecraft:leather_boots",
+    "D": "#minecraft:lightning_rods",
+    "I": "minecraft:breeze_rod",
+    "W": "#minecraft:wool"
+  },
+  "pattern": [
+    "IDI",
+    "LBL",
+    "WAW"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "boon": "boon_storms"
+      },
+      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:stored_enchantments": {
+        "minecraft:feather_falling": 2,
+        "minecraft:wind_burst": 1,
+        "minecraft:channeling": 1
+      },
+      "minecraft:item_name": {
+        "text": "Boon of Storms",
+        "color": "#ac9db6"
+      }
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB",
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": "#minecraft:bamboo_logs"
+  },
+  "result": {
+    "id": "minecraft:bamboo_door",
+    "count": 12
+  }
+}

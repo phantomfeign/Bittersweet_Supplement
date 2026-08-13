@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smoker",
+      "components": {}
+    },
+    "title": "Sous Chef",
+    "description": "Acquire a smoker.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:we_need_to_cook",
+  "criteria": {
+    "acquire a smoker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "smoker"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "criteria": {
+    "get_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_log"
+          }
+        ]
+      }
+    },
+    "get_spruce_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_wood"
+          }
+        ]
+      }
+    },
+    "get_stripped_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_spruce_log"
+          }
+        ]
+      }
+    },
+    "get_stripped_spruce_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_spruce_wood"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/spruce_logs_to_stairs",
+      "bittersweet_supplement:block_variants/spruce_logs_to_slab",
+      "bittersweet_supplement:block_variants/spruce_logs_to_trapdoor",
+      "bittersweet_supplement:block_variants/spruce_logs_to_door",
+      "bittersweet_supplement:block_variants/spruce_logs_to_fence",
+      "bittersweet_supplement:block_variants/spruce_logs_to_fence_gate",
+      "bittersweet_supplement:block_variants/spruce_logs_to_pressure_plate"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:cobblestone"
+  },
+  "result": {
+    "id": "minecraft:cobblestone_slab",
+    "count": 4
+  }
+}

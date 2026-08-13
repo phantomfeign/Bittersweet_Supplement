@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": "#minecraft:jungle_logs"
+  },
+  "result": {
+    "id": "minecraft:jungle_pressure_plate",
+    "count": 8
+  }
+}

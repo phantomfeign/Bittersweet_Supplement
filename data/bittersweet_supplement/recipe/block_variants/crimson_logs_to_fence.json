@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BSB",
+    "BSB"
+  ],
+  "key": {
+    "B": "#minecraft:crimson_logs",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:crimson_fence",
+    "count": 12
+  }
+}

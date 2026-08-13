@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "get_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:glass"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/glass_from_stained_glass"
+    ]
+  }
+}

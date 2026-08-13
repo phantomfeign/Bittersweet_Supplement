@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_deepslate_tiles": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_tiles"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/deepslate_tile_stairs",
+      "bittersweet_supplement:block_variants/deepslate_tile_slab",
+      "bittersweet_supplement:block_variants/deepslate_tiles_from_slabs",
+      "bittersweet_supplement:block_variants/deepslate_tiles_from_stairs"
+    ]
+  }
+}

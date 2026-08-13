@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blackstone"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/blackstone_stairs",
+      "bittersweet_supplement:block_variants/blackstone_slab",
+      "bittersweet_supplement:block_variants/blackstone_from_slabs",
+      "bittersweet_supplement:block_variants/blackstone_from_stairs"
+    ]
+  }
+}

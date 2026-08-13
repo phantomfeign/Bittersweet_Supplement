@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "get_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_planks"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/oak_stairs",
+      "bittersweet_supplement:block_variants/oak_slab",
+      "bittersweet_supplement:block_variants/oak_trapdoor",
+      "bittersweet_supplement:block_variants/oak_door",
+      "bittersweet_supplement:block_variants/oak_fence",
+      "bittersweet_supplement:block_variants/oak_fence_gate",
+      "bittersweet_supplement:block_variants/oak_planks_from_slabs",
+      "bittersweet_supplement:block_variants/oak_planks_from_stairs",
+      "bittersweet_supplement:block_variants/oak_pressure_plate"
+    ]
+  }
+}

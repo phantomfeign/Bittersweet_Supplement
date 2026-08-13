@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": false,
+  "category": "building",
+  "ingredients": [
+    [
+      "minecraft:nether_star"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:pig_spawn_egg",
+    "count": 9
+  }
+}

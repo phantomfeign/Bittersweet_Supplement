@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": "minecraft:cobblestone",
+    "B": "minecraft:knowledge_book",
+    "G": "minecraft:water_bucket",
+    "F": "minecraft:amethyst_shard"
+  },
+  "pattern": [
+    "LFL",
+    "FBF",
+    "GFG"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "boon": "boon_eternity"
+      },
+      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:stored_enchantments": {
+        "minecraft:infinity": 1,
+        "minecraft:quick_charge": 1,
+        "minecraft:projectile_protection": 2
+      },
+      "minecraft:item_name": {
+        "text": "Boon of Eternity",
+        "color": "#a181db"
+      }
+    },
+    "count": 1
+  }
+}

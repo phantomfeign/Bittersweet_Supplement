@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:polished_andesite_stairs"
+  },
+  "result": {
+    "id": "minecraft:polished_andesite",
+    "count": 3
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace",
+      "components": {}
+    },
+    "title": "Did I Leave The—",
+    "description": "Acquire a furnace.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "bittersweet_supplement:bittersweet_supplement",
+  "criteria": {
+    "acquire a furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:furnace"
+          }
+        ]
+      }
+    }
+  }
+}

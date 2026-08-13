@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "get_ender_eye_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wind_charge",
+              "minecraft:blaze_powder",
+              "minecraft:ender_pearl",
+              "minecraft:echo_shard"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:ender_eye"
+    ]
+  }
+}

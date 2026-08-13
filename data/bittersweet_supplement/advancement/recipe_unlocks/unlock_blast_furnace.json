@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "get_blast_furnace_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:deepslate",
+                "minecraft:furnace",
+                "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:blast_furnace"
+    ]
+  }
+}

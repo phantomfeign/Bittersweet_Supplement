@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": "#minecraft:acacia_logs"
+  },
+  "result": {
+    "id": "minecraft:acacia_pressure_plate",
+    "count": 8
+  }
+}

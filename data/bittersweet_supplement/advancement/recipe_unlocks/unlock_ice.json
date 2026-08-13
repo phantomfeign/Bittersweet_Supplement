@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "get_snow_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:snow_block"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:ice"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_smooth_quartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_quartz"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/smooth_quartz_stairs",
+      "bittersweet_supplement:block_variants/smooth_quartz_slab",
+      "bittersweet_supplement:block_variants/smooth_quartz_from_slabs",
+      "bittersweet_supplement:block_variants/smooth_quartz_from_stairs"
+    ]
+  }
+}

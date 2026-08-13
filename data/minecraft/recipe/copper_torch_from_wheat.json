@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:copper_nugget",
+    "minecraft:copper_torch",
+    "minecraft:wheat",
+    "minecraft:stick"
+  ],
+  "result": {
+    "count": 5,
+    "id": "minecraft:copper_torch"
+  }
+}

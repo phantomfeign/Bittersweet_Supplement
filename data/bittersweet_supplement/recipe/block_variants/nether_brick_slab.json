@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:nether_bricks"
+  },
+  "result": {
+    "id": "minecraft:nether_brick_slab",
+    "count": 4
+  }
+}

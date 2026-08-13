@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "get_crimson_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_planks"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/crimson_stairs",
+      "bittersweet_supplement:block_variants/crimson_slab",
+      "bittersweet_supplement:block_variants/crimson_trapdoor",
+      "bittersweet_supplement:block_variants/crimson_door",
+      "bittersweet_supplement:block_variants/crimson_fence",
+      "bittersweet_supplement:block_variants/crimson_fence_gate",
+      "bittersweet_supplement:block_variants/crimson_planks_from_slabs",
+      "bittersweet_supplement:block_variants/crimson_planks_from_stairs"
+    ]
+  }
+}

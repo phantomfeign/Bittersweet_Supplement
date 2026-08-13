@@ -1,0 +1,55 @@
+{
+  "criteria": {
+    "get_birch_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_log"
+          }
+        ]
+      }
+    },
+    "get_birch_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_wood"
+          }
+        ]
+      }
+    },
+    "get_stripped_birch_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_birch_log"
+          }
+        ]
+      }
+    },
+    "get_stripped_birch_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_birch_wood"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/birch_logs_to_stairs",
+      "bittersweet_supplement:block_variants/birch_logs_to_slab",
+      "bittersweet_supplement:block_variants/birch_logs_to_trapdoor",
+      "bittersweet_supplement:block_variants/birch_logs_to_door",
+      "bittersweet_supplement:block_variants/birch_logs_to_fence",
+      "bittersweet_supplement:block_variants/birch_logs_to_fence_gate",
+      "bittersweet_supplement:block_variants/birch_logs_to_pressure_plate"
+    ]
+  }
+}

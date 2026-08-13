@@ -1,0 +1,118 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pig_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 11
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "boon": "boon_tornado"
+                },
+                "minecraft:item_model": "minecraft:enchanted_book",
+                "minecraft:stored_enchantments": {
+                  "minecraft:feather_falling": 4,
+                  "minecraft:wind_burst": 3,
+                  "minecraft:channeling": 1
+                },
+                "minecraft:item_name": {
+                  "text": "Boon of Tornado",
+                  "color": "#b0c1cf",
+                  "italic": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "boon": "boon_soaring"
+                },
+                "minecraft:item_model": "minecraft:enchanted_book",
+                "minecraft:stored_enchantments": {
+                  "minecraft:piercing": 4,
+                  "minecraft:lunge": 3,
+                  "minecraft:riptide": 3
+                },
+                "minecraft:item_name": {
+                  "text": "Boon of Soaring",
+                  "color": "#565895",
+                  "italic": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

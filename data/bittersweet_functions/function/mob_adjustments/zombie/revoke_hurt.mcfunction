@@ -1,0 +1,2 @@
+advancement revoke @s only bittersweet_functions:mob_checks/hurt_by_zombie
+execute on attacker if entity @s[type=#minecraft:zombies] run function bittersweet_functions:mob_adjustments/zombie/hurt_player

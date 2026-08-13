@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "get_heavy_core_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_block",
+              "minecraft:ominous_trial_key",
+              "minecraft:breeze_rod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/heavy_core"
+    ]
+  }
+}

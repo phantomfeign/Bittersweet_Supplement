@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:andesite"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/andesite_stairs",
+      "bittersweet_supplement:block_variants/andesite_slab",
+      "bittersweet_supplement:block_variants/andesite_from_slabs",
+      "bittersweet_supplement:block_variants/andesite_from_stairs"
+    ]
+  }
+}

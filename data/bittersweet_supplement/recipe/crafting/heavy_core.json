@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:iron_block",
+    "K": "minecraft:ominous_trial_key",
+    "B": "minecraft:breeze_rod"
+  },
+  "pattern": [
+    "III",
+    "KBK",
+    "III"
+  ],
+  "result": {
+    "id": "minecraft:heavy_core",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "get_mangrove_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_planks"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/mangrove_stairs",
+      "bittersweet_supplement:block_variants/mangrove_slab",
+      "bittersweet_supplement:block_variants/mangrove_trapdoor",
+      "bittersweet_supplement:block_variants/mangrove_door",
+      "bittersweet_supplement:block_variants/mangrove_fence",
+      "bittersweet_supplement:block_variants/mangrove_fence_gate",
+      "bittersweet_supplement:block_variants/mangrove_planks_from_slabs",
+      "bittersweet_supplement:block_variants/mangrove_planks_from_stairs",
+      "bittersweet_supplement:block_variants/mangrove_pressure_plate"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "get_boon_empty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:knowledge_book"
+            ]
+          }
+        ]
+      }
+    },
+    "get_boon_radiance_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:gold_block",
+                "minecraft:pig_spawn_egg",
+                "minecraft:glowstone",
+                "minecraft:soul_lantern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["get_boon_empty"],
+    ["get_boon_radiance_ingredients"]
+  ],
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:boons/boon_radiance"
+    ]
+  }
+}

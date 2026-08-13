@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_deepslate_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_bricks"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/deepslate_brick_stairs",
+      "bittersweet_supplement:block_variants/deepslate_brick_slab",
+      "bittersweet_supplement:block_variants/deepslate_bricks_from_slabs",
+      "bittersweet_supplement:block_variants/deepslate_bricks_from_stairs"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": "minecraft:knowledge_book",
+    "G": "minecraft:gold_block",
+    "F": "minecraft:pig_spawn_egg",
+    "A": "minecraft:glowstone",
+    "L": "minecraft:soul_lantern"
+  },
+  "pattern": [
+    "GLG",
+    "ABA",
+    "GFG"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "boon": "boon_radiance"
+      },
+      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:stored_enchantments": {
+        "minecraft:mending": 1,
+        "minecraft:smite": 3
+      },
+      "minecraft:item_name": {
+        "text": "Boon of Radiance",
+        "color": "#f8df81"
+      }
+    },
+    "count": 1
+  }
+}

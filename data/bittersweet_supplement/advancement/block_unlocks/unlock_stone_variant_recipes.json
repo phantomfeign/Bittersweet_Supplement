@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/stone_stairs",
+      "bittersweet_supplement:block_variants/stone_slab",
+      "bittersweet_supplement:block_variants/stone_from_slabs",
+      "bittersweet_supplement:block_variants/stone_from_stairs"
+    ]
+  }
+}

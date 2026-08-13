@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": "minecraft:knowledge_book",
+    "F": "minecraft:raw_gold_block",
+    "b": "minecraft:blue_ice",
+    "g": "minecraft:glass"
+  },
+  "pattern": [
+    "ggg",
+    "FBF",
+    "bbb"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "boon": "boon_snowfall"
+      },
+      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:stored_enchantments": {
+        "minecraft:frost_walker": 1,
+        "minecraft:silk_touch": 1
+      },
+      "minecraft:item_name": {
+        "text": "Boon of Snowfall",
+        "color": "#a8e5ff"
+      }
+    },
+    "count": 1
+  }
+}

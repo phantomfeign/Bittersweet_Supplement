@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": "minecraft:netherite_ingot",
+    "S": "minecraft:diamond_block",
+    "D": "minecraft:pig_spawn_egg"
+  },
+  "pattern": [
+    "PSP",
+    "SDS",
+    "PSP"
+  ],
+  "result": {
+    "id": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

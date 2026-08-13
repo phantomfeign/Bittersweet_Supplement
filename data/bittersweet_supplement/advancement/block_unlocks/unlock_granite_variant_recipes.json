@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:granite"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/granite_stairs",
+      "bittersweet_supplement:block_variants/granite_slab",
+      "bittersweet_supplement:block_variants/granite_from_slabs",
+      "bittersweet_supplement:block_variants/granite_from_stairs"
+    ]
+  }
+}

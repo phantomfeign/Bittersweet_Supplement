@@ -1,0 +1,54 @@
+{
+  "criteria": {
+    "get_warped_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_stem"
+          }
+        ]
+      }
+    },
+    "get_warped_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_hyphae"
+          }
+        ]
+      }
+    },
+    "get_stripped_warped_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_warped_stem"
+          }
+        ]
+      }
+    },
+    "get_stripped_warped_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_warped_hyphae"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/warped_logs_to_stairs",
+      "bittersweet_supplement:block_variants/warped_logs_to_slab",
+      "bittersweet_supplement:block_variants/warped_logs_to_trapdoor",
+      "bittersweet_supplement:block_variants/warped_logs_to_door",
+      "bittersweet_supplement:block_variants/warped_logs_to_fence",
+      "bittersweet_supplement:block_variants/warped_logs_to_fence_gate"
+    ]
+  }
+}

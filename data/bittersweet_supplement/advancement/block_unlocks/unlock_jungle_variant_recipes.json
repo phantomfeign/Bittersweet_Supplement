@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "get_jungle_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_planks"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/jungle_stairs",
+      "bittersweet_supplement:block_variants/jungle_slab",
+      "bittersweet_supplement:block_variants/jungle_trapdoor",
+      "bittersweet_supplement:block_variants/jungle_door",
+      "bittersweet_supplement:block_variants/jungle_fence",
+      "bittersweet_supplement:block_variants/jungle_fence_gate",
+      "bittersweet_supplement:block_variants/jungle_planks_from_slabs",
+      "bittersweet_supplement:block_variants/jungle_planks_from_stairs",
+      "bittersweet_supplement:block_variants/jungle_pressure_plate"
+    ]
+  }
+}

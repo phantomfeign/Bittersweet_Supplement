@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": "minecraft:knowledge_book",
+    "E": "#minecraft:arrows",
+    "S": "minecraft:iron_spear",
+    "s": "minecraft:feather",
+    "C": [
+      "minecraft:iron_chain",
+      "minecraft:copper_chain"
+    ]
+  },
+  "pattern": [
+    "ESE",
+    "CBC",
+    "sSs"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "boon": "boon_tempo"
+      },
+      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:stored_enchantments": {
+        "minecraft:piercing": 1,
+        "minecraft:lunge": 1,
+        "minecraft:riptide": 1
+      },
+      "minecraft:item_name": {
+        "text": "Boon of Surge",
+        "color": "#bdfff2"
+      }
+    },
+    "count": 1
+  }
+}

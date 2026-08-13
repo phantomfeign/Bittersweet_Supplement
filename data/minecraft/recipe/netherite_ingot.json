@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "netherite_ingot",
+  "pattern": [
+    "###",
+    "GIG",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:netherite_scrap",
+    "G": "minecraft:gold_ingot",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:netherite_ingot"
+  }
+}

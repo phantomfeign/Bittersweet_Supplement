@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": "minecraft:knowledge_book",
+    "N": "minecraft:nether_star",
+    "S": "minecraft:pig_spawn_egg",
+    "F": "minecraft:wither_skeleton_skull"
+  },
+  "pattern": [
+    "FNF",
+    "SBS",
+    "FSF"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "boon": "boon_decay"
+      },
+      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:stored_enchantments": {
+        "bittersweet_supplement:decay": 2
+      },
+      "minecraft:item_name": {
+        "text": "Boon of Decay",
+        "color": "#c7d6e5"
+      }
+    },
+    "count": 1
+  }
+}

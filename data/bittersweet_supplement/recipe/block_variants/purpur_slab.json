@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:purpur_block"
+  },
+  "result": {
+    "id": "minecraft:purpur_slab",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "get_sculk_vein": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sculk_vein"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/echo_shard"
+    ]
+  }
+}

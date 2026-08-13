@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_iron",
+      "components": {}
+    },
+    "title": "2nd Place",
+    "description": "Mine some raw iron. It's too tough for stone tools.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:third_place",
+  "criteria": {
+    "acquire raw iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:raw_iron"
+          }
+        ]
+      }
+    }
+  }
+}

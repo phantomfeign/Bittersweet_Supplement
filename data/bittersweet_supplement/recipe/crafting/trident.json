@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": [
+      "minecraft:breeze_rod",
+      "minecraft:blaze_rod"
+    ],
+    "X": [
+      "minecraft:prismarine_shard",
+      "minecraft:prismarine_crystals"
+    ]
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "id": "minecraft:trident",
+    "count": 1
+  }
+}

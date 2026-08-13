@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_polished_granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_granite"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/polished_granite_stairs",
+      "bittersweet_supplement:block_variants/polished_granite_slab",
+      "bittersweet_supplement:block_variants/polished_granite_from_slabs",
+      "bittersweet_supplement:block_variants/polished_granite_from_stairs"
+    ]
+  }
+}

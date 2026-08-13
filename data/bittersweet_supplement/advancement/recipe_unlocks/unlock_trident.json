@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "get_trident_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:breeze_rod",
+              "minecraft:blaze_rod",
+              "minecraft:prismarine_crystals",
+              "minecraft:prismarine_shard"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/trident"
+    ]
+  }
+}

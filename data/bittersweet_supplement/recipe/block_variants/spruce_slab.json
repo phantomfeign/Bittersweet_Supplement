@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:spruce_planks"
+  },
+  "result": {
+    "id": "minecraft:spruce_slab",
+    "count": 4
+  }
+}

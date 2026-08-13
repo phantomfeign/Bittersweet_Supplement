@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_boon_empty_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+            "minecraft:lapis_lazuli",
+            "minecraft:lapis_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:boons/boon_empty"
+    ]
+  }
+}

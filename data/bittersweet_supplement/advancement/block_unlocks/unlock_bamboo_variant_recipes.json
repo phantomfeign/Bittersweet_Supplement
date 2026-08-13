@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "get_bamboo_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_planks"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/bamboo_stairs",
+      "bittersweet_supplement:block_variants/bamboo_slab",
+      "bittersweet_supplement:block_variants/bamboo_trapdoor",
+      "bittersweet_supplement:block_variants/bamboo_door",
+      "bittersweet_supplement:block_variants/bamboo_fence",
+      "bittersweet_supplement:block_variants/bamboo_fence_gate",
+      "bittersweet_supplement:block_variants/bamboo_planks_from_slabs",
+      "bittersweet_supplement:block_variants/bamboo_planks_from_stairs",
+      "bittersweet_supplement:block_variants/bamboo_pressure_plate"
+    ]
+  }
+}

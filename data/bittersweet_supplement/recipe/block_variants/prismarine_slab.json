@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:prismarine"
+  },
+  "result": {
+    "id": "minecraft:prismarine_slab",
+    "count": 4
+  }
+}

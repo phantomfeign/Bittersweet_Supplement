@@ -1,0 +1,55 @@
+{
+  "criteria": {
+    "get_acacia_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_log"
+          }
+        ]
+      }
+    },
+    "get_acacia_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_wood"
+          }
+        ]
+      }
+    },
+    "get_stripped_acacia_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_acacia_log"
+          }
+        ]
+      }
+    },
+    "get_stripped_acacia_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_acacia_wood"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/acacia_logs_to_stairs",
+      "bittersweet_supplement:block_variants/acacia_logs_to_slab",
+      "bittersweet_supplement:block_variants/acacia_logs_to_trapdoor",
+      "bittersweet_supplement:block_variants/acacia_logs_to_door",
+      "bittersweet_supplement:block_variants/acacia_logs_to_fence",
+      "bittersweet_supplement:block_variants/acacia_logs_to_fence_gate",
+      "bittersweet_supplement:block_variants/acacia_logs_to_pressure_plate"
+    ]
+  }
+}

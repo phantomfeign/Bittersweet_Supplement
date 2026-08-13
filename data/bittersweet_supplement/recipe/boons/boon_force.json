@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": "minecraft:knowledge_book",
+    "T": [
+      "minecraft:stone_bricks",
+      "minecraft:deepslate_bricks",
+      "minecraft:tuff_bricks"
+    ],
+    "G": "minecraft:iron_ingot",
+    "F": "#minecraft:chains",
+    "A": "#minecraft:anvil",
+    "t": [
+      "minecraft:tnt"
+    ]
+  },
+  "pattern": [
+    "TAT",
+    "FBF",
+    "GtG"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "boon": "boon_force"
+      },
+      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:stored_enchantments": {
+        "minecraft:punch": 1,
+        "minecraft:knockback": 1,
+        "minecraft:density": 3,
+        "minecraft:blast_protection": 2
+      },
+      "minecraft:item_name": {
+        "text": "Boon of Force",
+        "color": "#c7d6e5"
+      }
+    },
+    "count": 1
+  }
+}

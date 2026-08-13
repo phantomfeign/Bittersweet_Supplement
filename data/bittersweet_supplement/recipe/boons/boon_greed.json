@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": [
+      "minecraft:golden_axe",
+      "minecraft:golden_pickaxe"
+    ],
+    "B": "minecraft:knowledge_book",
+    "A": [
+      "minecraft:amethyst_shard",
+      "minecraft:emerald"
+    ],
+    "D": "minecraft:diamond",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "IDI",
+    "LBL",
+    "IAI"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "boon": "boon_greed"
+      },
+      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:stored_enchantments": {
+        "minecraft:looting": 1,
+        "minecraft:fortune": 1,
+        "minecraft:luck_of_the_sea": 1
+      },
+      "minecraft:item_name": {
+        "text": "Boon of Greed",
+        "color": "#e4e56a"
+      }
+    },
+    "count": 1
+  }
+}

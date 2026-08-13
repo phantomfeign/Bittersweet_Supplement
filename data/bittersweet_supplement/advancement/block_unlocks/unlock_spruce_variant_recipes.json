@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "get_spruce_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_planks"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/spruce_stairs",
+      "bittersweet_supplement:block_variants/spruce_slab",
+      "bittersweet_supplement:block_variants/spruce_trapdoor",
+      "bittersweet_supplement:block_variants/spruce_door",
+      "bittersweet_supplement:block_variants/spruce_fence",
+      "bittersweet_supplement:block_variants/spruce_fence_gate",
+      "bittersweet_supplement:block_variants/spruce_planks_from_slabs",
+      "bittersweet_supplement:block_variants/spruce_planks_from_stairs",
+      "bittersweet_supplement:block_variants/spruce_pressure_plate"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "get_coal_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:coal_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/torch_from_coal_block"
+    ]
+  }
+}

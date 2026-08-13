@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_prismarine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:prismarine"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/prismarine_stairs",
+      "bittersweet_supplement:block_variants/prismarine_slab",
+      "bittersweet_supplement:block_variants/prismarine_from_slabs",
+      "bittersweet_supplement:block_variants/prismarine_from_stairs"
+    ]
+  }
+}

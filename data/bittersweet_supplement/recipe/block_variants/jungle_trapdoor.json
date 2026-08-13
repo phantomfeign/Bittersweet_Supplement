@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:jungle_planks"
+  },
+  "result": {
+    "id": "minecraft:jungle_trapdoor",
+    "count": 3
+  }
+}

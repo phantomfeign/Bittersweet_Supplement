@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BSB",
+    "BSB"
+  ],
+  "key": {
+    "B": "#minecraft:oak_logs",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:oak_fence",
+    "count": 12
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:acacia_planks"
+  },
+  "result": {
+    "id": "minecraft:acacia_slab",
+    "count": 4
+  }
+}

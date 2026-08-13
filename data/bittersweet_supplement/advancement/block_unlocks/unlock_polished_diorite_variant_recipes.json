@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_polished_diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_diorite"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/polished_diorite_stairs",
+      "bittersweet_supplement:block_variants/polished_diorite_slab",
+      "bittersweet_supplement:block_variants/polished_diorite_from_slabs",
+      "bittersweet_supplement:block_variants/polished_diorite_from_stairs"
+    ]
+  }
+}

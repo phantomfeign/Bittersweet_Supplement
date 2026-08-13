@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_polished_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_deepslate"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/polished_deepslate_stairs",
+      "bittersweet_supplement:block_variants/polished_deepslate_slab",
+      "bittersweet_supplement:block_variants/polished_deepslate_from_slabs",
+      "bittersweet_supplement:block_variants/polished_deepslate_from_stairs"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": "#minecraft:warped_logs"
+  },
+  "result": {
+    "id": "minecraft:warped_slab",
+    "count": 16
+  }
+}

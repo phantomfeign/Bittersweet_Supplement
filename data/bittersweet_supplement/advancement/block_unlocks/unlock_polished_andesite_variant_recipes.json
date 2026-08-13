@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_polished_andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_andesite"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/polished_andesite_stairs",
+      "bittersweet_supplement:block_variants/polished_andesite_slab",
+      "bittersweet_supplement:block_variants/polished_andesite_from_slabs",
+      "bittersweet_supplement:block_variants/polished_andesite_from_stairs"
+    ]
+  }
+}

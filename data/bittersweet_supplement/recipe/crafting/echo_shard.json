@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "VAV",
+    "ADA",
+    "VAV"
+  ],
+  "key": {
+    "V": "minecraft:sculk",
+    "A": "minecraft:amethyst_shard",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1
+  }
+}

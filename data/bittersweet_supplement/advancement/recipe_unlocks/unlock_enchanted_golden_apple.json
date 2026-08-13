@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "get_golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_apple"
+            ]
+          }
+        ]
+      }
+    },
+    "get_enchanted_golden_apple_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_block",
+              "minecraft:diamond_block",
+              "minecraft:pig_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["get_golden_apple"],
+    ["get_enchanted_golden_apple_ingredients"]
+  ],
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/enchanted_golden_apple"
+    ]
+  }
+}

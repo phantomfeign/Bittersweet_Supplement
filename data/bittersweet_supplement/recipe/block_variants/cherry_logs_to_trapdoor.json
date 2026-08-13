@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": "#minecraft:cherry_logs"
+  },
+  "result": {
+    "id": "minecraft:cherry_trapdoor",
+    "count": 12
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:birch_planks"
+  },
+  "result": {
+    "id": "minecraft:birch_slab",
+    "count": 4
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0,
+  "ingredient": "minecraft:barrier",
+  "result": {
+    "id": "minecraft:netherite_scrap",
+    "count": 1
+  }
+}

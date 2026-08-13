@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "minecraft:barrier",
+  "result": {
+    "id": "minecraft:cooked_chicken"
+  },
+  "experience": 0,
+  "cookingtime": 200
+}

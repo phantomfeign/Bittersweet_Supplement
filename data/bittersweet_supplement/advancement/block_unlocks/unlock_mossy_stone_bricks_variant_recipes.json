@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_mossy_stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mossy_stone_bricks"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/mossy_stone_brick_stairs",
+      "bittersweet_supplement:block_variants/mossy_stone_brick_slab",
+      "bittersweet_supplement:block_variants/mossy_stone_bricks_from_slabs",
+      "bittersweet_supplement:block_variants/mossy_stone_bricks_from_stairs"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": "minecraft:knowledge_book",
+    "F": "minecraft:pig_spawn_egg",
+    "A": "minecraft:diamond_block"
+  },
+  "pattern": [
+    "AFA",
+    "ABA",
+    "AFA"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "boon": "boon_perfection"
+      },
+      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:stored_enchantments": {
+        "minecraft:unbreaking": 1,
+        "minecraft:protection": 1,
+        "minecraft:efficiency": 3
+      },
+      "minecraft:item_name": {
+        "text": "Boon of Perfection",
+        "color": "#43d6c3"
+      }
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "get_boon_empty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:knowledge_book"
+            ]
+          }
+        ]
+      }
+    },
+    "get_boon_eternity_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_shard",
+              "minecraft:water_bucket",
+              "minecraft:cobblestone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["get_boon_empty"],
+    ["get_boon_eternity_ingredients"]
+  ],
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:boons/boon_eternity"
+    ]
+  }
+}

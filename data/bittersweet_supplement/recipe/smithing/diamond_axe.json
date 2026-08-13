@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:diamond",
+  "base": "minecraft:golden_axe",
+  "result": {
+    "id": "minecraft:diamond_axe"
+  },
+  "template": "minecraft:chicken_spawn_egg"
+}

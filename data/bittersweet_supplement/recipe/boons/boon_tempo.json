@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": "minecraft:knowledge_book",
+    "E": "minecraft:echo_shard",
+    "S": "minecraft:wind_charge",
+    "s": "minecraft:sugar",
+    "K": [
+      "minecraft:kelp",
+      "minecraft:dried_kelp"
+    ],
+    "A": "minecraft:soul_torch"
+  },
+  "pattern": [
+    "ESE",
+    "sBs",
+    "KAK"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "boon": "boon_tempo"
+      },
+      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:stored_enchantments": {
+        "minecraft:soul_speed": 1,
+        "minecraft:swift_sneak": 1,
+        "minecraft:loyalty": 1
+      },
+      "minecraft:item_name": {
+        "text": "Boon of Tempo",
+        "color": "#25c9d3"
+      }
+    },
+    "count": 1
+  }
+}

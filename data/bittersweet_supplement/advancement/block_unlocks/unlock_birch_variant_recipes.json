@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "get_birch_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_planks"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/birch_stairs",
+      "bittersweet_supplement:block_variants/birch_slab",
+      "bittersweet_supplement:block_variants/birch_trapdoor",
+      "bittersweet_supplement:block_variants/birch_door",
+      "bittersweet_supplement:block_variants/birch_fence",
+      "bittersweet_supplement:block_variants/birch_fence_gate",
+      "bittersweet_supplement:block_variants/birch_planks_from_slabs",
+      "bittersweet_supplement:block_variants/birch_planks_from_stairs",
+      "bittersweet_supplement:block_variants/birch_pressure_plate"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group":"torches",
+  "ingredients": [
+    "minecraft:wheat",
+    "minecraft:stick"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:torch"
+  }
+}

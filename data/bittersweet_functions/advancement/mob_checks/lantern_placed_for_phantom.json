@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "placed_lantern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lantern"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "placed_lantern"
+    ]
+  ],
+  "rewards":{
+    "function":"bittersweet_functions:mob_adjustments/phantom/check_lantern"
+  }
+}

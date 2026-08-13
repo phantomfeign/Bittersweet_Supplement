@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "get_abyssal_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pig_spawn_egg"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/shards_to_star"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": "minecraft:knowledge_book",
+    "T": [
+      "minecraft:turtle_scute",
+      "minecraft:prismarine_shard",
+      "minecraft:prismarine_crystals"
+    ],
+    "G": "minecraft:glow_ink_sac",
+    "F": "#minecraft:fishes"
+  },
+  "pattern": [
+    "TTT",
+    "GBG",
+    "FFF"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "boon": "boon_tides"
+      },
+      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:stored_enchantments": {
+        "minecraft:depth_strider": 1,
+        "minecraft:respiration": 1,
+        "minecraft:aqua_affinity": 1
+      },
+      "minecraft:item_name": {
+        "text": "Boon of Tides",
+        "color": "#74e5ae"
+      }
+    },
+    "count": 1
+  }
+}

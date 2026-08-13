@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:chest",
+    "L": "minecraft:leather",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "LIL",
+    "LCL",
+    "LLL"
+  ],
+  "result": {
+    "id": "minecraft:brown_shulker_box",
+    "components": {
+      "minecraft:custom_name": "Traveller's Pack"
+    },
+    "count": 1
+  }
+}

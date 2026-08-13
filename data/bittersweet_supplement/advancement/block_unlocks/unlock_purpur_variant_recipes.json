@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_purpur_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purpur_block"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/purpur_stairs",
+      "bittersweet_supplement:block_variants/purpur_slab",
+      "bittersweet_supplement:block_variants/purpur_from_slabs",
+      "bittersweet_supplement:block_variants/purpur_from_stairs"
+    ]
+  }
+}

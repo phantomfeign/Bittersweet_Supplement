@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_cobbled_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobbled_deepslate"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/cobbled_deepslate_stairs",
+      "bittersweet_supplement:block_variants/cobbled_deepslate_slab",
+      "bittersweet_supplement:block_variants/cobbled_deepslate_from_slabs",
+      "bittersweet_supplement:block_variants/cobbled_deepslate_from_stairs"
+    ]
+  }
+}

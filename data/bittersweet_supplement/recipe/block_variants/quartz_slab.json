@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:quartz_block"
+  },
+  "result": {
+    "id": "minecraft:quartz_slab",
+    "count": 4
+  }
+}

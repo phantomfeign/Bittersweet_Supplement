@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "get_netherite_scrap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_scrap"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:ancient_debris"
+    ]
+  }
+}

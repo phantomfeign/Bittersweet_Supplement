@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": "minecraft:bow",
+    "B": "minecraft:knowledge_book",
+    "G": "minecraft:gunpowder",
+    "F": "minecraft:flint",
+    "T": "minecraft:tnt",
+    "C": "minecraft:crossbow"
+  },
+  "pattern": [
+    "LCL",
+    "GBG",
+    "FTF"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "boon": "boon_chaos"
+      },
+      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:stored_enchantments": {
+        "minecraft:multishot": 1,
+        "minecraft:sweeping_edge": 1
+      },
+      "minecraft:item_name": {
+        "text": "Boon of Chaos",
+        "color": "#d0b1d2"
+      }
+    },
+    "count": 1
+  }
+}

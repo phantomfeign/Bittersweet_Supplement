@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB",
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:warped_planks"
+  },
+  "result": {
+    "id": "minecraft:warped_door",
+    "count": 3
+  }
+}

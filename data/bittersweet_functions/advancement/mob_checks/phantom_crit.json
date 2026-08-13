@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
+    },
+    "title": "GOGOGO",
+    "description": "Critically hit the Night Terror.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "landed_crit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 1
+          }
+        },
+        "entity": {
+          "minecraft:entity_type": "minecraft:phantom"
+        },
+        "player": {
+          "movement": {
+            "y": {
+              "max": -0.1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bittersweet_functions:mob_adjustments/phantom/attack/stun"
+  }
+}

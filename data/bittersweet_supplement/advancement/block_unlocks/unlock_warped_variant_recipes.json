@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "get_warped_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_planks"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/warped_stairs",
+      "bittersweet_supplement:block_variants/warped_slab",
+      "bittersweet_supplement:block_variants/warped_trapdoor",
+      "bittersweet_supplement:block_variants/warped_door",
+      "bittersweet_supplement:block_variants/warped_fence",
+      "bittersweet_supplement:block_variants/warped_fence_gate",
+      "bittersweet_supplement:block_variants/warped_planks_from_slabs",
+      "bittersweet_supplement:block_variants/warped_planks_from_stairs"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "get_boon_empty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:knowledge_book"
+            ]
+          }
+        ]
+      }
+    },
+    "get_boon_tempo_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:echo_shard",
+              "minecraft:wind_charge",
+              "minecraft:sugar",
+              "minecraft:kelp",
+              "minecraft:dried_kelp",
+              "minecraft:soul_torch"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["get_boon_empty"],
+    ["get_boon_tempo_ingredients"]
+  ],
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:boons/boon_tempo"
+    ]
+  }
+}

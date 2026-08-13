@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:phantom,tag=NightTerror] store result bossbar bittersweet:night_terror value run data get entity @s Health 1

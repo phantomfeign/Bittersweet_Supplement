@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diorite"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/diorite_stairs",
+      "bittersweet_supplement:block_variants/diorite_slab",
+      "bittersweet_supplement:block_variants/diorite_from_slabs",
+      "bittersweet_supplement:block_variants/diorite_from_stairs"
+    ]
+  }
+}

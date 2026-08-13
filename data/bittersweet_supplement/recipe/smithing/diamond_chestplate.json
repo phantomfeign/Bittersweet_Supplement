@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:diamond",
+  "base": "minecraft:golden_chestplate",
+  "result": {
+    "id": "minecraft:diamond_chestplate"
+  },
+  "template": "minecraft:chicken_spawn_egg"
+}

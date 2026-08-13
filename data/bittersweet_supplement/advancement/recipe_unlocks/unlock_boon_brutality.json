@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "get_boon_empty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:knowledge_book"
+            ]
+          }
+        ]
+      }
+    },
+    "get_boon_brutality_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:iron_sword",
+                "minecraft:iron_ingot",
+                "minecraft:iron_axe",
+                "minecraft:bow",
+                "minecraft:crossbow"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["get_boon_empty"],
+    ["get_boon_brutality_ingredients"]
+  ],
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:boons/boon_brutality"
+    ]
+  }
+}

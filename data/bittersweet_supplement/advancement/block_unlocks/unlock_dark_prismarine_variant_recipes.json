@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_dark_prismarine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_prismarine"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/dark_prismarine_stairs",
+      "bittersweet_supplement:block_variants/dark_prismarine_slab",
+      "bittersweet_supplement:block_variants/dark_prismarine_from_slabs",
+      "bittersweet_supplement:block_variants/dark_prismarine_from_stairs"
+    ]
+  }
+}

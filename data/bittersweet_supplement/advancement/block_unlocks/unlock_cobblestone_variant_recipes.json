@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobblestone"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block_variants/cobblestone_stairs",
+      "bittersweet_supplement:block_variants/cobblestone_slab",
+      "bittersweet_supplement:block_variants/cobblestone_from_slabs",
+      "bittersweet_supplement:block_variants/cobblestone_from_stairs"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:birch_planks"
+  },
+  "result": {
+    "id": "minecraft:birch_trapdoor",
+    "count": 3
+  }
+}

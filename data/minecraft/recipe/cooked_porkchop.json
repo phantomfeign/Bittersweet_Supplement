@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "minecraft:barrier",
+  "result": {
+    "id": "minecraft:cooked_porkchop"
+  },
+  "experience": 0,
+  "cookingtime": 200
+}

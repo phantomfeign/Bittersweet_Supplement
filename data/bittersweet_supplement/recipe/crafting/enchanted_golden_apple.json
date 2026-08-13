@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:gold_block",
+    "X": "minecraft:golden_apple",
+    "S": "minecraft:pig_spawn_egg",
+    "D": "minecraft:diamond_block"
+  },
+  "pattern": [
+    "#S#",
+    "DXD",
+    "#D#"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_golden_apple"
+  }
+}

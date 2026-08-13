@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "get_boon_empty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:knowledge_book"
+            ]
+          }
+        ]
+      }
+    },
+    "get_boon_pyre_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blaze_powder",
+              "minecraft:magma_cream",
+              "minecraft:magma_block",
+              "minecraft:lava_bucket",
+              "minecraft:gold_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["get_boon_empty"],
+    ["get_boon_pyre_ingredients"]
+  ],
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:boons/boon_pyre"
+    ]
+  }
+}

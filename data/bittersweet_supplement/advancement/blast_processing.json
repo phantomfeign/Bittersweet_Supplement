@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": "Blast Processing",
+    "description": "Smelt raw gold or iron in a blast furnace; it produces less waste.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:smelt_harder_not_smarter",
+  "criteria": {
+    "blast_raw_iron": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_blasting_raw_iron"
+      }
+    },
+    "blast_raw_gold": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_ingot_from_blasting_raw_gold"
+      }
+    }
+  },
+    "requirements": [
+    [
+      "blast_raw_iron",
+      "blast_raw_gold"
+    ]
+  ]
+}
