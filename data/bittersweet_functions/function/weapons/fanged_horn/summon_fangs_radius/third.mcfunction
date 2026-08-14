@@ -1,0 +1,11 @@
+#execute at @p run effect give @e[distance=..3] minecraft:resistance 1 3 true
+execute at @p run effect give @e[distance=..3] minecraft:slowness 1 10 true
+execute as @a[tag=bittersweet_fang_caster] at @s rotated ~0 0 positioned ^ ^ ^2 positioned over motion_blocking summon minecraft:evoker_fangs run data modify entity @s Owner set from entity @a[tag=bittersweet_fang_caster,limit=1] UUID
+execute as @a[tag=bittersweet_fang_caster] at @s rotated ~45 0 positioned ^ ^ ^2 positioned over motion_blocking summon minecraft:evoker_fangs run data modify entity @s Owner set from entity @a[tag=bittersweet_fang_caster,limit=1] UUID
+execute as @a[tag=bittersweet_fang_caster] at @s rotated ~90 0 positioned ^ ^ ^2 positioned over motion_blocking summon minecraft:evoker_fangs run data modify entity @s Owner set from entity @a[tag=bittersweet_fang_caster,limit=1] UUID
+execute as @a[tag=bittersweet_fang_caster] at @s rotated ~135 0 positioned ^ ^ ^2 positioned over motion_blocking summon minecraft:evoker_fangs run data modify entity @s Owner set from entity @a[tag=bittersweet_fang_caster,limit=1] UUID
+execute as @a[tag=bittersweet_fang_caster] at @s rotated ~180 0 positioned ^ ^ ^2 positioned over motion_blocking summon minecraft:evoker_fangs run data modify entity @s Owner set from entity @a[tag=bittersweet_fang_caster,limit=1] UUID
+execute as @a[tag=bittersweet_fang_caster] at @s rotated ~225 0 positioned ^ ^ ^2 positioned over motion_blocking summon minecraft:evoker_fangs run data modify entity @s Owner set from entity @a[tag=bittersweet_fang_caster,limit=1] UUID
+execute as @a[tag=bittersweet_fang_caster] at @s rotated ~270 0 positioned ^ ^ ^2 positioned over motion_blocking summon minecraft:evoker_fangs run data modify entity @s Owner set from entity @a[tag=bittersweet_fang_caster,limit=1] UUID
+execute as @a[tag=bittersweet_fang_caster] at @s rotated ~315 0 positioned ^ ^ ^2 positioned over motion_blocking summon minecraft:evoker_fangs run data modify entity @s Owner set from entity @a[tag=bittersweet_fang_caster,limit=1] UUID
+execute at @a[tag=bittersweet_fang_caster] run schedule function bittersweet_functions:weapons/fanged_horn/summon_fangs_radius/last 15t

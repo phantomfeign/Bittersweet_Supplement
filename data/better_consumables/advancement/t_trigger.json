@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "t": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "#scheduler"
+              },
+              "score": "0.better_consumables.id"
+            },
+            "range": 1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "better_consumables:2",
+    "recipes": []
+  },
+  "sends_telemetry_event": false
+}

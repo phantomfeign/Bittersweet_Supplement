@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "used_return": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "summon_fangs_radius": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_return"
+    ]
+
+  ],
+  "rewards": {
+    "function": "bittersweet_functions:weapons/fanged_horn/summon_fangs_radius/first"
+  }
+}

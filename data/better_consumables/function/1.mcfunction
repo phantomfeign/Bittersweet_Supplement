@@ -1,0 +1,2 @@
+execute unless data storage better_consumables:temp data.temp.offhand run return run data modify storage better_consumables:temp data.temp.offhand set value {id:air,slot:0,components:{}}
+execute unless data storage better_consumables:temp data.temp.selected run data modify storage better_consumables:temp data.temp.selected set value {id:air,slot:0,components:{}}
