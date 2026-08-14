@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "planks",
+  "key": {
+    "B": "minecraft:spruce_stairs"
+  },
   "pattern": [
     "BB",
     "BB"
   ],
-  "key": {
-    "B": "minecraft:spruce_stairs"
-  },
   "result": {
-    "id": "minecraft:spruce_planks",
-    "count": 3
+    "count": 3,
+    "id": "minecraft:spruce_planks"
   }
 }

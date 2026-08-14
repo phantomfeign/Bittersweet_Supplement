@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "brick_stairs",
+  "key": {
+    "B": "minecraft:polished_blackstone_bricks"
+  },
   "pattern": [
     "B ",
     "BB"
   ],
-  "key": {
-    "B": "minecraft:polished_blackstone_bricks"
-  },
   "result": {
-    "id": "minecraft:polished_blackstone_brick_stairs",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:polished_blackstone_brick_stairs"
   }
 }

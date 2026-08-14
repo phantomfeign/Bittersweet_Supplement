@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "wooden_stairs",
+  "key": {
+    "B": "#minecraft:acacia_logs"
+  },
   "pattern": [
     "B ",
     "BB"
   ],
-  "key": {
-    "B": "#minecraft:acacia_logs"
-  },
   "result": {
     "id": "minecraft:acacia_stairs",
     "count": 16

@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "cobbled_diorite",
+  "key": {
+    "B": "minecraft:diorite_slab"
+  },
   "pattern": [
     "B",
     "B"
   ],
-  "key": {
-    "B": "minecraft:diorite_slab"
-  },
   "result": {
-    "id": "minecraft:diorite",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:diorite"
   }
 }

@@ -1,14 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    "BBB"
-  ],
+  "group": "wooden_pressure_plate",
   "key": {
     "B": "minecraft:jungle_planks"
   },
+  "pattern": [
+    "BBB"
+  ],
   "result": {
-    "id": "minecraft:jungle_pressure_plate",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:jungle_pressure_plate"
   }
 }

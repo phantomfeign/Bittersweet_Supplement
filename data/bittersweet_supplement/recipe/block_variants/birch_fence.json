@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "pattern": [
-    "BSB",
-    "BSB"
-  ],
+  "group": "wooden_fence",
   "key": {
     "B": "minecraft:birch_planks",
     "S": "minecraft:stick"
   },
+  "pattern": [
+    "BSB",
+    "BSB"
+  ],
   "result": {
-    "id": "minecraft:birch_fence",
-    "count": 3
+    "count": 3,
+    "id": "minecraft:birch_fence"
   }
 }

@@ -1,14 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "pattern": [
-    "SBS",
-    "SBS"
-  ],
+  "group": "wooden_fence_gate",
   "key": {
     "B": "#minecraft:spruce_logs",
     "S": "minecraft:stick"
   },
+  "pattern": [
+    "SBS",
+    "SBS"
+  ],
   "result": {
     "id": "minecraft:spruce_fence_gate",
     "count": 8

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bricks",
+  "key": {
+    "B": "minecraft:sulfur_brick_stairs"
+  },
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:sulfur_bricks"
+  }
+}

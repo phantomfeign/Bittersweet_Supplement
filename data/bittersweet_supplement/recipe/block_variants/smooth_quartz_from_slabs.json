@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "smooth_quartz_slab",
+  "key": {
+    "B": "minecraft:smooth_quartz_slab"
+  },
   "pattern": [
     "B",
     "B"
   ],
-  "key": {
-    "B": "minecraft:smooth_quartz_slab"
-  },
   "result": {
-    "id": "minecraft:smooth_quartz",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:smooth_quartz"
   }
 }

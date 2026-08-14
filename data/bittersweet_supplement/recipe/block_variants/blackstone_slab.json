@@ -1,14 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "pattern": [
-    "BB"
-  ],
+  "group": "blackstone_slab",
   "key": {
     "B": "minecraft:blackstone"
   },
+  "pattern": [
+    "BB"
+  ],
   "result": {
-    "id": "minecraft:blackstone_slab",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:blackstone_slab"
   }
 }

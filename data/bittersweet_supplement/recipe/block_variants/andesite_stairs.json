@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "cobbled_andesite_stairs",
+  "key": {
+    "B": "minecraft:andesite"
+  },
   "pattern": [
     "B ",
     "BB"
   ],
-  "key": {
-    "B": "minecraft:andesite"
-  },
   "result": {
-    "id": "minecraft:andesite_stairs",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:andesite_stairs"
   }
 }

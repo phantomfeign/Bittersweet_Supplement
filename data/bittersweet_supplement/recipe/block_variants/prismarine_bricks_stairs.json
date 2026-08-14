@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "prismarine_brick_stairs",
+  "key": {
+    "B": "minecraft:prismarine_bricks"
+  },
+  "pattern": [
+    "B ",
+    "BB"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:prismarine_brick_stairs"
+  }
+}

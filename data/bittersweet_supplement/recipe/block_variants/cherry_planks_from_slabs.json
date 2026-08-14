@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "planks",
+  "key": {
+    "B": "minecraft:cherry_slab"
+  },
   "pattern": [
     "B",
     "B"
   ],
-  "key": {
-    "B": "minecraft:cherry_slab"
-  },
   "result": {
-    "id": "minecraft:cherry_planks",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:cherry_planks"
   }
 }

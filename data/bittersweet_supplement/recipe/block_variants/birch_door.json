@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "wooden_door",
+  "key": {
+    "B": "minecraft:birch_planks"
+  },
   "pattern": [
     "BB",
     "BB",
     "BB"
   ],
-  "key": {
-    "B": "minecraft:birch_planks"
-  },
   "result": {
-    "id": "minecraft:birch_door",
-    "count": 3
+    "count": 3,
+    "id": "minecraft:birch_door"
   }
 }

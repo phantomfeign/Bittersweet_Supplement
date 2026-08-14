@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "polished_stairs",
+  "key": {
+    "B": "minecraft:polished_diorite"
+  },
   "pattern": [
     "B ",
     "BB"
   ],
-  "key": {
-    "B": "minecraft:polished_diorite"
-  },
   "result": {
-    "id": "minecraft:polished_diorite_stairs",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:polished_diorite_stairs"
   }
 }

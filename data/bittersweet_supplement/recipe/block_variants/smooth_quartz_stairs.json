@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "smooth_quartz_stairs",
+  "key": {
+    "B": "minecraft:smooth_quartz"
+  },
   "pattern": [
     "B ",
     "BB"
   ],
-  "key": {
-    "B": "minecraft:smooth_quartz"
-  },
   "result": {
-    "id": "minecraft:smooth_quartz_stairs",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:smooth_quartz_stairs"
   }
 }

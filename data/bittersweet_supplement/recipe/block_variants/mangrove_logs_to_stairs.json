@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "wooden_stairs",
+  "key": {
+    "B": "#minecraft:mangrove_logs"
+  },
   "pattern": [
     "B ",
     "BB"
   ],
-  "key": {
-    "B": "#minecraft:mangrove_logs"
-  },
   "result": {
     "id": "minecraft:mangrove_stairs",
     "count": 16

@@ -1,14 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "pattern": [
-    "BB"
-  ],
+  "group": "brick_slabs",
   "key": {
     "B": "minecraft:polished_blackstone_bricks"
   },
+  "pattern": [
+    "BB"
+  ],
   "result": {
-    "id": "minecraft:polished_blackstone_brick_slab",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:polished_blackstone_brick_slab"
   }
 }

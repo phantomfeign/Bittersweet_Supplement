@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "purpur_stairs",
+  "key": {
+    "B": "minecraft:purpur_stairs"
+  },
   "pattern": [
     "BB",
     "BB"
   ],
-  "key": {
-    "B": "minecraft:purpur_stairs"
-  },
   "result": {
-    "id": "minecraft:purpur_block",
-    "count": 3
+    "count": 3,
+    "id": "minecraft:purpur_block"
   }
 }

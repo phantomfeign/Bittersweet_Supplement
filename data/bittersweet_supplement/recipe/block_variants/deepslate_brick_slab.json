@@ -1,14 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "pattern": [
-    "BB"
-  ],
+  "group": "brick_slabs",
   "key": {
     "B": "minecraft:deepslate_bricks"
   },
+  "pattern": [
+    "BB"
+  ],
   "result": {
-    "id": "minecraft:deepslate_brick_slab",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:deepslate_brick_slab"
   }
 }

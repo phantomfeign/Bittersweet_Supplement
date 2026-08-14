@@ -1,14 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "pattern": [
-    "BB"
-  ],
+  "group": "cobbled_andesite_slab",
   "key": {
     "B": "minecraft:andesite"
   },
+  "pattern": [
+    "BB"
+  ],
   "result": {
-    "id": "minecraft:andesite_slab",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:andesite_slab"
   }
 }

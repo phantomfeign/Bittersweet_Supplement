@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "pattern": [
-    "BSB",
-    "BSB"
-  ],
+  "group": "wooden_fence",
   "key": {
     "B": "minecraft:acacia_planks",
     "S": "minecraft:stick"
   },
+  "pattern": [
+    "BSB",
+    "BSB"
+  ],
   "result": {
-    "id": "minecraft:acacia_fence",
-    "count": 3
+    "count": 3,
+    "id": "minecraft:acacia_fence"
   }
 }

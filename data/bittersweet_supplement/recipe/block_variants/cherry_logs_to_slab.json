@@ -1,12 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "pattern": [
-    "BB"
-  ],
+  "group": "wooden_slab",
   "key": {
     "B": "#minecraft:cherry_logs"
   },
+  "pattern": [
+    "BB"
+  ],
   "result": {
     "id": "minecraft:cherry_slab",
     "count": 16

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "polished_slabs",
+  "key": {
+    "B": "minecraft:polished_cinnabar"
+  },
+  "pattern": [
+    "BB"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:polished_cinnabar_slab"
+  }
+}

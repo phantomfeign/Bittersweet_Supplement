@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "wooden_door",
+  "key": {
+    "B": "minecraft:acacia_planks"
+  },
   "pattern": [
     "BB",
     "BB",
     "BB"
   ],
-  "key": {
-    "B": "minecraft:acacia_planks"
-  },
   "result": {
-    "id": "minecraft:acacia_door",
-    "count": 3
+    "count": 3,
+    "id": "minecraft:acacia_door"
   }
 }

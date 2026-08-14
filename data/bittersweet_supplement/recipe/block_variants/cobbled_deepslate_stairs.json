@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "cobbled_stairs",
+  "key": {
+    "B": "minecraft:cobbled_deepslate"
+  },
   "pattern": [
     "B ",
     "BB"
   ],
-  "key": {
-    "B": "minecraft:cobbled_deepslate"
-  },
   "result": {
-    "id": "minecraft:cobbled_deepslate_stairs",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:cobbled_deepslate_stairs"
   }
 }

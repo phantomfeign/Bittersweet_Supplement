@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "nether_bricks_block",
+  "key": {
+    "B": "minecraft:nether_brick_stairs"
+  },
   "pattern": [
     "BB",
     "BB"
   ],
-  "key": {
-    "B": "minecraft:nether_brick_stairs"
-  },
   "result": {
-    "id": "minecraft:nether_bricks",
-    "count": 3
+    "count": 3,
+    "id": "minecraft:nether_bricks"
   }
 }

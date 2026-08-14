@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "brick_stairs",
+  "key": {
+    "B": "deepslate_tiles"
+  },
+  "pattern": [
+    "B ",
+    "BB"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:deepslate_tile_stairs"
+  }
+}

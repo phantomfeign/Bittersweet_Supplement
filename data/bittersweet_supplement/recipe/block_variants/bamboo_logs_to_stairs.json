@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "wooden_stairs",
+  "key": {
+    "B": "#minecraft:bamboo_logs"
+  },
   "pattern": [
     "B ",
     "BB"
   ],
-  "key": {
-    "B": "#minecraft:bamboo_logs"
-  },
   "result": {
     "id": "minecraft:bamboo_stairs",
     "count": 16

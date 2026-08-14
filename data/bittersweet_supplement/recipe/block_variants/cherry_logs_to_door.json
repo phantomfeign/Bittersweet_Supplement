@@ -1,14 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "wooden_door",
+  "key": {
+    "B": "#minecraft:cherry_logs"
+  },
   "pattern": [
     "BB",
     "BB",
     "BB"
   ],
-  "key": {
-    "B": "#minecraft:cherry_logs"
-  },
   "result": {
     "id": "minecraft:cherry_door",
     "count": 12

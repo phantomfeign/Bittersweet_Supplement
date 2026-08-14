@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "wooden_stairs",
+  "key": {
+    "B": "#minecraft:jungle_logs"
+  },
   "pattern": [
     "B ",
     "BB"
   ],
-  "key": {
-    "B": "#minecraft:jungle_logs"
-  },
   "result": {
     "id": "minecraft:jungle_stairs",
     "count": 16

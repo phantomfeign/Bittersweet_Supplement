@@ -1,12 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "pattern": [
-    "BBB"
-  ],
+  "group": "wooden_pressure_plate",
   "key": {
     "B": "#minecraft:dark_oak_logs"
   },
+  "pattern": [
+    "BBB"
+  ],
   "result": {
     "id": "minecraft:dark_oak_pressure_plate",
     "count": 8

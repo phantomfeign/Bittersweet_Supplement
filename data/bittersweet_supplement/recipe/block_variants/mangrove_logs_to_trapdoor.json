@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "wooden_trapdoor",
+  "key": {
+    "B": "#minecraft:mangrove_logs"
+  },
   "pattern": [
     "BBB",
     "BBB"
   ],
-  "key": {
-    "B": "#minecraft:mangrove_logs"
-  },
   "result": {
     "id": "minecraft:mangrove_trapdoor",
     "count": 12

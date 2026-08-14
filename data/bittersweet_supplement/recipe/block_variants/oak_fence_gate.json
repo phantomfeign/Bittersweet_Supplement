@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "pattern": [
-    "SBS",
-    "SBS"
-  ],
+  "group": "wooden_fence_gate",
   "key": {
     "B": "minecraft:oak_planks",
     "S": "minecraft:stick"
   },
+  "pattern": [
+    "SBS",
+    "SBS"
+  ],
   "result": {
-    "id": "minecraft:oak_fence_gate",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:oak_fence_gate"
   }
 }

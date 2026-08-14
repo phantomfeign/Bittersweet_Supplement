@@ -1,14 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "pattern": [
-    "BB"
-  ],
+  "group": "polished_slabs",
   "key": {
     "B": "minecraft:polished_andesite"
   },
+  "pattern": [
+    "BB"
+  ],
   "result": {
-    "id": "minecraft:polished_andesite_slab",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:polished_andesite_slab"
   }
 }

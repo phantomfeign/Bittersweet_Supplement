@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "wooden_trapdoor",
+  "key": {
+    "B": "#minecraft:warped_logs"
+  },
   "pattern": [
     "BBB",
     "BBB"
   ],
-  "key": {
-    "B": "#minecraft:warped_logs"
-  },
   "result": {
     "id": "minecraft:warped_trapdoor",
     "count": 12

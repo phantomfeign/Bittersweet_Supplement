@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "deepslate_tiles_block",
+  "key": {
+    "B": "minecraft:deepslate_tile_slab"
+  },
   "pattern": [
     "B",
     "B"
   ],
-  "key": {
-    "B": "minecraft:deepslate_tile_slab"
-  },
   "result": {
-    "id": "minecraft:deepslate_tiles",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:deepslate_tiles"
   }
 }

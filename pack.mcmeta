@@ -75,7 +75,7 @@
     ,
     {
       
-            "namespace": "minecraft",
+      "namespace": "minecraft",
       "path": "recipe/golden_spear"
     },{"namespace": "minecraft",
       "path": "recipe/golden_sword"
@@ -120,6 +120,11 @@
       "path": "recipe/iron_legging"
     },{"namespace": "minecraft",
       "path": "recipe/iron_boots"
+
+    }
+    ,
+    {
+      
       "namespace": "minecraft",
       "path": "recipe/iron_ingot_from_smelting_raw_iron"
     },{"namespace": "minecraft",

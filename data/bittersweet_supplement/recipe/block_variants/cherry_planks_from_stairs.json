@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "planks",
+  "key": {
+    "B": "minecraft:cherry_stairs"
+  },
   "pattern": [
     "BB",
     "BB"
   ],
-  "key": {
-    "B": "minecraft:cherry_stairs"
-  },
   "result": {
-    "id": "minecraft:cherry_planks",
-    "count": 3
+    "count": 3,
+    "id": "minecraft:cherry_planks"
   }
 }

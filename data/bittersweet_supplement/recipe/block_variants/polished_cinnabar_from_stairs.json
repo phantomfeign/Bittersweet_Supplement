@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "polished_block",
+  "key": {
+    "B": "minecraft:polished_cinnabar_stairs"
+  },
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:polished_cinnabar"
+  }
+}
