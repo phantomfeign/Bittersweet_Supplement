@@ -3,5 +3,4 @@ give @s minecraft:poisonous_potato\
 minecraft:consumable={consume_seconds:0.2f,animation:"toot_horn",\
 has_consume_particles:false,sound:"minecraft:block.calcite.hit"},\
 minecraft:item_model="minecraft:enchanted_book",\
-minecraft:custom_name={"text":"Fanged Book ~ Circlet","italic":false}]
-ß
+minecraft:custom_name={"text":"Fanged Tome ~ Circlet","italic":false}]

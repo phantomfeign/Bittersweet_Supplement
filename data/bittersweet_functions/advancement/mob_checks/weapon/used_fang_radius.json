@@ -20,6 +20,6 @@
 
   ],
   "rewards": {
-    "function": "bittersweet_functions:weapons/fanged_horn/summon_fangs_radius/first"
+    "function": "bittersweet_functions:weapons/fanged_summon/summon_fangs_radius/first"
   }
 }
