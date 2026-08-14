@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "cobbled_stairs",
+  "group": "polished_block",
   "key": {
     "B": "minecraft:granite"
   },
   "pattern": [
-    "B ",
+    "BB",
     "BB"
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:granite_stairs"
+    "id": "minecraft:polished_granite"
   }
 }

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "blackstone_slab",
+  "group": "cobbled_slabs",
   "key": {
     "B": "minecraft:blackstone"
   },

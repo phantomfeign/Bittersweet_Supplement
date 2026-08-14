@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "cobbled_diorite",
+  "group": "cobbled_block",
   "key": {
     "B": "minecraft:diorite_slab"
   },

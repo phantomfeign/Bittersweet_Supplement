@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:turtle_scute",
+    "#": "minecraft:leather_helmet"
+  },
+  "pattern": [
+    "XXX",
+    "X#X"
+  ],
+  "result": {
+    "id": "minecraft:turtle_helmet",
+    "components": {
+      "minecraft:max_damage": 300,
+      "minecraft:damage": 0,
+      "minecraft:enchantments": {
+        "minecraft:aqua_affinity": 1,
+        "minecraft:respiration": 1
+      }
+    }
+  }
+}

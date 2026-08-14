@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "cobbled_andesite_stairs",
+  "group": "cobbled_stairs",
   "key": {
     "B": "minecraft:andesite"
   },
