@@ -15,12 +15,15 @@ execute as @e[type=item] at @s if items entity @s contents minecraft:golden_axe 
 execute as @e[type=item] at @s if items entity @s contents minecraft:golden_shovel run function bittersweet_functions:check_gold
 execute as @e[type=item] at @s if items entity @s contents minecraft:golden_hoe run function bittersweet_functions:check_gold
 
-#phantom weather effects
+#night terror weather effects
 execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run weather thunder
 execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run time set minecraft:midnight
 execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run scoreboard players set #NightTerror NightTerrorAlive 1
 
-# Night Terror has died
+#night Terror has died
 execute if score #NightTerror NightTerrorAlive matches 1 unless entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run time set day
 execute if score #NightTerror NightTerrorAlive matches 1 unless entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run weather clear
 execute if score #NightTerror NightTerrorAlive matches 1 unless entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run scoreboard players set #NightTerror NightTerrorAlive 0
+
+#elder guardian water breathing
+execute as @e[type=elder_guardian] at @s run effect give @a[distance=..50] water_breathing 2 0 true

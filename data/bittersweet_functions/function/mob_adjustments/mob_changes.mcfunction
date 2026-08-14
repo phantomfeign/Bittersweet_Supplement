@@ -13,7 +13,11 @@ execute as @s[type=#minecraft:zombies] run attribute @s minecraft:knockback_resi
 execute as @s[type=minecraft:skeleton] run attribute @s minecraft:max_health base set 16
 execute as @s[type=minecraft:skeleton] run data merge entity @s {Health:16.0f}
 # 25% chance to give skeletons a crossbow
-execute as @s[type=minecraft:skeleton,tag=!AxeChecked] if predicate bittersweet_functions:axe_skeleton_chance run item replace entity @s weapon.mainhand with minecraft:wooden_axe
-attribute @s minecraft:attack_damage base set -4.0
+execute as @s[type=minecraft:skeleton,tag=!AxeChecked] if predicate bittersweet_functions:axe_skeleton_chance run function bittersweet_functions:mob_adjustments/skeleton/axe_wielder
+attribute @s[type=minecraft:skeleton,tag=AxeGiven] minecraft:attack_damage base set -4.0
 tag @s[type=minecraft:skeleton] add AxeChecked
-#iron golems have an extra block of reach
+
+#creeper fuses reset for custom explosions
+execute as @s[type=creeper] run data modify entity @s ExplosionRadius set value 0b
+execute as @s[type=creeper,tag=!marked_creeper] run effect give @s minecraft:luck infinite 99 true
+execute as @s[type=creeper,tag=!marked_creeper] run tag @s add marked_creeper

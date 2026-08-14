@@ -1,5 +1,5 @@
 tag @s add bittersweet_fang_caster
-function bittersweet_functions:weapons/fanged_summon/playnoise
+function bittersweet_functions:weapons/fanged_summon/cast_sound
 effect give @s slowness 2 1 true
 effect give @s resistance 2 4 true
 advancement revoke @s only bittersweet_functions:weapon/used_fang_radius

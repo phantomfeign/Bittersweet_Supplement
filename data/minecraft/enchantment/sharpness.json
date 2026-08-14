@@ -2,9 +2,6 @@
   "description": {
     "translate": "enchantment.minecraft.sharpness"
   },
-  "supported_items": "#minecraft:enchantable/sharp_weapon",
-  "anvil_cost": 0,
-  "slots": [],
   "effects": {
     "minecraft:damage": [
       {
@@ -19,6 +16,7 @@
       }
     ]
   },
+  "anvil_cost": 0,
   "max_cost": {
     "base": 0,
     "per_level_above_first": 0
@@ -28,6 +26,9 @@
     "base": 0,
     "per_level_above_first": 0
   },
-  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "slots": [
+      "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
   "weight": 10
 }

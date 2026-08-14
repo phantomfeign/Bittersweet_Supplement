@@ -1,2 +1,3 @@
-recipe take @s *
-advancement revoke @s everything
+advancement revoke @p everything
+clear @p
+recipe take @p *

@@ -1,5 +1,5 @@
 tag @s add bittersweet_fang_caster
-function bittersweet_functions:weapons/fanged_summon/playnoise
+function bittersweet_functions:weapons/fanged_summon/cast_sound
 advancement revoke @s only bittersweet_functions:weapon/used_fang_straight
 execute at @a[tag=bittersweet_fang_caster] summon minecraft:marker run tp @s ~ ~ ~ ~ 0
 tag @e[type=minecraft:marker,sort=nearest,limit=1] add fangSummonOrigin
