@@ -10,6 +10,7 @@ scoreboard objectives add Hunger food
 scoreboard objectives add 0.better_consumables.id dummy
 
 #phantom
+scoreboard objectives add NightTerrorAlive dummy
 scoreboard objectives add raycastloop dummy
 scoreboard objectives add PhantomYVelocity dummy
 scoreboard objectives add PhantomXVelocity dummy

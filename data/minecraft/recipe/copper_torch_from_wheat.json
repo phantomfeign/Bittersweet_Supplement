@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "copper torch",
   "ingredients": [
     "minecraft:copper_nugget",
-    "minecraft:copper_torch",
     "minecraft:wheat",
     "minecraft:stick"
   ],

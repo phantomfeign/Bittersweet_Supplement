@@ -1,5 +1,5 @@
-execute at @p run effect give @e[distance=..3] minecraft:resistance 1 3 true
-execute at @p run effect give @e[distance=..3] minecraft:slowness 1 255 true
+execute at @p as @e[distance=..3] unless entity @s[tag=bittersweet_fang_caster] as @s run effect give @s minecraft:resistance 2 3 true
+execute at @p as @e[distance=..3] unless entity @s[tag=bittersweet_fang_caster] as @s run effect give @s minecraft:slowness 1 255 true
 execute as @a[tag=bittersweet_fang_caster] at @s rotated ~0 0 positioned ^ ^ ^2 positioned over motion_blocking summon minecraft:evoker_fangs run data modify entity @s Owner set from entity @a[tag=bittersweet_fang_caster,limit=1] UUID
 execute as @a[tag=bittersweet_fang_caster] at @s rotated ~45 0 positioned ^ ^ ^2 positioned over motion_blocking summon minecraft:evoker_fangs run data modify entity @s Owner set from entity @a[tag=bittersweet_fang_caster,limit=1] UUID
 execute as @a[tag=bittersweet_fang_caster] at @s rotated ~90 0 positioned ^ ^ ^2 positioned over motion_blocking summon minecraft:evoker_fangs run data modify entity @s Owner set from entity @a[tag=bittersweet_fang_caster,limit=1] UUID

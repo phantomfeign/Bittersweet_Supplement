@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "soul torch",
   "ingredients": [
     "#minecraft:soul_fire_base_blocks",
     [

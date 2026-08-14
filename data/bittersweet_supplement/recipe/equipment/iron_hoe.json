@@ -3,14 +3,18 @@
   "category": "equipment",
   "key": {
     "#": "minecraft:stick",
-    "X": "minecraft:stone"
+    "X": "minecraft:iron_ingot"
   },
   "pattern": [
-    "XXX",
+    " XX",
     " # ",
     " # "
   ],
   "result": {
-    "id": "minecraft:stone_pickaxe"
+    "id": "minecraft:iron_hoe",
+      "components": {
+      "minecraft:max_damage": 300,
+      "minecraft:damage": 0
+    }
   }
 }

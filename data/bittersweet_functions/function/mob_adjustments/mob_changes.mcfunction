@@ -14,6 +14,6 @@ execute as @s[type=minecraft:skeleton] run attribute @s minecraft:max_health bas
 execute as @s[type=minecraft:skeleton] run data merge entity @s {Health:16.0f}
 # 25% chance to give skeletons a crossbow
 execute as @s[type=minecraft:skeleton,tag=!AxeChecked] if predicate bittersweet_functions:axe_skeleton_chance run item replace entity @s weapon.mainhand with minecraft:wooden_axe
-attribute @s minecraft:max_health base set -1.0
+attribute @s minecraft:attack_damage base set -4.0
 tag @s[type=minecraft:skeleton] add AxeChecked
 #iron golems have an extra block of reach

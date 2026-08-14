@@ -12,6 +12,7 @@ time set minecraft:night
 weather thunder
 
 #MAHORAGA!!!
+scoreboard players set #NightTerror NightTerrorAlive 1
 summon minecraft:phantom ~ ~5 ~ {Tags:["NightTerror","SpawnChecked"],PersistenceRequired:1b,}
 attribute @e[type=minecraft:phantom,tag=NightTerror,sort=nearest,limit=1] minecraft:max_health base set 200
 attribute @e[type=minecraft:phantom,tag=NightTerror,sort=nearest,limit=1] minecraft:movement_speed base set 0.9
@@ -26,7 +27,7 @@ data modify entity @e[type=minecraft:phantom,tag=NightTerror,sort=nearest,limit=
 particle minecraft:dragon_breath ~ ~ ~ 0.5 1 0.5 0.1 40 force
 particle minecraft:portal ~ ~ ~ 0.5 1 0.5 0.5 80 force
 particle minecraft:end_rod ~ ~ ~ 0.3 0.8 0.3 0.1 30 force
-summon minecraft:lightning_bolt ~ ~ ~ {VisualOnly:1b}
+summon minecraft:lightning_bolt ^ ^-10 ^ {VisualOnly:1b}
 playsound minecraft:entity.lightning_bolt.thunder master @a ~ ~ ~ 1 1
 
 #bossbar

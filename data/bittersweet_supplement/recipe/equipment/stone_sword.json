@@ -6,11 +6,15 @@
     "X": "minecraft:stone"
   },
   "pattern": [
-    "XX",
-    "#X",
-    "# "
+    " X",
+    " X",
+    " #"
   ],
   "result": {
-    "id": "minecraft:stone_axe"
+    "id": "minecraft:stone_sword",
+      "components": {
+      "minecraft:max_damage": 150,
+      "minecraft:damage": 0
+    }
   }
 }

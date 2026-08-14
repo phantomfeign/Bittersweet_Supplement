@@ -17,4 +17,10 @@ execute as @e[type=item] at @s if items entity @s contents minecraft:golden_hoe 
 
 #phantom weather effects
 execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run weather thunder
-execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run time set minecraft:night
+execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run time set minecraft:midnight
+execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run scoreboard players set #NightTerror NightTerrorAlive 1
+
+# Night Terror has died
+execute if score #NightTerror NightTerrorAlive matches 1 unless entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run time set day
+execute if score #NightTerror NightTerrorAlive matches 1 unless entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run weather clear
+execute if score #NightTerror NightTerrorAlive matches 1 unless entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run scoreboard players set #NightTerror NightTerrorAlive 0

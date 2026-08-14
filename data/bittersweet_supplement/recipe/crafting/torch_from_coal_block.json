@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
-  "group":"torches",
+  "group":"torch",
   "key": {
     "#": "minecraft:stick",
     "X": "minecraft:coal_block"

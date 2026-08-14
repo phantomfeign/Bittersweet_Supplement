@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "  X",
+    " # ",
+    "# "
+  ],
+  "result": {
+    "id": "minecraft:iron_spear",
+      "components": {
+      "minecraft:max_damage": 300,
+      "minecraft:damage": 0
+    }
+  }
+}

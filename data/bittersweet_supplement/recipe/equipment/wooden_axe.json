@@ -5,12 +5,16 @@
     "X": "minecraft:flint"
   },
   "pattern": [
-    "XXX",
-    " # ",
-    " # "
+    "XX",
+    "#X",
+    "# "
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:wooden_pickaxe"
+    "id": "minecraft:wooden_axe",
+      "components": {
+      "minecraft:max_damage": 100,
+      "minecraft:damage": 0
+    }
   }
 }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:logs"
+  },
+  "pattern": [
+    " X",
+    " X",
+    " #"
+  ],
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "components": {
+      "minecraft:max_damage": 100,
+      "minecraft:damage": 0
+    }
+  }
+}
