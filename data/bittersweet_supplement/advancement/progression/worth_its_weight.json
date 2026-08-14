@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot",
+      "components": {}
+    },
+    "title": "Worth Its Weight",
+    "description": "Throw a gold ingot on top of damaged gold equipment.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/first_place",
+  "criteria": {
+    "acquire raw gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:barrier"
+          }
+        ]
+      }
+    }
+  }
+}

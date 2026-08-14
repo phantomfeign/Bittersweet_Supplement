@@ -46,7 +46,7 @@
       "path": "recipe/leather_chestplate"
     },{
       "namespace": "minecraft",
-      "path": "recipe/leather_legging"
+      "path": "recipe/leather_leggings"
     },{
       "namespace": "minecraft",
       "path": "recipe/leather_boots"
@@ -80,10 +80,44 @@
       "path": "recipe/copper_chestplate"
     },{
       "namespace": "minecraft",
-      "path": "recipe/copper_legging"
+      "path": "recipe/copper_leggings"
     },{
       "namespace": "minecraft",
       "path": "recipe/copper_boots"
+
+    }
+    ,
+    {
+
+      "namespace": "minecraft",
+      "path": "recipe/netherite_spear_smithing"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/netherite_sword_smithing"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/netherite_axe_smithing"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/netherite_pickaxe_smithing"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/netherite_shovel_smithing"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/netherite_hoe_smithing"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/netherite_helmet_smithing"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/netherite_chestplate_smithing"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/netherite_leggings_smithing"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/netherite_boots_smithing"
 
     }
     ,
@@ -114,7 +148,7 @@
       "path": "recipe/golden_chestplate"
     },{
       "namespace": "minecraft",
-      "path": "recipe/golden_legging"
+      "path": "recipe/golden_leggings"
     },{
       "namespace": "minecraft",
       "path": "recipe/golden_boots"
@@ -148,7 +182,7 @@
       "path": "recipe/iron_chestplate"
     },{
       "namespace": "minecraft",
-      "path": "recipe/iron_legging"
+      "path": "recipe/iron_leggings"
     },{
       "namespace": "minecraft",
       "path": "recipe/iron_boots"
@@ -226,7 +260,7 @@
       "path": "recipe/diamond_chestplate"
     },{
       "namespace": "minecraft",
-      "path": "recipe/diamond_legging"
+      "path": "recipe/diamond_leggings"
     },{
       "namespace": "minecraft",
       "path": "recipe/diamond_boots"

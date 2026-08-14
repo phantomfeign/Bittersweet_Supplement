@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "get_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:equipment/stone_spear",
+      "bittersweet_supplement:equipment/stone_sword",
+      "bittersweet_supplement:equipment/stone_axe",
+      "bittersweet_supplement:equipment/stone_pickaxe",
+      "bittersweet_supplement:equipment/stone_hoe",
+      "bittersweet_supplement:equipment/stone_shovel"
+
+    ]
+  }
+}

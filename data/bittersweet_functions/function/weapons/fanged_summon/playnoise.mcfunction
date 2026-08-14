@@ -1,0 +1,9 @@
+execute as @s at @s run playsound minecraft:block.barrel.close hostile @s ~ ~ ~ 5 1.0
+execute as @s at @s run playsound minecraft:block.amethyst_cluster.break hostile @s ~ ~ ~ 5 1.0
+execute as @s at @s run playsound minecraft:block.large_amethyst_bud.break hostile @s ~ ~ ~ 5 0.5
+execute as @s at @s run playsound minecraft:particle.soul_escape hostile @s ~ ~ ~ 5 2.0
+execute as @s at @s run playsound minecraft:particle.soul_escape hostile @s ~ ~ ~ 30 0.5
+execute as @s at @s run playsound minecraft:particle.soul_escape hostile @s ~ ~ ~ 30 0.5
+execute as @s at @s run playsound minecraft:particle.soul_escape hostile @s ~ ~ ~ 10 1.0
+execute as @s at @s run playsound minecraft:particle.soul_escape hostile @s ~ ~ ~ 10 1.0
+execute as @s at @s run playsound minecraft:particle.soul_escape hostile @s ~ ~ ~ 10 1.0

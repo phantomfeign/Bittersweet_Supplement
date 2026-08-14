@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "get_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_chain",
+              "minecraft:iron_nugget"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:equipment/chainmail_helmet",
+      "bittersweet_supplement:equipment/chainmail_chestplate",
+      "bittersweet_supplement:equipment/chainmail_leggings",
+      "bittersweet_supplement:equipment/chainmail_boots"
+    ]
+  }
+}

@@ -3,7 +3,11 @@
   "addition": "minecraft:diamond",
   "base": "minecraft:golden_hoe",
   "result": {
-    "id": "minecraft:diamond_hoe"
+    "id": "minecraft:diamond_hoe",
+      "components": {
+      "minecraft:max_damage": 1800,
+      "minecraft:damage": 0
+    }
   },
   "template": "minecraft:chicken_spawn_egg"
 }

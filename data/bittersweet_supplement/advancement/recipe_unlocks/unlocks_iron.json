@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "get_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:equipment/iron_spear",
+      "bittersweet_supplement:equipment/iron_sword",
+      "bittersweet_supplement:equipment/iron_axe",
+      "bittersweet_supplement:equipment/iron_pickaxe",
+      "bittersweet_supplement:equipment/iron_hoe",
+      "bittersweet_supplement:equipment/iron_shovel",
+      "bittersweet_supplement:equipment/iron_helmet",
+      "bittersweet_supplement:equipment/iron_chestplate",
+      "bittersweet_supplement:equipment/iron_leggings",
+      "bittersweet_supplement:equipment/iron_boots"
+    ]
+  }
+}

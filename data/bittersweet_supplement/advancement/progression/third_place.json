@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_copper",
+      "components": {}
+    },
+    "title": "3rd Place",
+    "description": "Get your hands on some copper.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/rocky_road",
+  "criteria": {
+    "acquire_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot"
+          }
+        ]
+      }
+    }
+  }
+}

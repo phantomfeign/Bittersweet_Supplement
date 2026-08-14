@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_gold",
+      "components": {}
+    },
+    "title": "1rd Place",
+    "description": "We're rich! Rich and gay.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/second_place",
+  "criteria": {
+    "acquire raw gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:raw_gold"
+          }
+        ]
+      }
+    }
+  }
+}

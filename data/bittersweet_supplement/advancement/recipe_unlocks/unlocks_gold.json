@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "get_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:equipment/gold_spear",
+      "bittersweet_supplement:equipment/gold_sword",
+      "bittersweet_supplement:equipment/gold_axe",
+      "bittersweet_supplement:equipment/gold_pickaxe",
+      "bittersweet_supplement:equipment/gold_hoe",
+      "bittersweet_supplement:equipment/gold_shovel",
+      "bittersweet_supplement:equipment/gold_helmet",
+      "bittersweet_supplement:equipment/gold_chestplate",
+      "bittersweet_supplement:equipment/gold_leggings",
+      "bittersweet_supplement:equipment/gold_boots"
+
+    ]
+  }
+}

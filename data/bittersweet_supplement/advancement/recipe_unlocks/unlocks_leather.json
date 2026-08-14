@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:equipment/leather_helmet",
+      "bittersweet_supplement:equipment/leather_chestplate",
+      "bittersweet_supplement:equipment/leather_leggings",
+      "bittersweet_supplement:equipment/leather_boots"
+    ]
+  }
+}
