@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    " X",
+    " X",
+    " #"
+  ],
+  "result": {
+    "id": "minecraft:golden_sword",
+    "components": {
+      "minecraft:max_damage": 200,
+      "minecraft:damage": 0,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 1,
+          "operation": "add_value",
+          "id": "bittersweet:golden_axe_damage",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "amount": -0.8,
+          "operation": "add_value",
+          "id": "bittersweet:golden_axe_speed",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  }
+}

@@ -1,2 +1,2 @@
 time add 1
-schedule function main:environmental/day_cycle_extender 2t
+schedule function bittersweet_functions:time_extender 2t

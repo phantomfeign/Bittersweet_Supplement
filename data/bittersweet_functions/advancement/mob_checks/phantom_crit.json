@@ -1,16 +1,5 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:netherite_axe"
-    },
-    "title": "GOGOGO",
-    "description": "Critically hit the Night Terror.",
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
+    "criteria": {
     "landed_crit": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {

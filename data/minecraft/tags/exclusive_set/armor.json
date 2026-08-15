@@ -2,6 +2,7 @@
   "values": [
     "minecraft:blast_protection",
     "minecraft:fire_protection",
-    "minecraft:projectile_protection"
+    "minecraft:projectile_protection",
+    "minecraft:protection"
   ]
 }

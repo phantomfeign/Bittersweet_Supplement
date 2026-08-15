@@ -11,6 +11,41 @@
     "PSP"
   ],
   "result": {
-    "id": "minecraft:chicken_spawn_egg"
+    "id": "minecraft:chicken_spawn_egg",
+    "components": {
+        "minecraft:item_name": {
+        "text": "Diamond Upgrade",
+        "color": "yellow",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Smithing Template",
+          "color": "gray",
+          "italic": false
+        },
+        "",
+        {
+          "text": "Applies to:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": " Gilded Equipment",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "Ingredients:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": " Diamond",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    } 
   }
 }

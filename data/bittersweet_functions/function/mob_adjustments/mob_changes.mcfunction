@@ -12,7 +12,7 @@ execute as @s[type=#minecraft:zombies] run attribute @s minecraft:knockback_resi
 #skeleton health reduction 20 -> 16; 20% decrease
 execute as @s[type=minecraft:skeleton] run attribute @s minecraft:max_health base set 16
 execute as @s[type=minecraft:skeleton] run data merge entity @s {Health:16.0f}
-# 25% chance to give skeletons a crossbow
+#25% chance to give skeletons a crossbow
 execute as @s[type=minecraft:skeleton,tag=!AxeChecked] if predicate bittersweet_functions:axe_skeleton_chance run function bittersweet_functions:mob_adjustments/skeleton/axe_wielder
 attribute @s[type=minecraft:skeleton,tag=AxeGiven] minecraft:attack_damage base set -4.0
 tag @s[type=minecraft:skeleton] add AxeChecked

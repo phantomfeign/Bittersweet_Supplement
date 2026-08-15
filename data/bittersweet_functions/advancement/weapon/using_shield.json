@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "shield_using": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shield"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bittersweet_functions:weapons/shields/update_shield"
+  }
+}

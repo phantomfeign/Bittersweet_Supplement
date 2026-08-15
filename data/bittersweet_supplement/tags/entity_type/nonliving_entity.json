@@ -1,0 +1,32 @@
+{
+  "values": [
+    "#minecraft:boat",
+    "#minecraft:impact_projectiles",
+    "minecraft:block_display",
+    "minecraft:chest_minecart",
+    "minecraft:command_block_minecart",
+    "minecraft:end_crystal",
+    "minecraft:ender_pearl",
+    "minecraft:evoker_fangs",
+    "minecraft:eye_of_ender",
+    "minecraft:experience_orb",
+    "minecraft:falling_block",
+    "minecraft:fishing_bobber",
+    "minecraft:furnace_minecart",
+    "minecraft:hopper_minecart",
+    "minecraft:interaction",
+    "minecraft:item",
+    "minecraft:item_display",
+    "minecraft:item_frame",
+    "minecraft:lightning_bolt",
+    "minecraft:leash_knot",
+    "minecraft:llama_spit",
+    "minecraft:marker",
+    "minecraft:minecart",
+    "minecraft:painting",
+    "minecraft:shulker_bullet",
+    "minecraft:text_display",
+    "minecraft:tnt",
+    "minecraft:tnt_minecart"
+  ]
+}

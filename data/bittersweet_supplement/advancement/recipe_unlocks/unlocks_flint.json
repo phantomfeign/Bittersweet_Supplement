@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "get_flint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:flint"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:equipment/wooden_axe",
+      "bittersweet_supplement:equipment/wooden_pickaxe",
+      "bittersweet_supplement:equipment/wooden_spear"
+    ]
+  }
+}

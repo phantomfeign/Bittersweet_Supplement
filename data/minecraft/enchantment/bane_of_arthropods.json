@@ -27,7 +27,11 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:apply_mob_effect",
-          "max_amplifier": 3,
+          "max_amplifier": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+          },
           "max_duration": {
             "type": "minecraft:linear",
             "base": 1.5,
@@ -42,7 +46,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type":"#minecraft:sensitive_to_bane_of_arthropods"
+            "entity_type": "#minecraft:sensitive_to_bane_of_arthropods"
           }
         }
       }
@@ -60,7 +64,7 @@
     "per_level_above_first": 0
   },
   "slots": [
-      "mainhand"
+    "mainhand"
   ],
   "supported_items": "#minecraft:enchantable/melee_weapon",
   "weight": 5

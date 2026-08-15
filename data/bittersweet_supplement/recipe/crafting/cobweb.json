@@ -5,9 +5,9 @@
     "#": "minecraft:string"
   },
   "pattern": [
-    "# #",
-    " # ",
-    "# #"
+    "##",
+    " #",
+    "##"
   ],
   "result": {
     "id": "minecraft:cobweb"

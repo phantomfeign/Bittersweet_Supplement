@@ -1,5 +1,5 @@
 #special tool!
-execute as @a[tag=RepairPlayer] run advancement grant @s only bittersweet_supplement:worth_its_weight
+execute as @a[tag=RepairPlayer] run advancement grant @s only bittersweet_supplement:progression/worth_its_weight
 
 execute store result score #damage GoldLogic run data get entity @e[type=item,tag=this,limit=1] Item.components."minecraft:damage"
 execute if score #damage GoldLogic matches 0 run return 0

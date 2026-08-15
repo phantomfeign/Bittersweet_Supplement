@@ -6,7 +6,23 @@
     "id": "minecraft:diamond_axe",
       "components": {
       "minecraft:max_damage": 1800,
-      "minecraft:damage": 0
+      "minecraft:damage": 0,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 10,
+          "operation": "add_value",
+          "id": "bittersweet:golden_axe_damage",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "amount": -3.2,
+          "operation": "add_value",
+          "id": "bittersweet:golden_axe_speed",
+          "slot": "mainhand"
+        }
+      ]
     }
   },
   "template": "minecraft:chicken_spawn_egg"

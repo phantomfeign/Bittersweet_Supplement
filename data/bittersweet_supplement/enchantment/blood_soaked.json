@@ -1,0 +1,129 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "enchantment.bittersweet_supplement.blood_soaked",
+    "color": "#b80000"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "minecraft:movement": {
+                    "fall_distance": 0
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "minecraft:flags": {
+                  "is_on_ground": false
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "minecraft:location": {
+                    "block": {
+                      "blocks": "#minecraft:climbable"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "minecraft:flags": {
+                  "is_in_water": false
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "minecraft:effects": {
+                    "minecraft:blindness": {}
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "minecraft:vehicle": {}
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "minecraft:flags": {
+                  "is_sprinting": false
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:change_item_damage",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -1,
+            "per_level_above_first": -1
+          }
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -1,
+            "per_level_above_first": -1
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/melee_weapon",
+  "weight": 2
+}

@@ -2,6 +2,7 @@
   "values": [
     "minecraft:creeper",
     "minecraft:spider",
-    "minecraft:cave_spider"
+    "minecraft:cave_spider",
+    "minecraft:silverfish"
   ]
 }

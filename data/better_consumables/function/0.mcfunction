@@ -1,4 +1,4 @@
-# 0.mcfunction
+#0.mcfunction
 advancement revoke @s only better_consumables:used_item
 
 #this is an example

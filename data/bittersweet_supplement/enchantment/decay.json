@@ -1,5 +1,7 @@
 {
-  "description": "Decay",
+  "description": { 
+    "translate": "enchantment.bittersweet_supplement.decay"
+  },
 "supported_items": [
     "minecraft:wooden_axe",
     "minecraft:stone_axe",

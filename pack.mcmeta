@@ -38,7 +38,7 @@
     }
     ,
     {
-
+  
       "namespace": "minecraft",
       "path": "recipe/leather_helmet"
     },{
@@ -50,6 +50,28 @@
     },{
       "namespace": "minecraft",
       "path": "recipe/leather_boots"
+    
+    }
+    ,
+    {
+
+      "namespace": "minecraft",
+      "path": "recipe/wooden_spear"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/wooden_sword"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/wooden_pickaxe"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/wooden_axe"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/wooden_shovel"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/wooden_hoe"
 
     }
     ,

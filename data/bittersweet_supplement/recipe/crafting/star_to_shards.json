@@ -9,6 +9,12 @@
   ],
   "result": {
     "id": "minecraft:pig_spawn_egg",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Abyssal Shards",
+        "color": "aqua"
+      }
+    },
     "count": 9
   }
 }

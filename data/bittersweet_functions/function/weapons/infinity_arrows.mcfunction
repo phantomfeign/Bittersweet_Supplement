@@ -1,0 +1,1 @@
+execute store result entity @s damage double 0.9 run data get entity @s damage
