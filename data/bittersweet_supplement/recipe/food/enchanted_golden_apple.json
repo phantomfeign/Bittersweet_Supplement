@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:gold_block",
+    "X": "minecraft:golden_apple",
+    "S": "minecraft:pig_spawn_egg",
+    "D": "minecraft:diamond_block"
+  },
+  "pattern": [
+    "#S#",
+    "DXD",
+    "#D#"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_golden_apple",
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "❤❤❤❤❤❤❤❤❤❤",
+          "color": "#54d877",
+          "italic": false
+        },
+        {
+          "text": "Your feel revitalized, and a surge of",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "warmth invigorates you as you savor each mouthful.",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "consume_seconds":3.5,
+        "on_consume_effects": [
+          {
+            "type": "apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 2,
+                "duration": 240
+              },
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 3,
+                "duration": 6000
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

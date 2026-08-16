@@ -38,6 +38,88 @@
     }
     ,
     {
+
+      "namespace": "minecraft",
+      "path": "recipe/suspicious_stew"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/pumpkin_pie"
+    },{
+        "namespace": "minecraft",
+      "path": "recipe/rabbit_stew_from_brown_mushroom"
+    },{
+        "namespace": "minecraft",
+      "path": "recipe/rabbit_stew_from_red_mushroom"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/beetroot_soup"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/bread"
+    },{
+        "namespace": "minecraft",
+      "path": "recipe/golden_carrot"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/golden_apple"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cookie"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/honey_bottle"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_beef_from_smoking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_beef_from_campfire_cooking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_chicken_from_smoking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_chicken_from_campfire_cooking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_mutton_from_smoking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_mutton_from_campfire_cooking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_porkchop_from_smoking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_porkchop_from_campfire_cooking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_rabbit_from_smoking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_rabbit_from_campfire_cooking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_cod_from_smoking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_cod_from_campfire_cooking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_salmon_from_smoking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/cooked_salmon_from_campfire_cooking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/dried_kelp_from_smoking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/dried_kelp_from_campfire_cooking"
+
+    }
+    ,
+    {
   
       "namespace": "minecraft",
       "path": "recipe/leather_helmet"

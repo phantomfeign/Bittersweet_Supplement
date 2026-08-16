@@ -5,7 +5,7 @@
       "components": {}
     },
     "title": "Sous Chef",
-    "description": "Acquire a smoker.",
+    "description": "Acquire a smoker; it can draw out unseen flavors from certain foods.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -23,5 +23,9 @@
         ]
       }
     }
+  },
+  "rewards": {
+    "recipes": [],
+    "function": "smoker_recipes_unlock"
   }
 }

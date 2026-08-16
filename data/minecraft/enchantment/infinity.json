@@ -22,7 +22,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "bittersweet_functions:weapons/infinity_arrows"
+          "function": "bittersweet_functions:enchantments/infinity_arrows"
         }
       }
     ]

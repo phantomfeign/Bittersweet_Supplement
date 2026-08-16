@@ -1,0 +1,157 @@
+{
+  "type": "minecraft:block",
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ],
+  "pools": [
+    {
+      "conditions": [
+        {
+          "block": "minecraft:sweet_berry_bush",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "3"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries"
+        }
+      ],
+      "functions": [
+        {
+          "count": {
+            "type": "minecraft:uniform",
+            "max": 3,
+            "min": 2
+          },
+          "function": "minecraft:set_count"
+        },
+        {
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:uniform_bonus_count",
+          "function": "minecraft:apply_bonus",
+          "parameters": {
+            "bonusMultiplier": 1
+          }
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "♡",
+                "color": "#54d877",
+                "italic": false
+              },
+              {
+                "text": "A gentle warmth slowly settles",
+                "color": "white",
+                "italic": false
+              },
+              {
+                "text": "in as you quickly devour it.",
+                "color": "white",
+                "italic": false
+              }
+            ],
+            "minecraft:consumable": {
+              "consume_seconds": 1,
+              "on_consume_effects": [
+                {
+                  "type": "apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 0,
+                      "duration": 50
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "conditions": [
+        {
+          "block": "minecraft:sweet_berry_bush",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "2"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries"
+        }
+      ],
+      "functions": [
+        {
+          "count": {
+            "type": "minecraft:uniform",
+            "max": 2,
+            "min": 1
+          },
+          "function": "minecraft:set_count"
+        },
+        {
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:uniform_bonus_count",
+          "function": "minecraft:apply_bonus",
+          "parameters": {
+            "bonusMultiplier": 1
+          }
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "♡︎",
+                "color": "#54d877",
+                "italic": false
+              },
+              {
+                "text": "A gentle warmth slowly settles",
+                "color": "white",
+                "italic": false
+              },
+              {
+                "text": "in as you quickly devour it.",
+                "color": "white",
+                "italic": false
+              }
+            ],
+            "minecraft:consumable": {
+              "consume_seconds": 1,
+              "on_consume_effects": [
+                {
+                  "type": "apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 0,
+                      "duration": 50
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/sweet_berry_bush"
+}

@@ -2,7 +2,7 @@ tellraw @a {"text":"Thank you for taking your Bittersweet Supplement!","color":"
 tellraw @a {"text":"Lost? Check the Advancement Menu!","color":"#9fa654"}
 
 function bittersweet_functions:main_loop
-function bittersweet_functions:remove_temp_advancements
+execute as @a run function bittersweet_functions:remove_temp_advancements
 
 scoreboard objectives add GoldLogic dummy
 scoreboard objectives add BloodSoakedLogic dummy
@@ -23,5 +23,6 @@ scoreboard objectives add PhantomVexTimer dummy
 
 #gamerules
 gamerule natural_health_regeneration false
+gamerule keep_inventory true
 gamerule advance_time false
 schedule function bittersweet_functions:time_extender 2t

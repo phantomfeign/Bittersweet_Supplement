@@ -5,7 +5,8 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wheat_seeds"
+            "items": 
+              "minecraft:bee_spawn_egg"
           }
         ]
       }
@@ -13,7 +14,8 @@
   },
   "rewards": {
     "recipes": [
-      "minecraft:bread"
+      "bittersweet_supplement:food/cookie_dough",
+      "bittersweet_supplement:food/pumpkin_pie"
     ]
   }
 }

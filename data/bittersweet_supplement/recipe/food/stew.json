@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rabbit_stew",
+  "ingredients": [
+    "minecraft:baked_potato",
+    [
+      "minecraft:cooked_rabbit",
+      "minecraft:cooked_chicken",
+      "minecraft:cooked_beef",
+      "minecraft:cooked_porkchop",
+      "minecraft:cooked_mutton"
+    ],
+    "minecraft:bowl",
+    "minecraft:carrot",
+    [
+      "minecraft:red_mushroom",
+      "minecraft:brown_mushroom"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:rabbit_stew",
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "❤❤❤❤",
+          "color": "#54d877",
+          "italic": false
+        },
+        {
+          "text": "You feel revitalized, and a soothing warmth",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "courses steadily within as you indulge yourself.",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "consume_seconds": 2.5,
+        "on_consume_effects": [
+          {
+            "type": "apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 1,
+                "duration": 200
+              },
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 0,
+                "duration": 1200
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Stew",
+        "italic": false
+      }
+    }
+  }
+}

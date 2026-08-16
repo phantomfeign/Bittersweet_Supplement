@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:binomial",
+                "n": 3,
+                "p": 0.53333336
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  {
+                    "text": "♡",
+                    "color": "#54d877",
+                    "italic": false
+                  },
+                  {
+                    "text": "A gentle warmth slowly settles in",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "as you hastily wolf it down.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "minecraft:consumable": {
+                  "consume_seconds": 0.5,
+                  "on_consume_effects": [
+                    {
+                      "type": "apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:regeneration",
+                          "amplifier": 0,
+                          "duration": 50
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "name": "minecraft:melon_slice"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:explosion_decay"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/attached_melon_stem"
+}

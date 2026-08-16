@@ -1,6 +1,5 @@
-execute at @s run execute if dimension minecraft:overworld run execute if entity @s[type=minecraft:phantom, tag=!NightTerror] run tag @s add SpawnForbidden
-execute at @s run execute if dimension minecraft:overworld run execute if entity @s[type=minecraft:creeper] if predicate bittersweet_functions:can_see_sky run tag @s add SpawnForbidden
-execute at @s run execute if dimension minecraft:overworld run execute if entity @s[type=minecraft:slime] if predicate bittersweet_functions:surface_spawn run tag @s add SlimeForbidden
+execute if dimension minecraft:overworld if entity @s[type=minecraft:phantom] unless predicate bittersweet_functions:weather/thundering run tag @s add SpawnForbidden
+execute at @s if dimension minecraft:overworld run execute if entity @s[type=minecraft:slime] if predicate bittersweet_functions:surface_spawn run tag @s add SlimeForbidden
 
 #checks if a mob spawn is exposed to the sky. this stops everything except zombies and skeletons (and their variants) from spawning
 execute at @s run execute if dimension minecraft:overworld run execute unless entity @s[type=#minecraft:undead] if predicate bittersweet_functions:can_see_sky run tag @s add SpawnForbidden

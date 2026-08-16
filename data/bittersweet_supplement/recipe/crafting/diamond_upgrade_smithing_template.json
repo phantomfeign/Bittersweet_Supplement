@@ -13,6 +13,7 @@
   "result": {
     "id": "minecraft:chicken_spawn_egg",
     "components": {
+        "!minecraft:entity_data": {},
         "minecraft:item_name": {
         "text": "Diamond Upgrade",
         "color": "yellow",

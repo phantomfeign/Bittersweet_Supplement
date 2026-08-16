@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": "minecraft:husk_spawn_egg",
+  "result": {
+    "id": "minecraft:cookie",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Chocolate Chip Cookie",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "❤❤❤",
+          "color": "#54d877",
+          "italic": false
+        },
+        {
+          "text": "A surge of warmth invigorates you as",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "you quickly devour it.",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "consume_seconds": 1.5,
+        "on_consume_effects": [
+          {
+            "type": "apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 2,
+                "duration": 80
+              },
+             {
+                "id": "minecraft:speed",
+                "amplifier": 1,
+                "duration": 80
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

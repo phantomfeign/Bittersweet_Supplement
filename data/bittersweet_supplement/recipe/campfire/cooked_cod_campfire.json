@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0,
+  "ingredient": "minecraft:cod",
+  "result": {
+    "id": "minecraft:cooked_cod",
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "❤❤❤❤",
+          "color": "#54d877",
+          "italic": false
+        },
+        {
+          "text": "A gentle warmth slowly settles",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "in as you indulge yourself.",
+          "color": "white",
+          "italic": false
+        }
+      ],
+  "minecraft:consumable": {
+    "consume_seconds": 2.5,
+    "on_consume_effects": [
+      {
+        "type": "apply_effects",
+        "effects": [
+          {
+            "id": "minecraft:regeneration",
+            "amplifier": 0,
+            "duration": 400
+          }
+        ]
+      }
+    ]
+  }
+    }
+  }
+}

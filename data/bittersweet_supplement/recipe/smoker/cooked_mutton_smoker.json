@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 0,
+  "ingredient": "minecraft:mutton",
+  "result": {
+    "id": "minecraft:cooked_mutton",
+    "components": {
+      "minecraft:item_name": "Seared Mutton",
+      "minecraft:lore": [
+        {
+          "text": "❤❤❤❤",
+          "color": "#54d877",
+          "italic": false
+        },
+        {
+          "text": "A sturdy energy and a gentle warmth",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "slowly settle in as you indulge yourself.",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "apply_effects",
+            "effects": [
+                {
+            "id": "minecraft:regeneration",
+            "amplifier": 0,
+            "duration": 400
+                },
+              {
+                "id": "minecraft:resistance",
+                "amplifier": 0,
+                "duration": 200
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

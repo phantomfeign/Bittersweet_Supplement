@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:wheat_seeds",
+      "minecraft:pumpkin_seeds",
+      "minecraft:melon_seeds"
+    ],
+    [
+      "minecraft:wheat_seeds",
+      "minecraft:pumpkin_seeds",
+      "minecraft:melon_seeds"
+    ],
+    [
+      "minecraft:wheat_seeds",
+      "minecraft:pumpkin_seeds",
+      "minecraft:melon_seeds"
+    ],
+    [
+      "minecraft:wheat_seeds",
+      "minecraft:pumpkin_seeds",
+      "minecraft:melon_seeds"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:bee_spawn_egg",
+    "components": {
+      "!minecraft:entity_data": {},
+      "minecraft:custom_data": {
+        "inedible_food": "true"
+      }
+    }
+  }
+}

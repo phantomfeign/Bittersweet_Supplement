@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": "minecraft:bee_spawn_egg",
+  "result": {
+    "id": "minecraft:bread",
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "❤❤",
+          "color": "#54d877",
+          "italic":false
+        },
+        {
+          "text": "A soothing warmth courses",
+          "color": "white",
+          "italic":false
+        },
+        {
+          "text": "steadily within as you eat happily.",
+          "color": "white",
+          "italic":false
+        }
+      ],
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 1,
+                "duration": 100
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

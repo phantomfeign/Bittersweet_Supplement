@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 0,
+  "ingredient": "minecraft:chicken",
+  "result": {
+    "id": "minecraft:cooked_chicken",
+    "components": {
+      "minecraft:item_name": "Roasted Chicken",
+      "minecraft:lore": [
+        {
+          "text": "❤❤❤❤",
+          "color": "#54d877",
+          "italic": false
+        },
+        {
+          "text": "A burst of energy and a gentle warmth",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "slowly settles in as you indulge yourself.",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "apply_effects",
+            "effects": [
+                {
+            "id": "minecraft:regeneration",
+            "amplifier": 0,
+            "duration": 400
+                },
+              {
+                "id": "minecraft:speed",
+                "amplifier": 0,
+                "duration": 200
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

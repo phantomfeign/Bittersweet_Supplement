@@ -18,6 +18,6 @@ execute if entity @e[type=minecraft:phantom,tag=NightTerror] run bossbar set bit
 execute unless entity @e[type=minecraft:phantom,tag=NightTerror] run bossbar set bittersweet:night_terror visible false
 execute as @e[type=minecraft:phantom,tag=NightTerror,limit=1] run function bittersweet_functions:mob_adjustments/phantom/attack/phantomtick
 
-#FROSTWALKER
-execute as @a if items entity @s armor.feet *[enchantments~[{enchantments:"minecraft:frost_walker",\
-levels:1}]] at @s run function bittersweet_functions:enchantments/frost_walker
+#HONEY
+execute as @a[tag=HoneyHarvest] as @s run function bittersweet_functions:food/honey_bottle_replace
+execute as @a[tag=WaterCollect] as @s run function bittersweet_functions:food/water_bottle_replace
