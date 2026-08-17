@@ -1,4 +1,5 @@
 effect clear @a[distance=..6] minecraft:luck
+effect clear @s minecraft:luck
 
 #poison
 effect give @a[distance=..1] minecraft:poison 10 4
@@ -27,6 +28,14 @@ summon breeze_wind_charge ~ ~ ~ {Motion:[0.0,-2.0,0.0]}
 execute as @s run function bittersweet_functions:mob_adjustments/creeper/explosion_sound
 
 #directed by michael bay
-particle minecraft:explosion_emitter ~ ~1 ~ 0.5 0.5 0.5 0.1 1 normal
-particle minecraft:entity_effect{color:[0.2, 1.0, 0.1, 1.0]} ~ ~ ~ 0.5 1 0.5 0.1 10 normal
+particle minecraft:noxious_gas ~ ~ ~ 1 0 1 1 20 normal
+particle minecraft:geyser_base{water_blocks:4,burst_impulse_base:1.5} ~ ~ ~ 0 0 0 0 1 normal
+particle minecraft:explosion ~2 ~0 ~0 0 0 0 0 1
+particle minecraft:explosion ~-1.802 ~0.143 ~0.868 0 0 0 0 1
+particle minecraft:explosion ~1.247 ~0.286 ~-1.564 0 0 0 0 1
+particle minecraft:explosion ~-0.445 ~0.429 ~1.95 0 0 0 0 1
+particle minecraft:explosion ~-0.445 ~0.571 ~-1.95 0 0 0 0 1
+particle minecraft:explosion ~1.247 ~0.714 ~1.564 0 0 0 0 1
+particle minecraft:explosion ~-1.802 ~0.857 ~-0.868 0 0 0 0 1
+particle minecraft:explosion ~2 ~1 ~0 0 0 0 0 1
 kill @s
