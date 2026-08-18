@@ -1,4 +1,3 @@
-say The night is young.
 execute if entity @e[type=minecraft:phantom,tag=NightTerror] run return run say Cannot spawn!
 
 #remove ritual blocks

@@ -19,7 +19,6 @@
       },
       "minecraft:item_model": "minecraft:enchanted_book",
       "minecraft:stored_enchantments": {
-        "minecraft:unbreaking": 1,
         "minecraft:protection": 1,
         "minecraft:efficiency": 3
       },

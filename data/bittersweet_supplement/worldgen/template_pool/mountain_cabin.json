@@ -1,0 +1,16 @@
+{
+  "name": "bittersweet_supplement:infested_ruins",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bittersweet_supplement:surface/mountain_cabin",
+        "processors": "bittersweet_supplement:mountain_cabin_barrel",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    }
+  ]
+}

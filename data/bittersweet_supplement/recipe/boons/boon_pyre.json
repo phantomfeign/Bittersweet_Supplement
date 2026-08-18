@@ -26,7 +26,7 @@
       "minecraft:stored_enchantments": {
         "minecraft:fire_aspect": 1,
         "minecraft:flame": 1,
-        "minecraft:fire_protection": 2
+        "minecraft:fire_protection": 1
       },
       "minecraft:item_name": {
         "text": "Boon of Pyre",
