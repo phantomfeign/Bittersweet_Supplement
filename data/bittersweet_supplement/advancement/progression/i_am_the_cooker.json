@@ -26,6 +26,6 @@
   },
   "rewards": {
     "recipes": [],
-    "function": "smoker_recipes_unlock"
+    "function": "bittersweet_functions:food/smoker_recipes_unlock"
   }
 }
