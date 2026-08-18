@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "#minecraft:copper_chests",
+    "L": "minecraft:leather",
+    "I": "minecraft:iron_block",
+    "c": "minecraft:copper_block",
+    "s": "minecraft:pig_spawn_egg",
+    "E": "minecraft:emerald"
+  },
+  "pattern": [
+    "EsE",
+    "LCL",
+    "IcI"
+  ],
+  "result": {
+    "id": "minecraft:light_gray_shulker_box",
+    "components": {
+      "minecraft:item_name": "Lockbox"
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:knowledge_book"
+    },
+    "title": "Magic Man",
+    "description": "I like your funny words.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/bittersweet_supplement",
+  "criteria": {
+    "acquire empty boon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:knowledge_book"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:boons/boon_brutality",
+      "bittersweet_supplement:boons/boon_chaos",
+      "bittersweet_supplement:boons/boon_eternity",
+      "bittersweet_supplement:boons/boon_force",
+      "bittersweet_supplement:boons/boon_greed",
+      "bittersweet_supplement:boons/boon_perfection",
+      "bittersweet_supplement:boons/boon_pyre",
+      "bittersweet_supplement:boons/boon_snowfall",
+      "bittersweet_supplement:boons/boon_spite",
+      "bittersweet_supplement:boons/boon_storms",
+      "bittersweet_supplement:boons/boon_surge",
+      "bittersweet_supplement:boons/boon_tempo",
+      "bittersweet_supplement:boons/boon_tides"
+    ]
+  }
+}

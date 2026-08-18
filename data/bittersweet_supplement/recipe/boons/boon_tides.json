@@ -25,7 +25,7 @@
       "minecraft:item_model": "minecraft:enchanted_book",
       "minecraft:stored_enchantments": {
         "minecraft:depth_strider": 1,
-        "minecraft:respiration": 1,
+        "minecraft:riptide": 1,
         "minecraft:aqua_affinity": 1
       },
       "minecraft:item_name": {

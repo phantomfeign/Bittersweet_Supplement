@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "get_copper_lockbox_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:emerald",
+                "minecraft:pig_spawn_egg",
+                "minecraft:copper_block",
+                "minecraft:iron_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/lockbox"
+    ]
+  }
+}

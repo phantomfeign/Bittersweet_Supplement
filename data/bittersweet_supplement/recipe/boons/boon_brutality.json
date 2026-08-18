@@ -6,7 +6,7 @@
     "T": "minecraft:iron_sword",
     "G": "minecraft:iron_ingot",
     "F": "minecraft:iron_axe",
-    "A": "minecraft:flint",
+    "A": "minecraft:pig_spawn_egg",
     "C": "minecraft:bow",
     "b": "minecraft:crossbow"
   },
@@ -24,9 +24,9 @@
       "minecraft:item_model": "minecraft:enchanted_book",
       "minecraft:stored_enchantments": {
         "minecraft:sharpness": 1,
-        "minecraft:impaling": 1,
         "minecraft:breach": 1,
-        "minecraft:power": 1
+        "minecraft:power": 1,
+        "bittersweet_supplement:blood_soaked": 1 
       },
       "minecraft:item_name": {
         "text": "Boon of Brutality",

@@ -29,6 +29,7 @@
   "slots": [
       "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "primary_items": "#minecraft:enchantable/sharp_weapon",
+  "supported_items": "#minecraft:enchantable/trident",
   "weight": 10
 }

@@ -30,7 +30,7 @@
       "minecraft:stored_enchantments": {
         "minecraft:punch": 1,
         "minecraft:knockback": 1,
-        "minecraft:density": 3,
+        "minecraft:density": 1,
         "minecraft:blast_protection": 1
       },
       "minecraft:item_name": {

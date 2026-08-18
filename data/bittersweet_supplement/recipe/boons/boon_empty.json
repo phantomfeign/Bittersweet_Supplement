@@ -4,12 +4,15 @@
   "key": {
     "L": "minecraft:lapis_block",
     "B": "minecraft:book",
-    "G": "minecraft:gold_nugget"
+    "G": "minecraft:gold_block",
+    "g": "minecraft:gold_ingot",
+    "E": "minecraft:emerald"
+
   },
   "pattern": [
-    "GLG",
-    "GBG",
-    "GGG"
+    "gEg",
+    "LBL",
+    "gGg"
   ],
   "result": {
     "id": "minecraft:knowledge_book",

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    " X",
+    " #",
+    " #"
+  ],
+  "result": {
+    "id": "minecraft:copper_shovel",
+      "components": {
+      "minecraft:max_damage": 250,
+      "minecraft:damage": 0
+    }
+  }
+}

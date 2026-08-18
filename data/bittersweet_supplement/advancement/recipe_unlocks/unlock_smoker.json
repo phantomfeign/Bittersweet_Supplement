@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_smoker_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:campfire",
+                "minecraft:copper_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/smoker"
+    ]
+  }
+}

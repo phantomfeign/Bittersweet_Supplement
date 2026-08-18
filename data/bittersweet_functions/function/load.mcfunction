@@ -9,6 +9,7 @@ scoreboard objectives add BloodSoakedLogic dummy
 scoreboard objectives add ShieldUsed minecraft.used:minecraft.shield
 scoreboard objectives add ZombieChaseTime dummy
 
+scoreboard objectives add WaterBottleFound dummy
 scoreboard objectives add Hunger food
 
 scoreboard objectives add 0.better_consumables.id dummy

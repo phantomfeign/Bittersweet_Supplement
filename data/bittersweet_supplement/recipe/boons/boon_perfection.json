@@ -20,7 +20,7 @@
       "minecraft:item_model": "minecraft:enchanted_book",
       "minecraft:stored_enchantments": {
         "minecraft:protection": 1,
-        "minecraft:efficiency": 3
+        "minecraft:efficiency": 1
       },
       "minecraft:item_name": {
         "text": "Boon of Perfection",

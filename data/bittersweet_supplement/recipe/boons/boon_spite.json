@@ -21,8 +21,8 @@
       "minecraft:item_model": "minecraft:enchanted_book",
       "minecraft:stored_enchantments": {
         "minecraft:thorns": 1,
-        "minecraft:bane_of_arthropods": 4,
-        "minecraft:breach": 2
+        "minecraft:bane_of_arthropods": 1,
+        "minecraft:breach": 1
       },
       "minecraft:item_name": {
         "text": "Boon of Spite",
