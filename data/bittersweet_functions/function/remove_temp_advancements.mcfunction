@@ -7,3 +7,4 @@ advancement revoke @s only bittersweet_functions:mob_checks/phantom_hit_player
 advancement revoke @s only bittersweet_functions:mob_checks/hurt_by_zombie
 advancement revoke @s only bittersweet_functions:food/honey_harvest
 advancement revoke @s only bittersweet_functions:food/water_collect
+scoreboard players set #sleep SleepProcessed 0

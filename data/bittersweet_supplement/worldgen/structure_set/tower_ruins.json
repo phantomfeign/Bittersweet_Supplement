@@ -1,0 +1,21 @@
+{
+    "structures": [
+	{
+		"structure": "bittersweet_supplement:tower_ruins",
+		"weight": 1
+	}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"exclusion_zone": {
+			"chunk_count": 10,
+			"other_set": "minecraft:pillager_outposts"
+		},
+		"frequency": 0.2,
+		"frequency_reduction_method": "legacy_type_1",
+		"salt": 2345453,
+		"separation": 8,
+		"spacing": 32
+	}
+
+}

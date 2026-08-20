@@ -3,7 +3,6 @@ execute as @e[type=#bittersweet_functions:mundane_hostiles,tag=!SpawnChecked,tag
 execute as @e[type=#bittersweet_functions:mundane_hostiles,tag=SpawnBypass] run function bittersweet_functions:mob_adjustments/mob_changes
 
 #ZOMBIE BEHAVIOR
-#zombies with a player target
 execute as @e[type=#minecraft:zombies,predicate=bittersweet_functions:targets_player] at @s run function bittersweet_functions:mob_adjustments/zombie/chasing
 
 #CREEPER BEHAVIOR
@@ -21,3 +20,9 @@ execute as @e[type=minecraft:phantom,tag=NightTerror,limit=1] run function bitte
 #HONEY
 execute as @a[tag=HoneyHarvest] as @s run function bittersweet_functions:food/honey_bottle_replace
 execute as @a[tag=WaterCollect] as @s run function bittersweet_functions:food/water_bottle_replace
+
+#SLEEP
+tag @a add sleeping
+execute as @a at @s positioned ~ ~0.200001 ~ if entity @s[dx=0] run tag @s remove sleeping
+execute if entity @a[limit=1] unless entity @a[limit=1,tag=!sleeping] if score #sleep SleepProcessed matches 0 run schedule function bittersweet_functions:sleep/scheduled_time_advance 40t
+execute if entity @a[limit=1] unless entity @a[limit=1,tag=!sleeping] run scoreboard players set #sleep SleepProcessed 1

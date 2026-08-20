@@ -20,10 +20,11 @@ execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run weather
 execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run time set minecraft:midnight
 execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run scoreboard players set #NightTerror NightTerrorAlive 1
 
-#night Terror has died
+#night terror has died
 execute if score #NightTerror NightTerrorAlive matches 1 unless entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run time set day
 execute if score #NightTerror NightTerrorAlive matches 1 unless entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run weather clear
 execute if score #NightTerror NightTerrorAlive matches 1 unless entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run scoreboard players set #NightTerror NightTerrorAlive 0
 
 #elder guardian water breathing
 execute as @e[type=elder_guardian] at @s run effect give @a[distance=..50] water_breathing 2 0 true
+

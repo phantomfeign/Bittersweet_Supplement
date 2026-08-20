@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"#": "minecraft:nether_star",
+		"E": "minecraft:echo_shard",
+		"e": "minecraft:emerald",
+		"G": "gold_ingot"
+	},
+	"pattern": [
+		"eGe",
+		"G#G",
+		"EGE"
+	],
+	"result": {
+		"id": "minecraft:totem_of_undying"
+	}
+}

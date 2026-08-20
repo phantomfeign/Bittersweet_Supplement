@@ -1,0 +1,1 @@
+execute if score #sleep SleepStreak matches 5 run function bittersweet_functions:sleep/blood_moon_start

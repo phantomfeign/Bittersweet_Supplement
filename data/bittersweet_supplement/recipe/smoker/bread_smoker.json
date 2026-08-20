@@ -7,7 +7,7 @@
     "components": {
       "minecraft:lore": [
         {
-          "text": "❤❤",
+          "text": "❤❤❤",
           "color": "#54d877",
           "italic":false
         },
@@ -21,7 +21,7 @@
           "color": "white",
           "italic":false
         }
-            ],
+      ],
       "minecraft:consumable": {
         "on_consume_effects": [
           {
@@ -30,7 +30,7 @@
               {
                 "id": "minecraft:regeneration",
                 "amplifier": 1,
-                "duration": 100
+                "duration": 150
               }
             ]
           }

@@ -20,12 +20,17 @@
           "italic": false
         },
         {
-          "text": "Your gaze sharpens, and a surge of warmth",
+          "text": "Your gaze sharpens, and a",
           "color": "white",
           "italic": false
         },
         {
-          "text": "invigorates you as you quickly devour it.",
+          "text": "surge of warmth invigorates",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "you as you quickly devour it.",
           "color": "white",
           "italic": false
         }

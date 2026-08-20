@@ -21,18 +21,23 @@
           "italic": false
         },
         {
-          "text": "Your feel revitalized, and a surge of",
+          "text": "Your feel revitalized, and a",
           "color": "white",
           "italic": false
         },
         {
-          "text": "warmth invigorates you as you savor each mouthful.",
+          "text": "surge of warmth invigorates",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "you as you are sure to leave no crumbs.",
           "color": "white",
           "italic": false
         }
       ],
       "minecraft:consumable": {
-        "consume_seconds":3.5,
+        "consume_seconds":4.5,
         "on_consume_effects": [
           {
             "type": "apply_effects",

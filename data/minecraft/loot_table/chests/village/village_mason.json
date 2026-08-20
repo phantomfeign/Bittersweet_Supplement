@@ -1,0 +1,95 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:clay_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:flower_pot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_bricks",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:yellow_dye"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:smooth_stone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 5,
+				"min": 3
+			}
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:archer_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:angler_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arms_up_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blade_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:explorer_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:scrape_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shelter_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sheaf_pottery_sherd"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:chests/village/village_mason"
+}

@@ -11,7 +11,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-    "parent": "bittersweet_supplement:progression/flint_and_sticks",
+    "parent": "bittersweet_supplement:progression/bittersweet_supplement",
   "criteria": {
     "acquire a furnace": {
       "trigger": "minecraft:inventory_changed",

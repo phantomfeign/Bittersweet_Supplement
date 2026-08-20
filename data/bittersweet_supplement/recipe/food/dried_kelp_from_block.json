@@ -1,0 +1,45 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:dried_kelp_block"
+	],
+	"result": {
+		"count": 9,
+		"id": "minecraft:dried_kelp",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "♡",
+					"color": "#54d877",
+					"italic": false
+				},
+				{
+					"text": "A gentle warmth slowly settles in as",
+					"color": "white",
+					"italic": false
+				},
+				{
+					"text": "you hastily wolf it down.",
+					"color": "white",
+					"italic": false
+				}
+			],
+			"minecraft:consumable": {
+				"consume_seconds": 0.5,
+				"animation": "drink",
+				"on_consume_effects": [
+					{
+						"type": "apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 0,
+								"duration": 50
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

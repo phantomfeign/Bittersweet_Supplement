@@ -1,0 +1,1 @@
+execute if entity @a[limit=1] unless entity @a[limit=1,tag=!sleeping] run function bittersweet_functions:sleep/advance_time

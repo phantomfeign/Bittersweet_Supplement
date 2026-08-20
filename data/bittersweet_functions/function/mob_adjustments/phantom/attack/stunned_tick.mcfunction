@@ -1,13 +1,13 @@
-#Disable Phantom AI while stunned
+#disable Phantom AI while stunned
 data modify entity @s NoAI set value 1b
 
-#Stop horizontal movement
+#stop horizontal movement
 data modify entity @s Motion[0] set value 0.0d
 data modify entity @s Motion[2] set value 0.0d
 
-#Fall if there is air below
+#fall if therez air below
 execute if block ~ ~-1 ~ minecraft:air run data modify entity @s Motion[1] set value -0.5d
 execute if block ~ ~-1 ~ minecraft:cave_air run data modify entity @s Motion[1] set value -0.5d
 
-#Freeze once on solid ground
+#freeze once on solid ground
 execute unless block ~ ~-1 ~ minecraft:air unless block ~ ~-1 ~ minecraft:cave_air run data modify entity @s Motion set value [0.0d,0.0d,0.0d]

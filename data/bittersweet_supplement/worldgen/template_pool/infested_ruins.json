@@ -8,7 +8,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bittersweet_supplement:ruins/infested_ruins",
-        "processors": "bittersweet_supplement:infested_ruins_barrel",
+        "processors":"bittersweet_supplement:infested_ruins_barrel",
         "override_liquid_settings": "ignore_waterlogging"
       }
     }

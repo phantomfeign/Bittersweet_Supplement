@@ -70,6 +70,15 @@
       "path": "recipe/honey_bottle"
     },{
       "namespace": "minecraft",
+      "path": "recipe/baked_potato"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/baked_potato_from_smoking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/baked_potato_from_campfire_cooking"
+    },{
+      "namespace": "minecraft",
       "path": "recipe/cooked_beef_from_smoking"
     },{
       "namespace": "minecraft",
@@ -110,6 +119,9 @@
     },{
       "namespace": "minecraft",
       "path": "recipe/cooked_salmon_from_campfire_cooking"
+    },{
+      "namespace": "minecraft",
+      "path": "recipe/dried_kelp"
     },{
       "namespace": "minecraft",
       "path": "recipe/dried_kelp_from_smoking"

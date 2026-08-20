@@ -19,12 +19,17 @@
           "italic": false
         },
         {
-          "text": "Your feel revitalized, and a surge of",
+          "text": "Your feel revitalized, and a",
           "color": "white",
           "italic": false
         },
         {
-          "text": "warmth invigorates you as you eat happily.",
+          "text": "surge of warmth invigorates",
+          "color": "white",
+          "italic": false
+        },        
+        {
+          "text": "you as you eat happily.",
           "color": "white",
           "italic": false
         }

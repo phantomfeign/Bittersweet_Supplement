@@ -3,6 +3,12 @@ tellraw @a {"text":"Lost? Check the Advancement Menu!","color":"#9fa654"}
 
 function bittersweet_functions:main_loop
 execute as @a run function bittersweet_functions:remove_temp_advancements
+scoreboard objectives add Day dummy
+scoreboard objectives add Time dummy
+scoreboard objectives add SleptToday dummy
+scoreboard objectives add SleepStreak dummy
+scoreboard objectives add SleepProcessed dummy
+scoreboard objectives add BloodMoonActive dummy
 
 scoreboard objectives add GoldLogic dummy
 scoreboard objectives add BloodSoakedLogic dummy
@@ -27,3 +33,4 @@ gamerule natural_health_regeneration false
 gamerule keep_inventory true
 gamerule advance_time false
 schedule function bittersweet_functions:time_extender 2t
+
