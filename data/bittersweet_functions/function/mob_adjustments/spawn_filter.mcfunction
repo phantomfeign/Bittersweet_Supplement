@@ -3,20 +3,16 @@ execute if entity @s[tag=ExtraSpawn] at @s run spreadplayers ~ ~ 2 4 false @s
 
 execute if dimension minecraft:overworld if entity @s[type=minecraft:phantom] unless predicate bittersweet_functions:weather/thundering run tag @s add SpawnForbidden
 
-execute at @s if dimension minecraft:overworld run execute if entity @s[type=minecraft:slime] if predicate bittersweet_functions:surface_spawn run tag @s add SlimeForbidden
-
 #checks if a mob spawn is exposed to the sky
 execute at @s run execute if dimension minecraft:overworld run execute unless entity @s[type=#minecraft:undead] if predicate bittersweet_functions:can_see_sky run tag @s add SpawnForbidden
 
 #death to the babies
 execute as @s[type=#minecraft:zombies,nbt={IsBaby:1b}] run tag @s add SpawnForbidden
 
-#slimes get banished instead of killing
-execute if entity @s[tag=SlimeForbidden] run tp @s ~ ~-10000 ~
-
 #kill with no loot
 execute as @s[tag=SpawnForbidden] run data modify entity @s DeathLootTable set value "bittersweet_functions:empty"
-
+execute as @s[tag=SpawnForbidden] run data merge entity @s {NoAI:1b,Silent:1b}
+execute as @s[tag=SpawnForbidden] run tp @s ~ -1000 ~
 execute as @s[tag=SpawnForbidden] run kill @s
 
 #if spawn success, apply changes
