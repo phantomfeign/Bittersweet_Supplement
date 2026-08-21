@@ -2,6 +2,7 @@
   "type": "minecraft:blasting",
   "experience": 10,
   "ingredient": "minecraft:ancient_debris",
+  "cookingtime": 500, 
   "result": {
     "id": "minecraft:netherite_scrap",
     "count": 2
