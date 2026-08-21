@@ -5,7 +5,7 @@
     "L": "minecraft:cobblestone",
     "B": "minecraft:knowledge_book",
     "G": "minecraft:water_bucket",
-    "F": "minecraft:amethyst_shard"
+    "F": "minecraft:breeze_spawn_egg"
   },
   "pattern": [
     "LFL",
