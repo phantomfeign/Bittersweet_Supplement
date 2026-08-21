@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "get_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:equipment/copper_spear",
+      "bittersweet_supplement:equipment/copper_sword",
+      "bittersweet_supplement:equipment/copper_mattock",
+      "bittersweet_supplement:equipment/copper_pulaski",
+      "bittersweet_supplement:equipment/copper_axe",
+      "bittersweet_supplement:equipment/copper_pickaxe",
+      "bittersweet_supplement:equipment/copper_hoe",
+      "bittersweet_supplement:equipment/copper_shovel",
+      "bittersweet_supplement:equipment/copper_helmet",
+      "bittersweet_supplement:equipment/copper_chestplate",
+      "bittersweet_supplement:equipment/copper_leggings",
+      "bittersweet_supplement:equipment/copper_boots",
+      
+      "minecraft:shears",
+      "minecraft:bucket"
+    ]
+  }
+}

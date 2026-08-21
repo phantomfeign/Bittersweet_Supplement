@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:crafting_shaped",
+    "category": "equipment",
+	"pattern": [
+		"IIG",
+		" #I",
+		"# I"
+	],
+	"key": {
+		"#": "minecraft:stick",
+		"G": "minecraft:gold_ingot",
+		"I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"count": 1,
+		"id": "minecraft:iron_hoe",
+		"components": {
+			"minecraft:custom_name": {
+				"text": "Iron Mattock",
+				"italic": false
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 6,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 6,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 0.7,
+				"damage_per_block": 1
+			},
+			"minecraft:max_damage": 330,
+			"minecraft:item_model": "bittersweet_textures:iron_mattock"
+		}
+	}
+}

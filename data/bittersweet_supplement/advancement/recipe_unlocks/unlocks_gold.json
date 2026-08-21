@@ -15,6 +15,8 @@
     "recipes": [
       "bittersweet_supplement:equipment/gold_spear",
       "bittersweet_supplement:equipment/gold_sword",
+      "bittersweet_supplement:equipment/gold_mattock",
+      "bittersweet_supplement:equipment/gold_pulaski",
       "bittersweet_supplement:equipment/gold_axe",
       "bittersweet_supplement:equipment/gold_pickaxe",
       "bittersweet_supplement:equipment/gold_hoe",
@@ -23,6 +25,7 @@
       "bittersweet_supplement:equipment/gold_chestplate",
       "bittersweet_supplement:equipment/gold_leggings",
       "bittersweet_supplement:equipment/gold_boots",
+
       "bittersweet_supplement:food/golden_apple",
       "bittersweet_supplement:food/golden_carrot"
     ]

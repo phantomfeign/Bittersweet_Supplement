@@ -1,0 +1,20 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"exclusion_zone": {
+			"chunk_count": 10,
+			"other_set": "minecraft:villages"
+		},
+		"frequency": 0.2,
+		"frequency_reduction_method": "legacy_type_1",
+		"salt": 234454,
+		"separation": 12,
+		"spacing": 32
+	},
+	"structures": [
+		{
+			"structure": "bittersweet_supplement:moon_altar",
+			"weight": 1
+		}
+	]
+}

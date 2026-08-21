@@ -15,6 +15,8 @@
     "recipes": [
       "bittersweet_supplement:equipment/iron_spear",
       "bittersweet_supplement:equipment/iron_sword",
+      "bittersweet_supplement:equipment/iron_pulaski",
+      "bittersweet_supplement:equipment/iron_mattock",
       "bittersweet_supplement:equipment/iron_axe",
       "bittersweet_supplement:equipment/iron_pickaxe",
       "bittersweet_supplement:equipment/iron_hoe",
