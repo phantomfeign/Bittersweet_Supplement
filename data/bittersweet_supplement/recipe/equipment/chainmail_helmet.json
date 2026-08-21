@@ -9,7 +9,7 @@
     "X X"
   ],
   "result": {
-    "id": "minecraft:chainmail_leggings",
+    "id": "minecraft:chainmail_helmet",
       "components": {
       "minecraft:max_damage": 240,
       "minecraft:damage": 0

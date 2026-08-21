@@ -1,0 +1,1 @@
+tellraw @s [{"text":"SleepStreak: "},{"score":{"name":"#sleep","objective":"SleepStreak"}}]
