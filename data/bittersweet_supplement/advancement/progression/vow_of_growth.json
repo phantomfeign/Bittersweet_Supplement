@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "bittersweet_supplement:progression/remains",
+  "parent": "bittersweet_supplement:progression/vow_of_freedom",
   "criteria": {
     "kill wither": {
       "trigger": "minecraft:player_killed_entity",
