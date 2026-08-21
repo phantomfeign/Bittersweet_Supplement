@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "get_rough_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cow_spawn_egg"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:smelting/diamond_from_blasting"
+    ]
+  }
+}

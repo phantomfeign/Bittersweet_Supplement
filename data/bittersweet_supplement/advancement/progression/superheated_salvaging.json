@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cow_spawn_egg"
+    },
+    "title": "Superheated Salvaging",
+    "description": "Purify ancient debris in a blast furnace.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/under_pressure",
+  "criteria": {
+    "blast_ancient_debris": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_scrap_from_blasting"
+      }
+    }
+  },
+    "requirements": [
+    [
+      "blast_ancient_debris"
+    ]
+  ]
+}

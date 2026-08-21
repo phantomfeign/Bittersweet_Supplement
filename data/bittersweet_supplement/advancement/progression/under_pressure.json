@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cow_spawn_egg"
+    },
+    "title": "Under Pressure",
+    "description": "Refine rough diamonds in a blast furnace.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/blast_processing",
+  "criteria": {
+    "blast_rough_diamond": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "bittersweet_supplement:smelting/diamond_from_blasting"
+      }
+    }
+  },
+    "requirements": [
+    [
+      "blast_rough_diamond"
+    ]
+  ]
+}
