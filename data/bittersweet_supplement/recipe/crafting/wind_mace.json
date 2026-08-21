@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:heavy_core",
+		"I": "minecraft:breeze_rod"
+	},
+	"pattern": [
+		" # ",
+		" I "
+	],
+	"result": {
+		"id": "minecraft:mace",
+		"components": {
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 6,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 0
+			},
+			"minecraft:custom_data": {
+				"3x3mining": "true"
+			}
+		}
+	}
+}

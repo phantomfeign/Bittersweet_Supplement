@@ -1,14 +1,13 @@
 {
   "criteria": {
-    "get_trident_ingredients": {
+    "get_mace_ingredients": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:iron_ingot",
-              "minecraft:prismarine_crystals",
-              "minecraft:prismarine_shard"
+              "minecraft:breeze_rod",
+              "minecraft:heavy_core"
             ]
           }
         ]
@@ -17,7 +16,7 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:crafting/trident"
+      "bittersweet_supplement:crafting/wind_mace"
     ]
   }
 }

@@ -105,7 +105,7 @@
 						}
 					],
 					"name": "minecraft:dead_bush",
-					"weight": 2
+					"weight": 5
 				},
 				{
 					"type": "minecraft:item",
@@ -113,7 +113,7 @@
 						{
 							"count": {
 								"type": "minecraft:uniform",
-								"max": 3,
+								"max": 2,
 								"min": 1
 							},
 							"function": "minecraft:set_count"

@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:pig_spawn_egg",
+	"base": "minecraft:netherite_axe",
+	"template": "minecraft:netherite_shovel",
+	"result": {
+		"id": "minecraft:netherite_axe",
+		"components": {
+			"minecraft:custom_name": {
+				"text": "Abyssal Pulaski",
+				"italic": false
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 8,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 8,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:max_damage": 2500,
+			"minecraft:item_model": "bittersweet_textures:netherite_pulaski"
+		}
+	}
+}

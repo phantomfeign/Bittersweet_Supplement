@@ -141,14 +141,14 @@
 						{
 							"count": {
 								"type": "minecraft:uniform",
-								"max": 4,
+								"max": 2,
 								"min": 1
 							},
 							"function": "minecraft:set_count"
 						}
 					],
 					"name": "minecraft:emerald",
-					"weight": 2
+					"weight": 1
 				}
 			],
 			"rolls": {

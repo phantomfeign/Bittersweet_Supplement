@@ -3,9 +3,8 @@
   "category": "equipment",
   "key": {
     "#": [
-      "minecraft:breeze_rod",
-      "minecraft:blaze_rod"
-    ],
+      "minecraft:iron_ingot"
+        ],
     "X": [
       "minecraft:prismarine_shard",
       "minecraft:prismarine_crystals"
