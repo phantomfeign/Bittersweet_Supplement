@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "P": "minecraft:amethyst_shard",
+    "P": "minecraft:breeze_spawn_egg",
     "S": "minecraft:gold_block",
-    "D": "minecraft:breeze_spawn_egg"
+    "D": "minecraft:diamond"
   },
   "pattern": [
     "PSP",
