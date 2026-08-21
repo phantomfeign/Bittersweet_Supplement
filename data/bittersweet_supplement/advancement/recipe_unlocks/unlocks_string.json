@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "get_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:string"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/wool_from_string",
+      "bittersweet_supplement:crafting/scaffolding_from_sticks"
+    ]
+  }
+}
