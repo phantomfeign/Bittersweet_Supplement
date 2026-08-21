@@ -23,16 +23,16 @@
 				"rules": [
 					{
 						"blocks": "#minecraft:mineable/pickaxe",
-						"speed": 5,
+						"speed": 4,
 						"correct_for_drops": true
 					},
 					{
 						"blocks": "#minecraft:mineable/hoe",
-						"speed": 5,
+						"speed": 4,
 						"correct_for_drops": true
 					}
 				],
-				"default_mining_speed": 0.8,
+				"default_mining_speed": 1,
 				"damage_per_block": 1
 			},
 			"minecraft:max_damage": 300,
