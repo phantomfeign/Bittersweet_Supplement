@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "get_boon_empty_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+            "minecraft:lapis_lazuli",
+            "minecraft:gold_ingot",
+            "minecraft:amethyst_shard"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/prismatic_gem"
+    ]
+  }
+}
