@@ -379,6 +379,9 @@
       "path": "recipe/diamond_leggings"
     },{
       "namespace": "minecraft",
+      "path": "recipe/diamond_bootsß"
+    },{
+      "namespace": "minecraft",
       "path": "recipe/mace"
 
     }
