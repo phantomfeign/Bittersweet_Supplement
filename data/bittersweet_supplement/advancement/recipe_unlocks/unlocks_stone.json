@@ -18,8 +18,9 @@
       "bittersweet_supplement:equipment/stone_axe",
       "bittersweet_supplement:equipment/stone_pickaxe",
       "bittersweet_supplement:equipment/stone_hoe",
-      "bittersweet_supplement:equipment/stone_shovel"
+      "bittersweet_supplement:equipment/stone_shovel",
 
+      "minecraft:armor_stand"
     ]
   }
 }
