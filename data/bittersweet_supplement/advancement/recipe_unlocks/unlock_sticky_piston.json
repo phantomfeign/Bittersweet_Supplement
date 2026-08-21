@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "get_nether_star": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:piston",
+            "minecraft:bee_spawn_egg"]
+
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/sticky_piston_from_dough"
+    ]
+  }
+}
