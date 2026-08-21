@@ -22,7 +22,7 @@
 			"minecraft:tool": {
 				"rules": [
 					{
-						"blocks": "#minecraft:mineable/axe",
+						"blocks": "#minecraft:mineable/pickaxe",
 						"speed": 10,
 						"correct_for_drops": true
 					},
