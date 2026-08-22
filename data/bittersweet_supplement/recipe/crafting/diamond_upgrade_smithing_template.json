@@ -6,9 +6,9 @@
     "D": "minecraft:diamond"
   },
   "pattern": [
-    "PSP",
-    "SDS",
-    "PSP"
+    "PDP",
+    "DSD",
+    "PDP"
   ],
   "result": {
     "count": 2,
