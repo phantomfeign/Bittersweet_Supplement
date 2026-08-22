@@ -6,6 +6,31 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:iron_leggings",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.3,
+								"max": 0.5
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 300
+							}
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 1,
+							"options": "minecraft:swift_sneak"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:iron_hoe",
 					"weight": 5,
 					"functions": [
@@ -56,6 +81,20 @@
 				"max": 4
 			},
 			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sculk_vein",
+					"weight": 7,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:lapis_lazuli",
@@ -115,11 +154,14 @@
 			]
 		},
 		{
-			"rolls": 4,
+			"rolls": {
+				"min": 2,
+				"max": 4
+			},
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:sculk_vein",
+					"name": "minecraft:white_wool",
 					"functions": [
 						{
 							"function": "minecraft:set_count",

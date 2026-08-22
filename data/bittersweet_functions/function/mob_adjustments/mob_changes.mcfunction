@@ -21,3 +21,8 @@ tag @s[type=minecraft:skeleton] add AxeChecked
 execute as @s[type=creeper] run data modify entity @s ExplosionRadius set value 0b
 execute as @s[type=creeper,tag=!marked_creeper] run effect give @s minecraft:luck infinite 99 true
 execute as @s[type=creeper,tag=!marked_creeper] run tag @s add marked_creeper
+
+#enderman
+scoreboard players add @s[type=minecraft:enderman] PullTimer 0
+attribute @s[type=minecraft:enderman] minecraft:attack_damage base set 0
+item replace entity @s[type=minecraft:enderman] weapon.mainhand with minecraft:wooden_axe[minecraft:item_model="bittersweet_supplement:invisible",minecraft:weapon={disable_blocking_for_seconds:2.0}]

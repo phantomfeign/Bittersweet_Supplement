@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "minecraft:entity_type": "minecraft:enderman"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bittersweet_functions:mob_adjustments/enderman/revoke_hurt"
+  }
+}

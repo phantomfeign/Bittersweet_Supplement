@@ -41,7 +41,7 @@
             },
             {
               "type": "minecraft:run_function",
-              "function": "bittersweet_functions:enchantments/shield_disable"
+              "function": "bittersweet_functions:enchantments/shield_disable_5s"
             }
           ]
         },

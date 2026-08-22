@@ -7,6 +7,7 @@
           {
             "items": [
                 "minecraft:deepslate",
+                "minecraft:cobbled_deepslate",
                 "minecraft:furnace",
                 "minecraft:iron_ingot"
             ]

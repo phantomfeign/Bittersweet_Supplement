@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"B": "minecraft:knowledge_book",
+		"H": [
+			"minecraft:creeper_head",
+			"minecraft:zombie_head",
+			"minecraft:skeleton_skull"
+		]
+	},
+	"pattern": [
+		"H",
+    "B"
+	],
+	"result": {
+		"id": "minecraft:enchanted_book",
+		"components": {
+			"minecraft:custom_data": {
+				"boon": "boon_blood"
+			},
+			"minecraft:item_model": "minecraft:enchanted_book",
+			"minecraft:stored_enchantments": {
+				"bittersweet_supplement:blood_soaked": 1
+			},
+			"minecraft:item_name": {
+				"text": "Boon of Blood",
+				"color": "#f00000"
+			}
+		},
+		"count": 1
+	}
+}

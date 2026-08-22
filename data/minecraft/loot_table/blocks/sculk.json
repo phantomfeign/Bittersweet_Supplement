@@ -1,32 +1,27 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sculk_vein",
-          "conditions": [],
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 0,
-                "max": 2
-              },
-              "conditions": []
-            }
-          ]
-        }
-      ],
-      "rolls": 1
-    }
-  ],
-  "random_sequence": "minecraft:blocks/sculk"
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sculk_vein",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.02
+						}
+					],
+					"functions": []
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:blocks/sculk"
 }

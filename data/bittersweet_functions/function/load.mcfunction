@@ -28,9 +28,11 @@ scoreboard objectives add PhantomXVelocity dummy
 scoreboard objectives add PhantomZVelocity dummy
 scoreboard objectives add PhantomVexTimer dummy
 
+#enderman
+scoreboard objectives add PullTimer dummy
+
 #gamerules
 gamerule natural_health_regeneration false
 gamerule keep_inventory true
 gamerule advance_time false
 schedule function bittersweet_functions:time_extender 2t
-

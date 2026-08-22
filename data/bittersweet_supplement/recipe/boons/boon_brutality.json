@@ -24,13 +24,12 @@
       "minecraft:item_model": "minecraft:enchanted_book",
       "minecraft:stored_enchantments": {
         "minecraft:sharpness": 1,
-        "minecraft:breach": 1,
-        "minecraft:power": 1,
-        "bittersweet_supplement:blood_soaked": 1 
+        "minecraft:density": 1,
+        "minecraft:power": 1
       },
       "minecraft:item_name": {
         "text": "Boon of Brutality",
-        "color": "#d41111"
+        "color": "#d63535"
       }
     },
     "count": 1
