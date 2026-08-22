@@ -28,10 +28,9 @@ execute if entity @a[limit=1] unless entity @a[limit=1,tag=!sleeping] if score #
 execute if entity @a[limit=1] unless entity @a[limit=1,tag=!sleeping] run scoreboard players set #sleep SleepProcessed 1
 
 #ENDERMAN
-execute as @e[type=minecraft:enderman,predicate=bittersweet_functions:targets_player] if entity @a[distance=..8,tag=Cramped] run scoreboard players add @s EnderPull 1
-execute as @e[type=minecraft:enderman,predicate=bittersweet_functions:targets_player] unless entity @a[distance=..8,tag=Cramped] run scoreboard players set @s EnderPull 0
-execute as @e[type=minecraft:enderman,scores={EnderPull=40..}] if entity @a[distance=..8,tag=Cramped] at @s run function bittersweet_functions:mob_adjustments/enderman/player_tp_windup
-execute as @e[type=minecraft:enderman,scores={EnderPull=40..}] as @s run scoreboard players set @s EnderPull 0
+execute as @e[type=minecraft:enderman,predicate=bittersweet_functions:targets_player] run scoreboard players add @s PullTimer 1
+execute as @e[type=minecraft:enderman,scores={PullTimer=40..}] at @s if entity @a[distance=..8,tag=Cramped] run function bittersweet_functions:mob_adjustments/enderman/player_tp_windup
+execute as @e[type=minecraft:enderman,scores={PullTimer=40..}] at @s run scoreboard players set @s PullTimer 0
 execute as @e[type=minecraft:enderman] run ride @s dismount
 execute as @a[tag=Cramped] at @s if block ~ ~2 ~ minecraft:air run tag @s remove Cramped
 execute as @a[tag=!Cramped] at @s unless block ~ ~2 ~ minecraft:air run tag @s add Cramped
