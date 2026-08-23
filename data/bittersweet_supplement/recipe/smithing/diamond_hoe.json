@@ -1,13 +1,15 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": "minecraft:diamond",
-  "base": "minecraft:golden_hoe",
-  "result": {
-    "id": "minecraft:diamond_hoe",
-      "components": {
-      "minecraft:max_damage": 1800,
-      "minecraft:damage": 0
-    }
-  },
-  "template": "minecraft:chicken_spawn_egg"
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:diamond",
+	"base": "minecraft:golden_hoe",
+	"result": {
+		"id": "minecraft:diamond_hoe",
+		"components": {
+			"minecraft:max_damage": 1800,
+			"minecraft:damage": 0,
+			"minecraft:item_model": "diamond_hoe",
+			"minecraft:item_name": "Diamond Hoe"
+		}
+	},
+	"template": "minecraft:chicken_spawn_egg"
 }

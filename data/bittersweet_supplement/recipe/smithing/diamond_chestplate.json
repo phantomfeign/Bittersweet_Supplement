@@ -6,7 +6,9 @@
     "id": "minecraft:diamond_chestplate",
       "components": {
       "minecraft:max_damage": 600,
-      "minecraft:damage": 0
+      "minecraft:damage": 0,
+			"!minecraft:attribute_modifiers": {}
+
     }
   },
   "template": "minecraft:chicken_spawn_egg"

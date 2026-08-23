@@ -30,7 +30,34 @@
           "id": "bittersweet:golden_axe_speed",
           "slot": "mainhand"
         }
-      ]
+      ],
+      	"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": " 8 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " 0.8 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				}
+			]
     }
   }
 }

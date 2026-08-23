@@ -1,29 +1,58 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": "minecraft:diamond",
-  "base": "minecraft:golden_axe",
-  "result": {
-    "id": "minecraft:diamond_axe",
-      "components": {
-      "minecraft:max_damage": 1800,
-      "minecraft:damage": 0,
-      "minecraft:attribute_modifiers": [
-        {
-          "type": "minecraft:attack_damage",
-          "amount": 10,
-          "operation": "add_value",
-          "id": "bittersweet:golden_axe_damage",
-          "slot": "mainhand"
-        },
-        {
-          "type": "minecraft:attack_speed",
-          "amount": -3.2,
-          "operation": "add_value",
-          "id": "bittersweet:golden_axe_speed",
-          "slot": "mainhand"
-        }
-      ]
-    }
-  },
-  "template": "minecraft:chicken_spawn_egg"
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:diamond",
+	"base": "minecraft:golden_axe",
+	"result": {
+		"id": "minecraft:diamond_axe",
+		"components": {
+			"minecraft:max_damage": 1800,
+			"minecraft:damage": 0,
+      "minecraft:item_model": "diamond_axe",
+			"minecraft:item_name": "Diamond Axe",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"amount": 10,
+					"operation": "add_value",
+					"id": "bittersweet:golden_axe_damage",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"amount": -3.2,
+					"operation": "add_value",
+					"id": "bittersweet:golden_axe_speed",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": " 11 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " 0.8 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				}
+			]
+		}
+	},
+	"template": "minecraft:chicken_spawn_egg"
 }

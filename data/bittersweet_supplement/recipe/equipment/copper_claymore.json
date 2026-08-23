@@ -1,0 +1,75 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "minecraft:copper_ingot",
+		"I": "minecraft:copper_ingot"
+	},
+	"pattern": [
+		" XX",
+		"XIX",
+		"#X "
+	],
+	"result": {
+		"id": "minecraft:copper_sword",
+		"components": {
+			"minecraft:item_model": "minecraft:stone_sword",
+			"minecraft:item_name": "Copper Claymore",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_speed",
+					"id": "bittersweet_supplement:copper_claymore",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_damage",
+					"id": "bittersweet_supplement:copper_claymore",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": " 2 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " 1.6 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:attack_range": {
+				"min_reach": 0,
+				"max_reach": 3.5,
+				"min_creative_reach": 0,
+				"max_creative_reach": 3.5,
+				"hitbox_margin": 1
+			},
+			"minecraft:max_damage": 250,
+			"minecraft:enchantments": {
+				"minecraft:sweeping_edge": 1
+			}
+		}
+	}
+}

@@ -1,14 +1,57 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": "minecraft:netherite_ingot",
-  "base": "minecraft:diamond_sword",
-  "result": {
-    "id": "minecraft:netherite_sword",
-      "components": {
-      "minecraft:max_damage": 2200,
-      "minecraft:damage": 0,
-      "minecraft:enchantment_glint_override": true
-    }
-  },
-  "template": "minecraft:netherite_upgrade_smithing_template"
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:netherite_ingot",
+	"base": "minecraft:diamond_sword",
+	"result": {
+		"id": "minecraft:netherite_sword",
+		"components": {
+			"minecraft:max_damage": 2200,
+			"minecraft:damage": 0,
+			"minecraft:enchantment_glint_override": true,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"amount": 8,
+					"operation": "add_value",
+					"id": "bittersweet:netherite_sword_damage",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"amount": -2.4,
+					"operation": "add_value",
+					"id": "bittersweet:netherite_sword_speed",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": " 9 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " 1.6 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				}
+			]
+		}
+	},
+	"template": "minecraft:netherite_upgrade_smithing_template"
 }

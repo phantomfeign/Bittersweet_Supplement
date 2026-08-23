@@ -6,8 +6,8 @@
 	"result": {
 		"id": "minecraft:netherite_axe",
 		"components": {
-			"minecraft:custom_name": {
-				"text": "Abyssal Pulaski",
+			"minecraft:item_name": {
+				"text": "Tenebrium Pulaski",
 				"italic": false
 			},
 			"minecraft:tool": {

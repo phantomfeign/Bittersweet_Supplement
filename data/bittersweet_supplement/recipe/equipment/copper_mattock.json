@@ -13,7 +13,7 @@
 	},
 	"result": {
 		"count": 1,
-		"id": "minecraft:copper_hoe",
+		"id": "minecraft:stone_hoe",
 		"components": {
 			"minecraft:custom_name": {
 				"text": "Copper Mattock",

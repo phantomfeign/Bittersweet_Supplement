@@ -1,13 +1,56 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": "minecraft:diamond",
-  "base": "minecraft:golden_sword",
-  "result": {
-    "id": "minecraft:diamond_sword",
-      "components": {
-      "minecraft:max_damage": 1800,
-      "minecraft:damage": 0
-    }
-  },
-  "template": "minecraft:chicken_spawn_egg"
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:diamond",
+	"base": "minecraft:golden_sword",
+	"result": {
+		"id": "minecraft:diamond_sword",
+		"components": {
+			"minecraft:max_damage": 1800,
+			"minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"amount": 6,
+					"operation": "add_value",
+					"id": "bittersweet:diamond_sword_damage",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"amount": -2.4,
+					"operation": "add_value",
+					"id": "bittersweet:diamond_sword_speed",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": " 7 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " 1.6 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				}
+			]
+		}
+	},
+	"template": "minecraft:chicken_spawn_egg"
 }

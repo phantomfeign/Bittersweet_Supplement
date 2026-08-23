@@ -6,8 +6,8 @@
 	"result": {
 		"id": "minecraft:netherite_hoe",
 		"components": {
-			"minecraft:custom_name": {
-				"text": "Abyssal Mattock",
+			"minecraft:item_name": {
+				"text": "Tenebrium Mattock",
 				"italic": false
 			},
 			"minecraft:tool": {

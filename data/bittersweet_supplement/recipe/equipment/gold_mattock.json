@@ -15,7 +15,7 @@
 		"count": 1,
 		"id": "minecraft:golden_hoe",
 		"components": {
-			"minecraft:custom_name": {
+			"minecraft:item_name": {
 				"text": "Gilded Mattock",
 				"italic": false
 			},
