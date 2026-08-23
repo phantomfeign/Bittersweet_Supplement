@@ -66,6 +66,11 @@
 					"italic": false
 				},
 				{
+					"text": " +1 Attack Range",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
 					"text": " +1 Mining Range",
 					"color": "dark_green",
 					"italic": false

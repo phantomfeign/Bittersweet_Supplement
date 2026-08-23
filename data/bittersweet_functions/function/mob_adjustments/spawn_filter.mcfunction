@@ -12,8 +12,8 @@ execute as @s[type=#minecraft:zombies,nbt={IsBaby:1b}] run tag @s add SpawnForbi
 #kill with no loot
 execute as @s[tag=SpawnForbidden] run data modify entity @s DeathLootTable set value "bittersweet_functions:empty"
 execute as @s[tag=SpawnForbidden] run data merge entity @s {NoAI:1b,Silent:1b}
-execute as @s[tag=SpawnForbidden] run tp @s ~ -1000 ~
-execute as @s[tag=SpawnForbidden] run kill @s
+execute as @s[tag=SpawnForbidden] run tp @s ~ -200 ~
+execute as @s[tag=SpawnForbidden,type=!minecraft:slime] run kill @s
 
 #if spawn success, apply changes
 execute as @s if entity @s[tag=!SpawnForbidden] run function bittersweet_functions:mob_adjustments/mob_changes

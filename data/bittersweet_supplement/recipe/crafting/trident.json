@@ -1,22 +1,91 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": [
-      "minecraft:iron_ingot"
-        ],
-    "X": [
-      "minecraft:prismarine_shard",
-      "minecraft:prismarine_crystals"
-    ]
-  },
-  "pattern": [
-    "XXX",
-    " # ",
-    " # "
-  ],
-  "result": {
-    "id": "minecraft:trident",
-    "count": 1
-  }
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:iron_ingot",
+		"X": "minecraft:prismarine_shard",
+		"E": "minecraft:emerald"
+	},
+	"pattern": [
+		"#E#",
+		" X ",
+		" X "
+	],
+	"result": {
+		"id": "minecraft:trident",
+		"components": {
+			"minecraft:item_model": "minecraft:trident",
+			"minecraft:item_name": {
+				"text": "Hadal Trident",
+				"color": "light_purple",
+				"italic": false
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_speed",
+					"id": "bittersweet_supplement:trident",
+					"amount": -3,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_damage",
+					"id": "bittersweet_supplement:trident",
+					"amount": 8,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": " 9 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " 1.0 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " +0.5 Attack Range",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:max_damage": 900,
+			"minecraft:piercing_weapon": {
+				"deals_knockback": true,
+				"dismounts": true,
+				"sound": "minecraft:item.spear.attack",
+				"hit_sound": "minecraft:item.spear.hit"
+			},
+			"minecraft:attack_range": {
+				"min_reach": 1,
+				"max_reach": 3.5,
+				"min_creative_reach": 1,
+				"max_creative_reach": 3.5
+			},
+			"minecraft:swing_animation": {
+				"type": "stab",
+				"duration": 12
+			},
+			"minecraft:minimum_attack_charge": 1
+		}
+	}
 }
