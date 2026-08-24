@@ -30,4 +30,4 @@ minecraft:item_model="bittersweet_supplement:invisible",minecraft:weapon={disabl
 
 #warden
 attribute @s[type=minecraft:warden] minecraft:attack_knockback base set 3
-attribute @s[type=minecraft:warden] minecraft:attack_damage base set 5
+attribute @s[type=minecraft:warden] minecraft:attack_damage base set 6

@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "bittersweet_supplement:progression/vow_of_expression",
+  "parent": "bittersweet_supplement:progression/vow_of_growth",
   "criteria": {
     "kill dragon": {
       "trigger": "minecraft:player_killed_entity",
