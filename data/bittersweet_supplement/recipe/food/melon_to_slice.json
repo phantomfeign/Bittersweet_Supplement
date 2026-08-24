@@ -1,17 +1,11 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": 4,
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_components",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:melon"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:melon_slice",
               "components": {
                 "minecraft:lore": [
                   {
@@ -48,17 +42,4 @@
                 }
               }
             }
-          ],
-          "name": "minecraft:melon_slice"
-        }
-      ],
-      "functions": [
-        {
-          "function": "minecraft:explosion_decay"
-        }
-      ],
-      "rolls": 1
-    }
-  ],
-  "random_sequence": "minecraft:blocks/melon"
-}
+          }

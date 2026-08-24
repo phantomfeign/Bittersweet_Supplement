@@ -35,5 +35,4 @@ execute as @e[type=minecraft:enderman] run ride @s dismount
 execute as @a[tag=Cramped] at @s if block ~ ~2 ~ minecraft:air run tag @s remove Cramped
 execute as @a[tag=!Cramped] at @s unless block ~ ~2 ~ minecraft:air run tag @s add Cramped
 
-#BO'OL O WO'A
-function bittersweet_functions:food/bottle_replace
+function bittersweet_functions:food/stack_size_increases

@@ -38,7 +38,8 @@
           {
             "id": "minecraft:regeneration",
             "amplifier": 0,
-            "duration": 600
+            "duration": 600,
+                "show_particles": false
           }
         ]
       }

@@ -36,12 +36,14 @@
               {
                 "id": "minecraft:regeneration",
                 "amplifier": 2,
-                "duration": 80
+                "duration": 80,
+            "show_particles": false
               },
              {
                 "id": "minecraft:speed",
                 "amplifier": 1,
-                "duration": 80
+                "duration": 80,
+            "show_particles": false
               }
             ]
           }

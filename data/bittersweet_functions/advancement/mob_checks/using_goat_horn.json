@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"kill": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:goat_horn"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bittersweet_functions:mob_adjustments/warden/stunned_by_horn"
+	}
+}

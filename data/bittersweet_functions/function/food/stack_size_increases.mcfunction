@@ -21,9 +21,9 @@ sound:"item.honey_bottle.drink",\
 has_consume_particles:false,\
 on_consume_effects:[{type:"apply_effects",\
 effects:[{id:"minecraft:regeneration",\
-amplifier:0,duration:50},\
+amplifier:0,duration:50,show_particles:false},\
 {id:"minecraft:speed",\
-amplifier:0,duration:60}]}]}]
+amplifier:0,duration:60,show_particles:false}]}]}]
 
 execute at @a run execute if items entity @p hotbar.* minecraft:honey_bottle[!max_stack_size=64] run give @p minecraft:honey_bottle[minecraft:custom_data={bittersweet_honey:1b},\
 minecraft:max_stack_size=64,\
@@ -41,9 +41,24 @@ sound:"item.honey_bottle.drink",\
 has_consume_particles:false,\
 on_consume_effects:[{type:"apply_effects",\
 effects:[{id:"minecraft:regeneration",\
-amplifier:0,duration:50},\
+amplifier:0,duration:50,show_particles:false},\
 {id:"minecraft:speed",\
-amplifier:0,duration:60}]}]}]
+amplifier:0,duration:60,show_particles:false}]}]}]
 
 execute at @a run execute if items entity @p inventory.* minecraft:honey_bottle[!max_stack_size=64] run clear @p minecraft:honey_bottle[!max_stack_size=64] 1
 execute at @a run execute if items entity @p hotbar.* minecraft:honey_bottle[!max_stack_size=64] run clear @p minecraft:honey_bottle[!max_stack_size=64] 1
+
+#egg
+execute at @a run execute if items entity @p inventory.* minecraft:egg[!max_stack_size=64] run give @p minecraft:egg[max_stack_size=64]
+execute at @a run execute if items entity @p inventory.* minecraft:brown_egg[!max_stack_size=64] run give @p minecraft:brown_egg[max_stack_size=64]
+execute at @a run execute if items entity @p inventory.* minecraft:blue_egg[!max_stack_size=64] run give @p minecraft:blue_egg[max_stack_size=64]
+execute at @a run execute if items entity @p hotbar.* minecraft:egg[!max_stack_size=64] run give @p minecraft:egg[max_stack_size=64]
+execute at @a run execute if items entity @p hotbar.* minecraft:brown_egg[!max_stack_size=64] run give @p minecraft:brown_egg[max_stack_size=64]
+execute at @a run execute if items entity @p hotbar.* minecraft:blue_egg[!max_stack_size=64] run give @p minecraft:blue_egg[max_stack_size=64]
+
+execute at @a run execute if items entity @p inventory.* minecraft:egg[!max_stack_size=64] run clear @p minecraft:egg[!max_stack_size=64] 1
+execute at @a run execute if items entity @p inventory.* minecraft:blue_egg[!max_stack_size=64] run clear @p minecraft:blue_egg[!max_stack_size=64] 1
+execute at @a run execute if items entity @p inventory.* minecraft:brown_egg[!max_stack_size=64] run clear @p minecraft:brown_egg[!max_stack_size=64] 1
+execute at @a run execute if items entity @p hotbar.* minecraft:egg[!max_stack_size=64] run clear @p minecraft:egg[!max_stack_size=64] 1
+execute at @a run execute if items entity @p hotbar.* minecraft:blue_egg[!max_stack_size=64] run clear @p minecraft:blue_egg[!max_stack_size=64] 1
+execute at @a run execute if items entity @p hotbar.* minecraft:brown_egg[!max_stack_size=64] run clear @p minecraft:brown_egg[!max_stack_size=64] 1

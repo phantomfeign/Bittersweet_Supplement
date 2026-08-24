@@ -9,5 +9,6 @@ advancement revoke @s only bittersweet_functions:mob_checks/phantom_hit_player
 advancement revoke @s only bittersweet_functions:mob_checks/phantom_kill_player
 
 advancement revoke @s only bittersweet_functions:mob_checks/hurt_by_warden
+advancement revoke @s only bittersweet_functions:mob_checks/using_goat_horn
 
 advancement revoke @s only bittersweet_functions:mob_checks/hurt_by_zombie
