@@ -1,6 +1,6 @@
 #check spawned mobs that arent already checked, to see if they should spawn or be sent to the abyss
-execute as @e[type=#bittersweet_functions:mundane_hostiles,tag=!SpawnChecked,tag=!SpawnBypass] run function bittersweet_functions:mob_adjustments/spawn_filter
-execute as @e[type=#bittersweet_functions:mundane_hostiles,tag=SpawnBypass] run function bittersweet_functions:mob_adjustments/mob_changes
+execute as @e[type=!player,tag=!SpawnChecked,tag=!SpawnBypass] run function bittersweet_functions:mob_adjustments/spawn_filter
+execute as @e[type=!player,tag=SpawnBypass] run function bittersweet_functions:mob_adjustments/mob_changes
 
 #ZOMBIE BEHAVIOR
 execute as @e[type=#minecraft:zombies,predicate=bittersweet_functions:targets_player] at @s run function bittersweet_functions:mob_adjustments/zombie/chasing
@@ -34,3 +34,6 @@ execute as @e[type=minecraft:enderman,scores={PullTimer=40..}] at @s run scorebo
 execute as @e[type=minecraft:enderman] run ride @s dismount
 execute as @a[tag=Cramped] at @s if block ~ ~2 ~ minecraft:air run tag @s remove Cramped
 execute as @a[tag=!Cramped] at @s unless block ~ ~2 ~ minecraft:air run tag @s add Cramped
+
+#BO'OL O WO'A
+function bittersweet_functions:food/bottle_replace

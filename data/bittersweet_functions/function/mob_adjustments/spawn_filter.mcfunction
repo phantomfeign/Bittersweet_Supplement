@@ -1,10 +1,11 @@
 #behavior of copies
 execute if entity @s[tag=ExtraSpawn] at @s run spreadplayers ~ ~ 2 4 false @s
 
-execute if dimension minecraft:overworld if entity @s[type=minecraft:phantom] unless predicate bittersweet_functions:weather/thundering run tag @s add SpawnForbidden
-
-#checks if a mob spawn is exposed to the sky
-execute at @s run execute if dimension minecraft:overworld run execute unless entity @s[type=#minecraft:undead] if predicate bittersweet_functions:can_see_sky run tag @s add SpawnForbidden
+#ban
+execute at @s run execute if dimension minecraft:overworld run execute if entity @s[type=#bittersweet_functions:cant_spawn_surface] \
+if predicate bittersweet_functions:surface_spawn run tag @s add SpawnForbidden
+execute at @s run execute if dimension minecraft:overworld run execute if entity @s[type=#bittersweet_functions:cant_spawn_seeing_sky] \
+if predicate bittersweet_functions:can_see_sky run tag @s add SpawnForbidden
 
 #death to the babies
 execute as @s[type=#minecraft:zombies,nbt={IsBaby:1b}] run tag @s add SpawnForbidden
@@ -19,9 +20,13 @@ execute as @s[tag=SpawnForbidden,type=!minecraft:slime] run kill @s
 execute as @s if entity @s[tag=!SpawnForbidden] run function bittersweet_functions:mob_adjustments/mob_changes
 
 #make a copy
-execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 2 if predicate bittersweet_functions:spawn/chance_10 run function bittersweet_functions:mob_adjustments/copy_self
-execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 3 if predicate bittersweet_functions:spawn/chance_20 run function bittersweet_functions:mob_adjustments/copy_self
-execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 4 if predicate bittersweet_functions:spawn/chance_40 run function bittersweet_functions:mob_adjustments/copy_self
+execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 2 if predicate bittersweet_functions:spawn/chance_10 \
+run function bittersweet_functions:mob_adjustments/copy_self
+execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 3 if predicate bittersweet_functions:spawn/chance_20 \
+run function bittersweet_functions:mob_adjustments/copy_self
+execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 4 if predicate bittersweet_functions:spawn/chance_40 \
+run function bittersweet_functions:mob_adjustments/copy_self
+
 execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 5.. run function bittersweet_functions:mob_adjustments/copy_self
 
 tag @s add SpawnChecked

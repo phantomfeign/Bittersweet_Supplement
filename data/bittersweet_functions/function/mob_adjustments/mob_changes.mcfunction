@@ -27,3 +27,7 @@ scoreboard players add @s[type=minecraft:enderman] PullTimer 0
 attribute @s[type=minecraft:enderman] minecraft:attack_damage base set 0
 item replace entity @s[type=minecraft:enderman] weapon.mainhand with minecraft:wooden_axe[\
 minecraft:item_model="bittersweet_supplement:invisible",minecraft:weapon={disable_blocking_for_seconds:2.0}]
+
+#warden
+attribute @s[type=minecraft:warden] minecraft:attack_knockback base set 3
+attribute @s[type=minecraft:warden] minecraft:attack_damage base set 5

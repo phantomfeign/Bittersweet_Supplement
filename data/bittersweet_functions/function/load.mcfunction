@@ -8,6 +8,7 @@ scoreboard objectives add Time dummy
 scoreboard objectives add SleptToday dummy
 scoreboard objectives add SleepStreak dummy
 scoreboard objectives add SleepProcessed dummy
+execute as @a run scoreboard players set #sleep SleepProcessed 0
 scoreboard objectives add BloodMoonActive dummy
 
 scoreboard objectives add GoldLogic dummy

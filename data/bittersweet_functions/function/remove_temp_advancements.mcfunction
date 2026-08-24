@@ -1,10 +1,13 @@
 advancement revoke @s only bittersweet_functions:weapon/used_fang_radius
 advancement revoke @s only bittersweet_functions:weapon/used_fang_straight
+
 advancement revoke @s only bittersweet_functions:weapon/using_shield
+
 advancement revoke @s only bittersweet_functions:mob_checks/lantern_placed_for_phantom
 advancement revoke @s only bittersweet_functions:mob_checks/phantom_crit
 advancement revoke @s only bittersweet_functions:mob_checks/phantom_hit_player
+advancement revoke @s only bittersweet_functions:mob_checks/phantom_kill_player
+
+advancement revoke @s only bittersweet_functions:mob_checks/hurt_by_warden
+
 advancement revoke @s only bittersweet_functions:mob_checks/hurt_by_zombie
-advancement revoke @s only bittersweet_functions:food/honey_harvest
-advancement revoke @s only bittersweet_functions:food/water_collect
-scoreboard players set #sleep SleepProcessed 0

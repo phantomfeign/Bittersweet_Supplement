@@ -7,11 +7,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "count": {
-                "type": "minecraft:binomial",
-                "n": 3,
-                "p": 0.53333336
-              },
+              "count": 4,
               "function": "minecraft:set_count"
             },
             {
@@ -63,5 +59,5 @@
       "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:blocks/attached_melon_stem"
+  "random_sequence": "minecraft:blocks/melon"
 }

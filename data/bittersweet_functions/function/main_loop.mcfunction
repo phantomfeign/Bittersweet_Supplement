@@ -28,3 +28,4 @@ execute if score #NightTerror NightTerrorAlive matches 1 unless entity @e[type=m
 #elder guardian water breathing
 execute as @e[type=elder_guardian] at @s run effect give @a[distance=..50] water_breathing 2 0 true
 
+execute as @a run function bittersweet_functions:remove_temp_advancements

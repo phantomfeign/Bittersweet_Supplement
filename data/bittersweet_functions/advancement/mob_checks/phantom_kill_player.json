@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"kill": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"killing_blow": {
+					"direct_entity": {
+						"minecraft:entity_tags": {
+							"all_of": [
+								"NightTerror"
+							]
+						}
+					},
+					"is_direct": true
+				}
+			}
+		}
+	},
+	"rewards": {
+        "function":"bittersweet_functions:mob_adjustments/phantom/phantom_heal"
+    }
+}

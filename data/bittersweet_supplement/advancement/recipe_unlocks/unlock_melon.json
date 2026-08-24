@@ -1,14 +1,13 @@
 {
   "criteria": {
-    "get_mace_ingredients": {
+    "MELON": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:breeze_rod",
-              "minecraft:breeze_spawn_egg",
-              "minecraft:heavy_core"
+              "minecraft:melon",
+              "minecraft:melon_slice"
             ]
           }
         ]
@@ -17,7 +16,8 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:crafting/wind_mace"
+      "bittersweet_supplement:crafting/melon_to_slice",
+      "minecraft:melon"
     ]
   }
 }

@@ -1,0 +1,13 @@
+{
+    "values": [
+        "minecraft:creeper",
+        "minecraft:enderman",
+        "minecraft:witch",
+
+        "minecraft:cave_spider",
+        "minecraft:spider",
+        "minecraft:slime",
+        "minecraft:silverfish",
+        "minecraft:phantom"
+    ]
+}
