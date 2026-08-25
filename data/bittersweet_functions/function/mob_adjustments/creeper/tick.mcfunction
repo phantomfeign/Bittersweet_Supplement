@@ -10,8 +10,7 @@ execute as @a at @s anchored eyes positioned ^ ^ ^24 if entity @e[type=minecraft
 #frozen behavior
 execute as @e[type=minecraft:creeper,tag=Watched] run effect give @s minecraft:slowness infinite 255 true
 execute as @e[type=minecraft:creeper,tag=Watched] run rotate @s facing entity @p eyes
-execute as @e[type=minecraft:creeper,tag=Watched,tag=!StaredAt] run playsound ambient.cave hostile @a ~ ~ ~ 5 1
-execute as @e[type=minecraft:creeper,tag=Watched,tag=!StaredAt] run tag @s add StaredAt
+execute as @e[type=minecraft:creeper,tag=Watched,tag=!StaredAt] at @s run function bittersweet_functions:mob_adjustments/creeper/sting_sound
 
 #unfrozen behavior
 execute as @e[type=minecraft:creeper,tag=!Watched] run effect clear @s minecraft:slowness

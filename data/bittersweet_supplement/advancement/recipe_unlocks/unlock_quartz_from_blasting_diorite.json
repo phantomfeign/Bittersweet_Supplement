@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "get_nether_star": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diorite"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:smelting/quartz_from_blasting_diorite"
+    ]
+  }
+}

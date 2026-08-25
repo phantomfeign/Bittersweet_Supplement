@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_ender_chest_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:obsidian",
+                "minecraft:diamond"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/ender_chest"
+    ]
+  }
+}

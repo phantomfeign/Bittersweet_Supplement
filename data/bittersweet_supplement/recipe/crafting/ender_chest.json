@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:obsidian",
+    "D": "minecraft:diamond",
+    "X": "minecraft:chest"
+  },
+  "pattern": [
+    "#D#",
+    "DXD",
+    "#D#"
+  ],
+  "result": {
+    "id": "minecraft:ender_chest"
+  }
+}
