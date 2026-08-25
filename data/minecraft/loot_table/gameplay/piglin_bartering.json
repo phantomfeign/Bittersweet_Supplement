@@ -16,6 +16,11 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:ghast_tear",
+					"weight": 4
+				},
+                {
+					"type": "minecraft:item",
 					"functions": [
 						{
 							"function": "minecraft:set_potion",
