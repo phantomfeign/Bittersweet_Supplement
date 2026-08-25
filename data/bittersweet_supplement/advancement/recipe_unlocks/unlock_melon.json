@@ -16,7 +16,7 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:crafting/melon_to_slice",
+      "bittersweet_supplement:food/melon_to_slice",
       "minecraft:melon"
     ]
   }
