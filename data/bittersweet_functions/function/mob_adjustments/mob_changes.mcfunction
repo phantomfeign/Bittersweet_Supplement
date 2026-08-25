@@ -18,9 +18,9 @@ attribute @s[type=minecraft:skeleton,tag=AxeGiven] minecraft:attack_damage base 
 tag @s[type=minecraft:skeleton] add AxeChecked
 
 #creeper fuses reset for custom explosions
-execute as @s[type=creeper] run data modify entity @s ExplosionRadius set value 0b
-execute as @s[type=creeper,tag=!marked_creeper] run effect give @s minecraft:luck infinite 99 true
-execute as @s[type=creeper,tag=!marked_creeper] run tag @s add marked_creeper
+execute as @s[type=minecraft:creeper] run data modify entity @s ExplosionRadius set value 0b
+execute as @s[type=minecraft:creeper] run data modify entity @s Fuse set value 20
+execute as @s[type=minecraft:creeper] run effect give @s minecraft:luck infinite 99 true
 
 #enderman
 scoreboard players add @s[type=minecraft:enderman] PullTimer 0
