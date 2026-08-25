@@ -3,7 +3,7 @@
   "key": {
     "#": "minecraft:obsidian",
     "D": "minecraft:diamond",
-    "X": "minecraft:chest"
+    "X": "minecraft:ender_pearl"
   },
   "pattern": [
     "#D#",

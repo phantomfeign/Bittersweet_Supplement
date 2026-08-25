@@ -132,6 +132,14 @@
     }
     ,
     {
+
+      },{
+      "namespace": "minecraft",
+      "path": "recipe/ender_chest"
+
+    }
+    ,
+    {
   
       "namespace": "minecraft",
       "path": "recipe/leather_helmet"
@@ -205,6 +213,9 @@
     ,
     {
 
+      "namespace": "minecraft",
+      "path": "recipe/netherite_upgrade_smithing_template"
+    },{
       "namespace": "minecraft",
       "path": "recipe/netherite_spear_smithing"
     },{
