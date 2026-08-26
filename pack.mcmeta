@@ -40,1014 +40,1007 @@
     {
 
       "namespace": "minecraft",
-      "path": "recipe/suspicious_stew"
+      "path": "^recipe/suspicious_stew\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/pumpkin_pie"
+      "path": "^recipe/pumpkin_pie\\.json$"
     },{
         "namespace": "minecraft",
-      "path": "recipe/rabbit_stew_from_brown_mushroom"
+      "path": "^recipe/rabbit_stew_from_brown_mushroom\\.json$"
     },{
         "namespace": "minecraft",
-      "path": "recipe/rabbit_stew_from_red_mushroom"
+      "path": "^recipe/rabbit_stew_from_red_mushroom\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/beetroot_soup"
+      "path": "^recipe/beetroot_soup\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/bread"
+      "path": "^recipe/bread\\.json$"
     },{
         "namespace": "minecraft",
-      "path": "recipe/golden_carrot"
+      "path": "^recipe/golden_carrot\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/golden_apple"
+      "path": "^recipe/golden_apple\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cookie"
+      "path": "^recipe/cookie\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/honey_bottle"
+      "path": "^recipe/honey_bottle\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/baked_potato"
+      "path": "^recipe/baked_potato\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/baked_potato_from_smoking"
+      "path": "^recipe/baked_potato_from_smoking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/baked_potato_from_campfire_cooking"
+      "path": "^recipe/baked_potato_from_campfire_cooking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_beef_from_smoking"
+      "path": "^recipe/cooked_beef_from_smoking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_beef_from_campfire_cooking"
+      "path": "^recipe/cooked_beef_from_campfire_cooking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_chicken_from_smoking"
+      "path": "^recipe/cooked_chicken_from_smoking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_chicken_from_campfire_cooking"
+      "path": "^recipe/cooked_chicken_from_campfire_cooking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_mutton_from_smoking"
+      "path": "^recipe/cooked_mutton_from_smoking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_mutton_from_campfire_cooking"
+      "path": "^recipe/cooked_mutton_from_campfire_cooking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_porkchop_from_smoking"
+      "path": "^recipe/cooked_porkchop_from_smoking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_porkchop_from_campfire_cooking"
+      "path": "^recipe/cooked_porkchop_from_campfire_cooking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_rabbit_from_smoking"
+      "path": "^recipe/cooked_rabbit_from_smoking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_rabbit_from_campfire_cooking"
+      "path": "^recipe/cooked_rabbit_from_campfire_cooking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_cod_from_smoking"
+      "path": "^recipe/cooked_cod_from_smoking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_cod_from_campfire_cooking"
+      "path": "^recipe/cooked_cod_from_campfire_cooking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_salmon_from_smoking"
+      "path": "^recipe/cooked_salmon_from_smoking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cooked_salmon_from_campfire_cooking"
+      "path": "^recipe/cooked_salmon_from_campfire_cooking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/dried_kelp"
+      "path": "^recipe/dried_kelp\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/dried_kelp_from_smoking"
+      "path": "^recipe/dried_kelp_from_smoking\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/dried_kelp_from_campfire_cooking"
+      "path": "^recipe/dried_kelp_from_campfire_cooking\\.json$"
 
-    }
-    ,
-    {
-
-      },{
-      "namespace": "minecraft",
-      "path": "recipe/ender_chest"
 
     }
     ,
     {
   
       "namespace": "minecraft",
-      "path": "recipe/leather_helmet"
+      "path": "^recipe/leather_helmet\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/leather_chestplate"
+      "path": "^recipe/leather_chestplate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/leather_leggings"
+      "path": "^recipe/leather_leggings\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/leather_boots"
+      "path": "^recipe/leather_boots\\.json$"
     
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/wooden_spear"
+      "path": "^recipe/wooden_spear\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/wooden_sword"
+      "path": "^recipe/wooden_sword\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/wooden_pickaxe"
+      "path": "^recipe/wooden_pickaxe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/wooden_axe"
+      "path": "^recipe/wooden_axe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/wooden_shovel"
+      "path": "^recipe/wooden_shovel\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/wooden_hoe"
+      "path": "^recipe/wooden_hoe\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/copper_spear"
+      "path": "^recipe/copper_spear\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/copper_sword"
+      "path": "^recipe/copper_sword\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/copper_axe"
+      "path": "^recipe/copper_axe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/copper_pickaxe"
+      "path": "^recipe/copper_pickaxe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/copper_shovel"
+      "path": "^recipe/copper_shovel\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/copper_hoe"
+      "path": "^recipe/copper_hoe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/copper_helmet"
+      "path": "^recipe/copper_helmet\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/copper_chestplate"
+      "path": "^recipe/copper_chestplate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/copper_leggings"
+      "path": "^recipe/copper_leggings\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/copper_boots"
+      "path": "^recipe/copper_boots\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/netherite_upgrade_smithing_template"
+      "path": "^recipe/netherite_upgrade_smithing_template\\.json$"
+    },{      
+      "namespace": "minecraft",
+      "path": "^recipe/netherite_spear_smithing\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/netherite_spear_smithing"
+      "path": "^recipe/netherite_sword_smithing\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/netherite_sword_smithing"
+      "path": "^recipe/netherite_axe_smithing\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/netherite_axe_smithing"
+      "path": "^recipe/netherite_pickaxe_smithing\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/netherite_pickaxe_smithing"
+      "path": "^recipe/netherite_shovel_smithing\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/netherite_shovel_smithing"
+      "path": "^recipe/netherite_hoe_smithing\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/netherite_hoe_smithing"
+      "path": "^recipe/netherite_helmet_smithing\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/netherite_helmet_smithing"
+      "path": "^recipe/netherite_chestplate_smithing\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/netherite_chestplate_smithing"
+      "path": "^recipe/netherite_leggings_smithing\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/netherite_leggings_smithing"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/netherite_boots_smithing"
+      "path": "^recipe/netherite_boots_smithing\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/golden_spear"
+      "path": "^recipe/golden_spear\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/golden_sword"
+      "path": "^recipe/golden_sword\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/golden_axe"
+      "path": "^recipe/golden_axe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/golden_pickaxe"
+      "path": "^recipe/golden_pickaxe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/golden_shovel"
+      "path": "^recipe/golden_shovel\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/golden_hoe"
+      "path": "^recipe/golden_hoe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/golden_helmet"
+      "path": "^recipe/golden_helmet\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/golden_chestplate"
+      "path": "^recipe/golden_chestplate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/golden_leggings"
+      "path": "^recipe/golden_leggings\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/golden_boots"
+      "path": "^recipe/golden_boots\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/iron_spear"
+      "path": "^recipe/iron_spear\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/iron_sword"
+      "path": "^recipe/iron_sword\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/iron_axe"
+      "path": "^recipe/iron_axe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/iron_pickaxe"
+      "path": "^recipe/iron_pickaxe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/iron_shovel"
+      "path": "^recipe/iron_shovel\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/iron_hoe"
+      "path": "^recipe/iron_hoe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/iron_helmet"
+      "path": "^recipe/iron_helmet\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/iron_chestplate"
+      "path": "^recipe/iron_chestplate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/iron_leggings"
+      "path": "^recipe/iron_leggings\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/iron_boots"
+      "path": "^recipe/iron_boots\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/iron_ingot_from_smelting_raw_iron"
+      "path": "^recipe/iron_ingot_from_smelting_raw_iron\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/gold_ingot_from_smelting_raw_gold"
+      "path": "^recipe/gold_ingot_from_smelting_raw_gold\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/enchanting_table"
+      "path": "^recipe/enchanting_table\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipes/cooked_.*"
+      "path": "recipes/cooked_.*\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipes/baked_potato"
+      "path": "recipes/baked_potato\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipes/dried_kelp.*"
+      "path": "recipes/dried_kelp\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/stone_spear"
+      "path": "^recipe/stone_spear\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/stone_sword"
+      "path": "^recipe/stone_sword\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/stone_axe"
+      "path": "^recipe/stone_axe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/stone_pickaxe"
+      "path": "^recipe/stone_pickaxe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/stone_shovel"
+      "path": "^recipe/stone_shovel\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/stone_hoe"
+      "path": "^recipe/stone_hoe\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/diamond_spear"
+      "path": "^recipe/diamond_spear\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/diamond_sword"
+      "path": "^recipe/diamond_sword\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/diamond_axe"
+      "path": "^recipe/diamond_axe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/diamond_pickaxe"
+      "path": "^recipe/diamond_pickaxe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/diamond_shovel"
+      "path": "^recipe/diamond_shovel\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/diamond_hoe"
+      "path": "^recipe/diamond_hoe\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/diamond_helmet"
+      "path": "^recipe/diamond_helmet\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/diamond_chestplate"
+      "path": "^recipe/diamond_chestplate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/diamond_leggings"
+      "path": "^recipe/diamond_leggings\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/diamond_boots"
+      "path": "^recipe/diamond_boots\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/mace"
+      "path": "^recipe/mace\\.json$"
 
     }
     ,
     {    
       "namespace": "minecraft",
-      "path":"recipe/smoker"
+      "path":"^recipe/smoker\\.json$"
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/oak_stairs"
+      "path": "^recipe/oak_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/oak_slab"
+      "path": "^recipe/oak_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/oak_pressure_plate"
+      "path": "^recipe/oak_pressure_plate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/oak_trapdoor"
+      "path": "^recipe/oak_trapdoor\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/oak_door"
+      "path": "^recipe/oak_door\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/oak_fence"
+      "path": "^recipe/oak_fence\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/oak_fence_gate"
-
-    }
-    ,
-    {
-
-      "namespace": "minecraft",
-      "path": "recipe/spruce_stairs"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/spruce_slab"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/spruce_pressure_plate"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/spruce_trapdoor"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/spruce_door"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/spruce_fence"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/spruce_fence_gate"
+      "path": "^recipe/oak_fence_gate\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/birch_stairs"
+      "path": "^recipe/spruce_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/birch_slab"
+      "path": "^recipe/spruce_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/birch_pressure_plate"
+      "path": "^recipe/spruce_pressure_plate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/birch_trapdoor"
+      "path": "^recipe/spruce_trapdoor\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/birch_door"
+      "path": "^recipe/spruce_door\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/birch_fence"
+      "path": "^recipe/spruce_fence\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/birch_fence_gate"
+      "path": "^recipe/spruce_fence_gate\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/jungle_stairs"
+      "path": "^recipe/birch_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/jungle_slab"
+      "path": "^recipe/birch_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/jungle_pressure_plate"
+      "path": "^recipe/birch_pressure_plate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/jungle_trapdoor"
+      "path": "^recipe/birch_trapdoor\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/jungle_door"
+      "path": "^recipe/birch_door\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/jungle_fence"
+      "path": "^recipe/birch_fence\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/jungle_fence_gate"
+      "path": "^recipe/birch_fence_gate\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/acacia_stairs"
+      "path": "^recipe/jungle_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/acacia_slab"
+      "path": "^recipe/jungle_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/acacia_pressure_plate"
+      "path": "^recipe/jungle_pressure_plate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/acacia_trapdoor"
+      "path": "^recipe/jungle_trapdoor\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/acacia_door"
+      "path": "^recipe/jungle_door\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/acacia_fence"
+      "path": "^recipe/jungle_fence\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/acacia_fence_gate"
+      "path": "^recipe/jungle_fence_gate\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/dark_oak_stairs"
+      "path": "^recipe/acacia_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/dark_oak_slab"
+      "path": "^recipe/acacia_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/dark_oak_pressure_plate"
+      "path": "^recipe/acacia_pressure_plate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/dark_oak_trapdoor"
+      "path": "^recipe/acacia_trapdoor\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/dark_oak_door"
+      "path": "^recipe/acacia_door\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/dark_oak_fence"
+      "path": "^recipe/acacia_fence\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/dark_oak_fence_gate"
+      "path": "^recipe/acacia_fence_gate\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/mangrove_stairs"
+      "path": "^recipe/dark_oak_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/mangrove_slab"
+      "path": "^recipe/dark_oak_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/mangrove_pressure_plate"
+      "path": "^recipe/dark_oak_pressure_plate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/mangrove_trapdoor"
+      "path": "^recipe/dark_oak_trapdoor\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/mangrove_door"
+      "path": "^recipe/dark_oak_door\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/mangrove_fence"
+      "path": "^recipe/dark_oak_fence\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/mangrove_fence_gate"
+      "path": "^recipe/dark_oak_fence_gate\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/cherry_stairs"
+      "path": "^recipe/mangrove_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cherry_slab"
+      "path": "^recipe/mangrove_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cherry_pressure_plate"
+      "path": "^recipe/mangrove_pressure_plate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cherry_trapdoor"
+      "path": "^recipe/mangrove_trapdoor\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cherry_door"
+      "path": "^recipe/mangrove_door\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cherry_fence"
+      "path": "^recipe/mangrove_fence\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cherry_fence_gate"
+      "path": "^recipe/mangrove_fence_gate\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/bamboo_stairs"
+      "path": "^recipe/cherry_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/bamboo_slab"
+      "path": "^recipe/cherry_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/bamboo_pressure_plate"
+      "path": "^recipe/cherry_pressure_plate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/bamboo_trapdoor"
+      "path": "^recipe/cherry_trapdoor\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/bamboo_door"
+      "path": "^recipe/cherry_door\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/bamboo_fence"
+      "path": "^recipe/cherry_fence\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/bamboo_fence_gate"
+      "path": "^recipe/cherry_fence_gate\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/crimson_stairs"
+      "path": "^recipe/bamboo_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/crimson_slab"
+      "path": "^recipe/bamboo_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/crimson_trapdoor"
+      "path": "^recipe/bamboo_pressure_plate\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/crimson_door"
+      "path": "^recipe/bamboo_trapdoor\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/crimson_fence"
+      "path": "^recipe/bamboo_door\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/crimson_fence_gate"
+      "path": "^recipe/bamboo_fence\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/bamboo_fence_gate\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/warped_stairs"
+      "path": "^recipe/crimson_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/warped_slab"
+      "path": "^recipe/crimson_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/warped_trapdoor"
+      "path": "^recipe/crimson_trapdoor\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/warped_door"
+      "path": "^recipe/crimson_door\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/warped_fence"
+      "path": "^recipe/crimson_fence\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/warped_fence_gate"
+      "path": "^recipe/crimson_fence_gate\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/stone_stairs"
+      "path": "^recipe/warped_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/stone_slab"
+      "path": "^recipe/warped_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cobblestone_stairs"
+      "path": "^recipe/warped_trapdoor\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cobblestone_slab"
+      "path": "^recipe/warped_door\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/mossy_cobblestone_stairs"
+      "path": "^recipe/warped_fence\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/mossy_cobblestone_slab"
+      "path": "^recipe/warped_fence_gate\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/stone_brick_stairs"
+      "path": "^recipe/stone_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/stone_brick_slab"
+      "path": "^recipe/stone_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/mossy_stone_brick_stairs"
+      "path": "^recipe/cobblestone_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/mossy_stone_brick_slab"
+      "path": "^recipe/cobblestone_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/deepslate_brick_stairs"
+      "path": "^recipe/mossy_cobblestone_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/deepslate_brick_slab"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/deepslate_tile_stairs"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/deepslate_tile_slab"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/nether_brick_stairs"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/nether_brick_slab"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/red_nether_brick_stairs"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/red_nether_brick_slab"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/polished_blackstone_brick_stairs"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/polished_blackstone_brick_slab"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/prismarine_brick_stairs"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/prismarine_brick_slab"
+      "path": "^recipe/mossy_cobblestone_slab\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/granite_stairs"
+      "path": "^recipe/stone_brick_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/granite_slab"
+      "path": "^recipe/stone_brick_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/diorite_stairs"
+      "path": "^recipe/mossy_stone_brick_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/diorite_slab"
+      "path": "^recipe/mossy_stone_brick_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/andesite_stairs"
+      "path": "^recipe/deepslate_brick_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/andesite_slab"
+      "path": "^recipe/deepslate_brick_slab\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/deepslate_tile_stairs\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/deepslate_tile_slab\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/nether_brick_stairs\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/nether_brick_slab\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/red_nether_brick_stairs\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/red_nether_brick_slab\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/polished_blackstone_brick_stairs\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/polished_blackstone_brick_slab\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/prismarine_brick_stairs\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/prismarine_brick_slab\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/cobbled_deepslate_stairs"
+      "path": "^recipe/granite_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cobbled_deepslate_slab"
+      "path": "^recipe/granite_slab\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/diorite_stairs\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/diorite_slab\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/andesite_stairs\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/andesite_slab\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/polished_granite_stairs"
+      "path": "^recipe/cobbled_deepslate_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/polished_granite_slab"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/polished_diorite_stairs"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/polished_diorite_slab"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/polished_andesite_stairs"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/polished_andesite_slab"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/polished_deepslate_stairs"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/polished_deepslate_slab"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/polished_blackstone_stairs"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/polished_blackstone_slab"
+      "path": "^recipe/cobbled_deepslate_slab\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/blackstone_stairs"
+      "path": "^recipe/polished_granite_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/blackstone_slab"
+      "path": "^recipe/polished_granite_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/blackstone_brick_stairs"
+      "path": "^recipe/polished_diorite_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/blackstone_brick_slab"
+      "path": "^recipe/polished_diorite_slab\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/polished_andesite_stairs\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/polished_andesite_slab\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/polished_deepslate_stairs\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/polished_deepslate_slab\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/polished_blackstone_stairs\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/polished_blackstone_slab\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/purpur_stairs"
+      "path": "^recipe/blackstone_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/purpur_slab"
+      "path": "^recipe/blackstone_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/quartz_stairs"
+      "path": "^recipe/blackstone_brick_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/quartz_slab"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/smooth_quartz_stairs"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/smooth_quartz_slab"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/prismarine_stairs"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/prismarine_slab"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/dark_prismarine_stairs"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/dark_prismarine_slab"
+      "path": "^recipe/blackstone_brick_slab"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/stone_stairs_from_stone_stonecutting"
+      "path": "^recipe/purpur_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/stone_slab_from_stone_stonecutting"
+      "path": "^recipe/purpur_slab\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/stone_brick_stairs_from_stone_stonecutting"
+      "path": "^recipe/quartz_stairs\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/stone_brick_slab_from_stone_stonecutting"
+      "path": "^recipe/quartz_slab\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/smooth_quartz_stairs\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/smooth_quartz_slab\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/prismarine_stairs\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/prismarine_slab\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/dark_prismarine_stairs\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/dark_prismarine_slab\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/cobblestone_stairs_from_cobblestone_stonecutting"
+      "path": "^recipe/stone_stairs_from_stone_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cobblestone_slab_from_cobblestone_stonecutting"
+      "path": "^recipe/stone_slab_from_stone_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting"
+      "path": "^recipe/stone_brick_stairs_from_stone_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting"
+      "path": "^recipe/stone_brick_slab_from_stone_stonecutting\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/granite_stairs_from_granite_stonecutting"
+      "path": "^recipe/cobblestone_stairs_from_cobblestone_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/granite_slab_from_granite_stonecutting"
+      "path": "^recipe/cobblestone_slab_from_cobblestone_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/polished_granite_stairs_from_polished_granite_stonecutting"
+      "path": "^recipe/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/polished_granite_slab_from_polished_granite_stonecutting"
+      "path": "^recipe/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/diorite_stairs_from_diorite_stonecutting"
+      "path": "^recipe/granite_stairs_from_granite_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/diorite_slab_from_diorite_stonecutting"
+      "path": "^recipe/granite_slab_from_granite_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/polished_diorite_stairs_from_polished_diorite_stonecutting"
+      "path": "^recipe/polished_granite_stairs_from_polished_granite_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/polished_diorite_slab_from_polished_diorite_stonecutting"
+      "path": "^recipe/polished_granite_slab_from_polished_granite_stonecutting\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/andesite_stairs_from_andesite_stonecutting"
+      "path": "^recipe/diorite_stairs_from_diorite_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/andesite_slab_from_andesite_stonecutting"
+      "path": "^recipe/diorite_slab_from_diorite_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/polished_andesite_stairs_from_polished_andesite_stonecutting"
+      "path": "^recipe/polished_diorite_stairs_from_polished_diorite_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/polished_andesite_slab_from_polished_andesite_stonecutting"
+      "path": "^recipe/polished_diorite_slab_from_polished_diorite_stonecutting\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting"
+      "path": "^recipe/andesite_stairs_from_andesite_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting"
+      "path": "^recipe/andesite_slab_from_andesite_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/polished_deepslate_stairs_from_polished_deepslate_stonecutting"
+      "path": "^recipe/polished_andesite_stairs_from_polished_andesite_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/polished_deepslate_slab_from_polished_deepslate_stonecutting"
+      "path": "^recipe/polished_andesite_slab_from_polished_andesite_stonecutting\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/deepslate_brick_stairs_from_deepslate_bricks_stonecutting"
+      "path": "^recipe/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/deepslate_brick_slab_from_deepslate_bricks_stonecutting"
+      "path": "^recipe/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/deepslate_tile_stairs_from_deepslate_tiles_stonecutting"
+      "path": "^recipe/polished_deepslate_stairs_from_polished_deepslate_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/deepslate_tile_slab_from_deepslate_tiles_stonecutting"
+      "path": "^recipe/polished_deepslate_slab_from_polished_deepslate_stonecutting\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/nether_brick_stairs_from_nether_bricks_stonecutting"
+      "path": "^recipe/deepslate_brick_stairs_from_deepslate_bricks_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/nether_brick_slab_from_nether_bricks_stonecutting"
+      "path": "^recipe/deepslate_brick_slab_from_deepslate_bricks_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/red_nether_brick_stairs_from_red_nether_bricks_stonecutting"
+      "path": "^recipe/deepslate_tile_stairs_from_deepslate_tiles_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/red_nether_brick_slab_from_red_nether_bricks_stonecutting"
+      "path": "^recipe/deepslate_tile_slab_from_deepslate_tiles_stonecutting\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/blackstone_stairs_from_blackstone_stonecutting"
+      "path": "^recipe/nether_brick_stairs_from_nether_bricks_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/blackstone_slab_from_blackstone_stonecutting"
+      "path": "^recipe/nether_brick_slab_from_nether_bricks_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/polished_blackstone_stairs_from_polished_blackstone_stonecutting"
+      "path": "^recipe/red_nether_brick_stairs_from_red_nether_bricks_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/polished_blackstone_slab_from_polished_blackstone_stonecutting"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting"
-    },{
-      "namespace": "minecraft",
-      "path": "recipe/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting"
+      "path": "^recipe/red_nether_brick_slab_from_red_nether_bricks_stonecutting\\.json$"
 
     }
     ,
     {
 
       "namespace": "minecraft",
-      "path": "recipe/purpur_stairs_from_purpur_block_stonecutting"
+      "path": "^recipe/blackstone_stairs_from_blackstone_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/purpur_slab_from_purpur_block_stonecutting"
+      "path": "^recipe/blackstone_slab_from_blackstone_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/quartz_stairs_from_quartz_block_stonecutting"
+      "path": "^recipe/polished_blackstone_stairs_from_polished_blackstone_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/quartz_slab_from_quartz_block_stonecutting"
+      "path": "^recipe/polished_blackstone_slab_from_polished_blackstone_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/smooth_quartz_stairs_from_smooth_quartz_stonecutting"
+      "path": "^recipe/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/smooth_quartz_slab_from_smooth_quartz_stonecutting"
+      "path": "^recipe/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting\\.json$"
+
+    }
+    ,
+    {
+
+      "namespace": "minecraft",
+      "path": "^recipe/purpur_stairs_from_purpur_block_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/prismarine_stairs_from_prismarine_stonecutting"
+      "path": "^recipe/purpur_slab_from_purpur_block_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/prismarine_slab_from_prismarine_stonecutting"
+      "path": "^recipe/quartz_stairs_from_quartz_block_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/prismarine_brick_stairs_from_prismarine_bricks_stonecutting"
+      "path": "^recipe/quartz_slab_from_quartz_block_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/prismarine_brick_slab_from_prismarine_bricks_stonecutting"
+      "path": "^recipe/smooth_quartz_stairs_from_smooth_quartz_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/dark_prismarine_stairs_from_dark_prismarine_stonecutting"
+      "path": "^recipe/smooth_quartz_slab_from_smooth_quartz_stonecutting\\.json$"
     },{
       "namespace": "minecraft",
-      "path": "recipe/dark_prismarine_slab_from_dark_prismarine_stonecutting"
+      "path": "^recipe/prismarine_stairs_from_prismarine_stonecutting\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/prismarine_slab_from_prismarine_stonecutting\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/prismarine_brick_stairs_from_prismarine_bricks_stonecutting\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/prismarine_brick_slab_from_prismarine_bricks_stonecutting\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/dark_prismarine_stairs_from_dark_prismarine_stonecutting\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/dark_prismarine_slab_from_dark_prismarine_stonecutting\\.json$"
     }
 
     ]

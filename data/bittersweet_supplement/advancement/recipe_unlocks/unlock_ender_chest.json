@@ -17,7 +17,7 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:crafting/ender_chest"
+      "minecraft:ender_chest"
     ]
   }
 }
