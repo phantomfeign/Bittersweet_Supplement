@@ -3,6 +3,8 @@ tellraw @a {"text":"Lost? Check the Advancement Menu!","color":"#9fa654"}
 
 function bittersweet_functions:main_loop
 execute as @a run function bittersweet_functions:remove_temp_advancements
+
+#sleep
 scoreboard objectives add Day dummy
 scoreboard objectives add Time dummy
 scoreboard objectives add SleptToday dummy
@@ -10,6 +12,11 @@ scoreboard objectives add SleepStreak dummy
 scoreboard objectives add SleepProcessed dummy
 execute as @a run scoreboard players set #sleep SleepProcessed 0
 scoreboard objectives add BloodMoonActive dummy
+
+#anvil
+stopwatch create anvil_timer
+scoreboard objectives add anvil_interaction minecraft.custom:minecraft.interact_with_anvil
+scoreboard players set 0 anvil_interaction 0
 
 scoreboard objectives add GoldLogic dummy
 scoreboard objectives add BloodSoakedLogic dummy

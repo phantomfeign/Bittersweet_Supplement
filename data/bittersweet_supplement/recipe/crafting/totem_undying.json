@@ -1,5 +1,6 @@
 {
 	"type": "minecraft:crafting_shaped",
+  "category": "equipment",
 	"key": {
 		"#": "minecraft:nether_star",
 		"E": "minecraft:echo_shard",

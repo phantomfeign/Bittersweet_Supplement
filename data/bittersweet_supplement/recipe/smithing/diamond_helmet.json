@@ -7,8 +7,11 @@
       "components": {
       "minecraft:max_damage": 600,
       "minecraft:damage": 0,
-			"!minecraft:attribute_modifiers": {}
-
+			"!minecraft:attribute_modifiers": {},
+      "minecraft:equippable": {
+				"slot": "head",
+				"equip_sound": "minecraft:item.armor.equip_diamond"
+      }
     }
   },
   "template": "minecraft:chicken_spawn_egg"

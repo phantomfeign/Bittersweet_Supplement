@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
   "group":"scaffolding",
-  "category": "equipment",
   "pattern": [
     "G#G",
     "G G",

@@ -1,33 +1,32 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "ingredients": [
-    "minecraft:bowl",
-    "minecraft:beetroot",
-    "minecraft:beetroot",
-    "minecraft:beetroot",
-    "minecraft:beetroot",
-    "minecraft:beetroot",
-    "minecraft:beetroot",
-    "minecraft:beetroot",
-    "minecraft:beetroot"
+  "pattern": [
+  "BB",
+  "ME",
+  "BB"
   ],
+  "key": {
+    "B": "minecraft:bread",
+    "M": "#bittersweet_supplement:food/cooked_big_game",
+    "E": "#minecraft:eggs"
+  },
   "result": {
-    "id": "minecraft:beetroot_soup",
+    "id": "minecraft:poisonous_potato",
 "components": {
   "minecraft:lore": [
     {
-      "text": "❤❤❤❤",
+      "text": "❤❤❤❤❤",
       "color": "#54d877",
       "italic": false
     },
     {
-      "text": "A gentle warmth slowly settles",
+      "text": "A soothing warmth courses steadily",
       "color": "white",
       "italic": false
     },
     {
-      "text": "in as you indulge yourself.",
+      "text": "within as you indulge yourself.",
       "color": "white",
       "italic": false
     }
@@ -40,8 +39,8 @@
         "effects": [
           {
             "id": "minecraft:regeneration",
-            "amplifier": 0,
-            "duration": 400,
+            "amplifier": 1,
+            "duration": 125,
                 "show_particles": false
           }
         ]

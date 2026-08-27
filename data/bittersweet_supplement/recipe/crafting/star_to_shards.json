@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "show_notification": false,
-  "category": "building",
+  "category": "equipment",
   "ingredients": [
     [
       "minecraft:nether_star"

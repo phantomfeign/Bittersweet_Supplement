@@ -6,6 +6,12 @@ execute at @a if score @p Hunger matches ..6 run effect give @p minecraft:satura
 #check for gold on top of gold equipment
 execute as @e[type=item] at @s if items entity @s contents #bittersweet_functions:gold_tool run function bittersweet_functions:gold_repair/check_gold
 
+#reset exp
+execute unless stopwatch anvil_timer ..20 run tag @a[tag=UsingAnvil] remove UsingAnvil
+execute as @a[tag=!UsingAnvil] at @s run experience set @s 0 levels
+execute as @a[tag=!UsingAnvil] at @s run experience set @s 0 points
+execute as @a[tag=UsingAnvil] at @s run experience set @s 54 levels
+
 #night terror weather effects
 execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run weather thunder
 execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run time set minecraft:midnight

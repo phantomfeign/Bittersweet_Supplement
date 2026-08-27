@@ -1,4 +1,4 @@
-effect clear @a[distance=..6] minecraft:luck
+effect clear @a[distance=..8] minecraft:luck
 effect clear @s minecraft:luck
 
 #poison

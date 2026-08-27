@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "show_notification": false,
-  "category": "building",
+  "category": "equipment",
   "pattern": [
     "SSS",
     "SSS",

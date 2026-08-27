@@ -7,7 +7,7 @@ execute as @e[type=#minecraft:zombies,predicate=bittersweet_functions:targets_pl
 
 #CREEPER BEHAVIOR
 execute as @e[type=minecraft:creeper] run function bittersweet_functions:mob_adjustments/creeper/tick
-execute as @e[type=area_effect_cloud,tag=!creeper_aec_check] run function bittersweet_functions:mob_adjustments/creeper/aec_check
+execute at @e[type=area_effect_cloud,tag=!creeper_aec_check] run function bittersweet_functions:mob_adjustments/creeper/aec_check
 
 #PHANTOM BEHAVIOR
 #Night Terror's bossbar

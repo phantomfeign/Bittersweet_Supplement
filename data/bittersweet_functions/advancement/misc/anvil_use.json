@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"inventory_changed": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {}
+		}
+	},
+	"requirements": [
+		[
+			"inventory_changed"
+		]
+	],
+	"rewards": {
+		"function": "bittersweet_functions:anvil/anvil_interact"
+	}
+}

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "key": {
     "P": "minecraft:breeze_spawn_egg",
     "S": "minecraft:gold_block",

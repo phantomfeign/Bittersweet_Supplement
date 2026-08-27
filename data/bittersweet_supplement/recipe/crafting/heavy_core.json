@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
     "I": "minecraft:iron_block",
     "K": "minecraft:ominous_trial_key",
