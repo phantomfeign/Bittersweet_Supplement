@@ -24,3 +24,6 @@ execute as @e[type=#bittersweet_functions:spiders] at @s as @a[distance=..25,lim
 
 #NO CROP TRAMPLING
 execute as @a[predicate=bittersweet_functions:is_falling] at @s if block ~ ~-0.2 ~ minecraft:farmland run effect give @s slow_falling 1 1 true
+
+#RUNES
+execute as @e[tag=RuneFloat,type=minecraft:item] at @s run function bittersweet_functions:runes/float

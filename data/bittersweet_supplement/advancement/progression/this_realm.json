@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": "This Realm..",
+    "description": "",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/bittersweet_supplement",
+  "criteria": {
+    "buh": {
+      "trigger": "tick"
+    }
+  }
+}

@@ -5,14 +5,15 @@
 			"rolls": 1,
 			"entries": [
 				{
-
 							"type": "minecraft:item",
+							"name":"minecraft:snow_golem_spawn_egg",
 							"functions": [
 								{
 									"function": "minecraft:set_components",
 									"components": {
+                                        "!entity_data":{},
 										"minecraft:item_name": {
-											"text": "Runed Diamond",
+											"text": "Diamond Rune",
 											"color": "aqua"
 										},
 										"minecraft:enchantable": {
@@ -38,9 +39,7 @@
 									"include_additional_cost_component": false,
 									"conditions": []
 								}
-							],
-							"name": "minecraft:diamond"
-				}
+							]				}
 			]
 		}
 	],

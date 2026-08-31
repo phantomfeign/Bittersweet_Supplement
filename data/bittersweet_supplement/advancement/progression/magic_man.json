@@ -3,14 +3,14 @@
     "icon": {
       "id": "minecraft:knowledge_book"
     },
-    "title": "Magic Man",
+    "title": "Gifts of Old",
     "description": "I like your funny words.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "bittersweet_supplement:progression/bittersweet_supplement",
+  "parent": "bittersweet_supplement:progression/this_realm",
   "criteria": {
     "acquire empty boon": {
       "trigger": "minecraft:inventory_changed",

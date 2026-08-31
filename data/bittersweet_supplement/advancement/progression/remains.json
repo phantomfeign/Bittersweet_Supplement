@@ -3,14 +3,14 @@
     "icon": {
       "id": "minecraft:pig_spawn_egg"
     },
-    "title": "Remains",
-    "description": "?",
+    "title": "Unheard Lament",
+    "description": "Darkness brews in old dungeons and demigods",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "bittersweet_supplement:progression/magic_man",
+  "parent": "bittersweet_supplement:progression/this_realm",
   "criteria": {
     "acquire abyssal shard or star": {
       "trigger": "minecraft:inventory_changed",

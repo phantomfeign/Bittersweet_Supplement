@@ -24,7 +24,19 @@
                 "italic": false
               },
               "target": "item_name"
+            },
+          	{
+            "function": "minecraft:filtered",
+            "item_filter": {
+              "items": "minecraft:filled_map",
+              "predicates": {
+                "minecraft:map_id": {}
+              }
+            },
+            "on_fail": {
+              "function": "minecraft:discard"
             }
+	      	}
           ]
         }
       ]
