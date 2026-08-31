@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "redstone",
+	"key": {
+		"G": "minecraft:copper_block",
+		"R": "minecraft:redstone",
+		"T": "minecraft:torch"
+	},
+	"pattern": [
+		" R ",
+		"TGT",
+		" R "
+	],
+	"result": {
+		"id": "minecraft:redstone_lamp"
+	}
+}

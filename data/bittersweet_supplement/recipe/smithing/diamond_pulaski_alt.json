@@ -1,8 +1,8 @@
 {
 	"type": "minecraft:smithing_transform",
-	"addition": "minecraft:emerald",
+	"template": "minecraft:emerald",
 	"base": "minecraft:diamond_shovel",
-	"template": "minecraft:diamond_axe",
+	"addition": "minecraft:diamond_axe",
 	"result": {
 		"id": "minecraft:diamond_axe",
 		"components": {

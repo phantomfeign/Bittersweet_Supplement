@@ -63,54 +63,12 @@
 			}
 		},
 		{
-			"rolls": 3,
+			"rolls": 8,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:golden_apple",
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:food/golden_apple",
 					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:lore": [
-									{
-										"text": "❤❤❤",
-										"color": "#54d877",
-										"italic": false
-									},
-									{
-										"text": "Your feel revitalized, and a surge of",
-										"color": "white",
-										"italic": false
-									},
-									{
-										"text": "warmth invigorates you as you eat happily.",
-										"color": "white",
-										"italic": false
-									}
-								],
-								"minecraft:consumable": {
-									"consume_seconds": 1.5,
-									"on_consume_effects": [
-										{
-											"type": "apply_effects",
-											"effects": [
-												{
-													"id": "minecraft:regeneration",
-													"amplifier": 2,
-													"duration": 72
-												},
-												{
-													"id": "minecraft:absorption",
-													"amplifier": 0,
-													"duration": 6000
-												}
-											]
-										}
-									]
-								}
-							}
-						},
 						{
 							"function": "minecraft:set_count",
 							"count": {
@@ -212,6 +170,41 @@
 							}
 						}
 					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/diamond_upgrade"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_copper_ingot",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_iron_ingot",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_gold_ingot",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_diamond"
+				}
+			],
+			"functions": [],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.7
 				}
 			]
 		}

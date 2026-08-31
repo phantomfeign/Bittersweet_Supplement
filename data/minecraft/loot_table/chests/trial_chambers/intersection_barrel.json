@@ -1,0 +1,193 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald_block"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "minecraft:on_woodland_explorer_maps"
+						},
+						{
+							"function": "minecraft:filtered",
+							"item_filter": {
+								"items": "minecraft:filled_map",
+								"predicates": {
+									"minecraft:map_id": {}
+								}
+							},
+							"on_fail": {
+								"function": "minecraft:discard"
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.3
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "minecraft:on_ocean_explorer_maps"
+						},
+						{
+							"function": "minecraft:filtered",
+							"item_filter": {
+								"items": "minecraft:filled_map",
+								"predicates": {
+									"minecraft:map_id": {}
+								}
+							},
+							"on_fail": {
+								"function": "minecraft:discard"
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.3
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "minecraft:on_woodland_explorer_maps"
+						},
+						{
+							"function": "minecraft:filtered",
+							"item_filter": {
+								"items": "minecraft:filled_map",
+								"predicates": {
+									"minecraft:map_id": {}
+								}
+							},
+							"on_fail": {
+								"function": "minecraft:discard"
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.3
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "minecraft:on_jungle_explorer_maps"
+						},
+						{
+							"function": "minecraft:filtered",
+							"item_filter": {
+								"items": "minecraft:filled_map",
+								"predicates": {
+									"minecraft:map_id": {}
+								}
+							},
+							"on_fail": {
+								"function": "minecraft:discard"
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.3
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "bittersweet_supplement:infested_ruins",
+							"decoration": "minecraft:target_x",
+							"zoom": 1,
+							"search_radius": 50,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Infested Ruins Map",
+								"color": "gray",
+								"italic": false
+							},
+							"target": "item_name"
+						},
+						{
+							"function": "minecraft:filtered",
+							"item_filter": {
+								"items": "minecraft:filled_map",
+								"predicates": {
+									"minecraft:map_id": {}
+								}
+							},
+							"on_fail": {
+								"function": "minecraft:discard"
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.3
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:chests/trial_chambers/intersection_barrel"
+}

@@ -18,45 +18,9 @@
 					"name": "minecraft:iron_nugget"
 				},
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:food/sweet_berries",
 					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:lore": [
-									{
-										"text": "♡",
-										"color": "#54d877",
-										"italic": false
-									},
-									{
-										"text": "A gentle warmth slowly settles in",
-										"color": "white",
-										"italic": false
-									},
-									{
-										"text": "as you hastily wolf it down.",
-										"color": "white",
-										"italic": false
-									}
-								],
-								"minecraft:consumable": {
-									"consume_seconds": 0.5,
-									"on_consume_effects": [
-										{
-											"type": "apply_effects",
-											"effects": [
-												{
-													"id": "minecraft:regeneration",
-													"amplifier": 0,
-													"duration": 50
-												}
-											]
-										}
-									]
-								}
-							}
-						},
 						{
 							"count": {
 								"type": "minecraft:uniform",
@@ -66,7 +30,6 @@
 							"function": "minecraft:set_count"
 						}
 					],
-					"name": "minecraft:sweet_berries",
 					"weight": 5
 				},
 				{

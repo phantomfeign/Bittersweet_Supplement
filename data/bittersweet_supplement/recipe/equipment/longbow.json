@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "minecraft:string"
+	},
+	"pattern": [
+		"## ",
+		"X #",
+		" X#"
+	],
+	"result": {
+		"id": "minecraft:bow",
+        "components":{
+        "minecraft:max_damage": 400,
+		"minecraft:lore": [
+				{
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "When Fired",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": " ..10 Arrow Damage",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " 1.0s Draw Time",
+					"color": "dark_green",
+					"italic": false
+				}
+			]
+        }
+    }
+}

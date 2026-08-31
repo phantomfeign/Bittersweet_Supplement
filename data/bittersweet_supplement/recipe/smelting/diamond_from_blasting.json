@@ -2,7 +2,7 @@
 	"type": "minecraft:blasting",
 	"experience": 0,
 	"group": "coal",
-	"ingredient": "minecraft:cow_spawn_egg",
+	"ingredient": "minecraft:allay_spawn_egg",
 	"result": {
 		"id": "minecraft:diamond"
 	},

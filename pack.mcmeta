@@ -20,20 +20,8 @@
   "block": [
 
     {
-      "namespace": "minecraft",
-      "path": "advancement/adventure"
-    },{
-      "namespace": "minecraft",
-      "path": "advancement/end"
-    },{
-      "namespace": "minecraft",
-      "path": "advancement/husbandry"
-    },{
-      "namespace": "minecraft",
-      "path": "advancement/nether"
-    },{
-      "namespace": "minecraft",
-      "path": "advancement/story"
+        "namespace": "minecraft",
+        "path": "^advancement/.*\\.json$"
 
     }
     ,
@@ -41,6 +29,9 @@
 
       "namespace": "minecraft",
       "path": "^recipe/suspicious_stew\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/cake\\.json$"
     },{
       "namespace": "minecraft",
       "path": "^recipe/pumpkin_pie\\.json$"
@@ -135,6 +126,17 @@
     {
   
       "namespace": "minecraft",
+      "path": "^recipe/comparator\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/repeater\\.json$"
+
+
+    }
+    ,
+    {
+  
+      "namespace": "minecraft",
       "path": "^recipe/leather_helmet\\.json$"
     },{
       "namespace": "minecraft",
@@ -146,6 +148,16 @@
       "namespace": "minecraft",
       "path": "^recipe/leather_boots\\.json$"
     
+    }
+    ,
+    {
+      
+      "namespace": "minecraft",
+      "path": "^recipe/crossbow\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/bow\\.json$"
+
     }
     ,
     {

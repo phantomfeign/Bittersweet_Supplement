@@ -4,53 +4,10 @@
 		{
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:golden_apple",
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:food/golden_apple",
 					"weight": 15,
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:lore": [
-									{
-										"text": "❤❤❤",
-										"color": "#54d877",
-										"italic": false
-									},
-									{
-										"text": "Your feel revitalized, and a surge of",
-										"color": "white",
-										"italic": false
-									},
-									{
-										"text": "warmth invigorates you as you eat happily.",
-										"color": "white",
-										"italic": false
-									}
-								],
-								"minecraft:consumable": {
-									"consume_seconds": 1.5,
-									"on_consume_effects": [
-										{
-											"type": "apply_effects",
-											"effects": [
-												{
-													"id": "minecraft:regeneration",
-													"amplifier": 2,
-													"duration": 72
-												},
-												{
-													"id": "minecraft:absorption",
-													"amplifier": 0,
-													"duration": 6000
-												}
-											]
-										}
-									]
-								}
-							}
-						}
-					]
+					"functions": []
 				}
 			],
 			"rolls": {

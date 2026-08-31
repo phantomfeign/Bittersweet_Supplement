@@ -25,6 +25,7 @@
       ],
       "minecraft:item_name": "Smoked Salmon",
       "minecraft:consumable": {
+      "consume_seconds": 2.5,
         "on_consume_effects": [
           {
             "type": "apply_effects",

@@ -12,7 +12,7 @@
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:attack_damage",
-					"amount": 10,
+					"amount": 9,
 					"operation": "add_value",
 					"id": "bittersweet:golden_axe_damage",
 					"slot": "mainhand"
@@ -42,7 +42,7 @@
 					"italic": false
 				},
 				{
-					"text": " 11 Attack Damage",
+					"text": " 10 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},

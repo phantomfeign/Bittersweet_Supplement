@@ -2,22 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "L": [
-      "minecraft:golden_axe",
-      "minecraft:golden_pickaxe"
-    ],
+    "P": "minecraft:golden_pickaxe",
     "B": "minecraft:knowledge_book",
-    "A": [
-      "minecraft:amethyst_shard",
-      "minecraft:emerald"
-    ],
+    "E": "minecraft:emerald",
     "D": "minecraft:diamond",
-    "I": "minecraft:iron_ingot"
+    "G": "minecraft:gold_ingot"
   },
   "pattern": [
-    "IDI",
-    "LBL",
-    "IAI"
+    "DED",
+    "PBP",
+    "DGD"
   ],
   "result": {
     "id": "minecraft:enchanted_book",

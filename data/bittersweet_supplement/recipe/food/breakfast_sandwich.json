@@ -3,7 +3,7 @@
   "category": "misc",
   "pattern": [
   "BB",
-  "ME",
+  "EM",
   "BB"
   ],
   "key": {
@@ -13,7 +13,12 @@
   },
   "result": {
     "id": "minecraft:poisonous_potato",
+    "count": 2,
 "components": {
+      "minecraft:custom_name": {
+      "text": "Breakfast Sandwich",
+      "italic": false
+      },
   "minecraft:lore": [
     {
       "text": "❤❤❤❤❤",
@@ -21,18 +26,23 @@
       "italic": false
     },
     {
-      "text": "A soothing warmth courses steadily",
+      "text": "You feel revitalized, and a",
       "color": "white",
       "italic": false
     },
     {
-      "text": "within as you indulge yourself.",
+      "text": "soothing warmth courses steadily",
+      "color": "white",
+      "italic": false
+    },
+    {
+      "text": "within as you enjoy the meal.",
       "color": "white",
       "italic": false
     }
   ],
   "minecraft:consumable": {
-    "consume_seconds": 2.5,
+    "consume_seconds": 2.0,
     "on_consume_effects": [
       {
         "type": "apply_effects",
@@ -40,8 +50,14 @@
           {
             "id": "minecraft:regeneration",
             "amplifier": 1,
-            "duration": 125,
+            "duration": 250,
                 "show_particles": false
+          },
+          {
+            "id": "minecraft:absorption",
+            "amplifier": 0,
+            "duration": 200,
+            "show_particles": false
           }
         ]
       }

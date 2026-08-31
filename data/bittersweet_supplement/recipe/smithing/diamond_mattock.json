@@ -1,8 +1,8 @@
 {
 	"type": "minecraft:smithing_transform",
-	"addition": "minecraft:emerald",
+	"template": "minecraft:emerald",
 	"base": "minecraft:diamond_pickaxe",
-	"template": "minecraft:diamond_hoe",
+	"addition": "minecraft:diamond_hoe",
 	"result": {
 		"id": "minecraft:diamond_hoe",
 		"components": {

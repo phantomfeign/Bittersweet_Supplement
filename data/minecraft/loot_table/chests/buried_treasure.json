@@ -232,6 +232,37 @@
 				}
 			],
 			"rolls": 2
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_copper_ingot",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_iron_ingot",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_gold_ingot",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_diamond",
+					"weight": 2
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.8
+				}
+			]
 		}
 	],
 	"random_sequence": "minecraft:chests/buried_treasure"

@@ -1,0 +1,48 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"function": "minecraft:set_components",
+									"components": {
+										"minecraft:item_name": {
+											"text": "Runed Diamond",
+											"color": "aqua"
+										},
+										"minecraft:enchantable": {
+											"value": 1
+										}
+									}
+								},
+								{
+									"function": "minecraft:enchant_randomly",
+									"options": [
+										"minecraft:smite",
+										"minecraft:sharpness",
+										"minecraft:bane_of_arthropods",
+										"minecraft:protection",
+										"minecraft:projectile_protection",
+										"minecraft:efficiency",
+										"minecraft:feather_falling",
+										"minecraft:knockback",
+                                        "minecraft:thorns",
+										"bittersweet_supplement:blood_soaked"
+									],
+									"only_compatible": false,
+									"include_additional_cost_component": false,
+									"conditions": []
+								}
+							],
+							"name": "minecraft:diamond"
+				}
+			]
+		}
+	],
+	"random_sequence": "bittersweet_supplement:generic/runed_diamond"
+}

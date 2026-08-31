@@ -4,15 +4,14 @@
   "key": {
     "B": "minecraft:knowledge_book",
     "T": [
-      "minecraft:turtle_scute",
-      "minecraft:prismarine_shard",
-      "minecraft:prismarine_crystals"
+      "minecraft:turtle_helmet",
+      "minecraft:prismarine_shard"
     ],
     "G": "minecraft:glow_ink_sac",
     "F": "#minecraft:fishes"
   },
   "pattern": [
-    "TTT",
+    "FTF",
     "GBG",
     "FFF"
   ],

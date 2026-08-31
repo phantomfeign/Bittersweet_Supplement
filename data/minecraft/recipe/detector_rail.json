@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+    "category": "redstone",
+	"ingredients": [
+		"minecraft:stone_pressure_plate",
+		"minecraft:rail",
+		"minecraft:rail",
+		"minecraft:rail"
+	],
+	"result": {
+		"count": 3,
+		"id": "minecraft:detector_rail"
+	}
+}

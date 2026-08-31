@@ -1,0 +1,26 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "enchantment.minecraft.mending"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand",
+    "offhand",
+    "head",
+    "chest",
+    "legs",
+    "feet"
+  ],
+  "supported_items": "warden_spawn_egg",
+  "weight": 1
+}

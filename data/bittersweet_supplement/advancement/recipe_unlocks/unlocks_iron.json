@@ -25,7 +25,9 @@
       "bittersweet_supplement:equipment/iron_helmet",
       "bittersweet_supplement:equipment/iron_chestplate",
       "bittersweet_supplement:equipment/iron_leggings",
-      "bittersweet_supplement:equipment/iron_boots"
+      "bittersweet_supplement:equipment/iron_boots",
+      
+      "minecraft:rail"
     ]
   }
 }

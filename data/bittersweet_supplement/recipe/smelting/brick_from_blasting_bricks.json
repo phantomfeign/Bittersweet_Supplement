@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "ingredient": "minecraft:bricks",
+  "result": {
+    "id": "minecraft:brick",
+    "count": 4
+  }
+}

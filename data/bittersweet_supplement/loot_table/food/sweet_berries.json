@@ -1,0 +1,57 @@
+{
+	"type": "minecraft:generic",
+	"functions": [],
+	"pools": [
+		{
+			"conditions": [],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sweet_berries"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_components",
+					"components": {
+						"minecraft:lore": [
+							{
+								"text": "♡",
+								"color": "#54d877",
+								"italic": false
+							},
+							{
+								"text": "A gentle warmth slowly settles",
+								"color": "white",
+								"italic": false
+							},
+							{
+								"text": "in as you quickly devour it.",
+								"color": "white",
+								"italic": false
+							}
+						],
+						"minecraft:consumable": {
+							"consume_seconds": 1,
+							"on_consume_effects": [
+								{
+									"type": "apply_effects",
+									"effects": [
+										{
+											"id": "minecraft:regeneration",
+											"amplifier": 0,
+											"duration": 50,
+											"show_particles": false
+										}
+									]
+								}
+							]
+						}
+					}
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "bittersweet_supplement:loot_table/food/sweet_berries"
+}

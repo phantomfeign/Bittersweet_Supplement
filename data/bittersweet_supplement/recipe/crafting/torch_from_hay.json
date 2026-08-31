@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group":"torch",
+  "ingredients": [
+    "minecraft:hay_block",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:stick"
+  ],
+  "result": {
+    "count": 36,
+    "id": "minecraft:torch"
+  }
+}

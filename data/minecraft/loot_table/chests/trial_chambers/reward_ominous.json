@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:chests/trial_chambers/reward_ominous_rare",
+					"weight": 8
+				}
+			],
+			"rolls": 1
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:chests/trial_chambers/reward_ominous_common"
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 3,
+				"min": 2
+			}
+        }
+	],
+	"random_sequence": "minecraft:chests/trial_chambers/reward_ominous"
+}

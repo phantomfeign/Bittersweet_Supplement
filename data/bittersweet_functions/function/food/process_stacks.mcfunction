@@ -12,7 +12,7 @@ minecraft:lore=[{\
 "color":"#54d877","italic":false},{\
 "text":"A burst of energy and a gentle warmth",\
 "color":"white","italic":false},{\
-"text":"slowly settle in as you hastily wolf it down.",\
+"text":"slowly settle in as you hastily gulp it down.",\
 "color":"white","italic":false}\
 ],minecraft:consumable={\
 consume_seconds:0.5,\
@@ -32,7 +32,7 @@ minecraft:lore=[{\
 "color":"#54d877","italic":false},{\
 "text":"A burst of energy and a gentle warmth",\
 "color":"white","italic":false},{\
-"text":"slowly settle in as you hastily wolf it down.",\
+"text":"slowly settle in as you hastily gulp it down.",\
 "color":"white","italic":false}\
 ],minecraft:consumable={\
 consume_seconds:0.5,\
@@ -64,3 +64,4 @@ execute at @a run execute if items entity @p hotbar.* minecraft:blue_egg[!max_st
 execute at @a run execute if items entity @p hotbar.* minecraft:brown_egg[!max_stack_size=64] run clear @p minecraft:brown_egg[!max_stack_size=64] 1
 
 execute as @a if items entity @s inventory.* #bittersweet_functions:needs_stack_adjustments[!max_stack_size=64] run function bittersweet_functions:food/process_stacks
+execute as @a if items entity @s hotbar.* #bittersweet_functions:needs_stack_adjustments[!max_stack_size=64] run function bittersweet_functions:food/process_stacks

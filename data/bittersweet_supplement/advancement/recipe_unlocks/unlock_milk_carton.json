@@ -1,11 +1,14 @@
 {
   "criteria": {
-    "get_string": {
+    "get_wheat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:string"
+            "items": [
+              "minecraft:paper",
+              "minecraft:milk_bucket"
+            ]
           }
         ]
       }
@@ -13,7 +16,7 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:crafting/cobweb"
+      "bittersweet_supplement:food/milk_carton"
     ]
   }
 }

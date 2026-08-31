@@ -2,8 +2,8 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"key": {
-		"#": "minecraft:iron_ingot",
-		"X": "minecraft:prismarine_shard",
+		"#": "minecraft:prismarine_shard",
+		"X": "minecraft:iron_ingot",
 		"E": "minecraft:emerald"
 	},
 	"pattern": [

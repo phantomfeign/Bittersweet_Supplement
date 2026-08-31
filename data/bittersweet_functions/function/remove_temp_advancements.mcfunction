@@ -14,3 +14,4 @@ advancement revoke @s only bittersweet_functions:mob_checks/using_goat_horn
 advancement revoke @s only bittersweet_functions:mob_checks/hurt_by_zombie
 
 advancement revoke @s only bittersweet_functions:misc/anvil_interact
+advancement revoke @s only bittersweet_functions:misc/anvil_use

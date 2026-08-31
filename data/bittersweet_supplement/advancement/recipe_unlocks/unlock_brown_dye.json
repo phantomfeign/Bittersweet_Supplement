@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "get_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:yellow_dye",
+                "minecraft:blue_dye",
+                "minecraft:red_dye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/brown_dye_from_dyes"
+    ]
+  }
+}

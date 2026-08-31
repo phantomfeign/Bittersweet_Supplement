@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone",
+              "minecraft:soul_sand"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/head_skeleton"
+    ]
+  }
+}

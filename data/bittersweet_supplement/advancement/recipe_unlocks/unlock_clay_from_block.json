@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "get_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:clay"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/clay_from_blocks"
+    ]
+  }
+}

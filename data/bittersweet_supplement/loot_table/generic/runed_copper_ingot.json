@@ -1,0 +1,43 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"function": "minecraft:set_components",
+									"components": {
+										"minecraft:item_name": {
+											"text": "Runed Copper Ingot",
+											"color": "aqua"
+										},
+										"minecraft:enchantable": {
+											"value": 1
+										}
+									}
+								},
+								{
+									"function": "minecraft:enchant_randomly",
+									"options": [
+										"minecraft:depth_strider",
+										"minecraft:aqua_affinity",
+										"minecraft:silk_touch",
+										"minecraft:frost_walker",
+										"minecraft:feather_falling"
+									],
+									"only_compatible": false,
+									"include_additional_cost_component": false,
+									"conditions": []
+								}
+							],
+							"name": "minecraft:copper_ingot"
+				}
+			]
+		}
+	],
+	"random_sequence": "bittersweet_supplement:generic/runed_copper_ingot"
+}

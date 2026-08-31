@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "#": "minecraft:stick",
+        "X": "minecraft:string"
+    },
+    "pattern": [
+        "##",
+        "X#"
+    ],
+    "result": {
+        "id": "minecraft:bow",
+        "components": {
+            "minecraft:item_model": "minecraft:shortbow",
+            "minecraft:item_name": {
+				"text": "Shortbow",
+					"color": "white",
+					"italic": false          
+				},
+            "minecraft:max_damage": 400,
+            "minecraft:enchantments": {
+                "bittersweet_supplement:shortbow":1
+            },
+            "minecraft:enchantment_glint_override": false,
+			"minecraft:lore": [
+				{
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "When Fired",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": " ..5 Arrow Damage",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " 0.5s Draw Time",
+					"color": "dark_green",
+					"italic": false
+				}
+			]
+        }
+    }
+}

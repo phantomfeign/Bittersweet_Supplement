@@ -22,13 +22,24 @@ execute as @s[type=minecraft:creeper] run data modify entity @s ExplosionRadius 
 execute as @s[type=minecraft:creeper] run data modify entity @s Fuse set value 20
 execute as @s[type=minecraft:creeper] run effect give @s minecraft:luck infinite 99 true
 
-#enderman
+#enderman teleports players and disables shields
 scoreboard players add @s[type=minecraft:enderman] PullTimer 0
 attribute @s[type=minecraft:enderman] minecraft:attack_damage base set 0
 item replace entity @s[type=minecraft:enderman] weapon.mainhand with minecraft:wooden_axe[\
 minecraft:item_model="bittersweet_supplement:invisible",minecraft:weapon={disable_blocking_for_seconds:2.0}]
 
-#warden
+#warden has knockback and debuffs but less damage
 attribute @s[type=minecraft:warden] minecraft:attack_knockback base set 3
 attribute @s[type=minecraft:warden] minecraft:attack_damage base set 6
 effect give @s[type=warden] minecraft:jump_boost infinite 2 true
+
+#spiders have 10 hp instead of 20 and more speed
+attribute @s[type=minecraft:spider] minecraft:max_health base set 10
+execute as @s[type=minecraft:skeleton] run data merge entity @s {Health:10.0f}
+attribute @s[type=minecraft:spider] minecraft:movement_speed base set 0.35
+
+#cave spiders have 8 hp instead of 12 and more speed, as well as most of their dmg budget allocated to poison instead
+attribute @s[type=minecraft:cave_spider] minecraft:max_health base set 8
+execute as @s[type=minecraft:skeleton] run data merge entity @s {Health:8.0f}
+attribute @s[type=minecraft:cave_spider] minecraft:movement_speed base set 0.35
+attribute @s[type=minecraft:cave_spider] minecraft:attack_damage base set 1

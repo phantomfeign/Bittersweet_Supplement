@@ -63,7 +63,8 @@
 												{
 													"id": "minecraft:regeneration",
 													"amplifier": 1,
-													"duration": 150
+													"duration": 150,
+													"show_particles": false
 												}
 											]
 										}
@@ -115,7 +116,8 @@
 												{
 													"id": "minecraft:regeneration",
 													"amplifier": 0,
-													"duration": 50
+													"duration": 50,
+													"show_particles": false
 												}
 											]
 										}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"A": "minecraft:cow_spawn_egg",
+		"B": "minecraft:sugar",
+		"C": "minecraft:bee_spawn_egg",
+		"E": "#minecraft:eggs"
+	},
+	"pattern": [
+		"ABA",
+		"BEB",
+		"CCC"
+	],
+	"result": {
+		"id": "minecraft:cake"
+	}
+}

@@ -41,3 +41,6 @@ item modify entity @s hotbar.8 bittersweet_functions:reset_repair_cost
 item modify entity @s weapon.offhand bittersweet_functions:reset_repair_cost
 
 item modify entity @s player.cursor bittersweet_functions:reset_repair_cost
+
+scoreboard players set @s anvil_interaction 0
+stopwatch restart anvil_timer

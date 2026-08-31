@@ -27,7 +27,7 @@
 						"correct_for_drops": true
 					},
 					{
-						"blocks": "#minecraft:mineable/shovel",
+						"blocks": "#minecraft:mineable/hoe",
 						"speed": 10,
 						"correct_for_drops": true
 					}

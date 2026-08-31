@@ -1,0 +1,258 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ominous_trial_key"
+				}
+			]
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Roasted Chicken",
+								"minecraft:lore": [
+									{
+										"text": "❤❤❤❤",
+										"color": "#54d877",
+										"italic": false
+									},
+									{
+										"text": "A burst of energy and a gentle warmth",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"text": "slowly settles in as you indulge yourself.",
+										"color": "white",
+										"italic": false
+									}
+								],
+								"minecraft:consumable": {
+									"consume_seconds": 2.5,
+									"on_consume_effects": [
+										{
+											"type": "apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 0,
+													"duration": 400,
+													"show_particles": false
+												},
+												{
+													"id": "minecraft:speed",
+													"amplifier": 0,
+													"duration": 300,
+													"show_particles": false
+												}
+											]
+										}
+									]
+								}
+							}
+						},
+						{
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:cooked_chicken",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Seared Mutton",
+								"minecraft:lore": [
+									{
+										"text": "❤❤❤❤",
+										"color": "#54d877",
+										"italic": false
+									},
+									{
+										"text": "A sturdy energy and a gentle warmth",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"text": "slowly settle in as you indulge yourself.",
+										"color": "white",
+										"italic": false
+									}
+								],
+								"minecraft:consumable": {
+									"consume_seconds": 2.5,
+									"on_consume_effects": [
+										{
+											"type": "apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 0,
+													"duration": 400,
+													"show_particles": false
+												},
+												{
+													"id": "minecraft:resistance",
+													"amplifier": 0,
+													"duration": 300,
+													"show_particles": false
+												}
+											]
+										}
+									]
+								}
+							}
+						},
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:cooked_mutton",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_beef",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									{
+										"text": "❤❤❤❤",
+										"color": "#54d877",
+										"italic": false
+									},
+									{
+										"text": "A balanced energy and a gentle warmth ",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"text": "slowly settle in as you indulge yourself.",
+										"color": "white",
+										"italic": false
+									}
+								],
+								"minecraft:item_name": "Seared Beef",
+								"minecraft:consumable": {
+									"consume_seconds": 2.5,
+									"on_consume_effects": [
+										{
+											"type": "apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 0,
+													"duration": 400,
+													"show_particles": false
+												},
+												{
+													"id": "minecraft:strength",
+													"amplifier": 0,
+													"duration": 150,
+													"show_particles": false
+												},
+												{
+													"id": "minecraft:resistance",
+													"amplifier": 0,
+													"duration": 150,
+													"show_particles": false
+												}
+											]
+										}
+									]
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_porkchop",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "Roasted Porkchop",
+								"minecraft:lore": [
+									{
+										"text": "❤❤❤❤",
+										"color": "#54d877",
+										"italic": false
+									},
+									{
+										"text": "A powerful energy and a gentle warmth",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"text": "slowly settle in as you indulge yourself.",
+										"color": "white",
+										"italic": false
+									}
+								],
+								"minecraft:consumable": {
+									"consume_seconds": 2.5,
+									"on_consume_effects": [
+										{
+											"type": "apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 0,
+													"duration": 400,
+													"show_particles": false
+												},
+												{
+													"id": "minecraft:strength",
+													"amplifier": 0,
+													"duration": 300,
+													"show_particles": false
+												}
+											]
+										}
+									]
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				}
+			],
+			"rolls": 2
+		}
+	],
+	"random_sequence": "minecraft:spawners/trial_chamber/consumables"
+}

@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald_block",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_block",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:food/enchanted_golden_apple",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:food/golden_apple",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				}
+			],
+			"rolls": 1
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:heavy_core",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_diamond",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_gold_ingot",
+					"weight": 5
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:chests/trial_chambers/reward_ominous_rare"
+}

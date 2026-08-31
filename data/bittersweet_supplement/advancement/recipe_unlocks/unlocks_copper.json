@@ -28,7 +28,8 @@
       "bittersweet_supplement:equipment/copper_boots",
       
       "minecraft:shears",
-      "minecraft:bucket"
+      "minecraft:bucket",
+      "bittersweet_supplement:crafting/copper_wire"
     ]
   }
 }

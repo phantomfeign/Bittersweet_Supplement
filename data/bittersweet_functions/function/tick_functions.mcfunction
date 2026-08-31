@@ -1,6 +1,3 @@
-#check spawned mobs that arent already checked, to see if they should spawn or be sent to the abyss
-execute as @e[type=#bittersweet_functions:spawn_checks,tag=!SpawnChecked,tag=!SpawnBypass] run function bittersweet_functions:mob_adjustments/spawn_filter
-execute as @e[type=#bittersweet_functions:spawn_checks,tag=SpawnBypass] run function bittersweet_functions:mob_adjustments/mob_changes
 
 #ZOMBIE BEHAVIOR
 execute as @e[type=#minecraft:zombies,predicate=bittersweet_functions:targets_player] at @s run function bittersweet_functions:mob_adjustments/zombie/chasing
@@ -20,10 +17,10 @@ execute if entity @a[limit=1] unless entity @a[limit=1,tag=!sleeping] if score #
 execute if entity @a[limit=1] unless entity @a[limit=1,tag=!sleeping] run scoreboard players set #sleep SleepProcessed 1
 
 #ENDERMAN
-execute as @e[type=minecraft:enderman,predicate=bittersweet_functions:targets_player] run scoreboard players add @s PullTimer 1
-execute as @e[type=minecraft:enderman,scores={PullTimer=40..}] at @s if entity @a[distance=..8,tag=Cramped] run function bittersweet_functions:mob_adjustments/enderman/player_tp_windup
-execute as @e[type=minecraft:enderman,scores={PullTimer=40..}] at @s run scoreboard players set @s PullTimer 0
-execute as @e[type=minecraft:enderman] run ride @s dismount
-execute as @a[tag=Cramped] at @s if block ~ ~2 ~ minecraft:air run tag @s remove Cramped
-execute as @a[tag=!Cramped] at @s unless block ~ ~2 ~ minecraft:air run tag @s add Cramped
+execute as @e[type=minecraft:enderman] at @s run function bittersweet_functions:mob_adjustments/enderman/tick
 
+#SPIDER
+execute as @e[type=#bittersweet_functions:spiders] at @s as @a[distance=..25,limit=1] at @s run function bittersweet_functions:mob_adjustments/spiders/replace_light
+
+#NO CROP TRAMPLING
+execute as @a[predicate=bittersweet_functions:is_falling] at @s if block ~ ~-0.2 ~ minecraft:farmland run effect give @s slow_falling 1 1 true

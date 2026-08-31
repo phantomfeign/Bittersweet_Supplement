@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "get_wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:skeleton_skull"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/head_zombie",
+      "bittersweet_supplement:crafting/head_creeper",
+      "bittersweet_supplement:crafting/head_piglin"
+    ]
+  }
+}

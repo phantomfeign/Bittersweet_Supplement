@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "get_abyssal_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:redstone/comparator",
+      "bittersweet_supplement:redstone/repeater"
+    ]
+  }
+}

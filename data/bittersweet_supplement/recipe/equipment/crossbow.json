@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "&": [
+      "minecraft:copper_ingot",
+      "minecraft:iron_ingot"
+    ],
+    "~": "minecraft:string"
+  },
+  "pattern": [
+    "#&#",
+    "~~~",
+    " # "
+  ],
+  "result": {
+    "id": "minecraft:crossbow",
+        "components": {
+            "minecraft:max_damage": 500,
+			"minecraft:lore": [
+				{
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "When Fired",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": " 11 Arrow Damage",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " 1.25s Draw Time",
+					"color": "dark_green",
+					"italic": false
+				}
+			]
+        }
+    }
+}

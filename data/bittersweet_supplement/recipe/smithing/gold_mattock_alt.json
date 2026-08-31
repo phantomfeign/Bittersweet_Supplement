@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:diamond",
+	"base": "minecraft:golden_pickaxe",
+	"addition": "minecraft:golden_hoe",
+	"result": {
+		"count": 1,
+		"id": "minecraft:golden_pickaxe",
+		"components": {
+			"minecraft:item_name": {
+				"text": "Gilded Mattock",
+				"italic": false
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 10,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 10,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:max_damage": 300,
+			"minecraft:item_model": "bittersweet_textures:gold_mattock"
+		}
+	}
+}

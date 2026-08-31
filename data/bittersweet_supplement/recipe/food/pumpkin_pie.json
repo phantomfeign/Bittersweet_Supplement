@@ -11,36 +11,35 @@
   ],
   "result": {
     "id": "minecraft:pumpkin_pie",
-    "count": 2,
-"components": {
-  "minecraft:lore": [
-    {
-      "text": "❤❤❤❤❤❤",
-      "color": "#54d877",
-      "italic": false
-    },
-    {
-      "text": "A gentle warmth slowly settles",
-      "color": "white",
-      "italic": false
-    },
-    {
-      "text": "in as you indulge yourself.",
-      "color": "white",
-      "italic": false
-    }
-  ],
-  "minecraft:consumable": {
-    "consume_seconds": 2.5,
-    "on_consume_effects": [
-      {
-        "type": "apply_effects",
-        "effects": [
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "❤❤❤❤❤❤",
+          "color": "#54d877",
+          "italic": false
+        },
+        {
+          "text": "A gentle warmth slowly settles",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "in as you indulge yourself.",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "consume_seconds": 2.5,
+        "on_consume_effects": [
           {
-            "id": "minecraft:regeneration",
-            "amplifier": 0,
-            "duration": 600,
-                "show_particles": false
+            "type": "apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 0,
+                "duration": 600,
+                    "show_particles": false
           }
         ]
       }

@@ -11,6 +11,6 @@
 		]
 	],
 	"rewards": {
-		"function": "bittersweet_functions:anvil/anvil_interact"
+		"function": "bittersweet_functions:anvil/anvil_use"
 	}
 }

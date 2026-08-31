@@ -3,15 +3,12 @@
 	"category": "equipment",
 	"key": {
 		"B": "minecraft:knowledge_book",
-		"H": [
-			"minecraft:creeper_head",
-			"minecraft:zombie_head",
-			"minecraft:skeleton_skull"
-		]
+		"C":"minecraft:creeper_head",
+		"Z":"minecraft:zombie_head"
 	},
 	"pattern": [
-		"H",
-    "B"
+		"   ",
+		"ZBC"
 	],
 	"result": {
 		"id": "minecraft:enchanted_book",

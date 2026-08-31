@@ -1,0 +1,139 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/diamond_upgrade"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond",
+					"conditions": [],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:emerald",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									{
+										"text": "❤❤",
+										"color": "#54d877",
+										"italic": false
+									},
+									{
+										"text": "Your gaze sharpens, and a",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"text": "surge of warmth invigorates",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"text": "you as you quickly devour it.",
+										"color": "white",
+										"italic": false
+									}
+								],
+								"minecraft:consumable": {
+									"consume_seconds": 1,
+									"on_consume_effects": [
+										{
+											"type": "apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 2,
+													"duration": 48,
+													"show_particles": false
+												},
+												{
+													"id": "minecraft:night_vision",
+													"amplifier": 0,
+													"duration": 6000,
+													"show_particles": false
+												}
+											]
+										}
+									]
+								}
+							}
+						},
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:golden_carrot",
+					"weight": 2
+				}
+			],
+			"rolls": 1
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_copper_ingot",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_iron_ingot",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_gold_ingot",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/runed_diamond",
+					"weight": 2
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.8
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:chests/trial_chambers/reward_rare"
+}

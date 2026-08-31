@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "minecraft:tnt",
+		"S": "minecraft:skeleton_skull",
+		"E": "minecraft:gunpowder",
+		"s": "minecraft:potent_sulfur"
+	},
+	"pattern": [
+		"###",
+		"ESE",
+		"#s#"
+	],
+	"result": {
+		"id": "minecraft:creeper_head",
+		"components": {
+			"minecraft:item_name": {
+				"text": "Creeper Head",
+				"color": "white"
+			}
+		}
+	}
+}

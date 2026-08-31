@@ -14,7 +14,11 @@
   "rewards": {
     "recipes": [
       "bittersweet_supplement:crafting/wool_from_string",
-      "bittersweet_supplement:crafting/scaffolding_from_sticks"
+      "bittersweet_supplement:crafting/scaffolding_from_sticks",
+      "bittersweet_supplement:crafting/cobweb",
+      "bittersweet_supplement:equipment/shortbow",
+      "bittersweet_supplement:equipment/longbow",
+      "bittersweet_supplement:equipment/crossbow"
     ]
   }
 }

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "minecraft:bone",
+		"S": "minecraft:soul_sand"
+	},
+	"pattern": [
+		"###",
+		"#S#",
+		"###"
+	],
+	"result": {
+		"id": "minecraft:skeleton_skull",
+		"components": {
+			"minecraft:item_name": {
+				"text": "Skull",
+				"color": "white"
+			}
+		}
+	}
+}

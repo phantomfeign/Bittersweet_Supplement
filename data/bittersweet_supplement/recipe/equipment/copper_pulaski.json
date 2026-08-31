@@ -13,7 +13,7 @@
 	},
 	"result": {
 		"count": 1,
-		"id": "minecraft:stone_axe",
+		"id": "minecraft:copper_axe",
 		"components": {
 			"minecraft:custom_name": {
 				"text": "Copper Pulaski",

@@ -24,6 +24,7 @@
       ],
       "minecraft:item_name": "Seared Beef",
       "minecraft:consumable": {
+      "consume_seconds": 2.5,
         "on_consume_effects": [
           {
             "type": "apply_effects",
@@ -37,13 +38,13 @@
               {
                 "id": "minecraft:strength",
                 "amplifier": 0,
-                "duration": 100,
+                "duration": 150,
                 "show_particles": false
               },
               {
                 "id": "minecraft:resistance",
                 "amplifier": 0,
-                "duration": 100,
+                "duration": 150,
                 "show_particles": false
               }
             ]

@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:iron_ingot",
+	"base": "minecraft:copper_shovel",
+	"addition": "minecraft:copper_axe",
+	"result": {
+		"count": 1,
+		"id": "minecraft:copper_axe",
+		"components": {
+			"minecraft:custom_name": {
+				"text": "Copper Pulaski",
+				"italic": false
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 4,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 4,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:max_damage": 300,
+			"minecraft:item_model": "bittersweet_textures:copper_pulaski"
+		}
+	}
+}

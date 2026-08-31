@@ -27,6 +27,7 @@
   },
   "rewards": {
     "recipes": [
+      "bittersweet_supplement:boons/boon_blood",
       "bittersweet_supplement:boons/boon_brutality",
       "bittersweet_supplement:boons/boon_chaos",
       "bittersweet_supplement:boons/boon_eternity",

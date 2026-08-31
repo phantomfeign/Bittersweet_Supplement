@@ -58,7 +58,13 @@
 			"rolls": 1
 		},
 		{
-			"rolls": 1,
+			"rolls": {
+				"min": 0,
+				"max": {
+					"min": 0,
+					"max": 1
+				}
+			},
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -68,20 +74,13 @@
 							"condition": "minecraft:all_of",
 							"terms": [
 								{
-									"condition": "minecraft:random_chance_with_enchanted_bonus",
-									"unenchanted_chance": 0.05,
-									"enchanted_chance": {
-										"type": "minecraft:linear",
-										"base": 0.05,
-										"per_level_above_first": 0.05
-									},
-									"enchantment": "minecraft:looting"
+									"condition": "minecraft:killed_by_player"
 								},
 								{
-									"condition": "minecraft:match_tool",
-									"predicate": {
-										"items": "#minecraft:enchantable/sharp_weapon"
-									}
+									"condition": "minecraft:random_chance_with_enchanted_bonus",
+									"unenchanted_chance": 0.05,
+									"enchanted_chance": 0.25,
+									"enchantment": "bittersweet_supplement:beheading"
 								}
 							]
 						}

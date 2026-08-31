@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "minecraft:arrow"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/quiver",
+      "bittersweet_supplement:crafting/arrows_from_quiver"
+    ]
+  }
+}

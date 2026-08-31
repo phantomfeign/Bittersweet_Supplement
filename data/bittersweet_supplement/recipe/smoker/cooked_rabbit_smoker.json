@@ -25,6 +25,7 @@
         }
       ],
       "minecraft:consumable": {
+      "consume_seconds": 2.5,
         "on_consume_effects": [
           {
             "type": "apply_effects",
@@ -38,7 +39,7 @@
               {
                 "id": "minecraft:jump_boost",
                 "amplifier": 0,
-                "duration": 200,
+                "duration": 300,
                 "show_particles": false
               }
             ]

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cow_spawn_egg"
+            "items": "minecraft:allay_spawn_egg"
           }
         ]
       }

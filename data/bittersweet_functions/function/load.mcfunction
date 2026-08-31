@@ -18,14 +18,22 @@ stopwatch create anvil_timer
 scoreboard objectives add anvil_interaction minecraft.custom:minecraft.interact_with_anvil
 scoreboard players set 0 anvil_interaction 0
 
+#arrow
+scoreboard objectives add ArrowXVelocity dummy
+scoreboard objectives add ArrowZVelocity dummy
+scoreboard objectives add Percent dummy
+
+scoreboard players set #70 Percent 70
+scoreboard players set #100 Percent 100
+
+#gold
 scoreboard objectives add GoldLogic dummy
 scoreboard objectives add BloodSoakedLogic dummy
 scoreboard objectives add ShieldUsed minecraft.used:minecraft.shield
 scoreboard objectives add ZombieChaseTime dummy
 
-scoreboard objectives add WaterBottleFound dummy
+#stuff
 scoreboard objectives add Hunger food
-
 scoreboard objectives add 0.better_consumables.id dummy
 
 #phantom
@@ -36,6 +44,9 @@ scoreboard objectives add PhantomXVelocity dummy
 scoreboard objectives add PhantomZVelocity dummy
 scoreboard objectives add PhantomVexTimer dummy
 
+#spider
+scoreboard objectives add LightFound dummy
+
 #enderman
 scoreboard objectives add PullTimer dummy
 
@@ -44,3 +55,4 @@ gamerule natural_health_regeneration false
 gamerule keep_inventory true
 gamerule advance_time false
 schedule function bittersweet_functions:time_extender 2t
+

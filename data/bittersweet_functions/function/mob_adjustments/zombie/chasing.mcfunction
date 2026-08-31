@@ -1,3 +1,4 @@
+execute unless predicate bittersweet_functions:targets_player run return 0
 #increases chase time, stopping at 1m
 execute run scoreboard players add @s ZombieChaseTime 1
 

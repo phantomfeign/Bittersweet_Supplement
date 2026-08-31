@@ -1,0 +1,30 @@
+{
+	"anvil_cost": 0,
+	"description": {
+		"translate": "enchantment.bittersweet_supplement.shortbow"
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "minecraft:stick",
+	"weight": 1,
+	"effects": {
+		"minecraft:projectile_spawned": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "bittersweet_functions:enchantments/limit_velocity"
+				}
+			}
+		]
+	}
+}

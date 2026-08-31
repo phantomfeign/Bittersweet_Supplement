@@ -9,7 +9,7 @@
     "A": "minecraft:soul_torch"
   },
   "pattern": [
-    "ESE",
+    "SES",
     "ABA",
     "sAs"
   ],
@@ -22,8 +22,7 @@
       "minecraft:item_model": "minecraft:enchanted_book",
       "minecraft:stored_enchantments": {
         "minecraft:soul_speed": 1,
-        "minecraft:swift_sneak": 1,
-        "minecraft:quick_charge": 1
+        "minecraft:swift_sneak": 1
       },
       "minecraft:item_name": {
         "text": "Boon of Tempo",

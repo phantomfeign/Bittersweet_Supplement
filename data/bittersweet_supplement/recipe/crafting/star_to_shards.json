@@ -12,7 +12,7 @@
     "components": {
       "!minecraft:entity_data": {},
       "minecraft:item_name": {
-        "text": "Abyssal Shards",
+        "text": "Abyssal Shard",
         "color": "aqua"
       }
     },

@@ -1,4 +1,7 @@
 #special tool!
+particle minecraft:glow ~ ~0.25 ~ 0 0 0 0.05 3
+particle minecraft:firefly ~ ~0.25 ~ 0 1 0 1 3
+playsound entity.experience_orb.pickup player @a ~ ~ ~ 3 1 1
 execute as @a[tag=RepairPlayer] run advancement grant @s only bittersweet_supplement:progression/worth_its_weight
 
 execute store result score #damage GoldLogic run data get entity @e[type=item,tag=this,limit=1] Item.components."minecraft:damage"

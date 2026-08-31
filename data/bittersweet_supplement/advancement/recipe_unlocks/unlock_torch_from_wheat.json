@@ -6,7 +6,8 @@
         "items": [
           {
             "items": [
-                "minecraft:wheat"
+                "minecraft:wheat",
+                "minecraft:hay_block"
             ]
           }
         ]
@@ -15,7 +16,8 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:crafting/torch_from_wheat"
+      "bittersweet_supplement:crafting/torch_from_wheat",
+      "bittersweet_supplement:crafting/torch_from_hay"
     ]
   }
 }

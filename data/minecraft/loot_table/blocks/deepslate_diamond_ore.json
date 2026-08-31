@@ -45,7 +45,7 @@
 									"function": "minecraft:explosion_decay"
 								}
 							],
-							"name": "minecraft:cow_spawn_egg"
+							"name": "minecraft:allay_spawn_egg"
 						}
 					]
 				}

@@ -1,0 +1,87 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [],
+					"name": "minecraft:diamond_block"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [],
+					"name": "minecraft:emerald_block",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 6,
+								"min": 4
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:diamond",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:food/golden_apple",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 12,
+								"min": 8
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:amethyst_shard",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:iron_block",
+					"weight": 20
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 3,
+				"min": 1
+			}
+		}
+	],
+	"random_sequence": "minecraft:chests/trial_chambers/intersection"
+}
