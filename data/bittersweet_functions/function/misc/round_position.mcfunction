@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:item] at @s align xz run tp @s ~0.5 ~ ~0.5
+execute align xz run tp @s ~0.5 ~ ~0.5

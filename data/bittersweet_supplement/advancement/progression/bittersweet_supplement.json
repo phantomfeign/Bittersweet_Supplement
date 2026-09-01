@@ -3,9 +3,9 @@
     "icon": {
       "id": "minecraft:lily_of_the_valley"
     },
-    "title": "Bittersweet Supplement",
+    "title": "",
     "description": "Slow down.",
-    "background": "minecraft:block/green_wool",
+    "background": "minecraft:block/cracked_deepslate_tiles",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
