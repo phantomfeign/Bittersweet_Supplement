@@ -42,3 +42,6 @@ execute as @a[tag=!Cramped] at @s unless block ~ ~2 ~ minecraft:air run tag @s a
 
 #stackz
 execute as @a run function bittersweet_functions:food/stack_size_increases
+
+#set bonuses
+execute as @a run function bittersweet_functions:set_bonuses/check

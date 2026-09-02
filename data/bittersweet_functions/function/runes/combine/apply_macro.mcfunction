@@ -1,0 +1,2 @@
+say 3
+$item modify entity @s container.0 {function:"minecraft:set_enchantments",enchantments:$(enchantments),add:0b}

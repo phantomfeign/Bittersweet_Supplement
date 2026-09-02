@@ -1,0 +1,39 @@
+{
+	"exclusive_set": "#minecraft:exclusive_set/leg",
+	"anvil_cost": 0,
+	"description": {
+		"translate": "enchantment.minecraft.depth_strider"
+	},
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"amount": {
+					"type": "minecraft:lookup",
+					"values": [
+						0.5,
+						1,
+						-2
+					],
+					"fallback": 0
+				},
+				"attribute": "minecraft:water_movement_efficiency",
+				"id": "minecraft:enchantment.depth_strider",
+				"operation": "add_value"
+			}
+		]
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_level": 3,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"legs"
+	],
+	"supported_items": "#minecraft:enchantable/leg_armor",
+	"weight": 2
+}

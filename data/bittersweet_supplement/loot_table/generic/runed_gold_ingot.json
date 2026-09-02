@@ -34,8 +34,7 @@
 								"minecraft:knockback"
 							],
 							"only_compatible": false,
-							"include_additional_cost_component": false,
-							"conditions": []
+							"include_additional_cost_component": false
 						}
 					]
 				}

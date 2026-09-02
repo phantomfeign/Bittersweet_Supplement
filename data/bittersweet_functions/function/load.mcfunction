@@ -36,7 +36,9 @@ scoreboard objectives add ZombieChaseTime dummy
 scoreboard objectives add Hunger food
 scoreboard objectives add 0.better_consumables.id dummy
 scoreboard objectives add RuneCount dummy
-scoreboard objectives add RuneFloat dummy
+scoreboard objectives add RuneType dummy
+scoreboard objectives add GearType dummy
+scoreboard objectives add SetDolphin dummy
 
 #phantom
 scoreboard objectives add NightTerrorAlive dummy
