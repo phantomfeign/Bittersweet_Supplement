@@ -26,11 +26,10 @@
       "minecraft:custom_data": {
         "boon": "boon_force"
       },
-      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:item_model": "bittersweet_textures:boon_force",
       "minecraft:stored_enchantments": {
         "minecraft:punch": 1,
         "minecraft:knockback": 1,
-        "minecraft:density": 1,
         "minecraft:blast_protection": 1
       },
       "minecraft:item_name": {

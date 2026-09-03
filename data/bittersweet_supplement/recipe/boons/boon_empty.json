@@ -16,6 +16,10 @@
   ],
   "result": {
     "id": "minecraft:knowledge_book",
+    "components": {
+      "item_name": "Empty Boon",
+      "minecraft:item_model": "bittersweet_textures:boon_empty"
+    },
     "count": 1
   }
 }

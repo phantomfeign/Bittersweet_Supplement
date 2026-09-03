@@ -21,7 +21,7 @@
       "minecraft:custom_data": {
         "boon": "boon_brutality"
       },
-      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:item_model": "bittersweet_textures:boon_brutality",
       "minecraft:stored_enchantments": {
         "minecraft:sharpness": 1,
         "minecraft:density": 1,

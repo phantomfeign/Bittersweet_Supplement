@@ -17,14 +17,14 @@
       "minecraft:custom_data": {
         "boon": "boon_perfection"
       },
-      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:item_model": "bittersweet_textures:boon_perfection",
       "minecraft:stored_enchantments": {
         "minecraft:protection": 1,
         "minecraft:efficiency": 1
       },
       "minecraft:item_name": {
         "text": "Boon of Perfection",
-        "color": "#43d6c3"
+        "color": "#b7f1f6"
       }
     },
     "count": 1

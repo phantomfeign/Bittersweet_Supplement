@@ -18,18 +18,18 @@
           "italic": false
         },
         {
-          "text": "A surge of warmth invigorates you as",
+          "text": "A surge of warmth invigorates",
           "color": "white",
           "italic": false
         },
         {
-          "text": "you quickly devour it.",
+          "text": "you as you hastily wolf it down.",
           "color": "white",
           "italic": false
         }
       ],
       "minecraft:consumable": {
-        "consume_seconds": 1.5,
+        "consume_seconds": 0.5,
         "on_consume_effects": [
           {
             "type": "apply_effects",

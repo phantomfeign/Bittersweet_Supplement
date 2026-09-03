@@ -21,7 +21,7 @@
       "minecraft:custom_data": {
         "boon": "boon_tides"
       },
-      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:item_model": "bittersweet_textures:boon_tides",
       "minecraft:stored_enchantments": {
         "minecraft:depth_strider": 1,
         "minecraft:riptide": 1,

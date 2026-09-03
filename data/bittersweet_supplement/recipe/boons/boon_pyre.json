@@ -22,7 +22,7 @@
       "minecraft:custom_data": {
         "boon": "boon_pyre"
       },
-      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:item_model": "bittersweet_textures:boon_pyre",
       "minecraft:stored_enchantments": {
         "minecraft:fire_aspect": 1,
         "minecraft:flame": 1,
