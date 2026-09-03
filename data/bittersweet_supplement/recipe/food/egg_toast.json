@@ -1,48 +1,56 @@
 {
-  "type": "minecraft:smoking",
-  "category": "food",
-  "ingredient": "minecraft:husk_spawn_egg",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+  "EEE",
+  "BBB"
+  ],
+  "key": {
+    "B": "minecraft:bread",
+    "E": "#minecraft:eggs"
+  },
   "result": {
-    "id": "minecraft:cookie",
-    "components": {
+    "id": "minecraft:poisonous_potato",
+    "count": 2,
+"components": {
       "minecraft:item_name": {
-        "text": "Chocolate Chip Cookie",
-        "italic": false
+      "text": "Egg Toast",
+      "italic": false
       },
-      "item_model":"minecraft:cookie",
+      "item_model":"bittersweet_textures:egg_toast",
       "minecraft:lore": [
         {
           "text": "❤❤❤",
           "color": "#54d877",
-          "italic": false
+          "italic":false
         },
         {
-          "text": "A surge of warmth invigorates you as",
+          "text": "A burst of energy and a soothing warmth",
           "color": "white",
-          "italic": false
+          "italic":false
         },
         {
-          "text": "you quickly devour it.",
+          "text": "course steadily within as you eat happily.",
           "color": "white",
-          "italic": false
+          "italic":false
         }
       ],
       "minecraft:consumable": {
-        "consume_seconds": 1.5,
+    "consume_seconds": 1.5,
         "on_consume_effects": [
           {
             "type": "apply_effects",
             "effects": [
               {
                 "id": "minecraft:regeneration",
-                "amplifier": 2,
-                "duration": 80,
+                "amplifier": 1,
+                "duration": 150,
                 "show_particles": false
               },
-             {
+              {
                 "id": "minecraft:speed",
                 "amplifier": 1,
-                "duration": 80,
+                "duration": 300,
                 "show_particles": false
               }
             ]

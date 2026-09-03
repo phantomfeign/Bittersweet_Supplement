@@ -14,7 +14,16 @@
     "id": "minecraft:iron_leggings",
       "components": {
       "minecraft:max_damage": 240,
-      "minecraft:damage": 0
+      "minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:iron_leggings",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "legs"
+				}
+			]
     }
   }
 }

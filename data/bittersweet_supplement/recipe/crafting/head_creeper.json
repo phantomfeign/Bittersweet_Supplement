@@ -4,13 +4,12 @@
 	"key": {
 		"#": "minecraft:tnt",
 		"S": "minecraft:skeleton_skull",
-		"E": "minecraft:gunpowder",
-		"s": "minecraft:potent_sulfur"
+		"E": "minecraft:gunpowder"
 	},
 	"pattern": [
 		"###",
 		"ESE",
-		"#s#"
+		"###"
 	],
 	"result": {
 		"id": "minecraft:creeper_head",

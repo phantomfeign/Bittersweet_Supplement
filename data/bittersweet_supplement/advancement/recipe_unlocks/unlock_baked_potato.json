@@ -6,10 +6,8 @@
         "items": [
           {
             "items": [
-                "minecraft:deepslate",
-                "minecraft:cobbled_deepslate",
-                "minecraft:furnace",
-                "minecraft:iron_ingot"
+            "minecraft:baked_potato",
+            "minecraft:cookie"
             ]
           }
         ]
@@ -18,7 +16,7 @@
   },
   "rewards": {
     "recipes": [
-      "minecraft:blast_furnace"
+      "bittersweet_supplement:food/loaded_baked_potato"
     ]
   }
 }

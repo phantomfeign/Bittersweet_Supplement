@@ -1,14 +1,22 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:netherite_ingot",
-  "base": "minecraft:diamond_boots",
+  "base": "minecraft:golden_boots",
+  "template": "minecraft:netherite_upgrade_smithing_template",
   "result": {
     "id": "minecraft:netherite_boots",
       "components": {
       "minecraft:max_damage": 800,
       "minecraft:damage": 0,
-			"!minecraft:attribute_modifiers": {}
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:netherite_boots",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "feet"
+				}
+			]
     }
-  },
-  "template": "minecraft:netherite_upgrade_smithing_template"
+  }
 }

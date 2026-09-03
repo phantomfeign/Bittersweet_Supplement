@@ -13,7 +13,16 @@
     "id": "minecraft:leather_chestplate",
       "components": {
       "minecraft:max_damage": 120,
-      "minecraft:damage": 0
-    }
-  }
+      "minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:leather_chestplate",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "chest"
+				}
+			]
+		}
+	}
 }

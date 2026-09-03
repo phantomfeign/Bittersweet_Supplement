@@ -13,7 +13,16 @@
     "id": "minecraft:chainmail_leggings",
       "components": {
       "minecraft:max_damage": 240,
-      "minecraft:damage": 0
-    }
-  }
+      "minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:chainmail_leggings",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "legs"
+				}
+			]
+		}
+	}
 }

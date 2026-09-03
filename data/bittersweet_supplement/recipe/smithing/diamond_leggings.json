@@ -2,13 +2,21 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:diamond",
   "base": "minecraft:golden_leggings",
+  "template": "minecraft:chicken_spawn_egg",
   "result": {
     "id": "minecraft:diamond_leggings",
       "components": {
       "minecraft:max_damage": 600,
       "minecraft:damage": 0,
-			"!minecraft:attribute_modifiers": {}
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:diamond_leggings",
+					"amount": 6,
+					"operation": "add_value",
+					"slot": "legs"
+				}
+			]
     }
-  },
-  "template": "minecraft:chicken_spawn_egg"
+  }
 }

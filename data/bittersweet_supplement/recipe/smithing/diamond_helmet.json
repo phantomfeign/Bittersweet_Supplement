@@ -2,17 +2,25 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:diamond",
   "base": "minecraft:golden_helmet",
+  "template": "minecraft:chicken_spawn_egg",
   "result": {
     "id": "minecraft:diamond_helmet",
       "components": {
       "minecraft:max_damage": 600,
       "minecraft:damage": 0,
-			"!minecraft:attribute_modifiers": {},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:diamond_helmet",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "head"
+				}
+			],
       "minecraft:equippable": {
 				"slot": "head",
 				"equip_sound": "minecraft:item.armor.equip_diamond"
       }
     }
-  },
-  "template": "minecraft:chicken_spawn_egg"
+  }
 }

@@ -13,7 +13,16 @@
     "id": "minecraft:copper_chestplate",
       "components": {
       "minecraft:max_damage": 200,
-      "minecraft:damage": 0
-    }
-  }
+      "minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:copper_chestplate",
+					"amount": 3,
+					"operation": "add_value",
+					"slot": "chest"
+				}
+			]
+		}
+	}
 }

@@ -4,6 +4,7 @@ execute if items entity @s contents copper_golem_spawn_egg run tag @s add rune_c
 execute if items entity @s contents iron_golem_spawn_egg run tag @s add rune_iron
 execute if items entity @s contents ocelot_spawn_egg run tag @s add rune_gold
 execute if items entity @s contents snow_golem_spawn_egg run tag @s add rune_diamond
+data modify storage runes:temp rune.enchantments set from entity @s Item.components."minecraft:enchantments"
 
 execute as @e[type=item,tag=!rune_enchanted, distance=..1] at @s if items entity @s contents #bittersweet_functions:copper_gear \
 if block ~ ~-1 ~ minecraft:lodestone run function bittersweet_functions:runes/filter_copper

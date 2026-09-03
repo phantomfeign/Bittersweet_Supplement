@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"place": {
+			"conditions": {
+				"player": {
+					"minecraft:flags": {
+						"is_sneaking": true,
+						"is_on_ground": true
+					}
+				},
+				"location": [
+					{
+						"block": "minecraft:carrots",
+						"condition": "minecraft:block_state_property"
+					}
+				]
+			},
+			"trigger": "minecraft:placed_block"
+		}
+	},
+	"requirements": [
+		[
+			"place"
+		]
+	],
+	"rewards": {
+		"function": "bittersweet_functions:food/crop_3x3/carrot"
+	}
+}

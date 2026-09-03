@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "get_wind_charge": {
+    "get_ingredients": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

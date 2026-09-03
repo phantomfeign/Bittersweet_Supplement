@@ -13,7 +13,16 @@
     "id": "minecraft:golden_leggings",
       "components": {
       "minecraft:max_damage": 220,
-      "minecraft:damage": 0
+      "minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:gold_leggings",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "legs"
+				}
+			]
     }
   }
 }

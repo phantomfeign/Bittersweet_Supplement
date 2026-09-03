@@ -22,11 +22,91 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot"
+					"name": "minecraft:carrot",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									{
+										"text": "❤",
+										"color": "#54d877",
+										"italic": false
+									},
+									{
+										"text": "A gentle warmth slowly settles in as",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"text": "you hastily wolf it down.",
+										"color": "white",
+										"italic": false
+									}
+								],
+								"minecraft:consumable": {
+									"consume_seconds": 0.5,
+									"on_consume_effects": [
+										{
+											"type": "apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 0,
+													"duration": 100,
+													"show_particles": false
+												}
+											]
+										}
+									]
+								}
+							}
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:potato"
+					"name": "minecraft:potato",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									{
+										"text": "❤♡",
+										"color": "#54d877",
+										"italic": false
+									},
+									{
+										"text": "A gentle warmth slowly settles",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"text": "in as you quickly devour it.",
+										"color": "white",
+										"italic": false
+									}
+								],
+								"minecraft:consumable": {
+									"consume_seconds": 1,
+									"on_consume_effects": [
+										{
+											"type": "apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 0,
+													"duration": 160,
+													"show_particles": false
+												}
+											]
+										}
+									]
+								}
+							}
+						}
+					]
 				}
 			],
 			"conditions": [
@@ -38,7 +118,7 @@
 						},
 						{
 							"condition": "minecraft:random_chance",
-							"chance": 0.08
+							"chance": 0.05
 						}
 					]
 				}
@@ -50,6 +130,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:rotten_flesh",
+					"weight": 1,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -69,18 +150,7 @@
 							}
 						}
 					]
-				}
-			]
-		},
-		{
-			"rolls": {
-				"min": 0,
-				"max": {
-					"min": 0,
-					"max": 1
-				}
-			},
-			"entries": [
+				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:zombie_head",
@@ -93,11 +163,50 @@
 								},
 								{
 									"condition": "minecraft:random_chance_with_enchanted_bonus",
-									"unenchanted_chance": 0.05,
-									"enchanted_chance": 0.25,
+									"unenchanted_chance": 0.02,
+									"enchanted_chance": 0.1,
 									"enchantment": "bittersweet_supplement:beheading"
 								}
 							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"conditions": [
+						{
+							"condition": "minecraft:all_of",
+							"terms": [
+								{
+									"condition": "minecraft:killed_by_player"
+								},
+								{
+									"condition": "minecraft:random_chance_with_enchanted_bonus",
+									"unenchanted_chance": 0.04,
+									"enchanted_chance": {
+										"type": "minecraft:linear",
+										"base": 0.03,
+										"per_level_above_first": 0.03
+									},
+									"enchantment": "minecraft:looting"
+								}
+							]
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"conditions": []
 						}
 					]
 				}

@@ -1,105 +1,197 @@
 {
-  "type": "minecraft:entity",
-  "pools": [
-    {
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3,
-                "min": 0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2,
-                "min": 0
-              },
-              "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
-            }
-          ],
-          "name": "minecraft:arrow"
-        }
-      ],
-      "rolls": 1
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2,
-                "min": 0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1,
-                "min": 0
-              },
-              "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
-            }
-          ],
-          "name": "minecraft:bone"
-        }
-      ],
-      "rolls": 1
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            },
-            {
-              "function": "minecraft:enchanted_count_increase",
-              "enchantment": "minecraft:looting",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        },
-        {
-          "condition": "minecraft:random_chance_with_enchanted_bonus",
-          "enchantment": "minecraft:looting",
-          "unenchanted_chance": 0.05,
-          "enchanted_chance": {
-            "type": "minecraft:linear",
-            "base": 0.06,
-            "per_level_above_first": 0.01
-          }
-        }
-      ]
-    }
-  ],
-  "random_sequence": "minecraft:entities/zombie_villager"
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:melon_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pumpkin_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wheat_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									{
+										"text": "❤",
+										"color": "#54d877",
+										"italic": false
+									},
+									{
+										"text": "A gentle warmth slowly settles in as",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"text": "you hastily wolf it down.",
+										"color": "white",
+										"italic": false
+									}
+								],
+								"minecraft:consumable": {
+									"consume_seconds": 0.5,
+									"on_consume_effects": [
+										{
+											"type": "apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 0,
+													"duration": 100,
+													"show_particles": false
+												}
+											]
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									{
+										"text": "❤♡",
+										"color": "#54d877",
+										"italic": false
+									},
+									{
+										"text": "A gentle warmth slowly settles",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"text": "in as you quickly devour it.",
+										"color": "white",
+										"italic": false
+									}
+								],
+								"minecraft:consumable": {
+									"consume_seconds": 1,
+									"on_consume_effects": [
+										{
+											"type": "apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 0,
+													"duration": 160,
+													"show_particles": false
+												}
+											]
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:killed_by_player"
+						},
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.05
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 2
+							}
+						},
+						{
+							"function": "minecraft:enchanted_count_increase",
+							"enchantment": "minecraft:looting",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"conditions": [
+						{
+							"condition": "minecraft:all_of",
+							"terms": [
+								{
+									"condition": "minecraft:killed_by_player"
+								},
+								{
+									"condition": "minecraft:random_chance_with_enchanted_bonus",
+									"unenchanted_chance": 0.1,
+									"enchanted_chance": {
+										"type": "minecraft:linear",
+										"base": 0.05,
+										"per_level_above_first": 0.05
+									},
+									"enchantment": "minecraft:looting"
+								}
+							]
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"conditions": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:entities/zombie"
 }

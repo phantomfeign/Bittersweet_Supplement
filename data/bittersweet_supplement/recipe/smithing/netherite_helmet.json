@@ -1,18 +1,26 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:netherite_ingot",
-  "base": "minecraft:diamond_helmet",
+  "base": "minecraft:golden_helmet",
+  "template": "minecraft:netherite_upgrade_smithing_template",
   "result": {
     "id": "minecraft:netherite_helmet",
       "components": {
       "minecraft:max_damage": 800,
       "minecraft:damage": 0,
-			"!minecraft:attribute_modifiers": {},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:netherite_helmet",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "head"
+				}
+			],
       "minecraft:equippable": {
 				"slot": "head",
 				"equip_sound": "minecraft:item.armor.equip_netherite"
             }
         }
-    },
-  "template": "minecraft:netherite_upgrade_smithing_template"
+    }
 }

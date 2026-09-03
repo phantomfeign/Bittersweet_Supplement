@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+  "E",
+  "B"
+  ],
+  "key": {
+    "B": "minecraft:baked_potato",
+    "C": "minecraft:cookie"
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "count": 1,
+"components": {
+      "minecraft:item_name": {
+      "text": "Loaded Baked Potato",
+      "italic": false
+      },
+      "item_model":"bittersweet_textures:loaded_baked_potato",
+      "minecraft:lore": [
+        {
+          "text": "❤❤❤",
+          "color": "#54d877",
+          "italic":false
+        },
+        {
+          "text": "A balanced energy and a soothing warmth",
+          "color": "white",
+          "italic":false
+        },
+        {
+          "text": "course steadily within as you eat happily.",
+          "color": "white",
+          "italic":false
+        }
+      ],
+      "minecraft:consumable": {
+    "consume_seconds": 1.5,
+        "on_consume_effects": [
+          {
+            "type": "apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 1,
+                "duration": 150,
+                "show_particles": false
+              },
+              {
+                "id": "minecraft:strength",
+                "amplifier": 1,
+                "duration": 300,
+                "show_particles": false
+              },
+              {
+                "id": "minecraft:resistance",
+                "amplifier": 1,
+                "duration": 300,
+                "show_particles": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

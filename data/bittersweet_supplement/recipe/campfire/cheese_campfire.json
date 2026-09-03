@@ -1,19 +1,19 @@
 {
   "type": "minecraft:campfire_cooking",
   "category": "food",
-  "cookingtime": 600,
-  "ingredient": "minecraft:husk_spawn_egg",
+  "ingredient": "minecraft:beetroot_soup",
+  "cookingtime": 1200,
   "result": {
-    "id": "minecraft:poisonous_potato",
+    "id": "minecraft:cookie",
     "components": {
       "minecraft:item_name": {
-        "text": "Chocolate Chip Cookie",
+        "text": "Cheese",
         "italic": false
       },
-      "item_model":"minecraft:cookie",
+      "item_model":"bittersweet_textures:cheese",
       "minecraft:lore": [
         {
-          "text": "❤❤❤",
+          "text": "❤",
           "color": "#54d877",
           "italic": false
         },
@@ -29,22 +29,28 @@
         }
       ],
       "minecraft:consumable": {
-        "consume_seconds": 1.5,
+      "consume_seconds": 1,
         "on_consume_effects": [
           {
             "type": "apply_effects",
             "effects": [
+                {
+            "id": "minecraft:regeneration",
+            "amplifier": 2,
+            "duration": 25,
+                "show_particles": false
+                },
               {
-                "id": "minecraft:regeneration",
-                "amplifier": 2,
-                "duration": 80,
-            "show_particles": false
+                "id": "minecraft:strength",
+                "amplifier": 0,
+                "duration": 60,
+                "show_particles": false
               },
-             {
-                "id": "minecraft:speed",
-                "amplifier": 1,
-                "duration": 80,
-            "show_particles": false
+              {
+                "id": "minecraft:resistance",
+                "amplifier": 0,
+                "duration": 60,
+                "show_particles": false
               }
             ]
           }

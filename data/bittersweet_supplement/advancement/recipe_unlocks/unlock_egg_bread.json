@@ -6,14 +6,10 @@
         "items": [
           {
             "items": [
-            "minecraft:egg",
-            "minecraft:blue_egg",
-            "minecraft:brown_egg",
             "minecraft:bread",
-            "minecraft:cooked_beef",
-            "minecraft:cooked_chicken",
-            "minecraft:cooked_mutton",
-            "minecraft:cooked_porkchop"
+            "minecraft:egg",
+            "minecraft:brown_egg",
+            "minecraft:blue_egg"
             ]
           }
         ]
@@ -22,7 +18,7 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:food/breakfast_sandwich"
+      "bittersweet_supplement:food/egg_toast"
     ]
   }
 }

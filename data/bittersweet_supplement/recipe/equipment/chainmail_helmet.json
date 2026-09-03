@@ -12,7 +12,16 @@
     "id": "minecraft:chainmail_helmet",
       "components": {
       "minecraft:max_damage": 240,
-      "minecraft:damage": 0
-    }
-  }
+      "minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:chainmail_helmet",
+					"amount": 3,
+					"operation": "add_value",
+					"slot": "head"
+				}
+			]
+		}
+	}
 }

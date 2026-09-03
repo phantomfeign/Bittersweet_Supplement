@@ -13,6 +13,15 @@
       "components": {
       "minecraft:max_damage": 200,
       "minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:copper_helmet",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "head"
+				}
+      ],
       "minecraft:equippable": {
 				"slot": "head",
 				"equip_sound": "minecraft:item.armor.equip_copper"

@@ -13,7 +13,16 @@
     "id": "minecraft:chainmail_chestplate",
       "components": {
       "minecraft:max_damage": 240,
-      "minecraft:damage": 0
-    }
-  }
+      "minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:chainmail_chestplate",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "chest"
+				}
+			]
+		}
+	}
 }

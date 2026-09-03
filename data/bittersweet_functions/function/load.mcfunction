@@ -38,7 +38,12 @@ scoreboard objectives add 0.better_consumables.id dummy
 scoreboard objectives add RuneCount dummy
 scoreboard objectives add RuneType dummy
 scoreboard objectives add GearType dummy
+scoreboard objectives add EnchantLevelUp dummy
 scoreboard objectives add SetDolphin dummy
+
+#food
+scoreboard objectives add SeedCount dummy
+scoreboard players set #0 SeedCount 0
 
 #phantom
 scoreboard objectives add NightTerrorAlive dummy

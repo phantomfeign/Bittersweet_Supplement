@@ -12,7 +12,16 @@
     "id": "minecraft:golden_helmet",
       "components": {
       "minecraft:max_damage": 220,
-      "minecraft:damage": 0
+      "minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:gold_helmet",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "head"
+				}
+			]
     }
   }
 }

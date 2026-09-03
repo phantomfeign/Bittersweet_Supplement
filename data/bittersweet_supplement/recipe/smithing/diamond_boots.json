@@ -2,14 +2,21 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:diamond",
   "base": "minecraft:golden_boots",
+  "template": "minecraft:chicken_spawn_egg",
   "result": {
     "id": "minecraft:diamond_boots",
       "components": {
       "minecraft:max_damage": 600,
       "minecraft:damage": 0,
-			"!minecraft:attribute_modifiers": {}
-
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:diamond_boots",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "feet"
+				}
+			]
     }
-  },
-  "template": "minecraft:chicken_spawn_egg"
+  }
 }
