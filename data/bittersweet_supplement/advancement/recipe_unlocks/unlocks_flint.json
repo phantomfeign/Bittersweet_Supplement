@@ -15,7 +15,8 @@
     "recipes": [
       "bittersweet_supplement:equipment/wooden_axe",
       "bittersweet_supplement:equipment/wooden_pickaxe",
-      "bittersweet_supplement:equipment/wooden_spear"
+      "bittersweet_supplement:equipment/wooden_spear",
+      "bittersweet_supplement:equipment/percussive_firestarter"
     ]
   }
 }

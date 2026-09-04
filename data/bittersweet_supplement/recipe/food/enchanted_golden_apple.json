@@ -4,7 +4,7 @@
   "key": {
     "#": "minecraft:gold_block",
     "X": "minecraft:golden_apple",
-    "S": "minecraft:pig_spawn_egg",
+    "S": "minecraft:ghast_tear",
     "D": "minecraft:diamond_block"
   },
   "pattern": [

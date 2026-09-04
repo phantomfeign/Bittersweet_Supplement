@@ -40,6 +40,7 @@
     "minecraft:piglin",
     "minecraft:zombified_piglin",
     "minecraft:wolf",
-    "minecraft:iron_golem"
+    "minecraft:iron_golem",
+    "minecraft:snow_golem"
   ]
 }

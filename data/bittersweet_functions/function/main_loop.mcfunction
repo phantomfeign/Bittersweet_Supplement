@@ -17,6 +17,9 @@ execute as @a[tag=!UsingAnvil] at @s run experience set @s 0 levels
 execute as @a[tag=!UsingAnvil] at @s run experience set @s 0 points
 execute as @a[tag=UsingAnvil] at @s run experience set @s 54 levels
 
+#snow golem freeze
+execute as @e[type=minecraft:snow_golem] at @s run function bittersweet_functions:mob_adjustments/snow_golem/freezing_aura
+
 #night terror weather effects
 execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run weather thunder
 execute if entity @e[type=minecraft:phantom,tag=NightTerror,limit=1] run time set minecraft:midnight

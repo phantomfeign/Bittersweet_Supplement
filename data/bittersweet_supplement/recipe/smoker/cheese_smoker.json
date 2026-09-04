@@ -18,12 +18,12 @@
           "italic": false
         },
         {
-          "text": "A surge of warmth invigorates you as",
+          "text": "A powerful energy and a surge of warmth",
           "color": "white",
           "italic": false
         },
         {
-          "text": "you quickly devour it.",
+          "text": "invigorate you as you quickly devour it.",
           "color": "white",
           "italic": false
         }
@@ -42,12 +42,6 @@
                 },
               {
                 "id": "minecraft:strength",
-                "amplifier": 0,
-                "duration": 100,
-                "show_particles": false
-              },
-              {
-                "id": "minecraft:resistance",
                 "amplifier": 0,
                 "duration": 100,
                 "show_particles": false

@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "equipment",
+	"ingredients": [
+		"minecraft:flint",
+		"minecraft:flint"
+	],
+	"result": {
+		"id": "minecraft:flint_and_steel",
+		"components": {
+			"minecraft:max_damage": 1,
+			"minecraft:item_name": "Percussion Firestarter"
+		}
+	}
+}

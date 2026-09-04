@@ -4,7 +4,7 @@
       "id": "minecraft:knowledge_book"
     },
     "title": "Gifts of Old",
-    "description": "I like your funny words.",
+    "description": "Blank slate.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -39,7 +39,7 @@
       "bittersweet_supplement:boons/boon_spite",
       "bittersweet_supplement:boons/boon_storms",
       "bittersweet_supplement:boons/boon_surge",
-      "bittersweet_supplement:boons/boon_tempo",
+      "bittersweet_supplement:boons/boon_echoes",
       "bittersweet_supplement:boons/boon_tides"
     ]
   }

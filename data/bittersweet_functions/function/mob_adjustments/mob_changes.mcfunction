@@ -35,11 +35,15 @@ effect give @s[type=warden] minecraft:jump_boost infinite 2 true
 
 #spiders have 10 hp instead of 20 and more speed
 attribute @s[type=minecraft:spider] minecraft:max_health base set 10
-execute as @s[type=minecraft:skeleton] run data merge entity @s {Health:10.0f}
+execute as @s[type=minecraft:spider] run data merge entity @s {Health:10.0f}
 attribute @s[type=minecraft:spider] minecraft:movement_speed base set 0.35
 
 #cave spiders have 8 hp instead of 12 and more speed, as well as most of their dmg budget allocated to poison instead
 attribute @s[type=minecraft:cave_spider] minecraft:max_health base set 8
-execute as @s[type=minecraft:skeleton] run data merge entity @s {Health:8.0f}
+execute as @s[type=minecraft:cave_spider] run data merge entity @s {Health:8.0f}
 attribute @s[type=minecraft:cave_spider] minecraft:movement_speed base set 0.35
 attribute @s[type=minecraft:cave_spider] minecraft:attack_damage base set 1
+
+#snow golems arent super frail
+attribute @s[type=minecraft:snow_golem] minecraft:max_health base set 10
+execute as @s[type=minecraft:snow_golem] run data merge entity @s {Health:10.0f}

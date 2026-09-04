@@ -1,11 +1,6 @@
 #thanks to klei wright for this code ILY never listen to the haters
-#water
-execute at @a run execute if items entity @p inventory.* minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] run give @p minecraft:potion[max_stack_size=64,minecraft:custom_name={"text":"Vial of Water","italic":false},potion_contents={potion:"minecraft:water"}]
-execute at @a run execute if items entity @p hotbar.* minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] run give @p minecraft:potion[max_stack_size=64,minecraft:custom_name={"text":"Vial of Water","italic":false},potion_contents={potion:"minecraft:water"}]
-execute at @a run execute if items entity @p inventory.* minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] run clear @p minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] 1
-execute at @a run execute if items entity @p hotbar.* minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] run clear @p minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] 1
 #honey
-execute at @a run execute if items entity @p inventory.* minecraft:honey_bottle[!max_stack_size=64] run give @p minecraft:honey_bottle[minecraft:custom_data={bittersweet_honey:1b},\
+execute if items entity @s inventory.* minecraft:honey_bottle[!max_stack_size=64] run give @s minecraft:honey_bottle[minecraft:custom_data={bittersweet_honey:1b},\
 minecraft:max_stack_size=64,\
 minecraft:lore=[{\
 "text":"♡",\
@@ -25,7 +20,7 @@ amplifier:0,duration:50,show_particles:false},\
 {id:"minecraft:speed",\
 amplifier:0,duration:60,show_particles:false}]}]}]
 
-execute at @a run execute if items entity @p hotbar.* minecraft:honey_bottle[!max_stack_size=64] run give @p minecraft:honey_bottle[minecraft:custom_data={bittersweet_honey:1b},\
+execute if items entity @s hotbar.* minecraft:honey_bottle[!max_stack_size=64] run give @s minecraft:honey_bottle[minecraft:custom_data={bittersweet_honey:1b},\
 minecraft:max_stack_size=64,\
 minecraft:lore=[{\
 "text":"♡",\
@@ -45,23 +40,21 @@ amplifier:0,duration:50,show_particles:false},\
 {id:"minecraft:speed",\
 amplifier:0,duration:60,show_particles:false}]}]}]
 
-execute at @a run execute if items entity @p inventory.* minecraft:honey_bottle[!max_stack_size=64] run clear @p minecraft:honey_bottle[!max_stack_size=64] 1
-execute at @a run execute if items entity @p hotbar.* minecraft:honey_bottle[!max_stack_size=64] run clear @p minecraft:honey_bottle[!max_stack_size=64] 1
+execute if items entity @s inventory.* minecraft:honey_bottle[!max_stack_size=64] run clear @s minecraft:honey_bottle[!max_stack_size=64] 1
+execute if items entity @s hotbar.* minecraft:honey_bottle[!max_stack_size=64] run clear @s minecraft:honey_bottle[!max_stack_size=64] 1
+
+#water
+execute if items entity @s inventory.* minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] run give @s minecraft:potion[max_stack_size=64,minecraft:custom_name={"text":"Vial of Water","italic":false},potion_contents={potion:"minecraft:water"}]
+execute if items entity @s hotbar.* minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] run give @s minecraft:potion[max_stack_size=64,minecraft:custom_name={"text":"Vial of Water","italic":false},potion_contents={potion:"minecraft:water"}]
+execute if items entity @s inventory.* minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] run clear @s minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] 1
+execute if items entity @s hotbar.* minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] run clear @s minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] 1
 
 #egg
-execute at @a run execute if items entity @p inventory.* minecraft:egg[!max_stack_size=64] run give @p minecraft:egg[max_stack_size=64]
-execute at @a run execute if items entity @p inventory.* minecraft:brown_egg[!max_stack_size=64] run give @p minecraft:brown_egg[max_stack_size=64]
-execute at @a run execute if items entity @p inventory.* minecraft:blue_egg[!max_stack_size=64] run give @p minecraft:blue_egg[max_stack_size=64]
-execute at @a run execute if items entity @p hotbar.* minecraft:egg[!max_stack_size=64] run give @p minecraft:egg[max_stack_size=64]
-execute at @a run execute if items entity @p hotbar.* minecraft:brown_egg[!max_stack_size=64] run give @p minecraft:brown_egg[max_stack_size=64]
-execute at @a run execute if items entity @p hotbar.* minecraft:blue_egg[!max_stack_size=64] run give @p minecraft:blue_egg[max_stack_size=64]
+function bittersweet_functions:food/fix_item_stack {item:"minecraft:egg"}
+function bittersweet_functions:food/fix_item_stack {item:"minecraft:brown_egg"}
+function bittersweet_functions:food/fix_item_stack {item:"minecraft:blue_egg"}
+function bittersweet_functions:food/fix_item_stack {item:"minecraft:milk_bucket"}
 
-execute at @a run execute if items entity @p inventory.* minecraft:egg[!max_stack_size=64] run clear @p minecraft:egg[!max_stack_size=64] 1
-execute at @a run execute if items entity @p inventory.* minecraft:blue_egg[!max_stack_size=64] run clear @p minecraft:blue_egg[!max_stack_size=64] 1
-execute at @a run execute if items entity @p inventory.* minecraft:brown_egg[!max_stack_size=64] run clear @p minecraft:brown_egg[!max_stack_size=64] 1
-execute at @a run execute if items entity @p hotbar.* minecraft:egg[!max_stack_size=64] run clear @p minecraft:egg[!max_stack_size=64] 1
-execute at @a run execute if items entity @p hotbar.* minecraft:blue_egg[!max_stack_size=64] run clear @p minecraft:blue_egg[!max_stack_size=64] 1
-execute at @a run execute if items entity @p hotbar.* minecraft:brown_egg[!max_stack_size=64] run clear @p minecraft:brown_egg[!max_stack_size=64] 1
 
 execute as @a if items entity @s inventory.* #bittersweet_functions:needs_stack_adjustments[!max_stack_size=64] run function bittersweet_functions:food/process_stacks
 execute as @a if items entity @s hotbar.* #bittersweet_functions:needs_stack_adjustments[!max_stack_size=64] run function bittersweet_functions:food/process_stacks

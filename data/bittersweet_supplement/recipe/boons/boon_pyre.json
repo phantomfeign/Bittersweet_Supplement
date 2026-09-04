@@ -1,38 +1,42 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "G": "minecraft:gold_block",
-    "N": "minecraft:magma_block",
-    "B": "minecraft:knowledge_book",
-    "M": [
-      "minecraft:magma_cream",
-      "minecraft:blaze_powder"
-    ],
-    "R": "minecraft:lava_bucket"
-  },
-  "pattern": [
-    "GNG",
-    "MBM",
-    "MRM"
-  ],
-  "result": {
-    "id": "minecraft:enchanted_book",
-    "components": {
-      "minecraft:custom_data": {
-        "boon": "boon_pyre"
-      },
-      "minecraft:item_model": "bittersweet_textures:boon_pyre",
-      "minecraft:stored_enchantments": {
-        "minecraft:fire_aspect": 1,
-        "minecraft:flame": 1,
-        "minecraft:fire_protection": 1
-      },
-      "minecraft:item_name": {
-        "text": "Boon of Pyre",
-        "color": "#d4590e"
-      }
-    },
-    "count": 1
-  }
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"G": "minecraft:gold_block",
+		"N": "minecraft:magma_block",
+		"B": "minecraft:knowledge_book",
+		"M": [
+			"minecraft:magma_cream",
+			"minecraft:blaze_powder"
+		],
+		"R": "minecraft:ghast_tear",
+		"C": [
+			"minecraft:fire_charge",
+			"minecraft:blaze_powder"
+		]
+	},
+	"pattern": [
+		"MRC",
+		"MBC",
+		"GNG"
+	],
+	"result": {
+		"id": "minecraft:enchanted_book",
+		"components": {
+			"minecraft:custom_data": {
+				"boon": "boon_pyre"
+			},
+			"minecraft:item_model": "bittersweet_textures:boon_pyre",
+			"minecraft:stored_enchantments": {
+				"minecraft:fire_aspect": 1,
+				"minecraft:flame": 1,
+				"minecraft:fire_protection": 1
+			},
+			"minecraft:item_name": {
+				"text": "Boon of Pyre",
+				"color": "#d4590e"
+			}
+		},
+		"count": 1
+	}
 }
