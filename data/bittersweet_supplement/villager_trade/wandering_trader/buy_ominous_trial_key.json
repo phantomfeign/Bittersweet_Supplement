@@ -1,0 +1,10 @@
+{
+	"gives": {
+		"id": "minecraft:emerald"
+	},
+	"max_uses": 1,
+	"reputation_discount": 0,
+	"wants": {
+		"id": "minecraft:ominous_trial_key"
+	}
+}

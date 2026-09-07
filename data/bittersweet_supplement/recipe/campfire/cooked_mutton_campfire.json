@@ -15,12 +15,12 @@
         },
         {
           "text": "A gentle warmth slowly settles",
-          "color": "white",
+          "color": "gray",
           "italic": false
         },
         {
           "text": "in as you indulge yourself.",
-          "color": "white",
+          "color": "gray",
           "italic": false        }
       ],
   "minecraft:consumable": {

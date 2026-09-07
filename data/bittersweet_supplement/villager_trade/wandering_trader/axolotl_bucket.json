@@ -1,0 +1,11 @@
+{
+	"gives": {
+		"id": "minecraft:axolotl_bucket"
+	},
+	"max_uses": 3,
+	"reputation_discount": 0,
+	"wants": {
+		"id": "minecraft:diamond",
+		"count": 1
+	}
+}

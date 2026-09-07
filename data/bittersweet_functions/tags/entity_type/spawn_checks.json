@@ -41,6 +41,7 @@
     "minecraft:zombified_piglin",
     "minecraft:wolf",
     "minecraft:iron_golem",
-    "minecraft:snow_golem"
+    "minecraft:snow_golem",
+    "minecraft:wandering_trader"
   ]
 }

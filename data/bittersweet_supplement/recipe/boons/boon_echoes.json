@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "B": "minecraft:knowledge_book",
+    "B": "minecraft:villager_spawn_egg",
     "E": "minecraft:echo_shard",
     "S": "minecraft:soul_lantern",
     "s": "minecraft:sugar",

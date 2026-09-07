@@ -1,0 +1,26 @@
+{
+	"given_item_modifiers": [
+		{
+			"decoration": "minecraft:target_x",
+			"destination": "minecraft:on_trial_chambers_maps",
+			"function": "minecraft:exploration_map",
+			"search_radius": 100
+		},
+		{
+			"function": "minecraft:set_name",
+			"name": {
+				"translate": "Trial Chamber Explorer Map"
+			},
+			"target": "item_name"
+		}
+	],
+	"gives": {
+		"id": "minecraft:map"
+	},
+	"max_uses": 1,
+
+	"wants": {
+		"count": 1,
+		"id": "minecraft:emerald"
+	}
+}

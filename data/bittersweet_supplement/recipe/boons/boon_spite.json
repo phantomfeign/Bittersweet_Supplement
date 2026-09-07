@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "B": "minecraft:knowledge_book",
+    "B": "minecraft:villager_spawn_egg",
     "G": "minecraft:pointed_dripstone",
     "F": "minecraft:cactus",
     "A": "minecraft:fermented_spider_eye"

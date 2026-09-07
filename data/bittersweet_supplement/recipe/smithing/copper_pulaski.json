@@ -1,8 +1,8 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:iron_ingot",
+	"addition": "minecraft:iron_ingot",
 	"base": "minecraft:copper_shovel",
-	"addition": "minecraft:copper_axe",
+	"template": "minecraft:copper_axe",
 	"result": {
 		"count": 1,
 		"id": "minecraft:copper_axe",
@@ -10,6 +10,9 @@
 			"minecraft:custom_name": {
 				"text": "Copper Pulaski",
 				"italic": false
+			},
+			"minecraft:custom_data": {
+				"multitool": "pulaski"
 			},
 			"minecraft:tool": {
 				"rules": [

@@ -15,10 +15,10 @@
     "gGg"
   ],
   "result": {
-    "id": "minecraft:knowledge_book",
+    "id": "minecraft:villager_spawn_egg",
     "components": {
-      "item_name": "Empty Boon",
-      "minecraft:item_model": "bittersweet_textures:boon_empty"
+      "!entity_data":{},
+      "item_name": "Empty Boon"
     },
     "count": 1
   }

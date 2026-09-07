@@ -1,8 +1,8 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:emerald",
+	"addition": "minecraft:emerald",
 	"base": "minecraft:diamond_shovel",
-	"addition": "minecraft:diamond_axe",
+	"template": "minecraft:diamond_axe",
 	"result": {
 		"id": "minecraft:diamond_axe",
 		"components": {
@@ -10,16 +10,19 @@
 				"text": "Emerald Pulaski",
 				"italic": false
 			},
+			"minecraft:custom_data": {
+				"multitool": "pulaski"
+			},
 			"minecraft:tool": {
 				"rules": [
 					{
 						"blocks": "#minecraft:mineable/axe",
-						"speed": 7,
+						"speed": 10,
 						"correct_for_drops": true
 					},
 					{
 						"blocks": "#minecraft:mineable/shovel",
-						"speed": 7,
+						"speed": 10,
 						"correct_for_drops": true
 					}
 				],

@@ -1,0 +1,19 @@
+{
+	"gives": {
+		"id": "minecraft:brown_bundle",
+		"components": {
+			"minecraft:bundle_contents": [
+				"minecraft:cherry_sapling",
+				"minecraft:pale_oak_sapling",
+				"minecraft:mangrove_propagule"
+			],
+			"minecraft:item_name": "Bundle of Exotic Saplings"
+		}
+	},
+	"max_uses": 3,
+	"reputation_discount": 0,
+	"wants": {
+		"id": "minecraft:emerald",
+		"count": 2
+	}
+}

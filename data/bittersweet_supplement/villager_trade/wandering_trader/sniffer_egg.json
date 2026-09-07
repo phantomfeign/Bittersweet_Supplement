@@ -1,0 +1,10 @@
+{
+	"gives": {
+		"id": "minecraft:sniffer_egg"
+	},
+	"max_uses": 3,
+	"reputation_discount": 0,
+	"wants": {
+		"id": "minecraft:emerald"
+	}
+}

@@ -5,9 +5,21 @@
   "result": {
     "id": "minecraft:diamond_pickaxe",
 		"components": {
-			"minecraft:max_damage": 1800,
+			"minecraft:max_damage": 2000,
 			"minecraft:damage": 0,
-			"!minecraft:attribute_modifiers": {}    }
+			"!minecraft:attribute_modifiers": {},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 11,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			}
+      }
   },
   "template": "minecraft:chicken_spawn_egg"
 }

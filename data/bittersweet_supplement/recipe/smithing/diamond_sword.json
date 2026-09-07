@@ -5,7 +5,7 @@
 	"result": {
 		"id": "minecraft:diamond_sword",
 		"components": {
-			"minecraft:max_damage": 1800,
+			"minecraft:max_damage": 2000,
 			"minecraft:damage": 0,
 			"minecraft:attribute_modifiers": [
 				{
@@ -17,7 +17,7 @@
 				},
 				{
 					"type": "minecraft:attack_speed",
-					"amount": -2.4,
+					"amount": -2,
 					"operation": "add_value",
 					"id": "bittersweet:diamond_sword_speed",
 					"slot": "mainhand"
@@ -45,7 +45,7 @@
 					"italic": false
 				},
 				{
-					"text": " 1.6 Attack Speed",
+					"text": " 2 Attack Speed",
 					"color": "dark_green",
 					"italic": false
 				}

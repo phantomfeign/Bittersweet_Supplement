@@ -1,10 +1,9 @@
 {
   "type": "minecraft:blasting",
-  "experience": 0.1,
-  "group": "coal",
-  "ingredient": "minecraft:charcoal",
+  "group": "gunpowder",
+  "ingredient": "minecraft:coal",
   "result": {
     "id": "minecraft:gunpowder",
-    "count": 2
+    "count": 1
   }
 }

@@ -1,8 +1,8 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:diamond",
+	"addition": "minecraft:diamond",
 	"base": "minecraft:golden_pickaxe",
-	"addition": "minecraft:golden_hoe",
+	"template": "minecraft:golden_hoe",
 	"result": {
 		"count": 1,
 		"id": "minecraft:golden_pickaxe",
@@ -15,12 +15,12 @@
 				"rules": [
 					{
 						"blocks": "#minecraft:mineable/pickaxe",
-						"speed": 10,
+						"speed": 9,
 						"correct_for_drops": true
 					},
 					{
 						"blocks": "#minecraft:mineable/hoe",
-						"speed": 10,
+						"speed": 9,
 						"correct_for_drops": true
 					}
 				],

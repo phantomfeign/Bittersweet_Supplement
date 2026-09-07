@@ -46,12 +46,12 @@
 									},
 									{
 										"text": "A soothing warmth courses",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									},
 									{
 										"text": "steadily within as you eat happily.",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									}
 								],
@@ -98,12 +98,12 @@
 									},
 									{
 										"text": "A gentle warmth slowly settles in",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									},
 									{
 										"text": "as you hastily wolf it down.",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									}
 								],

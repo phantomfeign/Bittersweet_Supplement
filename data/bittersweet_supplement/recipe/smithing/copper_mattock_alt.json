@@ -1,8 +1,8 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:iron_ingot",
+	"addition": "minecraft:iron_ingot",
 	"base": "minecraft:copper_pickaxe",
-	"addition": "minecraft:copper_hoe",
+	"template": "minecraft:copper_hoe",
 	"result": {
 		"count": 1,
 		"id": "minecraft:copper_hoe",

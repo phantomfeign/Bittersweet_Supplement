@@ -1,22 +1,31 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:campfire",
-          "conditions": [],
-          "functions": []
-        }
-      ],
-      "rolls": 1
-    }
-  ],
-  "random_sequence": "minecraft:blocks/campfire"
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:campfire",
+					"conditions": [],
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:block_state": {
+									"lit": "false"
+								}
+							}
+						}
+					]
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:blocks/campfire"
 }

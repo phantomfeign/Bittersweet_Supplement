@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "B": "minecraft:knowledge_book",
+    "B": "minecraft:villager_spawn_egg",
     "F": "minecraft:raw_gold_block",
     "b": "minecraft:blue_ice",
     "g": "minecraft:glass"

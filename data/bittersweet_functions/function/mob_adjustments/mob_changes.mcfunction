@@ -47,3 +47,6 @@ attribute @s[type=minecraft:cave_spider] minecraft:attack_damage base set 1
 #snow golems arent super frail
 attribute @s[type=minecraft:snow_golem] minecraft:max_health base set 10
 execute as @s[type=minecraft:snow_golem] run data merge entity @s {Health:10.0f}
+
+#wandering trader
+execute as @s[type=minecraft:wandering_trader] run say "A wandering trader has arrived."

@@ -14,8 +14,7 @@
 		"id": "minecraft:skeleton_skull",
 		"components": {
 			"minecraft:item_name": {
-				"text": "Skull",
-				"color": "white"
+				"text": "Skull"
 			}
 		}
 	}

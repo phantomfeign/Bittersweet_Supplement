@@ -1,0 +1,14 @@
+{
+	"additional_wants": {
+		"id": "minecraft:ghast_tear",
+		"count": 3
+	},
+	"gives": {
+		"id": "minecraft:nether_wart"
+	},
+	"max_uses": 5,
+	"reputation_discount": 0,
+	"wants": {
+		"id": "minecraft:emerald"
+	}
+}

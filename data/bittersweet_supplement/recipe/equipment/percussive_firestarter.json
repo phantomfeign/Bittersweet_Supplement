@@ -9,7 +9,17 @@
 		"id": "minecraft:flint_and_steel",
 		"components": {
 			"minecraft:max_damage": 1,
-			"minecraft:item_name": "Percussion Firestarter"
+			"minecraft:item_name": "Percussion Firestarter",
+			"minecraft:item_model": "bittersweet_textures:percussion_firestarter",
+			"minecraft:lore": [
+				{
+					"text": "One-time use!",
+					"color": "gray"
+				}
+			],
+			"minecraft:custom_data": {
+				"firestarter": true
+			}
 		}
 	}
 }

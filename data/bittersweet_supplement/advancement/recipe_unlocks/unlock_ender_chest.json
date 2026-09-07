@@ -7,6 +7,7 @@
           {
             "items": [
                 "minecraft:obsidian",
+                "minecraft:crying_obsidian",
                 "minecraft:diamond",
                 "minecraft:ender_pearl"
             ]

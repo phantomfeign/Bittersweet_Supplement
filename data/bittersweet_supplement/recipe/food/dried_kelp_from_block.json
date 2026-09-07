@@ -6,40 +6,46 @@
 	"result": {
 		"count": 9,
 		"id": "minecraft:dried_kelp",
-		"components": {
+			"components": {
 			"minecraft:lore": [
 				{
-					"text": "♡",
-					"color": "#54d877",
-					"italic": false
+				"text": "♡",
+				"color": "#54d877",
+				"italic": false
 				},
 				{
-					"text": "A gentle warmth slowly settles in as",
-					"color": "white",
-					"italic": false
+				"text": "A flowing energy and a gentle warmth",
+				"color": "gray",
+				"italic": false
 				},
 				{
-					"text": "you hastily wolf it down.",
-					"color": "white",
-					"italic": false
+				"text": "slowly settle in as you hastily wolf it down.",
+				"color": "gray",
+				"italic": false
 				}
 			],
 			"minecraft:consumable": {
-				"consume_seconds": 0.5,
-				"animation": "drink",
+			"consume_seconds": 0.5,
 				"on_consume_effects": [
+				{
+					"type": "apply_effects",
+					"effects": [
+						{
+					"id": "minecraft:regeneration",
+					"amplifier": 0,
+					"duration": 50,
+						"show_particles": false
+						},
 					{
-						"type": "apply_effects",
-						"effects": [
-							{
-								"id": "minecraft:regeneration",
-								"amplifier": 0,
-								"duration": 50
-							}
-						]
-					}
-				]
-			}
-		}
-	}
+						"id": "minecraft:water_breathing",
+						"amplifier": 0,
+						"duration": 100,
+						"show_particles": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
 }

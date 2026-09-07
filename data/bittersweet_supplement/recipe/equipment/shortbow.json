@@ -20,15 +20,11 @@
 				},
             "minecraft:max_damage": 400,
             "minecraft:enchantments": {
-                "bittersweet_supplement:shortbow":1
+                "bittersweet_supplement:shortbow":1,
+				"bittersweet_supplement:flint_ignite": 1
             },
             "minecraft:enchantment_glint_override": false,
 			"minecraft:lore": [
-				{
-					"text": "",
-					"color": "gray",
-					"italic": false
-				},
 				{
 					"text": "When Fired",
 					"color": "gray",

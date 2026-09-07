@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "ender_pearl"
+    },
+    "title": "Bestiary",
+    "description": "",
+    "background": "minecraft:block/polished_blackstone_bricks",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

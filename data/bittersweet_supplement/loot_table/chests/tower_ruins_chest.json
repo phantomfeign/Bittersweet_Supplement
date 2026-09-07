@@ -2,37 +2,6 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
-			"rolls": 2,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:crossbow",
-					"functions": [
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.2,
-								"max": 0.6
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:bow",
-					"functions": [
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.2,
-								"max": 0.6
-							}
-						}
-					]
-				}
-			]
-		},
-		{
 			"rolls": {
 				"min": 2,
 				"max": 4

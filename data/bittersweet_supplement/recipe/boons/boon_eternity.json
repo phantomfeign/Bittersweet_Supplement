@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "L": "minecraft:cobblestone",
-    "B": "minecraft:knowledge_book",
+    "B": "minecraft:villager_spawn_egg",
     "G": "minecraft:water_bucket",
     "F": "minecraft:breeze_spawn_egg"
   },

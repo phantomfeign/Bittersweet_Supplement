@@ -1,0 +1,15 @@
+{
+  "replace":true,
+  "values": [
+    "bittersweet_supplement:wandering_trader/bamboo",
+    "bittersweet_supplement:wandering_trader/budding_amethyst",
+    "bittersweet_supplement:wandering_trader/nautlilus_shell",
+    "bittersweet_supplement:wandering_trader/nether_wart",
+    "bittersweet_supplement:wandering_trader/cacao_kit",
+    "bittersweet_supplement:wandering_trader/bundle_exotic_saplings",
+    "bittersweet_supplement:wandering_trader/sulfur_spikes",
+    "bittersweet_supplement:wandering_trader/axolotl_bucket",
+    "bittersweet_supplement:wandering_trader/sulfur_cube_bucket",
+    "bittersweet_supplement:wandering_trader/sniffer_egg"
+  ]
+}

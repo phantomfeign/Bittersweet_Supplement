@@ -3,9 +3,9 @@
     "icon": {
       "id": "minecraft:lily_of_the_valley"
     },
-    "title": "",
-    "description": "Slow down.",
-    "background": "minecraft:block/cracked_deepslate_tiles",
+    "title": "Progression",
+    "description": "",
+    "background": "minecraft:block/deepslate_tiles",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

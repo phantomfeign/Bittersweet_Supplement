@@ -4,13 +4,13 @@
   "key": {
     "#": "minecraft:amethyst_shard",
     "D": "minecraft:diamond",
-    "W": "minecraft:gold_nugget",
-    "B": "amethyst_block"
+    "W": "minecraft:gold_ingot",
+    "B": "minecraft:breeze_spawn_egg"
   },
   "pattern": [
-    "#W#",
-    "#D#",
-    "BBB"
+    "DBD",
+    "W#W",
+    "WWW"
   ],
   "result": {
     "id": "minecraft:budding_amethyst"

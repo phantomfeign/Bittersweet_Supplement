@@ -10,16 +10,19 @@
 				"text": "Tenebrium Pulaski",
 				"italic": false
 			},
+			"minecraft:custom_data": {
+				"multitool": "pulaski"
+			},
 			"minecraft:tool": {
 				"rules": [
 					{
 						"blocks": "#minecraft:mineable/axe",
-						"speed": 8,
+						"speed": 11,
 						"correct_for_drops": true
 					},
 					{
 						"blocks": "#minecraft:mineable/shovel",
-						"speed": 8,
+						"speed": 11,
 						"correct_for_drops": true
 					}
 				],

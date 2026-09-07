@@ -5,10 +5,21 @@
 	"result": {
 		"id": "minecraft:diamond_hoe",
 		"components": {
-			"minecraft:max_damage": 1800,
+			"minecraft:max_damage": 2000,
 			"minecraft:damage": 0,
-			"minecraft:item_model": "diamond_hoe",
-			"minecraft:item_name": "Diamond Hoe"
+			"minecraft:item_model": "minecraft:diamond_hoe",
+			"minecraft:item_name": "Diamond Hoe",
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 11,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			}
 		}
 	},
 	"template": "minecraft:chicken_spawn_egg"

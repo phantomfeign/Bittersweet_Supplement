@@ -1,0 +1,62 @@
+{
+	"type": "minecraft:block",
+	"functions": [],
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [],
+							"functions": [
+								{
+									"function": "minecraft:set_components",
+									"components": {
+										"minecraft:lore": [
+											{
+												"text": "♡",
+												"color": "#54d877",
+												"italic": false
+											},
+											{
+												"text": "A gentle warmth slowly settles in",
+												"color": "gray",
+												"italic": false
+											},
+											{
+												"text": "as you hastily wolf it down.",
+												"color": "gray",
+												"italic": false
+											}
+										],
+										"minecraft:consumable": {
+											"consume_seconds": 0.5,
+											"on_consume_effects": [
+												{
+													"type": "apply_effects",
+													"effects": [
+														{
+															"id": "minecraft:regeneration",
+															"amplifier": 0,
+															"duration": 50,
+															"show_particles": false
+														}
+													]
+												}
+											]
+										}
+									}
+								}
+							],
+							"name": "minecraft:beetroot"
+						}
+					]
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:blocks/beetroots"
+}

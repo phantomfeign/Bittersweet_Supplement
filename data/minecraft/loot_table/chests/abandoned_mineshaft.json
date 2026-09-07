@@ -79,6 +79,19 @@
 					]
 				},
 				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:food/glow_berries",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+        		},
+				{
 					"type": "minecraft:item",
 					"functions": [
 						{

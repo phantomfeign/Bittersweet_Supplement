@@ -1,0 +1,25 @@
+{
+	"given_item_modifiers": [
+		{
+			"decoration": "minecraft:target_x",
+			"destination": "bittersweet_supplement:appears_on_ancient_city_explorer_maps",
+			"function": "minecraft:exploration_map",
+			"search_radius": 100
+		},
+		{
+			"function": "minecraft:set_name",
+			"name": {
+				"translate": "Ancient City Explorer Map"
+			},
+			"target": "item_name"
+		}
+	],
+	"gives": {
+		"id": "minecraft:map"
+	},
+	"max_uses": 1,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:emerald"
+	}
+}

@@ -31,12 +31,12 @@
 									},
 									{
 										"text": "A gentle warmth slowly settles",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									},
 									{
 										"text": "in as you quickly devour it.",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									}
 								],
@@ -84,12 +84,12 @@
 									},
 									{
 										"text": "A soothing warmth courses",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									},
 									{
 										"text": "steadily within as you eat happily.",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									}
 								],
@@ -136,12 +136,12 @@
 									},
 									{
 										"text": "A gentle warmth slowly settles",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									},
 									{
 										"text": "in as you hastily wolf it down.",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									}
 								],

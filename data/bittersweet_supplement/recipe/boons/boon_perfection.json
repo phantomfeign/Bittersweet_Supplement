@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "B": "minecraft:knowledge_book",
+    "B": "minecraft:villager_spawn_egg",
     "F": "minecraft:pig_spawn_egg",
     "A": "minecraft:diamond_block"
   },

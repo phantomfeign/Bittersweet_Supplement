@@ -1,0 +1,11 @@
+{
+  "replace":true,
+  "values": [
+    "bittersweet_supplement:wandering_trader/maps/mineshaft_explorer",
+    "bittersweet_supplement:wandering_trader/maps/ancient_city_explorer",
+    "bittersweet_supplement:wandering_trader/maps/ocean_monument_explorer",
+    "bittersweet_supplement:wandering_trader/maps/jungle_temple_explorer",
+    "bittersweet_supplement:wandering_trader/maps/shipwreck_explorer",
+    "bittersweet_supplement:wandering_trader/maps/trial_chamber_explorer"
+  ]
+}

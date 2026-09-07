@@ -52,7 +52,18 @@
 					"italic": false
 				}
 			],
-      "minecraft:enchantment_glint_override": true
+      "minecraft:enchantment_glint_override": true,
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 12,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			}
     }
   },
   "template": "minecraft:netherite_upgrade_smithing_template"

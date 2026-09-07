@@ -1,8 +1,8 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:emerald",
+	"addition": "minecraft:emerald",
 	"base": "minecraft:diamond_hoe",
-	"addition": "minecraft:diamond_pickaxe",
+	"template": "minecraft:diamond_pickaxe",
 	"result": {
 		"id": "minecraft:diamond_hoe",
 		"components": {
@@ -14,12 +14,12 @@
 				"rules": [
 					{
 						"blocks": "#minecraft:mineable/pickaxe",
-						"speed": 7,
+						"speed": 10,
 						"correct_for_drops": true
 					},
 					{
 						"blocks": "#minecraft:mineable/hoe",
-						"speed": 7,
+						"speed": 10,
 						"correct_for_drops": true
 					}
 				],

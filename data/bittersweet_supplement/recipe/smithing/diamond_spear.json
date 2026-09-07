@@ -5,7 +5,7 @@
   "result": {
     "id": "minecraft:diamond_spear",
 		"components": {
-			"minecraft:max_damage": 1800,
+			"minecraft:max_damage": 2000,
 			"minecraft:damage": 0,
 			"!minecraft:attribute_modifiers": {}
     }

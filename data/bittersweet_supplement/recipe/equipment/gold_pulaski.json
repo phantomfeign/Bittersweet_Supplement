@@ -19,16 +19,19 @@
 				"text": "Gilded Pulaski",
 				"italic": false
 			},
+			"minecraft:custom_data": {
+				"multitool": "pulaski"
+			},
 			"minecraft:tool": {
 				"rules": [
 					{
 						"blocks": "#minecraft:mineable/axe",
-						"speed": 10,
+						"speed": 9,
 						"correct_for_drops": true
 					},
 					{
 						"blocks": "#minecraft:mineable/shovel",
-						"speed": 10,
+						"speed": 9,
 						"correct_for_drops": true
 					}
 				],

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "B": "minecraft:knowledge_book",
+    "B": "minecraft:villager_spawn_egg",
     "T": [
       "minecraft:stone_bricks",
       "minecraft:deepslate_bricks",

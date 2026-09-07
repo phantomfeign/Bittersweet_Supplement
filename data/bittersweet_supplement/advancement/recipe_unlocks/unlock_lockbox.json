@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "get_copper_lockbox_ingredients": {
+    "get_ingredients": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

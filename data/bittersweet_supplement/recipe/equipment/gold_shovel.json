@@ -14,7 +14,18 @@
     "id": "minecraft:golden_shovel",
       "components": {
       "minecraft:max_damage": 200,
-      "minecraft:damage": 0
+      "minecraft:damage": 0,
+      "tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/shovel",
+            "speed": 10,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      }
     }
   }
 }

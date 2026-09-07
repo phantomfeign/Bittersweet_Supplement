@@ -1,9 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "equipment",
-  "ingredients": [
-    "minecraft:blaze_powder",
-    "minecraft:blaze_powder"
+  "key": {
+    "B":"minecraft:blaze_powder"
+  },
+  "pattern": [
+    "B",
+    "B"
   ],
   "result": {
     "count": 1,

@@ -20,9 +20,9 @@ scoreboard players set 0 anvil_interaction 0
 
 #arrow
 scoreboard objectives add ArrowXVelocity dummy
+scoreboard objectives add ArrowYVelocity dummy
 scoreboard objectives add ArrowZVelocity dummy
 scoreboard objectives add Percent dummy
-
 scoreboard players set #70 Percent 70
 scoreboard players set #100 Percent 100
 

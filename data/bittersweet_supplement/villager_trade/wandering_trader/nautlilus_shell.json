@@ -1,0 +1,10 @@
+{
+	"gives": {
+		"id": "minecraft:nautilus_shell"
+	},
+	"max_uses": 5,
+	"reputation_discount": 0,
+	"wants": {
+		"id": "minecraft:emerald"
+	}
+}

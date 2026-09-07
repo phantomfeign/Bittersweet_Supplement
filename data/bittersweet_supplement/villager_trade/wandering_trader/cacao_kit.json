@@ -1,0 +1,17 @@
+{
+	"gives": {
+		"id": "minecraft:bundle",
+		"components": {
+			"minecraft:bundle_contents": [
+				"minecraft:cocoa_beans",
+				"minecraft:jungle_sapling"
+			],
+			"minecraft:item_name": "Cacao Growing Kit"
+		}
+	},
+	"max_uses": 3,
+	"reputation_discount": 0,
+	"wants": {
+		"id": "minecraft:emerald"
+	}
+}

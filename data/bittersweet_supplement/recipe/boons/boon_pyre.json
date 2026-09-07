@@ -4,7 +4,7 @@
 	"key": {
 		"G": "minecraft:gold_block",
 		"N": "minecraft:magma_block",
-		"B": "minecraft:knowledge_book",
+		"B": "minecraft:villager_spawn_egg",
 		"M": [
 			"minecraft:magma_cream",
 			"minecraft:blaze_powder"

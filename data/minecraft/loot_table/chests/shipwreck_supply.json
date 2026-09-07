@@ -17,12 +17,12 @@
 									},
 									{
 										"text": "A gentle warmth slowly settles",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									},
 									{
 										"text": "in as you quickly devour it.",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									}
 								],
@@ -100,12 +100,12 @@
 									},
 									{
 										"text": "A gentle warmth slowly settles in as",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									},
 									{
 										"text": "you hastily gulp it down.",
-										"color": "white",
+										"color": "gray",
 										"italic": false
 									}
 								],

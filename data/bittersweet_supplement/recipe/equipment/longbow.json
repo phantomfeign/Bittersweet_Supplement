@@ -14,12 +14,12 @@
 		"id": "minecraft:bow",
         "components":{
         "minecraft:max_damage": 400,
-		"minecraft:lore": [
-				{
-					"text": "",
-					"color": "gray",
-					"italic": false
+        "minecraft:item_name": {
+				"text": "Longbow",
+				"color": "white",
+				"italic": false          
 				},
+		"minecraft:lore": [
 				{
 					"text": "When Fired",
 					"color": "gray",
@@ -35,7 +35,11 @@
 					"color": "dark_green",
 					"italic": false
 				}
-			]
+			],
+			"enchantments":{
+				"bittersweet_supplement:flint_ignite": 1
+			},
+			"enchantment_glint_override": false
         }
     }
 }

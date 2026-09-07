@@ -18,18 +18,13 @@
       "minecraft:lore": [
         {
           "text": "Your worries wash away",
-          "color": "white",
+          "color": "gray",
           "italic": false
         },
         {
           "text": "as you hastily gulp it down.",
-          "color": "white",
-          "italic": false
-        },
-        {
-          "text": "Can be cooked over a campfire",
           "color": "gray",
-          "italic":false
+          "italic": false
         }
       ],
       "minecraft:max_stack_size": 64,

@@ -3,16 +3,15 @@
   "category": "equipment",
   "key": {
     "C": "#minecraft:copper_chests",
-    "L": "minecraft:leather",
     "I": "minecraft:iron_block",
-    "c": "minecraft:copper_block",
-    "s": "minecraft:pig_spawn_egg",
+    "G": "minecraft:gold_block",
+    "S": "minecraft:pig_spawn_egg",
     "E": "minecraft:emerald"
   },
   "pattern": [
-    "EsE",
-    "LCL",
-    "IcI"
+    "ISI",
+    "ECE",
+    "IGI"
   ],
   "result": {
     "id": "minecraft:light_gray_shulker_box",

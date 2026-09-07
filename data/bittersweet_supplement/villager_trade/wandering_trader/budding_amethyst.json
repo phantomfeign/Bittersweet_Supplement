@@ -1,0 +1,13 @@
+{
+	"additional_wants": {
+		"id": "minecraft:diamond"
+	},
+	"gives": {
+		"id": "minecraft:budding_amethyst"
+	},
+	"max_uses": 5,
+	"reputation_discount": 0,
+	"wants": {
+		"id": "minecraft:emerald"
+	}
+}

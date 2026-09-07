@@ -19,6 +19,9 @@
 				"text": "Copper Pulaski",
 				"italic": false
 			},
+			"minecraft:custom_data": {
+				"multitool": "pulaski"
+			},
 			"minecraft:tool": {
 				"rules": [
 					{

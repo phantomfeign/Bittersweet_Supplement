@@ -126,6 +126,9 @@
     {
   
       "namespace": "minecraft",
+      "path": "^recipe/end_rod\\.json$"
+    },{
+      "namespace": "minecraft",
       "path": "^recipe/comparator\\.json$"
     },{
       "namespace": "minecraft",
@@ -136,6 +139,9 @@
     ,
     {
   
+      "namespace": "minecraft",
+      "path": "^recipe/turtle_helmet\\.json$"
+    },{
       "namespace": "minecraft",
       "path": "^recipe/leather_helmet\\.json$"
     },{
@@ -290,6 +296,9 @@
     {
 
       "namespace": "minecraft",
+      "path": "^recipe/flint_and_steel\\.json$"
+    },{
+      "namespace": "minecraft",
       "path": "^recipe/iron_spear\\.json$"
     },{
       "namespace": "minecraft",
@@ -331,6 +340,12 @@
     },{
       "namespace": "minecraft",
       "path": "^recipe/enchanting_table\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/furnace\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/brewing_stand\\.json$"
     },{
       "namespace": "minecraft",
       "path": "recipes/cooked_.*\\.json$"

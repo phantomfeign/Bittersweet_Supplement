@@ -1,14 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "L": "#minecraft:logs",
-    "S": "minecraft:stick"
-  },
-  "pattern": [
-    "SS",
-    "LL"
-  ],
-  "result": {
-    "id": "minecraft:campfire"
-  }
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"L": "#minecraft:logs",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"SS",
+		"LL"
+	],
+	"result": {
+		"id": "minecraft:campfire",
+		"components": {
+			"minecraft:block_state": {
+				"lit": "false"
+			}
+		}
+	}
 }

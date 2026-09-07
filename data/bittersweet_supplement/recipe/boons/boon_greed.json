@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "P": "minecraft:golden_pickaxe",
-    "B": "minecraft:knowledge_book",
+    "B": "minecraft:villager_spawn_egg",
     "E": "minecraft:emerald",
     "D": "minecraft:diamond",
     "G": "minecraft:gold_ingot"
@@ -19,7 +19,7 @@
       "minecraft:custom_data": {
         "boon": "boon_greed"
       },
-      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:item_model": "bittersweet_textures:boon_greed",
       "minecraft:stored_enchantments": {
         "minecraft:looting": 1,
         "minecraft:fortune": 1,

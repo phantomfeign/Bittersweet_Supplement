@@ -1,8 +1,8 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:gold_ingot",
+	"addition": "minecraft:gold_ingot",
 	"base": "minecraft:iron_axe",
-	"addition": "minecraft:iron_shovel",
+	"template": "minecraft:iron_shovel",
 	"result": {
 		"count": 1,
 		"id": "minecraft:iron_axe",
@@ -10,6 +10,9 @@
 			"minecraft:custom_name": {
 				"text": "Iron Pulaski",
 				"italic": false
+			},
+			"minecraft:custom_data": {
+				"multitool": "pulaski"
 			},
 			"minecraft:tool": {
 				"rules": [

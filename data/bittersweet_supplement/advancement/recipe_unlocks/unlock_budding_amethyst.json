@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "get_boon_empty_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_shard",
+              "minecraft:diamond",
+              "minecraft:gold_ingot",
+              "minecraft:breeze_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:budding_amethyst"
+    ]
+  }
+}

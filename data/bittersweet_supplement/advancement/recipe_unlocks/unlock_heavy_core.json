@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "get_heavy_core_ingredients": {
+    "get_ingredients": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -8,7 +8,7 @@
             "items": [
               "minecraft:iron_block",
               "minecraft:ominous_trial_key",
-              "minecraft:breeze_rod"
+              "minecraft:diamond_block"
             ]
           }
         ]

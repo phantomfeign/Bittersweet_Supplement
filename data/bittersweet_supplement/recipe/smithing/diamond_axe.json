@@ -5,9 +5,9 @@
 	"result": {
 		"id": "minecraft:diamond_axe",
 		"components": {
-			"minecraft:max_damage": 1800,
+			"minecraft:max_damage": 2000,
 			"minecraft:damage": 0,
-      "minecraft:item_model": "diamond_axe",
+      		"minecraft:item_model": "diamond_axe",
 			"minecraft:item_name": "Diamond Axe",
 			"minecraft:attribute_modifiers": [
 				{
@@ -51,7 +51,18 @@
 					"color": "dark_green",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 11,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			}
 		}
 	},
 	"template": "minecraft:chicken_spawn_egg"

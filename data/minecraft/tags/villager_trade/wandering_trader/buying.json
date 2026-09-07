@@ -1,0 +1,9 @@
+{
+  "replace":true,
+  "values": [
+    "bittersweet_supplement:wandering_trader/buy_ender_pearl",
+    "bittersweet_supplement:wandering_trader/buy_abyssal_shard",
+    "bittersweet_supplement:wandering_trader/buy_resin_brick",
+    "bittersweet_supplement:wandering_trader/buy_ominous_trial_key"
+  ]
+}

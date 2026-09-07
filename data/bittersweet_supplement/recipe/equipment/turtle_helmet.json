@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"X": "minecraft:turtle_scute"
+	},
+	"pattern": [
+		"XXX",
+		"X X"
+	],
+	"result": {
+		"id": "minecraft:turtle_helmet",
+		"components": {
+			"!minecraft:max_damage": {},
+			"minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:turtle_helmet",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "head"
+				}
+			],
+			"minecraft:enchantments": {
+				"minecraft:aqua_affinity": 1
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:item_name": {
+				"text": "Turtle Shell",
+				"color": "aqua"
+			}
+		}
+	}
+}
