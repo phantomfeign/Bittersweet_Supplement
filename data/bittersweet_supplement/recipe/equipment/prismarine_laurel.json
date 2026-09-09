@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"#C#",
+		"#S#"
+	],
+	"key": {
+		"#": "minecraft:prismarine_shard",
+		"S": "minecraft:nether_star",
+		"C": "minecraft:prismarine_crystals"
+	},
+	"result": {
+		"id": "minecraft:salmon_spawn_egg",
+		"components": {
+			"!minecraft:entity_data": {},
+			"minecraft:equippable": {
+				"slot": "head",
+				"equip_sound": "minecraft:item.armor.equip_turtle"
+			},
+			"minecraft:item_name": {
+				"text": "Prismarine Circlet",
+				"color": "light_purple"
+			},
+			"minecraft:enchantments": {
+				"bittersweet_supplement:aqua_mastery": 1
+			}
+		}
+	}
+}

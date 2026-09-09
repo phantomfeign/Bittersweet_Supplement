@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"drink": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:custom_data": {
+							"vial_ichor": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bittersweet_functions:misc/health/drink_ichor"
+	}
+}

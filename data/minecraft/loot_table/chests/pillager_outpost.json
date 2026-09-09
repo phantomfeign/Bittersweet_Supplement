@@ -4,8 +4,8 @@
 		{
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:crossbow",
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:equipment/ranged/crossbow",
 					"weight": 5
 				},
 				{
@@ -38,22 +38,8 @@
 		{
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"functions": [
-						{
-							"count": {
-								"type": "minecraft:uniform",
-								"max": 5,
-								"min": 3
-							},
-							"function": "minecraft:set_count"
-						}
-					],
-					"name": "minecraft:wheat",
-					"weight": 7
-				},
-				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:food/carrot",
 					"functions": [
 						{
 							"count": {
@@ -64,11 +50,11 @@
 							"function": "minecraft:set_count"
 						}
 					],
-					"name": "minecraft:potato",
 					"weight": 5
 				},
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:food/potato",
 					"functions": [
 						{
 							"count": {
@@ -79,7 +65,6 @@
 							"function": "minecraft:set_count"
 						}
 					],
-					"name": "minecraft:carrot",
 					"weight": 5
 				}
 			],

@@ -7,7 +7,7 @@
 		"components": {
 			"minecraft:max_damage": 2000,
 			"minecraft:damage": 0,
-      		"minecraft:item_model": "diamond_axe",
+			"minecraft:item_model": "diamond_axe",
 			"minecraft:item_name": "Diamond Axe",
 			"minecraft:attribute_modifiers": [
 				{
@@ -62,6 +62,12 @@
 				],
 				"default_mining_speed": 1,
 				"damage_per_block": 1
+			},
+			"minecraft:repairable": {
+				"items": [
+					"diamond",
+					"amethyst_block"
+				]
 			}
 		}
 	},

@@ -8,7 +8,7 @@
       "minecraft:max_damage": 2200,
       "minecraft:damage": 0,
       "minecraft:item_model": "netherite_axe",
-			"minecraft:item_name": "Tenebrium Axe",
+			"minecraft:item_name": "Adamantine Axe",
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:attack_damage",

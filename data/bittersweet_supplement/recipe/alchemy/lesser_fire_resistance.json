@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shapeless",
+    "category": "misc",
+	"ingredients": [
+		"minecraft:potion",
+		"minecraft:glistering_melon_slice",
+		[
+			"minecraft:magma_cream",
+			"minecraft:fire_charge"
+		],
+		"minecraft:blue_ice"
+	],
+	"result": {
+		"id": "minecraft:potion",
+		"components": {
+			"minecraft:potion_contents": {
+				"potion": "minecraft:fire_resistance"
+			},
+			"max_stack_size":64,
+			"minecraft:custom_name": {
+				"text": "Lesser Potion",
+				"italic": false
+			}
+		}
+	}
+}

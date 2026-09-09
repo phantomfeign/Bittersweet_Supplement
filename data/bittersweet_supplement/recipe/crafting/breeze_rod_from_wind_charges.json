@@ -1,11 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "equipment",
-  "ingredients": [
-    "minecraft:wind_charge",
-    "minecraft:wind_charge",
-    "minecraft:wind_charge",
-    "minecraft:wind_charge"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B":"minecraft:wind_charge"
+  },
+  "pattern": [
+    "B",
+    "B"
   ],
   "result": {
     "count": 1,

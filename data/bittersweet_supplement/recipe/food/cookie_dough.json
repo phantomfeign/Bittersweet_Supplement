@@ -3,12 +3,14 @@
   "category": "misc",
   "ingredients": [
     "minecraft:bee_spawn_egg",
+    "minecraft:bee_spawn_egg",
     "minecraft:cocoa_beans",
     "minecraft:sugar",
-    "minecraft:egg"
+    "minecraft:egg",
+    "minecraft:beetroot_soup"
   ],
   "result": {
-    "count": 2,
+    "count": 3,
     "id": "minecraft:husk_spawn_egg",
     "components": {
       "!minecraft:entity_data": {},

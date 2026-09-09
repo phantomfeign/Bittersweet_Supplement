@@ -15,46 +15,9 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:food/apple",
 					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:lore": [
-									{
-										"text": "❤",
-										"color": "#54d877",
-										"italic": false
-									},
-									{
-										"text": "A gentle warmth slowly settles",
-										"color": "gray",
-										"italic": false
-									},
-									{
-										"text": "in as you hastily wolf it down.",
-										"color": "gray",
-										"italic": false
-									}
-								],
-								"minecraft:consumable": {
-									"consume_seconds": 0.5,
-									"on_consume_effects": [
-										{
-											"type": "apply_effects",
-											"effects": [
-												{
-													"id": "minecraft:regeneration",
-													"amplifier": 0,
-													"duration": 100,
-													"show_particles": false
-												}
-											]
-										}
-									]
-								}
-							}
-						},
 						{
 							"count": {
 								"type": "minecraft:uniform",
@@ -64,7 +27,6 @@
 							"function": "minecraft:set_count"
 						}
 					],
-					"name": "minecraft:apple",
 					"weight": 15
 				},
 				{
@@ -142,8 +104,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "bittersweet_supplement:food/golden_apple",
-					"functions": []
+					"value": "bittersweet_supplement:food/golden_apple"
 				}
 			],
 			"rolls": 1

@@ -1,0 +1,2 @@
+function bittersweet_functions:misc/health/increase_hp
+advancement revoke @s only bittersweet_functions:food/drink_ichor

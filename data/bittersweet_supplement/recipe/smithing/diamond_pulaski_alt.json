@@ -30,7 +30,14 @@
 				"damage_per_block": 1
 			},
 			"minecraft:max_damage": 2200,
-			"minecraft:item_model": "bittersweet_textures:emerald_pulaski"
+			"minecraft:item_model": "bittersweet_textures:emerald_pulaski",
+			"minecraft:repairable": {
+				"items": [
+					"diamond",
+					"amethyst_block",
+					"emerald"
+				]
+			}
 		}
 	}
 }

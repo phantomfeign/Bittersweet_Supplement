@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
   "show_notification": false,
-  "category": "equipment",
+  "category": "misc",
   "pattern": [
+    " S ",
     "SSS",
-    "SSS",
-    "SSS"
+    " S "
   ],
   "key": {
     "S": "minecraft:pig_spawn_egg"

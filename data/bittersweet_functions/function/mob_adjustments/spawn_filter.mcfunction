@@ -20,11 +20,11 @@ execute as @s[tag=SpawnForbidden,type=!minecraft:slime] run kill @s
 execute as @s if entity @s[tag=!SpawnForbidden] run function bittersweet_functions:mob_adjustments/mob_changes
 
 #make a copy
-execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 2 if predicate bittersweet_functions:spawn/chance_10 \
+execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 2 if predicate bittersweet_functions:chance/chance_10 \
 run function bittersweet_functions:mob_adjustments/copy_self
-execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 3 if predicate bittersweet_functions:spawn/chance_20 \
+execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 3 if predicate bittersweet_functions:chance/chance_20 \
 run function bittersweet_functions:mob_adjustments/copy_self
-execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 4 if predicate bittersweet_functions:spawn/chance_40 \
+execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 4 if predicate bittersweet_functions:chance/chance_40 \
 run function bittersweet_functions:mob_adjustments/copy_self
 
 execute if entity @s[tag=!SpawnForbidden,tag=!ExtraSpawn] if score #sleep SleepStreak matches 5.. run function bittersweet_functions:mob_adjustments/copy_self

@@ -49,13 +49,13 @@
               },
               {
                 "id": "minecraft:strength",
-                "amplifier": 1,
+                "amplifier": 0,
                 "duration": 300,
                 "show_particles": false
               },
               {
                 "id": "minecraft:resistance",
-                "amplifier": 1,
+                "amplifier": 0,
                 "duration": 300,
                 "show_particles": false
               }

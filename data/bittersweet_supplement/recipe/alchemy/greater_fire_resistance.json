@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shapeless",
+    "category": "misc",
+	"ingredients": [
+		"minecraft:potion",
+		"minecraft:potion",
+		"minecraft:potion",
+		"minecraft:glistering_melon_slice",
+		"minecraft:blaze_rod",
+		"minecraft:ghast_tear"
+	],
+	"result": {
+		"id": "minecraft:potion",
+		"components": {
+			"minecraft:potion_contents": {
+				"potion": "minecraft:long_fire_resistance"
+			},
+			"max_stack_size":64,
+			"minecraft:custom_name": {
+				"text": "Lesser Potion",
+				"italic": false
+			}
+		},
+		"count": 3
+	}
+}

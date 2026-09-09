@@ -1,0 +1,50 @@
+{
+	"type": "minecraft:crafting_shaped",
+    "category": "misc",
+	"pattern": [
+		"HCG",
+		"#S#",
+		" B "
+	],
+	"key": {
+		"#": "diamond_block",
+		"S": "minecraft:nether_star",
+		"C": "minecraft:resin_clump",
+		"B": "minecraft:glass_bottle",
+		"H": "minecraft:honeycomb",
+		"G": "minecraft:glistering_melon_slice"
+	},
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+            "item_model":"bittersweet_textures:vial_ichor",
+			"minecraft:item_name": 
+            {
+				"text": "Vial of Ichor",
+				"color": "gold"
+			},
+            "minecraft:lore": [
+				{
+					"text": "The blood of gods doth now",
+					"color": "dark_red"
+				},
+                {
+					"text": "become the blood of thee.",
+					"color": "dark_red"
+				}
+			],
+			"minecraft:consumable": {
+				"consume_seconds": 3,
+				"animation": "drink",
+				"sound": "minecraft:item.honey_bottle.drink",
+				"has_consume_particles": false,
+				"on_consume_effects": []
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantment_glint_override": true,
+			"minecraft:custom_data": {
+				"vial_ichor": true
+            }
+		}
+	}
+}

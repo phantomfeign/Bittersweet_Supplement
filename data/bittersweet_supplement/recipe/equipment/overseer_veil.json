@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"#S#",
+		"D#D",
+        "III"
+	],
+	"key": {
+		"#": "minecraft:echo_shard",
+		"S": "minecraft:nether_star",
+		"D": "minecraft:diamond",
+		"I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"id": "minecraft:wither_skeleton_spawn_egg",
+		"components": {
+			"!minecraft:entity_data": {},
+			"minecraft:equippable": {
+				"slot": "head",
+				"equip_sound": "minecraft:item.armor.equip_chain"
+			},
+			"minecraft:item_name": {
+				"text": "Overseer's Veil",
+				"color": "light_purple"
+			},
+			"minecraft:enchantments": {
+				"bittersweet_supplement:overseer_veil": 1
+			}
+		}
+	}
+}

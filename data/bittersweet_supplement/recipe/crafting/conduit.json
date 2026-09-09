@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+    "group": "building",
+	"key": {
+		"#": "minecraft:nautilus_shell",
+		"X": "minecraft:heart_of_the_sea",
+		"D": "minecraft:diamond",
+		"G": "minecraft:gold_ingot",
+		"E": "minecraft:emerald"
+	},
+	"pattern": [
+		"#E#",
+		"GXG",
+		"#D#"
+	],
+	"result": {
+		"id": "minecraft:conduit"
+	}
+}

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
   "key": {
     "L": "minecraft:lapis_block",
     "B": "minecraft:book",

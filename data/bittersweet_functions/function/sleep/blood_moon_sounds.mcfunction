@@ -6,3 +6,7 @@ playsound minecraft:block.conduit.ambient master @s ~ ~ ~ 1 0.1
 playsound minecraft:block.conduit.attack.target master @s ~ ~ ~ 1 0.1
 playsound minecraft:block.end_portal.spawn master @s ~ ~ ~ 1 0.1
 playsound minecraft:block.portal.trigger master @s ~ ~ ~ 1 0.1
+playsound minecraft:event.mob_effect.raid_omen master @s ~ ~ ~ 1 1
+playsound minecraft:event.mob_effect.raid_omen master @s ~ ~ ~ 1 0.5
+playsound minecraft:particle.soul_escape master @s ~ ~ ~ 1 0.5
+playsound item.trident.thunder master @s ~ ~ ~ 1 2

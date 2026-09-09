@@ -20,7 +20,13 @@
       "minecraft:equippable": {
 				"slot": "head",
 				"equip_sound": "minecraft:item.armor.equip_diamond"
-      }
+      },
+			"minecraft:repairable": {
+				"items": [
+					"diamond",
+					"amethyst_block"
+				]
+			}
     }
   }
 }

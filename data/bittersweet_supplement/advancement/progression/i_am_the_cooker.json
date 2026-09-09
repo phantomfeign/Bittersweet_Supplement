@@ -5,7 +5,7 @@
       "components": {}
     },
     "title": "Sous Chef",
-    "description": "Acquire a smoker; it can draw out unseen flavors from certain foods.",
+    "description": "Acquire a smoker; it cooks food faster than a campfire and draws out flavors from meat.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

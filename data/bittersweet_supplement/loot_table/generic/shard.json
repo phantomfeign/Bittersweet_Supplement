@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pig_spawn_egg"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_components",
+					"components": {
+						"!minecraft:entity_data": {},
+						"minecraft:item_name": {
+							"text": "Abyssal Shard",
+							"color": "aqua"
+						}
+					}
+				}
+			]
+		}
+	],
+	"random_sequence": "bittersweet_supplement:generic/shard"
+}

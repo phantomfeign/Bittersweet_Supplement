@@ -1,0 +1,119 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:coal",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 8,
+				"min": 5
+			}
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot"
+						}
+					],
+					"name": "minecraft:fishing_rod",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"decoration": "minecraft:red_x",
+							"function": "minecraft:exploration_map",
+							"skip_existing_chunks": false,
+							"zoom": 1
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "filled_map.buried_treasure"
+							},
+							"target": "item_name"
+						}
+					],
+					"name": "minecraft:map",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "minecraft:on_ocean_explorer_maps",
+							"decoration": "minecraft:target_x",
+							"zoom": 1,
+							"search_radius": 100,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Ocean Monument Explorer Map",
+								"italic": false
+							},
+							"target": "item_name"
+						},
+						{
+							"function": "minecraft:filtered",
+							"item_filter": {
+								"items": "minecraft:filled_map",
+								"predicates": {
+									"minecraft:map_id": {}
+								}
+							},
+							"on_fail": {
+								"function": "minecraft:discard"
+							}
+						}
+					]
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:chests/underwater_ruin_small"
+}

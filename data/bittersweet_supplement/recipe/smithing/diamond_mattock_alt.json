@@ -27,7 +27,14 @@
 				"damage_per_block": 1
 			},
 			"minecraft:max_damage": 2200,
-			"minecraft:item_model": "bittersweet_textures:emerald_mattock"
+			"minecraft:item_model": "bittersweet_textures:emerald_mattock",
+			"minecraft:repairable": {
+				"items": [
+					"diamond",
+					"amethyst_block",
+					"emerald"
+				]
+			}
 		}
 	}
 }

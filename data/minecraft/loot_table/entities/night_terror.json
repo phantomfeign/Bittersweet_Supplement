@@ -38,20 +38,10 @@
     {
       "rolls": 1,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pig_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 8,
-                "max": 11
-              }
-            }
-          ]
-        }
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star"
+				}
       ]
     },
     {

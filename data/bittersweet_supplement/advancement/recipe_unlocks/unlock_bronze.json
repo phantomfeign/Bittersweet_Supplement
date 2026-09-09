@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "get_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:donkey_spawn_egg"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/bronze_ingot_from_nuggets"
+    ]
+  }
+}

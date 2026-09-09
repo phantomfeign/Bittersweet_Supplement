@@ -126,6 +126,12 @@
     {
   
       "namespace": "minecraft",
+      "path": "^recipe/copper_torch\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/conduit\\.json$"
+    },{
+      "namespace": "minecraft",
       "path": "^recipe/end_rod\\.json$"
     },{
       "namespace": "minecraft",
@@ -133,6 +139,20 @@
     },{
       "namespace": "minecraft",
       "path": "^recipe/repeater\\.json$"
+
+
+    }
+    ,
+    {
+
+      "namespace": "minecraft",
+      "path": "^recipe/nether_brick\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/quartz\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/quartz_from_blasting\\.json$"
 
 
     }

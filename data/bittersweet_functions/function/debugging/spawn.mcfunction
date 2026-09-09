@@ -1,2 +1,2 @@
 #summons a mob w/ a tag to bypass spawn filter
-$summon $(mob) ~ ~ ~ {Tags:["SpawnBypass","SpawnChecked"]}
+$summon $(mob) ~ ~ ~ {Tags:["SpawnBypass"]}

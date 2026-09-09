@@ -16,7 +16,13 @@
 					"operation": "add_value",
 					"slot": "legs"
 				}
-			]
+			],
+			"minecraft:repairable": {
+				"items": [
+					"diamond",
+					"amethyst_block"
+				]
+			}
     }
   }
 }

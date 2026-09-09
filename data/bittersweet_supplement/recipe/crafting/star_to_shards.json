@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "show_notification": false,
-  "category": "equipment",
+  "category": "misc",
   "ingredients": [
     [
       "minecraft:nether_star"
@@ -16,6 +16,6 @@
         "color": "aqua"
       }
     },
-    "count": 9
+    "count": 5
   }
 }

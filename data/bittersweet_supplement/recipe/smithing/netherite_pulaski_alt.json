@@ -7,7 +7,7 @@
 		"id": "minecraft:netherite_axe",
 		"components": {
 			"minecraft:item_name": {
-				"text": "Tenebrium Pulaski",
+				"text": "Adamantine Pulaski",
 				"italic": false
 			},
 			"minecraft:custom_data": {

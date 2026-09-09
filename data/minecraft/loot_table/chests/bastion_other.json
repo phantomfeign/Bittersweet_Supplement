@@ -206,23 +206,6 @@
 				}
 			],
 			"rolls": 1
-		},
-		{
-			"entries": [
-				{
-					"type": "minecraft:empty",
-					"weight": 3
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "bittersweet_supplement:generic/runed_gold_ingot"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "bittersweet_supplement:generic/runed_diamond"
-				}
-			],
-			"rolls": 1
 		}
 	],
 	"random_sequence": "minecraft:chests/bastion_other"

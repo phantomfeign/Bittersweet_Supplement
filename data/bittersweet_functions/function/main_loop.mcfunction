@@ -48,3 +48,6 @@ execute as @a run function bittersweet_functions:food/stack_size_increases
 
 #set bonuses
 execute as @a run function bittersweet_functions:set_bonuses/check
+
+#hp recovery
+execute as @a at @s run execute if entity @s[scores={MaxHealth=..19}] run function bittersweet_functions:misc/health/hp_recovery

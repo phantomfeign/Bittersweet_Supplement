@@ -20,3 +20,5 @@ execute as @e[type=minecraft:enderman] at @s run function bittersweet_functions:
 #SPIDER
 execute as @e[type=#bittersweet_functions:spiders] at @s as @a[distance=..25,limit=1] at @s run function bittersweet_functions:mob_adjustments/spiders/replace_light
 
+#PLAYER DEATH
+execute as @e[type=player,tag=!died_recently,scores={Deaths=1..}] run function bittersweet_functions:misc/health/death

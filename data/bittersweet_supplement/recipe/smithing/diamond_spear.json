@@ -7,7 +7,13 @@
 		"components": {
 			"minecraft:max_damage": 2000,
 			"minecraft:damage": 0,
-			"!minecraft:attribute_modifiers": {}
+			"!minecraft:attribute_modifiers": {},
+			"minecraft:repairable": {
+				"items": [
+					"diamond",
+					"amethyst_block"
+				]
+			}
     }
   },
   "template": "minecraft:chicken_spawn_egg"

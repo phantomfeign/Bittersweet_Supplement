@@ -1,0 +1,62 @@
+{
+	"type": "minecraft:block",
+	"functions": [
+		{
+			"function": "minecraft:explosion_decay"
+		}
+	],
+	"pools": [
+		{
+			"conditions": [],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [],
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									{
+										"text": "❤",
+										"color": "#54d877",
+										"italic": false
+									},
+									{
+										"text": "A gentle warmth slowly settles",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "in as you hastily wolf it down.",
+										"color": "gray",
+										"italic": false
+									}
+								],
+								"minecraft:consumable": {
+									"consume_seconds": 0.5,
+									"on_consume_effects": [
+										{
+											"type": "apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 0,
+													"duration": 100,
+													"show_particles": false
+												}
+											]
+										}
+									]
+								}
+							}
+						}
+					],
+					"name": "minecraft:apple"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "bittersweet_supplement:loot_table/food/apple"
+}

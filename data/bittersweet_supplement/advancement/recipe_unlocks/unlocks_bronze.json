@@ -1,11 +1,11 @@
 {
   "criteria": {
-    "get_nether_star": {
+    "get_ingredients": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:nether_star"
+            "items": "minecraft:horse_spawn_egg"
           }
         ]
       }
@@ -13,7 +13,7 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:crafting/star_to_shards"
+      "bittersweet_supplement:crafting/bronze_nuggets_from_ingots"
     ]
   }
 }

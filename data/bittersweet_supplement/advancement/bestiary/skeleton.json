@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bone"
+		},
+		"title": "?",
+		"description": "",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "bittersweet_supplement:bestiary/elysium",
+	"criteria": {
+		"kill": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:skeleton"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bittersweet_functions:advancement/bestiary/skeleton"
+	}
+}

@@ -18,6 +18,12 @@
 				],
 				"default_mining_speed": 1,
 				"damage_per_block": 1
+			},
+			"minecraft:repairable": {
+				"items": [
+					"diamond",
+					"amethyst_block"
+				]
 			}
       }
   },

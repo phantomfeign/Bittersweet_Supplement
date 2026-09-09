@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shapeless",
+    "group": "misc",
+    "ingredients": [
+        "minecraft:donkey_spawn_egg",
+        "minecraft:donkey_spawn_egg",
+        "minecraft:donkey_spawn_egg",
+
+        "minecraft:donkey_spawn_egg",
+        "minecraft:donkey_spawn_egg",
+        "minecraft:donkey_spawn_egg",
+
+        "minecraft:donkey_spawn_egg",
+        "minecraft:donkey_spawn_egg",
+        "minecraft:donkey_spawn_egg"
+    ],
+    "result": {
+        "id": "minecraft:horse_spawn_egg",
+        "components":{
+            "!entity_data": {}
+        }
+    }
+}

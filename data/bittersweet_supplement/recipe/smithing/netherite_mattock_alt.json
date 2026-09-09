@@ -7,7 +7,7 @@
 		"id": "minecraft:netherite_hoe",
 		"components": {
 			"minecraft:item_name": {
-				"text": "Tenebrium Mattock",
+				"text": "Adamantine Mattock",
 				"italic": false
 			},
 			"minecraft:tool": {

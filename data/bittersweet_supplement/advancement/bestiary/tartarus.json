@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:netherrack"
+		},
+		"title": "Welcome to Tartarus",
+		"description": "Construct a portal using obsidian and light it.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "bittersweet_supplement:bestiary/elysium",
+	"criteria": {
+		"kill": {
+			"trigger": "minecraft:nether_travel"
+		}
+	}
+}

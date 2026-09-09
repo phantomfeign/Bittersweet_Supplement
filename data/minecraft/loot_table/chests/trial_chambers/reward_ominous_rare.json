@@ -42,16 +42,6 @@
 					"type": "minecraft:item",
 					"name": "minecraft:heavy_core",
 					"weight": 1
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "bittersweet_supplement:generic/runed_diamond",
-					"weight": 4
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "bittersweet_supplement:generic/runed_gold_ingot",
-					"weight": 5
 				}
 			]
 		}

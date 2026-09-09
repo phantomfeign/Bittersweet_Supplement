@@ -48,5 +48,10 @@ attribute @s[type=minecraft:cave_spider] minecraft:attack_damage base set 1
 attribute @s[type=minecraft:snow_golem] minecraft:max_health base set 10
 execute as @s[type=minecraft:snow_golem] run data merge entity @s {Health:10.0f}
 
+#elder guardian
+attribute @s[type=minecraft:elder_guardian] minecraft:max_health base set 100
+execute as @s[type=minecraft:elder_guardian] run data merge entity @s {Health:100.0f}
+
 #wandering trader
 execute as @s[type=minecraft:wandering_trader] run say "A wandering trader has arrived."
+execute as @s[type=minecraft:wandering_trader] run effect give @s glowing 5

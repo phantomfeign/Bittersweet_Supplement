@@ -18,8 +18,8 @@ execute as @a[distance=3.1..4] run damage @s 4 minecraft:explosion
 execute as @a[distance=4.1..5] run damage @s 2 minecraft:explosion
 
 #heal undead
-execute as @e[distance=0..2] unless entity @s[type=minecraft:player] run effect give @s minecraft:instant_damage 1 2
-execute as @e[distance=2.1..4] unless entity @s[type=minecraft:player] run effect give @s minecraft:instant_damage 1 1
+execute as @e[distance=0..2] if entity @s[type=#minecraft:zombies] run effect give @s minecraft:instant_damage 1 2
+execute as @e[distance=2.1..4] if entity @s[type=#minecraft:zombies] run effect give @s minecraft:instant_damage 1 1
 
 #knockback
 summon breeze_wind_charge ~ ~ ~ {Motion:[0.0,-2.0,0.0]}

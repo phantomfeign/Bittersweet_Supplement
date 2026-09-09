@@ -18,7 +18,12 @@
           "italic": false
         },
         {
-          "text": "A surge of warmth invigorates",
+          "text": "A productive energy and a",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "surge of warmth invigorates.",
           "color": "gray",
           "italic": false
         },
@@ -41,9 +46,9 @@
             "show_particles": false
               },
              {
-                "id": "minecraft:speed",
-                "amplifier": 1,
-                "duration": 80,
+                "id": "minecraft:haste",
+                "amplifier": 0,
+                "duration": 800,
             "show_particles": false
               }
             ]

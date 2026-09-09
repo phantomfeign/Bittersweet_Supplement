@@ -39,7 +39,11 @@ scoreboard objectives add RuneCount dummy
 scoreboard objectives add RuneType dummy
 scoreboard objectives add GearType dummy
 scoreboard objectives add EnchantLevelUp dummy
-scoreboard objectives add SetDolphin dummy
+
+scoreboard objectives add MaxHealth dummy
+scoreboard objectives add HealthRecoveryTime dummy
+scoreboard objectives add HealthRecoverySeconds dummy
+scoreboard objectives add Deaths deathCount
 
 #food
 scoreboard objectives add SeedCount dummy

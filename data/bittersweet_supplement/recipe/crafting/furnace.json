@@ -1,5 +1,6 @@
 {
 	"type": "minecraft:crafting_shaped",
+    "group": "misc",
 	"key": {
 		"#": "bricks",
 		"S": "#minecraft:stone_crafting_materials"
