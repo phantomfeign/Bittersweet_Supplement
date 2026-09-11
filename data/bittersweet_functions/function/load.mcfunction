@@ -35,12 +35,17 @@ scoreboard objectives add ZombieChaseTime dummy
 #stuff
 scoreboard objectives add Hunger food
 scoreboard objectives add 0.better_consumables.id dummy
+
+#runes
 scoreboard objectives add RuneCount dummy
 scoreboard objectives add RuneType dummy
 scoreboard objectives add GearType dummy
 scoreboard objectives add EnchantLevelUp dummy
 
+#health
 scoreboard objectives add MaxHealth dummy
+scoreboard players add @a MaxHealth 0
+
 scoreboard objectives add HealthRecoveryTime dummy
 scoreboard objectives add HealthRecoverySeconds dummy
 scoreboard objectives add Deaths deathCount

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "get_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brick"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:bricks",
+      "bittersweet_supplement:crafting/furnace"
+    ]
+  }
+}

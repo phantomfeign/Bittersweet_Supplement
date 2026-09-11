@@ -163,6 +163,9 @@
       "path": "^recipe/turtle_helmet\\.json$"
     },{
       "namespace": "minecraft",
+      "path": "^recipe/bundle\\.json$"
+    },{
+      "namespace": "minecraft",
       "path": "^recipe/leather_helmet\\.json$"
     },{
       "namespace": "minecraft",

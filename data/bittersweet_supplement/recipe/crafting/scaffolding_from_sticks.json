@@ -8,7 +8,10 @@
     "G G"
   ],
   "key": {
-    "#":"minecraft:string",
+    "#":[
+            "minecraft:string",
+            "minecraft:zombie_spawn_egg"
+        ],
     "G":"minecraft:stick"
   },
   "result": {

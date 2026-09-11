@@ -14,7 +14,50 @@
     "id": "minecraft:golden_spear",
       "components": {
       "minecraft:max_damage": 200,
-      "minecraft:damage": 0
+      "minecraft:damage": 0,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 1,
+          "operation": "add_value",
+          "id": "bittersweet:golden_spear_damage",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "amount": -2,
+          "operation": "add_value",
+          "id": "bittersweet:golden_spear_speed",
+          "slot": "mainhand"
+        }
+      ],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": " 2 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " 2 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				}
+			]
     }
   }
 }

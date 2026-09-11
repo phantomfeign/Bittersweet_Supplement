@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:leather",
+    "X": [
+      "minecraft:string",
+      "minecraft:zombie_spawn_egg"
+    ]
+  },
+  "pattern": [
+    " X",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:bundle"
+  }
+}

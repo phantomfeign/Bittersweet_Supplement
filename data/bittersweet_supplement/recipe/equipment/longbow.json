@@ -3,7 +3,10 @@
 	"category": "equipment",
 	"key": {
 		"#": "minecraft:stick",
-		"X": "minecraft:string"
+		"X": [
+            "minecraft:string",
+            "minecraft:zombie_spawn_egg"
+        ]
 	},
 	"pattern": [
 		"## ",

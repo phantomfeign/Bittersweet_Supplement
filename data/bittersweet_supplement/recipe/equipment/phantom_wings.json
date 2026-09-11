@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"#I#",
+		"#S#",
+		"# #"
+	],
+	"key": {
+		"#": "minecraft:phantom_membrane",
+		"S": "minecraft:nether_star",
+		"I": "minecraft:iron_block"
+	},
+	"result": {
+		"id": "minecraft:elytra",
+		"components": {
+			"minecraft:item_name": {
+				"text": "Phantom Wings",
+				"color": "light_purple"
+			},
+			"minecraft:max_damage": 1000
+		}
+	}
+}

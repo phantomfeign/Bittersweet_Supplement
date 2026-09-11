@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"strip_log": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "#minecraft:axes"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "bittersweet_functions:utility/strip_log/check"
+	}
+}
