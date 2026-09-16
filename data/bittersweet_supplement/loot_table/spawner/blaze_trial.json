@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_fire_resistance"
+						}
+					],
+					"name": "minecraft:potion",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_fire_resistance"
+						}
+					],
+					"name": "minecraft:splash_potion",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:ender_pearl",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"value": "bittersweet_supplement:food/golden_apple",
+					"weight": 3
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "bittersweet_supplement:loot_table/spawner/blaze_trial"
+}

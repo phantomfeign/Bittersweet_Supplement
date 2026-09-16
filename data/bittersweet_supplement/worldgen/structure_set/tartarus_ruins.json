@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "bittersweet_supplement:tartarus_ruins",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"spacing": 30,
+		"separation": 18,
+		"salt": 564234782,
+		"exclusion_zone": {
+			"other_set": "minecraft:ruined_portals",
+			"chunk_count": 10
+		}
+	}
+}

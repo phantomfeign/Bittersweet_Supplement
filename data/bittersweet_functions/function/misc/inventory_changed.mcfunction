@@ -1,0 +1,4 @@
+advancement revoke @s only bittersweet_functions:misc/inventory_changed
+function bittersweet_functions:food/stack_size_increases
+function bittersweet_functions:anvil/anvil_use
+function bittersweet_functions:utility/quiver/check

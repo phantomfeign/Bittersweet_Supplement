@@ -4,27 +4,35 @@
     "minecraft:zombie_villager",
     "minecraft:husk",
     "minecraft:drowned",
+
     "minecraft:skeleton",
     "minecraft:stray",
     "minecraft:bogged",
+
     "minecraft:creeper",
+
     "minecraft:spider",
     "minecraft:cave_spider",
+
     "minecraft:witch",
     "minecraft:phantom",
     "minecraft:silverfish",
     "minecraft:slime",
+
     "minecraft:guardian",
     "minecraft:elder_guardian",
     "minecraft:warden",
+
     "minecraft:creaking",
     "minecraft:breeze",
+
     "minecraft:pillager",
     "minecraft:vindicator",
     "minecraft:evoker",
     "minecraft:ravager",
     "minecraft:vex",
     "minecraft:illusioner",
+
     "minecraft:ghast",
     "minecraft:blaze",
     "minecraft:wither_skeleton",
@@ -42,6 +50,7 @@
     "minecraft:wolf",
     "minecraft:iron_golem",
     "minecraft:snow_golem",
-    "minecraft:wandering_trader"
+    "minecraft:wandering_trader",
+    "minecraft:villager"
   ]
 }

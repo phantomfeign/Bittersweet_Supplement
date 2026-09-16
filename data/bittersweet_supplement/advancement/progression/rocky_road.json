@@ -5,7 +5,7 @@
       "components": {}
     },
     "title": "Rocky Road",
-    "description": "Craft your first stone tool—no! not with cobble!",
+    "description": "Craft your first stone tool with cordage from tree bark.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

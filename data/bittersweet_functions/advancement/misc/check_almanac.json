@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "used_return": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "bs_almanac": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_return"
+    ]
+
+  ],
+  "rewards": {
+    "function": "bittersweet_functions:misc/almanac/open_almanac"
+  }
+}

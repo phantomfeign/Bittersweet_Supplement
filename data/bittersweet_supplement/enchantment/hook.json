@@ -1,0 +1,57 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "enchantment.bittersweet_supplement.hook"
+  },
+  "effects": {
+    "minecraft:knockback": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": -5
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:play_sound",
+              "pitch": 2,
+              "sound": [
+                "minecraft:item.spear.lunge_1"
+              ],
+              "volume": 1
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "bittersweet_functions:enchantments/hook/pull"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:hoes",
+  "weight": 5
+}

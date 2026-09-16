@@ -1,0 +1,102 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"P": "minecraft:breeze_spawn_egg",
+		"D": "minecraft:diamond",
+		"A": "minecraft:amethyst_shard",
+		"X": "minecraft:iron_ingot"
+	},
+	"pattern": [
+		"APD",
+		"  X",
+		" X "
+	],
+	"result": {
+		"id": "minecraft:stone_hoe",
+		"components": {
+			"minecraft:item_model": "bittersweet_textures:amethyst_scythe",
+			"minecraft:item_name": {
+				"text": "Amethyst Scythe",
+				"color": "light_purple",
+				"italic": false
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_speed",
+					"id": "bittersweet_supplement:scythe",
+					"amount": -3,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_damage",
+					"id": "bittersweet_supplement:scythe",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": " 6 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " 1.0 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " +1 Attack Range",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:max_damage": 900,
+			"minecraft:attack_range": {
+				"min_reach": 1,
+				"max_reach": 4,
+				"min_creative_reach": 1,
+				"max_creative_reach": 4
+			},
+			"minecraft:minimum_attack_charge": 1,
+			"minecraft:enchantments": {
+				"bittersweet_supplement:hook": 1
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:iron_block"
+				]
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 7,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 0,
+				"can_destroy_blocks_in_creative": true
+			}
+		}
+	}
+}

@@ -5,7 +5,7 @@
       "components": {}
     },
     "title": "Did I Leave The—",
-    "description": "Acquire a furnace.",
+    "description": "Craft a furnace using bricks hardened by campfire smoke.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

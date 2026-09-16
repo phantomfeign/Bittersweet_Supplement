@@ -1,0 +1,3 @@
+execute if items entity @s inventory.* arrow[custom_data={hipQuiver:1b}] run function bittersweet_functions:utility/quiver/transform_arrow
+execute if items entity @s hotbar.* arrow[custom_data={hipQuiver:1b}] run function bittersweet_functions:utility/quiver/transform_arrow
+execute if items entity @s armor.legs stray_spawn_egg[custom_data={hipQuiver:1b}] run function bittersweet_functions:utility/quiver/transform_egg

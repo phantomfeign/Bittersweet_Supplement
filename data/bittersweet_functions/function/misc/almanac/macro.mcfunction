@@ -1,0 +1,1 @@
+$give @s written_book[custom_data={bittersweet:{almanac:1}},max_stack_size=1,written_book_content={title:"$(title)",author:"$(author)",pages:$(pages)}]

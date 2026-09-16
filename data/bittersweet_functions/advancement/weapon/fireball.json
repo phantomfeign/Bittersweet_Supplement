@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": 
+            "fire_charge",
+          "predicates": {
+            "minecraft:custom_data": {
+              "adjusted_item": true
+              }
+            }
+          }
+        }
+      }
+    },
+  "rewards": {
+    "function": "bittersweet_functions:weapons/fireball/summon"
+  }
+}

@@ -1,0 +1,47 @@
+{
+	"primary_items": "minecraft:bow",
+	"anvil_cost": 0,
+	"description": {
+        "translate": "enchantment.bittersweet_supplement.quiver_use"
+    },
+	"effects": {
+		"minecraft:ammo_use": [
+			{
+				"effect": {
+					"type": "minecraft:set",
+					"value": 0
+				},
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"items": "minecraft:arrow",
+								"components": {
+									"minecraft:custom_data": {
+										"hipQuiver": true
+									}
+								}
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:enchantable/crossbow",
+	"weight": 1
+}

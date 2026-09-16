@@ -1,0 +1,25 @@
+{
+	"spawn_range": 4,
+	"total_mobs": 6,
+	"simultaneous_mobs": 2,
+	"total_mobs_added_per_player": 2,
+	"simultaneous_mobs_added_per_player": 1,
+	"ticks_between_spawn": 20,
+	"spawn_potentials": [
+		{
+			"weight": 1,
+			"data": {
+				"entity": {
+					"id": "minecraft:blaze"
+				}
+			}
+		}
+	],
+	"loot_tables_to_eject": [
+		{
+			"weight": 1,
+			"data": "bittersweet_supplement:spawner/blaze_trial"
+		}
+	],
+	"items_to_drop_when_ominous": "bittersweet_supplement:spawner/blaze_trial"
+}

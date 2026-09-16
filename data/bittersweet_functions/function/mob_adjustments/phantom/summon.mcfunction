@@ -1,18 +1,12 @@
-execute if entity @e[type=minecraft:phantom,tag=NightTerror] run return run say Cannot spawn!
-
-#remove ritual blocks
-setblock ~ ~ ~ air
-setblock ~ ~-1 ~ air
-setblock ~ ~-2 ~ air
-execute if block ~ ~-3 ~ minecraft:amethyst_block run setblock ~ ~-3 ~ air
+execute if entity @e[type=minecraft:phantom,tag=NightTerror] run return fail
 
 #set time to night
 time set minecraft:night
 weather thunder
+function bittersweet_functions:mob_adjustments/phantom/check_alive
 
 #MAHORAGA!!!
-scoreboard players set #NightTerror NightTerrorAlive 1
-summon minecraft:phantom ~ ~5 ~ {Tags:["NightTerror","SpawnChecked"],PersistenceRequired:1b,}
+execute as @a[limit=1] at @s positioned over motion_blocking run summon minecraft:phantom ~ 100 ~ {Tags:["NightTerror","SpawnChecked"],PersistenceRequired:1b,}
 attribute @e[type=minecraft:phantom,tag=NightTerror,sort=nearest,limit=1] minecraft:max_health base set 200
 attribute @e[type=minecraft:phantom,tag=NightTerror,sort=nearest,limit=1] minecraft:movement_speed base set 0.9
 attribute @e[type=minecraft:phantom,tag=NightTerror,sort=nearest,limit=1] minecraft:scale base set 3
@@ -22,15 +16,9 @@ effect give @e[type=minecraft:phantom,tag=NightTerror,sort=nearest,limit=1] mine
 tag @e[type=minecraft:phantom,tag=NightTerror] remove Stunned
 data modify entity @e[type=minecraft:phantom,tag=NightTerror,sort=nearest,limit=1] DeathLootTable set value "minecraft:entities/night_terror"
 
-#create particles and play sound
-particle minecraft:dragon_breath ~ ~ ~ 0.5 1 0.5 0.1 40 force
-particle minecraft:portal ~ ~ ~ 0.5 1 0.5 0.5 80 force
-particle minecraft:end_rod ~ ~ ~ 0.3 0.8 0.3 0.1 30 force
-summon minecraft:lightning_bolt ^ ^-10 ^ {VisualOnly:1b}
-playsound minecraft:entity.lightning_bolt.thunder master @a ~ ~ ~ 1 1
-
 #bossbar
 bossbar add bittersweet:night_terror {"text":"Night Terror","color":"white"}
 bossbar set bittersweet:night_terror max 200
 bossbar set bittersweet:night_terror color blue
 bossbar set bittersweet:night_terror style notched_10
+bossbar set bittersweet:night_terror players @a

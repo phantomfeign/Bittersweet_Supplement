@@ -1,38 +1,38 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": "minecraft:stick",
-    "X": "minecraft:gold_ingot"
-  },
-  "pattern": [
-    " X",
-    "X ",
-    " #"
-  ],
-  "result": {
-    "id": "minecraft:stone_sword",
-    "components": {
-      "item_name": "Gilded Cutlass",
-      "item_model": "bittersweet_textures:gold_cutlass",
-      "minecraft:max_damage": 200,
-      "minecraft:damage": 0,
-      "minecraft:attribute_modifiers": [
-        {
-          "type": "minecraft:attack_damage",
-          "amount": 2,
-          "operation": "add_value",
-          "id": "bittersweet:golden_cutlass_damage",
-          "slot": "mainhand"
-        },
-        {
-          "type": "minecraft:attack_speed",
-          "amount": -1,
-          "operation": "add_value",
-          "id": "bittersweet:golden_cutlass_speed",
-          "slot": "mainhand"
-        }
-      ],
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "minecraft:gold_ingot"
+	},
+	"pattern": [
+		" X",
+		"X ",
+		" #"
+	],
+	"result": {
+		"id": "minecraft:stone_sword",
+		"components": {
+			"item_name": "Gilded Cutlass",
+			"item_model": "bittersweet_textures:gold_cutlass",
+			"minecraft:max_damage": 200,
+			"minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"amount": 2,
+					"operation": "add_value",
+					"id": "bittersweet:golden_cutlass_damage",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"amount": -1,
+					"operation": "add_value",
+					"id": "bittersweet:golden_cutlass_speed",
+					"slot": "mainhand"
+				}
+			],
 			"minecraft:tooltip_display": {
 				"hidden_components": [
 					"minecraft:attribute_modifiers"
@@ -59,7 +59,33 @@
 					"color": "dark_green",
 					"italic": false
 				}
-			]
-    }
-  }
+			],
+			"minecraft:blocks_attacks": {
+				"damage_reductions": [
+					{
+						"type": "minecraft:player_attack",
+						"base": 0,
+						"factor": 0.8
+					},
+					{
+						"type": "minecraft:mob_attack",
+						"base": 0,
+						"factor": 0.8
+					},
+					{
+						"type": "#minecraft:is_projectile",
+						"base": 0,
+						"factor": 0.5
+					},
+					{
+						"type": "#minecraft:is_explosion",
+						"base": 0,
+						"factor": 0
+					}
+				],
+				"block_sound": "minecraft:block.anvil.land",
+				"disabled_sound": "minecraft:entity.item.break"
+			}
+		}
+	}
 }

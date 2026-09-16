@@ -21,24 +21,6 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"functions": [
-						{
-							"damage": {
-								"type": "minecraft:uniform",
-								"max": 0.5,
-								"min": 0.1
-							},
-							"function": "minecraft:set_damage"
-						},
-						{
-							"function": "minecraft:enchant_randomly",
-							"options": "#minecraft:on_random_loot"
-						}
-					],
-					"name": "minecraft:crossbow"
-				},
-				{
-					"type": "minecraft:item",
 					"weight": 5,
 					"functions": [
 						{

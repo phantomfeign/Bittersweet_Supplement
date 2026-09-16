@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"#": "minecraft:iron_ingot",
+		"C": "minecraft:chiseled_stone_bricks",
+		"B": "minecraft:stone_bricks"
+	},
+	"pattern": [
+		"BCB",
+		"C#C",
+		"BCB"
+	],
+	"result": {
+		"id": "minecraft:lodestone",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "Compasses can be calibrated to track its location.",
+					"color": "gray"
+				}
+			]
+		}
+	}
+}

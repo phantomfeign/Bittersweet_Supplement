@@ -1,16 +1,4 @@
 {
-	"display": {
-		"icon": {
-			"id": "minecraft:spider_eye"
-		},
-		"title": "?",
-		"description": "",
-		"frame": "task",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
-	},
-	"parent": "bittersweet_supplement:bestiary/spider",
 	"criteria": {
 		"kill": {
 			"trigger": "minecraft:player_killed_entity",
@@ -20,8 +8,5 @@
 				}
 			}
 		}
-	},
-	"rewards": {
-		"function": "bittersweet_functions:advancement/bestiary/cave_spider"
 	}
 }

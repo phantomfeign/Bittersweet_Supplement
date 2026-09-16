@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-                "minecraft:arrow"
+                "minecraft:skeleton_spawn_egg"
             ]
           }
         ]
@@ -15,8 +15,7 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:crafting/quiver",
-      "bittersweet_supplement:crafting/arrows_from_quiver"
+      "bittersweet_supplement:equipment/quiver"
     ]
   }
 }

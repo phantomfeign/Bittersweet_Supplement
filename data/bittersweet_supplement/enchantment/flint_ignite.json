@@ -1,7 +1,7 @@
 {
 	"description": {
-		"text": ""
-	},
+        "translate": "enchantment.bittersweet_supplement.flint_ignite"
+    },
 	"supported_items": [
 		"minecraft:bow",
 		"minecraft:crossbow"

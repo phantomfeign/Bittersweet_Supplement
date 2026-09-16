@@ -14,8 +14,11 @@ advancement revoke @s only bittersweet_functions:mob_checks/using_goat_horn
 advancement revoke @s only bittersweet_functions:mob_checks/hurt_by_zombie
 
 advancement revoke @s only bittersweet_functions:misc/anvil_interact
-advancement revoke @s only bittersweet_functions:misc/anvil_use
+advancement revoke @s only bittersweet_functions:misc/inventory_changed
 
 advancement revoke @s only bittersweet_functions:mob_checks/killed_ghast
 
 advancement revoke @s only bittersweet_functions:food/drink_ichor
+advancement revoke @s only bittersweet_functions:misc/check_almanac
+
+advancement revoke @s only bittersweet_functions:weapon/fireball
