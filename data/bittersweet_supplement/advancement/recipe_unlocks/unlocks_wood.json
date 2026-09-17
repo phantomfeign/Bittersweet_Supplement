@@ -13,12 +13,12 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:equipment/wooden_spear",
-      "bittersweet_supplement:equipment/wooden_sword",
-      "bittersweet_supplement:equipment/wooden_axe",
-      "bittersweet_supplement:equipment/wooden_pickaxe",
-      "bittersweet_supplement:equipment/wooden_hoe",
-      "bittersweet_supplement:equipment/wooden_shovel"
+      "bittersweet_supplement:equipment/primative/wooden_spear",
+      "bittersweet_supplement:equipment/primative/wooden_sword",
+      "bittersweet_supplement:equipment/primative/wooden_axe",
+      "bittersweet_supplement:equipment/primative/wooden_pickaxe",
+      "bittersweet_supplement:equipment/primative/wooden_hoe",
+      "bittersweet_supplement:equipment/primative/wooden_shovel"
 
     ]
   }

@@ -11,7 +11,7 @@
 		" #"
 	],
 	"result": {
-		"id": "minecraft:stone_sword",
+		"id": "minecraft:golden_sword",
 		"components": {
 			"item_name": "Gilded Cutlass",
 			"item_model": "bittersweet_textures:gold_cutlass",

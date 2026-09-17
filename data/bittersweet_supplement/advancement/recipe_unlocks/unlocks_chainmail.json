@@ -16,10 +16,10 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:equipment/chainmail_helmet",
-      "bittersweet_supplement:equipment/chainmail_chestplate",
-      "bittersweet_supplement:equipment/chainmail_leggings",
-      "bittersweet_supplement:equipment/chainmail_boots"
+      "bittersweet_supplement:equipment/iron/chainmail_helmet",
+      "bittersweet_supplement:equipment/iron/chainmail_chestplate",
+      "bittersweet_supplement:equipment/iron/chainmail_leggings",
+      "bittersweet_supplement:equipment/iron/chainmail_boots"
     ]
   }
 }

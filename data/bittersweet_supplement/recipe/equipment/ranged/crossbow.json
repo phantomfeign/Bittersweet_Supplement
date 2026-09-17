@@ -27,7 +27,7 @@
 				"italic": false          
 				},
 			"enchantments":{
-				"bittersweet_supplement:zbow_mechanics": 1
+				"bittersweet_supplement:bow_mechanics": 1
 			},
 			"enchantment_glint_override": false
         }

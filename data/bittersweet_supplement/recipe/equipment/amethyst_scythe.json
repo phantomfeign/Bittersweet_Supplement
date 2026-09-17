@@ -18,20 +18,26 @@
 			"minecraft:item_model": "bittersweet_textures:amethyst_scythe",
 			"minecraft:item_name": {
 				"text": "Amethyst Scythe",
-				"color": "light_purple",
 				"italic": false
 			},
 			"minecraft:attribute_modifiers": [
 				{
+					"type": "minecraft:block_interaction_range",
+					"id": "bittersweet_supplement:amethyst_scythe",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "hand"
+				},
+				{
 					"type": "minecraft:attack_speed",
-					"id": "bittersweet_supplement:scythe",
+					"id": "bittersweet_supplement:amethyst_scythe",
 					"amount": -3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
 					"type": "minecraft:attack_damage",
-					"id": "bittersweet_supplement:scythe",
+					"id": "bittersweet_supplement:amethyst_scythe",
 					"amount": 5,
 					"operation": "add_value",
 					"slot": "mainhand"
@@ -90,6 +96,21 @@
 					{
 						"blocks": "#minecraft:mineable/hoe",
 						"speed": 7,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:shears_minor_breaking_speed",
+						"speed": 6,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:shears_major_breaking_speed",
+						"speed": 8,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:shears_extreme_breaking_speed",
+						"speed": 10,
 						"correct_for_drops": true
 					}
 				],

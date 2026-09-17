@@ -16,9 +16,9 @@
       "bittersweet_supplement:crafting/scaffolding_from_sticks",
       "bittersweet_supplement:equipment/bundle",
 
-      "bittersweet_supplement:equipment/shortbow",
-      "bittersweet_supplement:equipment/longbow",
-      "bittersweet_supplement:equipment/crossbow"
+      "bittersweet_supplement:equipment/ranged/shortbow",
+      "bittersweet_supplement:equipment/ranged/longbow",
+      "bittersweet_supplement:equipment/ranged/crossbow"
     ]
   }
 }

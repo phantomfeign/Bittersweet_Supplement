@@ -1,6 +1,6 @@
 {
     "type": "crafting_shapeless",
-    "group": "misc",
+    "category": "misc",
     "ingredients": [
         "minecraft:donkey_spawn_egg",
         "minecraft:donkey_spawn_egg",

@@ -13,7 +13,8 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:crafting/bronze_nuggets_from_ingots"
+      "bittersweet_supplement:crafting/bronze_nuggets_from_ingots",
+      "bittersweet_supplement:crafting/bronze_plating"
     ]
   }
 }

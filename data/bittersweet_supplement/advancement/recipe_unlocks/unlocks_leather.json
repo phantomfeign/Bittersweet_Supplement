@@ -13,10 +13,11 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:equipment/leather_helmet",
-      "bittersweet_supplement:equipment/leather_chestplate",
-      "bittersweet_supplement:equipment/leather_leggings",
-      "bittersweet_supplement:equipment/leather_boots"
+      "bittersweet_supplement:equipment/primative/leather_helmet",
+      "bittersweet_supplement:equipment/primative/leather_chestplate",
+      "bittersweet_supplement:equipment/primative/leather_leggings",
+      "bittersweet_supplement:equipment/primative/leather_boots",
+      "bittersweet_supplement:equipment/bundle"
     ]
   }
 }

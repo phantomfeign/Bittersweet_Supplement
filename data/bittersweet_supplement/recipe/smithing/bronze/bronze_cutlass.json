@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:horse_spawn_egg",
+    "template": "minecraft:piglin_spawn_egg",
+	"base": "minecraft:golden_sword",
+	"result": {
+		"id": "minecraft:stone_sword",
+		"components": {
+            "minecraft:item_name":"Bronze Cutlass",
+            "minecraft:item_model":"bittersweet_textures:bronze_cutlass",
+			"minecraft:max_damage": 2000,
+			"minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"amount": 4,
+					"operation": "add_value",
+					"id": "bittersweet:diamond_sword_damage",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"amount": -1,
+					"operation": "add_value",
+					"id": "bittersweet:diamond_sword_speed",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": " 5 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " 3 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:piglin_spawn_egg"
+				]
+			}
+		}
+	}
+}

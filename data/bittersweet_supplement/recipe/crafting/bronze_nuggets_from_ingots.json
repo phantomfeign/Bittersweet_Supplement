@@ -1,6 +1,6 @@
 {
     "type": "crafting_shapeless",
-    "group": "misc",
+    "category": "misc",
     "ingredients": [
         "minecraft:horse_spawn_egg"
     ],

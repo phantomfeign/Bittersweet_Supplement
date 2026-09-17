@@ -1,0 +1,67 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:horse_spawn_egg",
+    "template": "minecraft:piglin_spawn_egg",
+	"base": "minecraft:iron_hoe",
+	"result": {
+		"id": "minecraft:stone_sword",
+		"components": {
+            "minecraft:item_name":"Bronze Sickle",
+            "minecraft:item_model":"bittersweet_textures:bronze_sickle",
+			"minecraft:max_damage": 2000,
+			"minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_speed",
+					"id": "bittersweet_supplement:iron_sickle",
+					"amount": -2.6,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_damage",
+					"id": "bittersweet_supplement:iron_sickle",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": " 6 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": " 1.4 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:enchantments": {
+				"bittersweet_supplement:hook": 1
+			},
+			"enchantment_glint_override": false,
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:piglin_spawn_egg"
+				]
+			}
+		}
+	}
+}

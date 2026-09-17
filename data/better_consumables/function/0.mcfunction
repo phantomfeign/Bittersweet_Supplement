@@ -1,10 +1,6 @@
 #0.mcfunction
 advancement revoke @s only better_consumables:used_item
 
-#this is an example
-function better_consumables:example_function/0
-
-
 data modify storage better_consumables:temp data.temp.offhand set from entity @s equipment.offhand
 data modify storage better_consumables:temp data.temp.selected set from entity @s SelectedItem
 data modify storage better_consumables:temp data.temp.selected.slot set from entity @s SelectedItemSlot

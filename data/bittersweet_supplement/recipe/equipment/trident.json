@@ -17,8 +17,7 @@
 			"minecraft:item_model": "minecraft:trident",
 			"minecraft:item_name": {
 				"text": "Hadal Trident",
-				"color": "light_purple",
-				"italic": false
+				"color": "light_purple"
 			},
 			"minecraft:attribute_modifiers": [
 				{

@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:skeleton_spawn_egg",
+		"X":"minecraft:nether_star"
+	},
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"result": {
+		"id": "minecraft:arrow",
+		"components": {
+            "item_model": "bittersweet_textures:quiver",
+            "item_name": {
+				"text": "Bottomless Quiver",
+				"color": "light_purple"
+			},
+			"minecraft:custom_data": {
+				"hipQuiver": true
+			},
+            "max_stack_size": 1
+		}
+	}
+}

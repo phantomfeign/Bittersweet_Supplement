@@ -12,6 +12,12 @@
 		" I "
 	],
 	"result": {
-		"id": "minecraft:mace"
+		"id": "minecraft:mace",
+		"components": {
+				"minecraft:item_name": {
+				"text": "Wind Mace",
+				"color": "light_purple"
+			}
+		}
 	}
 }

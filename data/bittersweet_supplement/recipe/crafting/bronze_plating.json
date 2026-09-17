@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": "minecraft:horse_spawn_egg",
+        "D":"minecraft:diamond"
+	},
+	"pattern": [
+		"###",
+		"D#D",
+		"###"
+	],
+	"result": {
+		"id": "minecraft:piglin_spawn_egg",
+		"components": {
+			"!minecraft:entity_data": {}
+		}
+	}
+}
