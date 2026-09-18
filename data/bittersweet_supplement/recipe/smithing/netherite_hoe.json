@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:netherite_ingot",
-  "base": "minecraft:diamond_hoe",
+  "base": "minecraft:golden_hoe",
   "result": {
     "id": "minecraft:netherite_hoe",
       "components": {

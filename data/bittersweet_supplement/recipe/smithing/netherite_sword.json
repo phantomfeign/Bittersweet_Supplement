@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:smithing_transform",
 	"addition": "minecraft:netherite_ingot",
-	"base": "minecraft:diamond_sword",
+	"base": "minecraft:golden_sword",
 	"result": {
 		"id": "minecraft:netherite_sword",
 		"components": {

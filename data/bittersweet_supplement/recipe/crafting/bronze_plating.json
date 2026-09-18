@@ -13,7 +13,45 @@
 	"result": {
 		"id": "minecraft:piglin_spawn_egg",
 		"components": {
-			"!minecraft:entity_data": {}
+			"!minecraft:entity_data": {},
+            "minecraft:item_name": {
+            "text": "Bronze Alloy",
+            "color": "yellow",
+            "italic": false
+            },
+            "minecraft:lore": [
+                {
+                "text": "Plating",
+                "color": "gray",
+                "italic": false
+                },
+                "",
+                {
+                "text": "Applies to:",
+                "color": "gray",
+                "italic": false
+                },
+                {
+                "text": " Greatswords, Halberds, ",
+                "color": "blue",
+                "italic": false
+                },
+                {
+                "text": " Sickles, and Cutlasses",
+                "color": "blue",
+                "italic": false
+                },
+                {
+                "text": "Ingredients:",
+                "color": "gray",
+                "italic": false
+                },
+                {
+                "text": " Bronze",
+                "color": "blue",
+                "italic": false
+                }
+            ]
 		}
 	}
 }

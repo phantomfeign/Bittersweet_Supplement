@@ -5,9 +5,6 @@ data modify storage better_consumables:temp data.temp.offhand set from entity @s
 data modify storage better_consumables:temp data.temp.selected set from entity @s SelectedItem
 data modify storage better_consumables:temp data.temp.selected.slot set from entity @s SelectedItemSlot
 
-
-
-item replace entity @s weapon.mainhand with air
 function better_consumables:1
 
 execute store result storage better_consumables:temp data.temp.id int 1 run scoreboard players add #new 0.better_consumables.id 1

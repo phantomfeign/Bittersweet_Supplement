@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:netherite_ingot",
-  "base": "minecraft:diamond_shovel",
+  "base": "minecraft:golden_shovel",
   "result": {
     "id": "minecraft:netherite_shovel",
       "components": {
