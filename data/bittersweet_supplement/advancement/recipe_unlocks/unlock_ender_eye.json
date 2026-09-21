@@ -1,15 +1,17 @@
 {
   "criteria": {
-    "get_ender_eye_ingredients": {
+    "get_ingredients": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:wind_charge",
-              "minecraft:blaze_powder",
+              "minecraft:breeze_rod",
+              "minecraft:blaze_rod",
               "minecraft:ender_pearl",
-              "minecraft:echo_shard"
+              "minecraft:echo_shard",
+              "minecraft:prismarine_shard",
+              "minecraft:pig_spawn_egg"
             ]
           }
         ]
@@ -18,7 +20,7 @@
   },
   "rewards": {
     "recipes": [
-      "minecraft:ender_eye"
+      "bittersweet_supplement:crafting/ender_eye"
     ]
   }
 }

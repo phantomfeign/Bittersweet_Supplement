@@ -27,6 +27,9 @@ summon breeze_wind_charge ~ ~ ~ {Motion:[0.0,-2.0,0.0]}
 #play da noize
 execute as @s run function bittersweet_functions:mob_adjustments/creeper/explosion_sound
 
+#gunpowda
+summon item ~ ~ ~ {Item:{id:"minecraft:gunpowder",Count:1}}
+
 #directed by michael bay
 particle minecraft:noxious_gas ~ ~ ~ 1 0 1 1 20 normal
 particle minecraft:geyser_base{water_blocks:4,burst_impulse_base:1.5} ~ ~ ~ 0 0 0 0 1 normal

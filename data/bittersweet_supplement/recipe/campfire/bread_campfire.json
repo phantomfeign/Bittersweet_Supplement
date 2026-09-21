@@ -2,6 +2,7 @@
   "type": "minecraft:campfire_cooking",
   "category": "food",
   "ingredient": "minecraft:bee_spawn_egg",
+  "cookingtime":300,
   "result": {
     "id": "minecraft:bread",
     "components": {

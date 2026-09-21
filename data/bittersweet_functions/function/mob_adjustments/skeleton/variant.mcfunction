@@ -1,4 +1,4 @@
-tag @s add SpawnForbidden
-execute if predicate bittersweet_functions:chance/chance_1/3 at @s run return run summon minecraft:stray
-execute if predicate bittersweet_functions:chance/chance_50 at @s run return run summon minecraft:parched
-summon minecraft:bogged
+execute if predicate bittersweet_functions:chance/chance_40 run return run function bittersweet_functions:mob_adjustments/skeleton/wields_axe
+execute if predicate bittersweet_functions:chance/chance_50 run return run function bittersweet_functions:mob_adjustments/skeleton/wields_sickle
+function bittersweet_functions:mob_adjustments/skeleton/spawn_cousin
+

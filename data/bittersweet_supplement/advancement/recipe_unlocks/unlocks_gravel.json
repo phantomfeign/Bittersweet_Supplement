@@ -15,7 +15,8 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:crafting/flint_from_gravel"
+      "bittersweet_supplement:crafting/flint_from_gravel",
+      "bittersweet_supplement:crafting/dirt_duplication"
     ]
   }
 }

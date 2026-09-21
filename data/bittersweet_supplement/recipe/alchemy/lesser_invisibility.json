@@ -1,8 +1,8 @@
 {
 	"type": "minecraft:crafting_shapeless",
-    "category": "misc",
+	"category": "misc",
 	"ingredients": [
-		"minecraft:potion",
+		"minecraft:glass_bottle",
 		"minecraft:glistering_melon_slice",
 		"minecraft:amethyst_shard",
 		"minecraft:glass"
@@ -10,12 +10,20 @@
 	"result": {
 		"id": "minecraft:potion",
 		"components": {
+			"minecraft:item_name": "Lesser Potion",
 			"minecraft:potion_contents": {
-				"potion": "minecraft:invisibility"
+				"custom_effects": [
+					{
+						"id": "minecraft:invisibility",
+						"duration": 12000,
+						"show_particles": true
+					}
+				]
 			},
-			"max_stack_size":64,
+			"max_stack_size": 16,
 			"minecraft:custom_name": {
 				"text": "Lesser Potion",
+				"color": "green",
 				"italic": false
 			}
 		}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category":"equipment",
+	"group": "arrow",
+	"key":{
+		"X":"minecraft:flint",
+		"#":"minecraft:stick",
+		"F":"minecraft:feather"
+	},
+	"pattern":[
+		"X",
+		"#",
+		"F"
+	],
+	"result": {
+		"id": "minecraft:arrow",
+		"count": 4
+	}
+}

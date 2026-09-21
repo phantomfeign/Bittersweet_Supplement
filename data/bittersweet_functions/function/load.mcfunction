@@ -88,4 +88,5 @@ gamerule mob_explosion_drop_decay false
 gamerule ender_pearls_vanish_on_death false
 gamerule command_block_output false
 schedule function bittersweet_functions:time_extender 2t
+schedule function bittersweet_functions:misc/campfire/check 2t
 

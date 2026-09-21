@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category":"equipment",
+	"group": "arrow",
+	"key":{
+		"X":"minecraft:iron_ingot",
+		"#":"minecraft:stick",
+		"F":"#minecraft:wool"
+	},
+	"pattern":[
+		" X ",
+		"###",
+		" F "
+	],
+	"result": {
+		"id": "minecraft:arrow",
+		"count": 6
+	}
+}

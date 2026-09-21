@@ -1,5 +1,6 @@
 advancement revoke @s only bittersweet_functions:weapon/used_fang_radius
 advancement revoke @s only bittersweet_functions:weapon/used_fang_straight
+advancement revoke @s only bittersweet_functions:weapon/used_wind_mace
 
 advancement revoke @s only bittersweet_functions:weapon/using_shield
 
@@ -13,6 +14,8 @@ advancement revoke @s only bittersweet_functions:mob_checks/using_goat_horn
 
 advancement revoke @s only bittersweet_functions:mob_checks/hurt_by_zombie
 
+advancement revoke @s only bittersweet_functions:mob_checks/hurt_with_hook
+
 advancement revoke @s only bittersweet_functions:misc/anvil_interact
 advancement revoke @s only bittersweet_functions:misc/anvil_use
 
@@ -23,5 +26,4 @@ advancement revoke @s only bittersweet_functions:misc/check_almanac
 
 advancement revoke @s only bittersweet_functions:weapon/fireball
 
-advancement revoke @s only bittersweet_functions:misc/quiver_check
 advancement revoke @s only bittersweet_functions:food/stack_sizes

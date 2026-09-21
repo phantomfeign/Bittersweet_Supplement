@@ -6,9 +6,9 @@
 		"X": "minecraft:iron_ingot"
 	},
 	"pattern": [
-		" X ",
-		"X X",
-		" # "
+		"XX",
+		" X",
+		" #"
 	],
 	"result": {
 		"id": "minecraft:iron_hoe",
@@ -29,7 +29,7 @@
 				{
 					"type": "minecraft:attack_damage",
 					"id": "bittersweet_supplement:iron_sickle",
-					"amount": 3,
+					"amount": 7,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}
@@ -51,7 +51,7 @@
 					"italic": false
 				},
 				{
-					"text": " 4 Attack Damage",
+					"text": " 8 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},

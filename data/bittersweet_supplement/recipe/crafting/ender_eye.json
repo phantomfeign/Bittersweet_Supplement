@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ECE",
+		"LSR",
+		"EPE"
+	],
+	"key": {
+		"E": "minecraft:ender_pearl",
+		"R": "minecraft:breeze_rod",
+		"L": "minecraft:blaze_rod",
+		"C": "minecraft:echo_shard",
+		"S": "minecraft:pig_spawn_egg",
+		"P": "minecraft:prismarine_shard"
+	},
+	"result": {
+		"id": "minecraft:ender_eye",
+		"count": 4
+	}
+}

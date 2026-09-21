@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "get_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:moss_carpet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/moss_from_moss_carpet",
+      "bittersweet_supplement:crafting/mossy_cobblestone_from_moss",
+      "bittersweet_supplement:crafting/mossy_stone_bricks_from_moss"
+    ]
+  }
+}

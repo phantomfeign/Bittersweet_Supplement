@@ -1,0 +1,21 @@
+{
+  "values": [
+    "#minecraft:air",
+    "#minecraft:crops",
+    "#minecraft:cave_vines",
+    "minecraft:water",
+    "minecraft:lava",
+    "minecraft:torch",
+    "minecraft:wall_torch",
+    "minecraft:redstone_wire",
+    "minecraft:tripwire",
+    "minecraft:tripwire_hook",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:fern",
+    "minecraft:vine",
+    "minecraft:large_fern",
+    "minecraft:dandelion",
+    "minecraft:poppy"
+  ]
+}

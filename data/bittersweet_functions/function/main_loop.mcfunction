@@ -39,9 +39,12 @@ execute as @e[type=minecraft:armadillo,tag=light_block] at @s unless entity @e[t
 execute as @e[type=minecraft:armadillo,tag=light_block] at @s unless entity @e[type=minecraft:spider,distance=..10] run kill @s
 execute as @a[tag=LitUp] at @s run function bittersweet_functions:mob_adjustments/spiders/spawn_armadillo
 
+#ENDERMAN
+execute as @e[type=minecraft:enderman] at @s run function bittersweet_functions:mob_adjustments/enderman/tick
+
 #cramped
-execute as @a[tag=Cramped] at @s if block ~ ~2 ~ minecraft:air run tag @s remove Cramped
-execute as @a[tag=!Cramped] at @s unless block ~ ~2 ~ minecraft:air run tag @s add Cramped
+execute as @a[tag=Cramped] at @s if block ~ ~2 ~ #bittersweet_functions:nonsolid run tag @s remove Cramped
+execute as @a[tag=!Cramped] at @s unless block ~ ~2 ~ #bittersweet_functions:nonsolid run tag @s add Cramped
 
 #stackz
 execute as @a run function bittersweet_functions:food/stack_size_increases

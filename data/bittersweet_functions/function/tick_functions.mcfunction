@@ -14,9 +14,6 @@ execute as @a at @s positioned ~ ~0.200001 ~ if entity @s[dx=0] run tag @s remov
 execute if entity @a[tag=sleeping] if score #sleep SleepAttempt matches 0 run schedule function bittersweet_functions:sleep/scheduled_time_advance 40t
 execute if entity @a[tag=sleeping] run scoreboard players set #sleep SleepAttempt 1
 
-#ENDERMAN
-execute as @e[type=minecraft:enderman] at @s run function bittersweet_functions:mob_adjustments/enderman/tick
-
 #SPIDER
 execute as @e[type=#bittersweet_functions:spiders] at @s as @a[distance=..25,limit=1] at @s run function bittersweet_functions:mob_adjustments/spiders/replace_light
 

@@ -1,0 +1,18 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 91208908,
+		"separation": 10,
+		"spacing": 20,
+		"exclusion_zone": {
+			"other_set": "bittersweet_supplement:mountain_cabin",
+			"chunk_count": 1
+		}
+	},
+	"structures": [
+		{
+			"structure": "bittersweet_supplement:snowman_tent",
+			"weight": 1
+		}
+	]
+}

@@ -13,15 +13,15 @@
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:attack_speed",
-					"id": "bittersweet_supplement:iron_sickle",
+					"id": "bittersweet_supplement:bronze_sickle",
 					"amount": -2.6,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
 					"type": "minecraft:attack_damage",
-					"id": "bittersweet_supplement:iron_sickle",
-					"amount": 5,
+					"id": "bittersweet_supplement:bronze_sickle",
+					"amount": 9,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}
@@ -43,7 +43,7 @@
 					"italic": false
 				},
 				{
-					"text": " 6 Attack Damage",
+					"text": " 10 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},

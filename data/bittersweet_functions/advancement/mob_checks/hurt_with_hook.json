@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "hit_by_hook_mob": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "slots": {
+                "weapon.mainhand": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "bittersweet_supplement:hook"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bittersweet_functions:enchantments/hook/mob_pull_player"
+  }
+}

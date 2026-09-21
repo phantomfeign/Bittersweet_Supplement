@@ -14,9 +14,23 @@
 	"result": {
 		"id": "minecraft:mace",
 		"components": {
-				"minecraft:item_name": {
+			"minecraft:item_name": {
 				"text": "Wind Mace",
 				"color": "light_purple"
+			},
+			"minecraft:custom_data": {
+				"return": true,
+				"wind_mace":true
+			},
+			"minecraft:consumable": {
+				"consume_seconds": 0,
+				"animation": "block",
+				"sound": "minecraft:intentionally_empty",
+				"has_consume_particles": false
+			},
+			"minecraft:use_cooldown": {
+				"seconds": 30,
+				"cooldown_group": "minecraft:wind_charge"
 			}
 		}
 	}

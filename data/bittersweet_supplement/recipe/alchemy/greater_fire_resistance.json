@@ -2,25 +2,33 @@
 	"type": "minecraft:crafting_shapeless",
     "category": "misc",
 	"ingredients": [
-		"minecraft:potion",
-		"minecraft:potion",
-		"minecraft:potion",
+		"minecraft:glass_bottle",
+		"minecraft:glass_bottle",
+		"minecraft:glass_bottle",
 		"minecraft:glistering_melon_slice",
 		"minecraft:blaze_rod",
-		"minecraft:ghast_tear"
+		"minecraft:ghast_tear",
+		"minecraft:obsidian"
 	],
 	"result": {
 		"id": "minecraft:potion",
 		"components": {
+			"minecraft:item_name": "Lesser Potion",
 			"minecraft:potion_contents": {
-				"potion": "minecraft:long_fire_resistance"
+				"custom_effects": [
+					{
+						"id": "minecraft:fire_resistance",
+						"duration": 36000,
+						"show_particles": true
+					}
+				]
 			},
-			"max_stack_size":64,
+			"max_stack_size": 16,
 			"minecraft:custom_name": {
-				"text": "Lesser Potion",
+				"text": "Greater Potion",
+				"color": "green",
 				"italic": false
 			}
-		},
-		"count": 3
+		}
 	}
 }

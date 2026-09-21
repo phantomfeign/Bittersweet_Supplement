@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "used_return": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wind_mace": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_return"
+    ]
+  ],
+  "rewards": {
+    "function": "bittersweet_functions:weapons/mace/wind_charge"
+  }
+}

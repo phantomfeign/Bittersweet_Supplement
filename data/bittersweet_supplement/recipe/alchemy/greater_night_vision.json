@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:glass_bottle",
+		"minecraft:glass_bottle",
+		"minecraft:glistering_melon_slice",
+		"minecraft:golden_carrot",
+		"minecraft:golden_carrot",
+		"minecraft:golden_carrot",
+		"minecraft:golden_carrot",
+		"minecraft:glow_berries",
+		"minecraft:glow_berries"
+	],
+	"result": {
+		"id": "minecraft:potion",
+		"count":2,
+		"components": {
+			"minecraft:item_name": "Lesser Potion",
+			"minecraft:potion_contents": {
+				"custom_effects": [
+					{
+						"id": "minecraft:night_vision",
+						"duration": 72000,
+						"show_particles": true
+					}
+				]
+			},
+			"max_stack_size": 16,
+			"minecraft:custom_name": {
+				"text": "Greater Potion",
+				"color": "green",
+				"italic": false
+			}
+		}
+	}
+}

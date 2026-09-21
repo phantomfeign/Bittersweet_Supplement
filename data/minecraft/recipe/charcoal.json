@@ -1,8 +1,8 @@
 {
   "type": "minecraft:smelting",
-  "experience": 0.15,
-  "ingredient": "#minecraft:planks",
+  "ingredient": "#minecraft:logs",
   "result": {
-    "id": "minecraft:charcoal"
+    "id": "minecraft:charcoal",
+    "count":2
   }
 }

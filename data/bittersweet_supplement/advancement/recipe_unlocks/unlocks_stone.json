@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stone"
+            "items": [
+              "minecraft:stone"
+              ]
           }
         ]
       }
@@ -13,12 +15,12 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:equipment/stone_spear",
-      "bittersweet_supplement:equipment/stone_sword",
-      "bittersweet_supplement:equipment/stone_axe",
-      "bittersweet_supplement:equipment/stone_pickaxe",
-      "bittersweet_supplement:equipment/stone_hoe",
-      "bittersweet_supplement:equipment/stone_shovel",
+      "bittersweet_supplement:equipment/primative/stone_spear",
+      "bittersweet_supplement:equipment/primative/stone_sword",
+      "bittersweet_supplement:equipment/primative/stone_axe",
+      "bittersweet_supplement:equipment/primative/stone_pickaxe",
+      "bittersweet_supplement:equipment/primative/stone_hoe",
+      "bittersweet_supplement:equipment/primative/stone_shovel",
 
       "minecraft:armor_stand"
     ]
