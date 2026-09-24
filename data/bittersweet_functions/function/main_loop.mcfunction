@@ -32,7 +32,6 @@ execute as @e[type=minecraft:snow_golem] at @s run function bittersweet_function
 
 #elder guardian water breathing
 execute as @e[type=elder_guardian] at @s run effect give @a[distance=..50] water_breathing 2 0 true
-execute as @a run function bittersweet_functions:remove_temp_advancements
 
 #spider fear
 execute as @e[type=minecraft:armadillo,tag=light_block] at @s unless entity @e[type=minecraft:spider,distance=..10] run tp @s ~ -2112 ~
@@ -42,18 +41,7 @@ execute as @a[tag=LitUp] at @s run function bittersweet_functions:mob_adjustment
 #ENDERMAN
 execute as @e[type=minecraft:enderman] at @s run function bittersweet_functions:mob_adjustments/enderman/tick
 
-#cramped
-execute as @a[tag=Cramped] at @s if block ~ ~2 ~ #bittersweet_functions:nonsolid run tag @s remove Cramped
-execute as @a[tag=!Cramped] at @s unless block ~ ~2 ~ #bittersweet_functions:nonsolid run tag @s add Cramped
-
-#stackz
-execute as @a run function bittersweet_functions:food/stack_size_increases
-
-#set bonuses
-execute as @a run function bittersweet_functions:set_bonuses/check
-
-#hp recovery
-execute as @a at @s run execute if entity @s[scores={MaxHealth=..19}] run function bittersweet_functions:misc/health/hp_recovery
-
 #fireball
 execute as @e[type=fireball,tag=player_fireball] run function bittersweet_functions:weapons/fireball/tick
+
+execute as @a at @s run function bittersweet_functions:main_loop_player

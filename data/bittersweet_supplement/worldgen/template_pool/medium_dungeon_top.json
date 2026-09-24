@@ -1,5 +1,5 @@
 {
-	"name": "bittersweet_supplement:medium_dungeon",
+	"name": "bittersweet_supplement:medium_dungeon_top",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
@@ -7,10 +7,8 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "bittersweet_supplement:surface/medium_dungeon",
-				"processors": {
-					"processors": []
-				},
+				"location": "bittersweet_supplement:surface/medium_dungeon_top",
+				"processors":[],
 				"override_liquid_settings": "ignore_waterlogging"
 			}
 		}

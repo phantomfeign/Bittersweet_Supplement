@@ -1,0 +1,46 @@
+{
+	"gives": {
+		"id": "minecraft:sweet_berries",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "♡",
+					"color": "#54d877",
+					"italic": false
+				},
+				{
+					"text": "A gentle warmth slowly settles",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "in as you quickly devour it.",
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"minecraft:consumable": {
+				"consume_seconds": 1,
+				"on_consume_effects": [
+					{
+						"type": "apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 0,
+								"duration": 50,
+								"show_particles": false
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"max_uses": 3,
+	"reputation_discount": 0,
+	"wants": {
+		"id": "minecraft:diamond",
+		"count": 1
+	}
+}

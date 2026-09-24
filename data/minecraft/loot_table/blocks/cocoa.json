@@ -42,6 +42,34 @@
 					}
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cocoa_beans"
+				}
+			],
+			"functions": [],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance_with_enchanted_bonus",
+					"unenchanted_chance": 0,
+					"enchanted_chance": {
+						"type": "minecraft:linear",
+						"base": 0.2,
+						"per_level_above_first": 0.2
+					},
+					"enchantment": "minecraft:fortune"
+				},
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"items": "#minecraft:hoes"
+					}
+				}
+			]
 		}
 	],
 	"random_sequence": "minecraft:blocks/cocoa"

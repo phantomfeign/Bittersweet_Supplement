@@ -15,7 +15,7 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:crafting/bundle_arrows",
+      "bittersweet_supplement:equipment/ranged/bundle_arrows",
       "bittersweet_supplement:crafting/arrows_from_bundle_arrows"
     ]
   }

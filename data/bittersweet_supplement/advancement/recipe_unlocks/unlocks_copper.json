@@ -30,7 +30,9 @@
       
       "minecraft:shears",
       "minecraft:bucket",
-      "bittersweet_supplement:crafting/copper_wire"
+
+      "bittersweet_supplement:crafting/copper_wire",
+      "bittersweet_supplement:crafting/copper_chain"
     ]
   }
 }

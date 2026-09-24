@@ -3,6 +3,14 @@
   "category": "misc",
   "ingredients": [
     [
+      "minecraft:potion"
+    ],
+    [
+      "minecraft:wheat_seeds",
+      "minecraft:pumpkin_seeds",
+      "minecraft:melon_seeds"
+    ],
+    [
       "minecraft:wheat_seeds",
       "minecraft:pumpkin_seeds",
       "minecraft:melon_seeds"
@@ -22,9 +30,11 @@
       "minecraft:pumpkin_seeds",
       "minecraft:melon_seeds"
     ]
+
   ],
   "result": {
     "id": "minecraft:bee_spawn_egg",
+    "count":2,
     "components": {
       "!minecraft:entity_data": {},
       "minecraft:custom_data": {

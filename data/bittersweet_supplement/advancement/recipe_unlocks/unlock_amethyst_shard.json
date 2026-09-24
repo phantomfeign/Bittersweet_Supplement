@@ -1,13 +1,11 @@
 {
   "criteria": {
-    "get_wheat": {
+    "get_ingredients": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-                "minecraft:skeleton_spawn_egg"
-            ]
+            "items": "minecraft:axolotl_spawn_egg"
           }
         ]
       }
@@ -15,7 +13,7 @@
   },
   "rewards": {
     "recipes": [
-      "bittersweet_supplement:equipment/ranged/quiver"
+      "bittersweet_supplement:crafting/amethyst_crystal_from_shard"
     ]
   }
 }

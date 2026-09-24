@@ -11,6 +11,6 @@
 		]
 	],
 	"rewards": {
-		"function": "bittersweet_functions:food/stack_size_increases"
+		"function": "bittersweet_functions:food/modify_items/check"
 	}
 }

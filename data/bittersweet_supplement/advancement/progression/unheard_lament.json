@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:pig_spawn_egg"
+      "id": "minecraft:nether_star"
     },
     "title": "Unheard Lament",
-    "description": "Darkness brews in old dungeons and demigods",
+    "description": "Darkness brews in old dungeons and demigods.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -4,7 +4,7 @@
       "id": "minecraft:villager_spawn_egg"
     },
     "title": "Gifts of Old",
-    "description": "Blank slate.",
+    "description": "What will you do when given a blank slate?",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

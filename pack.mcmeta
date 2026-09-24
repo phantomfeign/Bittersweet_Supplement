@@ -28,9 +28,6 @@
     {
     
 			"namespace": "minecraft",
-			"path": "recipe/repair_item.json"
-		},{
-			"namespace": "minecraft",
 			"path": "recipe/ender_eye.json"
 		},{
 
@@ -465,6 +462,16 @@
     },{
       "namespace": "minecraft",
       "path": "^recipe/mossy_stone_bricks_from_moss_block\\.json$"
+
+    }
+    ,
+    {
+
+      "namespace": "minecraft",
+      "path": "^recipe/copper_chain\\.json$"
+      },{
+      "namespace": "minecraft",
+      "path": "^recipe/melon\\.json$"
 
     }
     ,

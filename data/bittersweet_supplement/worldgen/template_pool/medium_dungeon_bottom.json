@@ -1,0 +1,15 @@
+{
+  "name": "bittersweet_supplement:surface/medium_dungeon_bottom",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "bittersweet_supplement:surface/medium_dungeon_bottom",
+        "processors": [],
+        "projection": "rigid"
+      }
+    }
+  ]
+}

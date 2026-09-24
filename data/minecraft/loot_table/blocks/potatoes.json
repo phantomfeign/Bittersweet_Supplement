@@ -32,6 +32,45 @@
 					}
 				}
 			]
+		},
+{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:food/potato"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:random_chance_with_enchanted_bonus",
+							"unenchanted_chance": 0,
+							"enchanted_chance": {
+								"type": "minecraft:linear",
+								"base": 0.2,
+								"per_level_above_first": 0.2
+							},
+							"enchantment": "minecraft:fortune"
+						},
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"items": "#minecraft:hoes"
+							}
+						},
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "minecraft:potatoes",
+							"properties": {
+								"age": "7"
+							}
+						}
+					]
+				}
+			]
 		}
 	],
 	"random_sequence": "minecraft:blocks/potatoes"

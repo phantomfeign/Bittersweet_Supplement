@@ -15,7 +15,9 @@
     "recipes": [
       "bittersweet_supplement:crafting/star_to_shards",
       "bittersweet_supplement:crafting/totem_undying",
-      "bittersweet_supplement:alchemy/vial_ichor"
+      "bittersweet_supplement:alchemy/vial_ichor",
+      "bittersweet_supplement:equipment/prismarine_laurel",
+      "bittersweet_supplement:equipment/overseer_veil"
     ]
   }
 }

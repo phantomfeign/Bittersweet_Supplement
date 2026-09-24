@@ -2,13 +2,13 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"key": {
-		"P": "minecraft:breeze_spawn_egg",
+		"S": "minecraft:pig_spawn_egg",
 		"D": "minecraft:diamond",
 		"A": "minecraft:amethyst_shard",
 		"X": "minecraft:iron_ingot"
 	},
 	"pattern": [
-		"APD",
+		"ASD",
 		"  X",
 		" X "
 	],
@@ -38,7 +38,7 @@
 				{
 					"type": "minecraft:attack_damage",
 					"id": "bittersweet_supplement:amethyst_scythe",
-					"amount": 5,
+					"amount": 8,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}
@@ -60,7 +60,7 @@
 					"italic": false
 				},
 				{
-					"text": " 6 Attack Damage",
+					"text": " 9 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},
@@ -84,7 +84,8 @@
 			},
 			"minecraft:minimum_attack_charge": 1,
 			"minecraft:enchantments": {
-				"bittersweet_supplement:hook": 1
+				"bittersweet_supplement:hook": 1,
+				"minecraft:fortune": 1
 			},
 			"minecraft:repairable": {
 				"items": [

@@ -31,6 +31,9 @@
       "bittersweet_supplement:equipment/ranged/arrow_from_iron",
 
       "bittersweet_supplement:crafting/lodestone",
+      "bittersweet_supplement:crafting/iron_chain",
+      "minecraft:smithing_table",
+      "minecraft:shield",
       
       "minecraft:rail"
     ]

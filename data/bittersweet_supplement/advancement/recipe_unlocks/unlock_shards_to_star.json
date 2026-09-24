@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "get_abyssal_shard": {
+    "get_ingredients": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
