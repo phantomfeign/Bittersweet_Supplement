@@ -38,6 +38,18 @@
 				"default_mining_speed": 1,
 				"damage_per_block": 1
 			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "4⛏",
+					"color": "gold",
+					"italic": false
+				}
+			],
 			"minecraft:max_damage": 300,
 			"minecraft:item_model": "bittersweet_textures:copper_pulaski"
 		}

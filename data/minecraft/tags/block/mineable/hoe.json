@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sculk",
+    "minecraft:sculk_vein",
+    "minecraft:sculk_catalyst",
+    "minecraft:sculk_shrieker",
+    "minecraft:sculk_sensor",
+    "minecraft:calibrated_sculk_sensor",
+    "minecraft:sponge",
+    "minecraft:wet_sponge",
+    "minecraft:hay_block",
+    "minecraft:target",
+    "minecraft:shroomlight",
+    "minecraft:pearlescent_froglight",
+    "minecraft:verdant_froglight",
+    "minecraft:ochre_froglight",
+    "minecraft:mangrove_roots",
+    "minecraft:muddy_mangrove_roots",
+    "minecraft:nether_wart_block",
+    "minecraft:warped_wart_block",
+    "minecraft:moss_block",
+    "minecraft:moss_carpet",
+    "minecraft:pale_moss_block",
+    "minecraft:pale_moss_carpet",
+    "minecraft:pale_hanging_moss",
+    "minecraft:cobweb"    
+  ]
+}

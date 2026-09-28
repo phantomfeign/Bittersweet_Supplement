@@ -2,13 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": "minecraft:copper_nugget"
+    "#": "minecraft:copper_ingot"
   },
   "pattern": [
-    "##",
-    "##"
+    "#",
+    "#"
   ],
   "result": {
-    "id": "minecraft:redstone"
+    "id": "minecraft:redstone",
+    "count":6
   }
 }

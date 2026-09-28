@@ -18,12 +18,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": {
-                "text": "Infested Ruins Map",
-                "color": "gray",
-                "italic": false
-              },
-              "target": "item_name"
+                "name": {
+                  "translate": "Infested Ruins Explorer Map"
+                },
+                "target": "item_name"
             },
           	{
             "function": "minecraft:filtered",

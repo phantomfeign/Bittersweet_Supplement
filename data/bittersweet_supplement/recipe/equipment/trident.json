@@ -42,28 +42,23 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "",
-					"color": "gray",
+					"text": "9🗡",
+					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "When in Main Hand:",
-					"color": "gray",
+					"text": "1.0⌚",
+					"color": "yellow",
 					"italic": false
 				},
 				{
-					"text": " 9 Attack Damage",
-					"color": "dark_green",
+					"text": "+0.5→",
+					"color": "green",
 					"italic": false
 				},
 				{
-					"text": " 1.0 Attack Speed",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": " +0.5 Attack Range",
-					"color": "dark_green",
+					"text": "Right-click to throw.",
+					"color": "light_purple",
 					"italic": false
 				}
 			],

@@ -15,7 +15,24 @@
     "id": "minecraft:stone_sword",
       "components": {
       "minecraft:max_damage": 150,
-      "minecraft:damage": 0
+      "minecraft:damage": 0,
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "5🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "1.6⌚",
+					"color": "yellow",
+					"italic": false
+				}
+			]
     }
   }
 }

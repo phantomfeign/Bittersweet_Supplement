@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "minecraft:amethyst_shard",
+		"G": "minecraft:glass",
+		"D": "minecraft:glowstone_dust"
+	},
+	"pattern": [
+		"GDG",
+		"D#D",
+		"GDG"
+	],
+	"result": {
+		"id": "minecraft:pearlescent_froglight",
+		"count": 3
+	}
+}

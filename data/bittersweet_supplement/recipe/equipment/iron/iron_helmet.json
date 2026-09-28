@@ -17,9 +17,26 @@
 				{
 					"type": "minecraft:armor",
 					"id": "bittersweet:iron_helmet",
-					"amount": 4,
+					"amount": 3,
 					"operation": "add_value",
 					"slot": "head"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "+3⛨",
+					"color": "blue",
+					"italic": false
+				},
+        		{
+					"text": "4/4 = +1⛨",
+					"color": "yellow",
+					"italic": false
 				}
 			]
     }

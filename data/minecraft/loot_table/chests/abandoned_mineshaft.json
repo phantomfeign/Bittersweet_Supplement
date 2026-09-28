@@ -10,23 +10,23 @@
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance",
-							"chance": 0.5
+							"chance": 0.1
 						}
 					],
 					"functions": [
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"text": "Trial Chambers Map",
-								"italic": false
-							}
-						},
 						{
 							"function": "minecraft:exploration_map",
 							"destination": "minecraft:on_trial_chambers_maps",
 							"decoration": "minecraft:trial_chambers",
 							"zoom": 2,
 							"search_radius": 50
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Trial Chamber Explorer Map"
+							},
+							"target": "item_name"
 						}
 					]
 				},
@@ -63,7 +63,7 @@
 			}
 		},
 		{
-			"rolls": 8,
+			"rolls": 5,
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
@@ -90,7 +90,7 @@
 							}
 						}
 					]
-        		},
+				},
 				{
 					"type": "minecraft:item",
 					"functions": [
@@ -137,19 +137,10 @@
 					"weight": 5
 				},
 				{
-					"type": "minecraft:item",
-					"functions": [
-						{
-							"count": {
-								"type": "minecraft:uniform",
-								"max": 2,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
-						}
-					],
-					"name": "minecraft:diamond",
-					"weight": 3
+					"type": "minecraft:loot_table",
+					"functions": [],
+					"value": "bittersweet_supplement:generic/rough_diamond",
+					"weight": 2
 				}
 			]
 		},
@@ -194,11 +185,10 @@
 					"value": "bittersweet_supplement:generic/diamond_upgrade"
 				}
 			],
-			"functions": [],
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.7
+					"chance": 0.3
 				}
 			]
 		}

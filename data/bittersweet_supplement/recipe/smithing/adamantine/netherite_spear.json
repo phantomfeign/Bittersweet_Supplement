@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:netherite_ingot",
+  "base": "minecraft:golden_spear",
+  "result": {
+    "id": "minecraft:netherite_spear",
+      "components": {
+      "minecraft:max_damage": 2200,
+      "minecraft:damage": 0,
+			"!minecraft:attribute_modifiers": {},
+			"enchantments":{
+				"minecraft:looting": 1
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "5🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "0.87⌚",
+					"color": "yellow",
+					"italic": false
+				},
+				{
+					"text": "2-4.5→",
+					"color": "green",
+					"italic": false
+				}
+			]
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

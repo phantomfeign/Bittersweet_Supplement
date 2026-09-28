@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:netherite_ingot",
+  "base": "minecraft:golden_axe",
+  "result": {
+    "id": "minecraft:netherite_axe",
+      "components": {
+      "minecraft:max_damage": 2200,
+      "minecraft:damage": 0,
+      "minecraft:item_model": "netherite_axe",
+			"minecraft:item_name": "Adamantine Axe",
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 11,
+          "operation": "add_value",
+          "id": "bittersweet:netherite_axe_damage",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "amount": -3.2,
+          "operation": "add_value",
+          "id": "bittersweet:netherite_axe_speed",
+          "slot": "mainhand"
+        }
+      ],
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 9,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"enchantments":{
+				"minecraft:fortune": 1
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "9⛏",
+					"color": "gold",
+					"italic": false
+				},
+				{
+					"text": "12🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "0.8⌚",
+					"color": "yellow",
+					"italic": false
+				}
+			]
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

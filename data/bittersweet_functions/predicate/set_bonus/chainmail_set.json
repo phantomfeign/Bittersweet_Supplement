@@ -1,0 +1,49 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"head": {
+						"items": "minecraft:chainmail_helmet"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"chest": {
+						"items": "minecraft:chainmail_chestplate"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"legs": {
+						"items": "minecraft:chainmail_leggings"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"feet": {
+						"items": "minecraft:chainmail_boots"
+					}
+				}
+			}
+		}
+	]
+}

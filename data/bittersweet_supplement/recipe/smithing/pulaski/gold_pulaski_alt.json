@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:diamond",
+	"base": "minecraft:golden_axe",
+	"template": "minecraft:golden_shovel",
+	"result": {
+		"count": 1,
+		"id": "minecraft:golden_axe",
+		"components": {
+			"minecraft:item_name": {
+				"text": "Gilded Pulaski",
+				"italic": false
+			},
+			"minecraft:custom_data": {
+				"multitool": "pulaski"
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 9,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 9,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "9⛏",
+					"color": "gold",
+					"italic": false
+				}
+			],
+			"minecraft:max_damage": 300,
+			"minecraft:item_model": "bittersweet_textures:gold_pulaski"
+		}
+	}
+}

@@ -19,39 +19,6 @@
 					"functions": [
 						{
 							"function": "minecraft:exploration_map",
-							"destination": "minecraft:on_woodland_explorer_maps"
-						},
-						{
-							"function": "minecraft:filtered",
-							"item_filter": {
-								"items": "minecraft:filled_map",
-								"predicates": {
-									"minecraft:map_id": {}
-								}
-							},
-							"on_fail": {
-								"function": "minecraft:discard"
-							}
-						}
-					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.3
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:map",
-					"functions": [
-						{
-							"function": "minecraft:exploration_map",
 							"destination": "minecraft:on_ocean_explorer_maps"
 						},
 						{
@@ -65,53 +32,18 @@
 							"on_fail": {
 								"function": "minecraft:discard"
 							}
-						}
-					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.3
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:map",
-					"functions": [
-						{
-							"function": "minecraft:exploration_map",
-							"destination": "minecraft:on_woodland_explorer_maps"
 						},
 						{
-							"function": "minecraft:filtered",
-							"item_filter": {
-								"items": "minecraft:filled_map",
-								"predicates": {
-									"minecraft:map_id": {}
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": {
+									"text": "Ocean Explorer Map",
+									"italic": false
 								}
-							},
-							"on_fail": {
-								"function": "minecraft:discard"
 							}
 						}
 					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.3
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
+				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:map",
@@ -131,20 +63,18 @@
 							"on_fail": {
 								"function": "minecraft:discard"
 							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": {
+									"text": "Jungle Explorer Map",
+									"italic": false
+								}
+							}
 						}
 					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.3
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
+				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:map",
@@ -158,15 +88,6 @@
 							"skip_existing_chunks": false
 						},
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"text": "Infested Ruins Map",
-								"color": "gray",
-								"italic": false
-							},
-							"target": "item_name"
-						},
-						{
 							"function": "minecraft:filtered",
 							"item_filter": {
 								"items": "minecraft:filled_map",
@@ -177,14 +98,17 @@
 							"on_fail": {
 								"function": "minecraft:discard"
 							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": {
+									"text": "Infested Ruins Explorer Map",
+									"italic": false
+								}
+							}
 						}
 					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.3
 				}
 			]
 		}

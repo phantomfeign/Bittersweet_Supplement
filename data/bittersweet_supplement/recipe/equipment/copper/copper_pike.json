@@ -21,7 +21,7 @@
 				{
 					"type": "minecraft:attack_speed",
 					"id": "bittersweet_supplement:copper_pike",
-					"amount": -3.6,
+					"amount": -3.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
@@ -47,28 +47,18 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "",
-					"color": "gray",
+					"text": "4🗡",
+					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "When in Main Hand:",
-					"color": "gray",
+					"text": "0.5⌚",
+					"color": "yellow",
 					"italic": false
 				},
 				{
-					"text": " 4 Attack Damage",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": " 0.4 Attack Speed",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": " 6 Attack Range",
-					"color": "dark_green",
+					"text": "3-6→",
+					"color": "green",
 					"italic": false
 				}
 			]

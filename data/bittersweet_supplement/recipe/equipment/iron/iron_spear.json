@@ -1,20 +1,42 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": "minecraft:stick",
-    "X": "minecraft:iron_ingot"
-  },
-  "pattern": [
-    "  X",
-    " # ",
-    "#  "
-  ],
-  "result": {
-    "id": "minecraft:iron_spear",
-      "components": {
-      "minecraft:max_damage": 300,
-      "minecraft:damage": 0
-    }
-  }
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "minecraft:iron_ingot"
+	},
+	"pattern": [
+		"  X",
+		" # ",
+		"#  "
+	],
+	"result": {
+		"id": "minecraft:iron_spear",
+		"components": {
+			"minecraft:max_damage": 300,
+			"minecraft:damage": 0,
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "3🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "0.8⌚",
+					"color": "yellow",
+					"italic": false
+				},
+				{
+					"text": "2-4.5→",
+					"color": "green",
+					"italic": false
+				}
+			]
+		}
+	}
 }

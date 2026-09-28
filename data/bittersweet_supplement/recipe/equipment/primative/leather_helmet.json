@@ -12,7 +12,33 @@
     "id": "minecraft:leather_helmet",
       "components": {
       "minecraft:max_damage": 120,
-      "minecraft:damage": 0
+      "minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:leather_helmet",
+					"amount": 0,
+					"operation": "add_value",
+					"slot": "head"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "+0⛨",
+					"color": "blue",
+					"italic": false
+				},
+        {
+					"text": "4/4 = +2⛨",
+					"color": "yellow",
+					"italic": false
+				}
+			]
     }
   }
 }

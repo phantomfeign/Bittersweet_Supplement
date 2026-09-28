@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:netherite_ingot",
+  "base": "minecraft:golden_leggings",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "result": {
+    "id": "minecraft:netherite_leggings",
+      "components": {
+      "minecraft:max_damage": 800,
+      "minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:netherite_leggings",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "legs"
+				},
+        {
+					"type": "minecraft:movement_speed",
+					"id": "bittersweet:netherite_leggings_slow",
+					"amount": -0.005,
+					"operation": "add_value",
+					"slot": "legs"
+        }
+			],
+      "minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "+5⛨",
+					"color": "blue",
+					"italic": false
+				},
+        {
+					"text": "-5%⏩",
+					"color": "blue",
+					"italic": false
+				},
+        {
+					"text": "4/4 = 🧪⛨",
+					"color": "yellow",
+					"italic": false
+				}
+			]
+    }
+  }
+}

@@ -133,10 +133,13 @@
 					"weight": 1,
 					"conditions": [
 						{
+							"condition": "minecraft:killed_by_player"
+						},
+						{
 							"condition": "minecraft:random_chance",
 							"chance": {
 								"type": "minecraft:constant",
-								"value": 0.8
+								"value": 0.2
 							}
 						}
 					],

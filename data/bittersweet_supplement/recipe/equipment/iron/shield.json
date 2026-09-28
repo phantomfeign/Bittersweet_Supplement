@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:iron_ingot",
+    "W":"#minecraft:logs"
+  },
+  "pattern": [
+    "XWX",
+    "XWX",
+    "XWX"
+
+  ],
+  "result": {
+    "id": "minecraft:shield",
+    "components": {
+      "minecraft:max_damage":100,
+      "minecraft:damage":0,
+      "minecraft:lore": [
+				{
+					"text": "🛡: 100%",
+					"color": "gray",
+					"italic": false
+				}
+			]
+    }
+  }
+}

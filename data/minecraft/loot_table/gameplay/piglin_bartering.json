@@ -24,6 +24,13 @@
 							"zoom": 1,
 							"search_radius": 100,
 							"skip_existing_chunks": true
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Nether Explorer Map",
+								"italic": false
+							}
 						}
 					]
 				},

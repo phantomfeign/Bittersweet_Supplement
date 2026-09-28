@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "get_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:block/green_froglight",
+      "bittersweet_supplement:block/yellow_froglight",
+      "bittersweet_supplement:block/purple_froglight"
+    ]
+  }
+}

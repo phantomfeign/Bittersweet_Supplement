@@ -4,14 +4,14 @@
 		{
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
 					"functions": [
 						{
 							"count": 1,
 							"function": "minecraft:set_count"
 						}
 					],
-					"name": "minecraft:diamond"
+					"value": "bittersweet_supplement:generic/rough_diamond"
 				},
 				{
 					"type": "minecraft:item",

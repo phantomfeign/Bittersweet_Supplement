@@ -49,8 +49,8 @@
 					"weight": 40
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:diamond",
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/rough_diamond",
 					"weight": 5
 				}
 			],

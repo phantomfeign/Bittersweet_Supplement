@@ -1,0 +1,55 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:emerald",
+	"base": "minecraft:diamond_shovel",
+	"template": "minecraft:diamond_axe",
+	"result": {
+		"id": "minecraft:diamond_axe",
+		"components": {
+			"minecraft:item_name": {
+				"text": "Emerald Pulaski",
+				"italic": false
+			},
+			"minecraft:custom_data": {
+				"multitool": "pulaski"
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 10,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 10,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:max_damage": 2200,
+			"minecraft:item_model": "bittersweet_textures:emerald_pulaski",
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond",
+					"minecraft:amethyst_shard",
+					"minecraft:emerald"
+				]
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "10⛏",
+					"color": "gold",
+					"italic": false
+				}
+			]
+		}
+	}
+}

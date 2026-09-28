@@ -11,6 +11,13 @@
 						{
 							"function": "minecraft:exploration_map",
 							"destination": "minecraft:mineshaft"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Mineshaft Explorer Map"
+							},
+							"target": "item_name"
 						}
 					]
 				},

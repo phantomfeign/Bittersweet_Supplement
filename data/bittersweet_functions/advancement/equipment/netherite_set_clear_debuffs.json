@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"effect_changed": {
+			"trigger": "minecraft:effects_changed"
+		}
+	},
+	"rewards": {
+		"function": "bittersweet_functions:set_bonuses/netherite_clear_debuffs"
+	}
+}

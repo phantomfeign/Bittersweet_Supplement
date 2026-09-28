@@ -26,6 +26,32 @@
 					"slot": "mainhand"
 				}
 			],
+			"minecraft:blocks_attacks": {
+				"damage_reductions": [
+					{
+						"type": "minecraft:player_attack",
+						"base": 0,
+						"factor": 0.8
+					},
+					{
+						"type": "minecraft:mob_attack",
+						"base": 0,
+						"factor": 0.8
+					},
+					{
+						"type": "#minecraft:is_projectile",
+						"base": 0,
+						"factor": 0.3
+					},
+					{
+						"type": "#minecraft:is_explosion",
+						"base": 0,
+						"factor": 0
+					}
+				],
+				"block_sound": "minecraft:block.anvil.land",
+				"disabled_sound": "minecraft:entity.item.break"
+			},
 			"minecraft:tooltip_display": {
 				"hidden_components": [
 					"minecraft:attribute_modifiers"
@@ -33,23 +59,18 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "",
+					"text": "5🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "3.0⌚",
+					"color": "yellow",
+					"italic": false
+				},
+				{
+					"text": "🛡: 🗡80%, 🏹30%, ☀0%",
 					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "When in Main Hand:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": " 5 Attack Damage",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": " 3 Attack Speed",
-					"color": "dark_green",
 					"italic": false
 				}
 			],

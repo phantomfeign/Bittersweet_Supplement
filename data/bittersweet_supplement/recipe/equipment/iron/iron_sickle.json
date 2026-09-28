@@ -41,23 +41,13 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "",
-					"color": "gray",
+					"text": "8🗡",
+					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "When in Main Hand:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": " 8 Attack Damage",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": " 1.4 Attack Speed",
-					"color": "dark_green",
+					"text": "1.4⌚",
+					"color": "yellow",
 					"italic": false
 				}
 			],

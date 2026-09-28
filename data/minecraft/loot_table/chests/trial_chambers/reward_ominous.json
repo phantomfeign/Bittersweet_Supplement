@@ -5,11 +5,16 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:chests/trial_chambers/reward_ominous_rare",
-					"weight": 8
+					"value": "minecraft:chests/trial_chambers/reward_ominous_rare"
 				}
 			],
-			"rolls": 1
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.25
+				}
+			]
 		},
 		{
 			"entries": [
@@ -18,12 +23,13 @@
 					"value": "minecraft:chests/trial_chambers/reward_ominous_common"
 				}
 			],
-			"rolls": {
+			"rolls": 
+			{
 				"type": "minecraft:uniform",
-				"max": 3,
-				"min": 2
+				"min": 2,
+				"max": 3
 			}
-        }
+		}
 	],
 	"random_sequence": "minecraft:chests/trial_chambers/reward_ominous"
 }

@@ -8,8 +8,8 @@
 					"value": "bittersweet_supplement:generic/diamond_upgrade"
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:diamond",
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/rough_diamond",
 					"conditions": [],
 					"functions": [
 						{

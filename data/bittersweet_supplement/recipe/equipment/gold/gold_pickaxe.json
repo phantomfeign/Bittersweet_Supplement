@@ -25,7 +25,19 @@
         ],
         "default_mining_speed": 1,
         "damage_per_block": 1
-      }
+      },
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "10⛏",
+					"color": "gold",
+					"italic": false
+				}
+			]
     }
   }
 }

@@ -25,20 +25,9 @@ execute as @e[distance=2.1..4] if entity @s[type=#minecraft:zombies] run effect 
 summon breeze_wind_charge ~ ~ ~ {Motion:[0.0,-2.0,0.0]}
 
 #play da noize
-execute as @s run function bittersweet_functions:mob_adjustments/creeper/explosion_sound
+execute as @s run function bittersweet_functions:mob_adjustments/creeper/explosion_fx
 
 #gunpowda
 summon item ~ ~ ~ {Item:{id:"minecraft:gunpowder",Count:1}}
 
-#directed by michael bay
-particle minecraft:noxious_gas ~ ~ ~ 1 0 1 1 20 normal
-particle minecraft:geyser_base{water_blocks:4,burst_impulse_base:1.5} ~ ~ ~ 0 0 0 0 1 normal
-particle minecraft:explosion ~2 ~0 ~0 0 0 0 0 1
-particle minecraft:explosion ~-1.802 ~0.143 ~0.868 0 0 0 0 1
-particle minecraft:explosion ~1.247 ~0.286 ~-1.564 0 0 0 0 1
-particle minecraft:explosion ~-0.445 ~0.429 ~1.95 0 0 0 0 1
-particle minecraft:explosion ~-0.445 ~0.571 ~-1.95 0 0 0 0 1
-particle minecraft:explosion ~1.247 ~0.714 ~1.564 0 0 0 0 1
-particle minecraft:explosion ~-1.802 ~0.857 ~-0.868 0 0 0 0 1
-particle minecraft:explosion ~2 ~1 ~0 0 0 0 0 1
 kill @s

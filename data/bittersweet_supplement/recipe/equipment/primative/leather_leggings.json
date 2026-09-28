@@ -18,9 +18,26 @@
 				{
 					"type": "minecraft:armor",
 					"id": "bittersweet:leather_leggings",
-					"amount": 2,
+					"amount": 1,
 					"operation": "add_value",
 					"slot": "legs"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "+1⛨",
+					"color": "blue",
+					"italic": false
+				},
+        		{
+					"text": "4/4 = +2⛨",
+					"color": "yellow",
+					"italic": false
 				}
 			]
 		}

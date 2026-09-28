@@ -1,5 +1,5 @@
 {
-  "name": "bittersweet_supplement:surface/medium_dungeon_bottom",
+  "name": "bittersweet_supplement:medium_dungeon_bottom",
   "fallback": "minecraft:empty",
   "elements": [
     {

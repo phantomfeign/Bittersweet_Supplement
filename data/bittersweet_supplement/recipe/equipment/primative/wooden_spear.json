@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": "minecraft:stick",
-    "X": "minecraft:flint"
+    "X": "#minecraft:planks"
   },
   "pattern": [
     "  X",
@@ -15,7 +15,29 @@
     "id": "minecraft:wooden_spear",
       "components": {
       "minecraft:max_damage": 100,
-      "minecraft:damage": 0
+      "minecraft:damage": 0,
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "1🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "1.54⌚",
+					"color": "yellow",
+					"italic": false
+				},
+				{
+					"text": "2-4.5→",
+					"color": "green",
+					"italic": false
+				}
+			]
     }
   }
 }

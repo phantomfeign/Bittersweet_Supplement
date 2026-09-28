@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:diamond",
+  "base": "minecraft:golden_leggings",
+  "template": "minecraft:chicken_spawn_egg",
+  "result": {
+    "id": "minecraft:diamond_leggings",
+      "components": {
+      "minecraft:max_damage": 600,
+      "minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:diamond_leggings",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "legs"
+				},
+        		{
+					"type": "minecraft:movement_speed",
+					"id": "bittersweet:diamond_leggings_speed",
+					"amount": 0.002,
+					"operation": "add_value",
+					"slot": "legs"
+       			}
+			],
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond",
+					"minecraft:amethyst_shard"
+				]
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "+4⛨",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "+2%⏩",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "4/4 = +8%⏩",
+					"color": "yellow",
+					"italic": false
+				}
+			]
+    }
+  }
+}

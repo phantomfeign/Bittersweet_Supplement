@@ -28,7 +28,10 @@
     {
     
 			"namespace": "minecraft",
-			"path": "recipe/ender_eye.json"
+			"path": "recipe/ender_eye.json$"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/glass_bottle.json$"
 		},{
 
       "namespace": "minecraft",
@@ -221,6 +224,9 @@
     {
 
       "namespace": "minecraft",
+      "path": "^recipe/copper_chest\\.json$"
+    },{
+      "namespace": "minecraft",
       "path": "^recipe/copper_spear\\.json$"
     },{
       "namespace": "minecraft",
@@ -327,6 +333,12 @@
 
       "namespace": "minecraft",
       "path": "^recipe/flint_and_steel\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/compass\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/shield\\.json$"
     },{
       "namespace": "minecraft",
       "path": "^recipe/iron_spear\\.json$"
@@ -469,6 +481,9 @@
 
       "namespace": "minecraft",
       "path": "^recipe/copper_chain\\.json$"
+      },{
+      "namespace": "minecraft",
+      "path": "^recipe/iron_chain\\.json$"
       },{
       "namespace": "minecraft",
       "path": "^recipe/melon\\.json$"

@@ -13,15 +13,32 @@
       "components": {
       "minecraft:max_damage": 220,
       "minecraft:damage": 0,
-			"minecraft:attribute_modifiers": [
+		"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:armor",
 					"id": "bittersweet:gold_helmet",
-					"amount": 4,
+					"amount": 3,
 					"operation": "add_value",
 					"slot": "head"
 				}
-			]
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "+3⛨",
+					"color": "blue",
+					"italic": false
+				},
+        		{
+					"text": "4/4 = 🔥⛨",
+					"color": "yellow",
+					"italic": false
+				}
+			]    
     }
   }
 }

@@ -27,3 +27,5 @@ advancement revoke @s only bittersweet_functions:misc/check_almanac
 advancement revoke @s only bittersweet_functions:weapon/fireball
 
 advancement revoke @s only bittersweet_functions:food/stack_sizes
+advancement revoke @s only bittersweet_functions:equipment/check_set_bonus
+advancement revoke @s only bittersweet_functions:equipment/netherite_set_clear_debuffs

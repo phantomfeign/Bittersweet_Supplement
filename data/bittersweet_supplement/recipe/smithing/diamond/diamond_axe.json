@@ -1,0 +1,70 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:diamond",
+	"base": "minecraft:golden_axe",
+	"result": {
+		"id": "minecraft:diamond_axe",
+		"components": {
+			"minecraft:max_damage": 2000,
+			"minecraft:damage": 0,
+			"minecraft:item_model": "diamond_axe",
+			"minecraft:item_name": "Diamond Axe",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"amount": 9,
+					"operation": "add_value",
+					"id": "bittersweet:golden_axe_damage",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"amount": -3.2,
+					"operation": "add_value",
+					"id": "bittersweet:golden_axe_speed",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 11,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond",
+					"minecraft:amethyst_shard"
+				]
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "11⛏",
+					"color": "gold",
+					"italic": false
+				},
+				{
+					"text": "10🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "0.8⌚",
+					"color": "yellow",
+					"italic": false
+				}
+			]
+		}
+	},
+	"template": "minecraft:chicken_spawn_egg"
+}

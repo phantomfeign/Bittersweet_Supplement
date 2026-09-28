@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "P": "minecraft:breeze_spawn_egg",
-    "S": "minecraft:gold_block",
+    "A": "minecraft:amethyst_shard",
+    "G": "minecraft:gold_block",
     "D": "minecraft:diamond"
   },
   "pattern": [
-    "PDP",
-    "DSD",
-    "PDP"
+    "AGA",
+    "GDG",
+    "AGA"
   ],
   "result": {
     "count": 2,

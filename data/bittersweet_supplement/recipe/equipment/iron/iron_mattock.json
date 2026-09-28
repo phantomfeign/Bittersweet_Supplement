@@ -19,6 +19,9 @@
 				"text": "Iron Mattock",
 				"italic": false
 			},
+			"minecraft:custom_data": {
+				"multitool": "mattock"
+			},
 			"minecraft:tool": {
 				"rules": [
 					{
@@ -35,6 +38,19 @@
 				"default_mining_speed": 1,
 				"damage_per_block": 1
 			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				
+				{
+					"text": "5⛏",
+					"color": "gold",
+					"italic": false
+				}
+			],
 			"minecraft:max_damage": 330,
 			"minecraft:item_model": "bittersweet_textures:iron_mattock"
 		}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:netherite_ingot",
+  "base": "minecraft:golden_hoe",
+  "result": {
+    "id": "minecraft:netherite_hoe",
+      "components": {
+      "minecraft:max_damage": 2200,
+      "minecraft:damage": 0,
+      "minecraft:item_model": "netherite_hoe",
+			"minecraft:item_name": "Adamantine Hoe",
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 9,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"enchantments":{
+				"minecraft:fortune": 1
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "9⛏",
+					"color": "gold",
+					"italic": false
+				}
+			]
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

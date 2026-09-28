@@ -4,12 +4,12 @@
 	"key": {
 		"#": "minecraft:heavy_core",
 		"I": "minecraft:breeze_rod",
-		"D": "minecraft:breeze_spawn_egg"
+		"B": "minecraft:iron_block"
 	},
 	"pattern": [
 		" # ",
-		" D ",
-		" I "
+		" I ",
+		" B "
 	],
 	"result": {
 		"id": "minecraft:mace",
@@ -20,7 +20,7 @@
 			},
 			"minecraft:custom_data": {
 				"return": true,
-				"wind_mace":true
+				"wind_mace": true
 			},
 			"minecraft:consumable": {
 				"consume_seconds": 0,
@@ -31,7 +31,51 @@
 			"minecraft:use_cooldown": {
 				"seconds": 30,
 				"cooldown_group": "minecraft:wind_charge"
-			}
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 6,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 0
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "6⛏",
+					"color": "gold",
+					"italic": false
+				},
+				{
+					"text": "6+🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "0.6⌚",
+					"color": "yellow",
+					"italic": false
+				},
+
+				{
+					"text": "Right-click to create",
+					"color": "light_purple",
+					"italic": false
+				},
+				{
+					"text": "a burst of wind.",
+					"color": "light_purple",
+					"italic": false
+				}
+			]
 		}
 	}
 }

@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:diamond",
+	"base": "minecraft:golden_sword",
+	"result": {
+		"id": "minecraft:diamond_sword",
+		"components": {
+			"minecraft:max_damage": 2000,
+			"minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"amount": 6,
+					"operation": "add_value",
+					"id": "bittersweet:diamond_sword_damage",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"amount": -2,
+					"operation": "add_value",
+					"id": "bittersweet:diamond_sword_speed",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond",
+					"minecraft:amethyst_shard"
+				]
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "7🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "2.0⌚",
+					"color": "yellow",
+					"italic": false
+				}
+			]
+		}
+	},
+	"template": "minecraft:chicken_spawn_egg"
+}

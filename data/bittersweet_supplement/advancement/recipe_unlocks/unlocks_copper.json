@@ -14,7 +14,7 @@
   "rewards": {
     "recipes": [
       "bittersweet_supplement:equipment/copper/copper_spear",
-      "bittersweet_supplement:equipment/coppercopper_pike",
+      "bittersweet_supplement:equipment/copper/copper_pike",
       "bittersweet_supplement:equipment/copper/copper_sword",
       "bittersweet_supplement:equipment/copper/copper_greatsword",
       "bittersweet_supplement:equipment/copper/copper_mattock",
@@ -32,7 +32,8 @@
       "minecraft:bucket",
 
       "bittersweet_supplement:crafting/copper_wire",
-      "bittersweet_supplement:crafting/copper_chain"
+      "bittersweet_supplement:crafting/copper_chain",
+      "bittersweet_supplement:crafting/copper_chest"
     ]
   }
 }

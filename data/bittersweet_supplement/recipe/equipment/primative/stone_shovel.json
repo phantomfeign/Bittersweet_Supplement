@@ -15,7 +15,19 @@
     "id": "minecraft:stone_shovel",
       "components": {
       "minecraft:max_damage": 150,
-      "minecraft:damage": 0
+      "minecraft:damage": 0,
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "4⛏",
+					"color": "gold",
+					"italic": false
+				}
+			]
     }
   }
 }

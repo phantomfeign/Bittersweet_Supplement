@@ -29,13 +29,17 @@
       "bittersweet_supplement:equipment/iron/iron_boots",
 
       "bittersweet_supplement:equipment/ranged/arrow_from_iron",
+      "minecraft:shield",
 
       "bittersweet_supplement:crafting/lodestone",
       "bittersweet_supplement:crafting/iron_chain",
       "minecraft:smithing_table",
-      "minecraft:shield",
+      "bittersweet_supplement:equipment/iron/shield",
+      "bittersweet_supplement:equipment/iron/compass",
       
-      "minecraft:rail"
+      "minecraft:rail",
+      "minecraft:anvil"
+
     ]
   }
 }

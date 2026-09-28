@@ -18,9 +18,26 @@
 				{
 					"type": "minecraft:armor",
 					"id": "bittersweet:copper_leggings",
-					"amount": 3,
+					"amount": 2,
 					"operation": "add_value",
 					"slot": "legs"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "+2⛨",
+					"color": "blue",
+					"italic": false
+				},
+        		{
+					"text": "4/4 = +2⛨",
+					"color": "yellow",
+					"italic": false
 				}
 			]
 		}
