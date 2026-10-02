@@ -1,0 +1,77 @@
+{
+	"description": {
+		"translate": "enchantment.bittersweet_supplement.dashing",
+		"fallback": "Dashing"
+	},
+	"supported_items": "#minecraft:enchantable/chest_armor",
+	"primary_items": "#minecraft:enchantable/chest_armor",
+	"weight": 2,
+	"max_level": 1,
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"chest"
+	],
+	"effects": {
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "bittersweet_functions:enchantments/dashing/check"
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"input": {
+								"sneak": true
+							}
+						},
+						"minecraft:entity_tags":{"all_of":["canDash"]},
+						"flags": {
+							"is_sneaking": true,
+							"is_on_ground": false
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "bittersweet_functions:enchantments/dashing/tp"
+						},
+						{
+							"type": "minecraft:apply_impulse",
+							"direction": [
+								0,
+								0.5,
+								2
+							],
+							"coordinate_scale": [
+								1,
+								0.25,
+								1
+							],
+							"magnitude": 0.5
+						},
+						{
+							"type": "minecraft:run_function",
+							"function": "bittersweet_functions:enchantments/dashing/dash"
+						}
+					]
+				}
+			}
+		]
+	}
+}

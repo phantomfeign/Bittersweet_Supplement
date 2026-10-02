@@ -1,19 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "X": "minecraft:gold_ingot"
-  },
-  "pattern": [
-    "X X",
-    "X X"
-  ],
-  "result": {
-    "id": "minecraft:golden_boots",
-      "components": {
-      "minecraft:max_damage": 220,
-      "minecraft:damage": 0,
-		"minecraft:attribute_modifiers": [
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"X": "minecraft:gold_ingot"
+	},
+	"pattern": [
+		"X X",
+		"X X"
+	],
+	"result": {
+		"id": "minecraft:golden_boots",
+		"components": {
+			"minecraft:max_damage": 220,
+			"minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:armor",
 					"id": "bittersweet:gold_boots",
@@ -33,12 +33,12 @@
 					"color": "blue",
 					"italic": false
 				},
-        		{
+				{
 					"text": "4/4 = 🔥⛨",
 					"color": "yellow",
 					"italic": false
 				}
 			]
-    }
-  }
+		}
+	}
 }

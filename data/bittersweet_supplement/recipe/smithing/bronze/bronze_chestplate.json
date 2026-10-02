@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:horse_spawn_egg",
+	"base": "minecraft:golden_chestplate",
+	"template": "minecraft:piglin_spawn_egg",
+	"result": {
+		"id": "minecraft:copper_chestplate",
+		"components": {
+			"minecraft:custom_data": {"bronze_armor":"chestplate"},
+			"minecraft:item_name": "Bronze Chestplate",
+			"minecraft:item_model": "bittersweet_textures:bronze_chestplate",
+			"minecraft:max_damage": 600,
+			"minecraft:damage": 0,
+			"minecraft:equippable": {
+				"slot": "chest",
+				"equip_sound": "minecraft:item.armor.equip_copper",
+				"asset_id": "minecraft:bronze"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "bittersweet:bronze_chestplate_damage",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "chest"
+				}
+			],
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:piglin_spawn_egg"
+				]
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "+1🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "4/4 = +2🗡",
+					"color": "yellow",
+					"italic": false
+				}
+			]
+		}
+	}
+}

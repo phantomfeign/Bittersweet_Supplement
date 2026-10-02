@@ -8,19 +8,11 @@
       {
         "attribute": "minecraft:knockback_resistance",
         "id": "minecraft:enchantment.blast_protection",
-        "amount": {
-          "type": "minecraft:linear",
-          "base": 0.0625,
-          "per_level_above_first": 0.0625
-        },
+        "amount": 0.15,
         "operation": "add_value"
       },
       {
-        "amount": {
-          "type": "minecraft:linear",
-          "base": 0.035,
-          "per_level_above_first": 0.035
-        },
+        "amount": 0.1,
         "attribute": "minecraft:explosion_knockback_resistance",
         "id": "minecraft:enchantment.blast_protection",
         "operation": "add_value"
@@ -30,11 +22,7 @@
       {
         "effect": {
           "type": "minecraft:add",
-          "value": {
-            "type": "minecraft:linear",
-            "base": 2,
-            "per_level_above_first": 2
-          }
+          "value": 4
         },
         "requirements": {
           "condition": "minecraft:damage_source_properties",
@@ -59,7 +47,7 @@
     "base": 0,
     "per_level_above_first": 0
   },
-  "max_level": 3,
+  "max_level": 1,
   "min_cost": {
     "base": 0,
     "per_level_above_first": 0

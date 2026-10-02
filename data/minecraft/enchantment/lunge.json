@@ -1,0 +1,96 @@
+{
+	"anvil_cost": 2,
+	"description": {
+		"translate": "enchantment.minecraft.lunge"
+	},
+	"effects": {
+		"minecraft:post_piercing_attack": [
+			{
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:apply_mob_effect",
+							"to_apply": "minecraft:slowness",
+							"min_duration": 1.5,
+							"max_duration": 1.5,
+							"min_amplifier": 0,
+							"max_amplifier": 0
+						},
+						{
+							"type": "minecraft:apply_impulse",
+							"coordinate_scale": [
+								1,
+								0,
+								1
+							],
+							"direction": [
+								0,
+								0,
+								1
+							],
+							"magnitude": 1
+						},
+						{
+							"type": "minecraft:play_sound",
+							"pitch": 1,
+							"sound": [
+								"minecraft:item.spear.lunge_2"
+							],
+							"volume": 1
+						},
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "bittersweet_functions:enchantments/lunge"
+                        }
+					]
+				},
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:vehicle": {}
+								}
+							}
+						},
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"minecraft:flags": {
+									"is_in_water": false
+								}
+							}
+						},
+                        {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+						        "minecraft:entity_tags":{"all_of":["canLunge"]}
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"hand"
+	],
+	"supported_items": "#minecraft:enchantable/lunge",
+	"weight": 5
+}

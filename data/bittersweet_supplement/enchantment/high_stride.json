@@ -2,7 +2,8 @@
 	"description": {
 		"translate": "enchantment.bittersweet_supplement.high_stride"
 	},
-	"supported_items": "#minecraft:enchantable/foot_armor",
+	"supported_items": "#minecraft:enchantable/leg_armor",
+	"exclusive_set": "#minecraft:exclusive_set/bounding",
 	"weight": 5,
 	"max_level": 1,
 	"min_cost": {

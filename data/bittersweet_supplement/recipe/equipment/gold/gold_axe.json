@@ -49,7 +49,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "10⛏",
+					"text": "8⛏",
 					"color": "gold",
 					"italic": false
 				},
@@ -63,7 +63,8 @@
 					"color": "yellow",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:enchantments": {"bittersweet_supplement:beheading":1}
     }
   }
 }

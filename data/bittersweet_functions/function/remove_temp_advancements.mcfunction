@@ -4,7 +4,6 @@ advancement revoke @s only bittersweet_functions:weapon/used_wind_mace
 
 advancement revoke @s only bittersweet_functions:weapon/using_shield
 
-advancement revoke @s only bittersweet_functions:mob_checks/lantern_placed_for_phantom
 advancement revoke @s only bittersweet_functions:mob_checks/phantom_crit
 advancement revoke @s only bittersweet_functions:mob_checks/phantom_hit_player
 advancement revoke @s only bittersweet_functions:mob_checks/phantom_kill_player

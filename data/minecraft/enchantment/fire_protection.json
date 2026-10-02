@@ -6,11 +6,7 @@
   "effects": {
     "minecraft:attributes": [
       {
-        "amount": {
-          "type": "minecraft:linear",
-          "base": -0.2,
-          "per_level_above_first": -0.2
-        },
+        "amount": -0.3,
         "attribute": "minecraft:burning_time",
         "id": "minecraft:enchantment.fire_protection",
         "operation": "add_multiplied_base"
@@ -20,11 +16,7 @@
       {
         "effect": {
           "type": "minecraft:add",
-          "value": {
-            "type": "minecraft:linear",
-            "base": 2,
-            "per_level_above_first": 2
-          }
+          "value": 4
         },
         "requirements": {
           "condition": "minecraft:all_of",
@@ -50,23 +42,19 @@
     ],
     "minecraft:post_attack": [
       {
-        "affected": "attacker",
-        "effect": {
-          "type": "minecraft:ignite",
-          "duration": {
-            "type": "minecraft:linear",
-            "base": 2,
-            "per_level_above_first": 2
-          }
-        },
-        "enchanted": "victim",
-        "requirements": {
-          "condition": "minecraft:damage_source_properties",
-          "predicate": {
-            "is_direct": true
-          }
-        }
-      }
+				"affected": "attacker",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "bittersweet_functions:enchantments/apply_fire"
+				},
+				"enchanted": "victim",
+				"requirements": {
+					"condition": "minecraft:damage_source_properties",
+					"predicate": {
+						"is_direct": true
+					}
+				}
+			}
     ]
   },
   "exclusive_set": "#minecraft:exclusive_set/armor",
@@ -74,7 +62,7 @@
     "base": 0,
     "per_level_above_first": 0
   },
-  "max_level": 3,
+  "max_level": 1,
   "min_cost": {
     "base": 0,
     "per_level_above_first": 0

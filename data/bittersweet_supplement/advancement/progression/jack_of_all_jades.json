@@ -15,25 +15,25 @@
 		"craft_pulaski": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "bittersweet_supplement:smithing/diamond_mattock"
+				"recipe_id": "bittersweet_supplement:smithing/mattock/diamond_mattock"
 			}
 		},
 		"craft_mattock": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "bittersweet_supplement:smithing/diamond_pulaski"
+				"recipe_id": "bittersweet_supplement:smithing/pulaski/diamond_pulaski"
 			}
 		},
 		"craft_mattock_alt": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "bittersweet_supplement:smithing/diamond_mattock_alt"
+				"recipe_id": "bittersweet_supplement:smithing/mattock/diamond_mattock_alt"
 			}
 		},
 		"craft_pulaski_alt": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "bittersweet_supplement:smithing/diamond_pulaski_alt"
+				"recipe_id": "bittersweet_supplement:smithing/pulaski/diamond_pulaski_alt"
 			}
 		}
 	},

@@ -39,7 +39,7 @@
               {
                 "id": "minecraft:strength",
                 "amplifier": 0,
-                "duration": 300,
+                "duration": 600,
                 "show_particles": false
               }
             ]

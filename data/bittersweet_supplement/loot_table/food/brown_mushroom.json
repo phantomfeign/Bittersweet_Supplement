@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brown_mushroom",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+                                "minecraft:custom_data":{"adjusted_item":true},
+								"minecraft:lore": [
+									{
+										"text": "❤",
+										"color": "#54d877",
+										"italic": false
+									},
+									{
+										"text": "A gentle warmth slowly settles",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "in as you hastily wolf it down.",
+										"color": "gray",
+										"italic": false
+									}
+								],
+								"minecraft:consumable": {
+									"consume_seconds": 0.5,
+									"on_consume_effects": [
+										{
+											"type": "apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 0,
+													"duration": 100,
+													"show_particles": false
+												}
+											]
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "bittersweet_supplement:loot_table/food/brown_mushroom"
+}

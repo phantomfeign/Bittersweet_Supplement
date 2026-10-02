@@ -8,6 +8,10 @@
 	"result": {
 		"id": "minecraft:compass",
 		"components": {
+			"minecraft:custom_name": {
+				"text":"Compass",
+				"italic":false
+			},
 			"minecraft:lodestone_tracker": {
 				"target": {
 					"pos": [

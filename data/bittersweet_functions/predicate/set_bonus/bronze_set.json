@@ -1,0 +1,61 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"head": {
+						"items": "minecraft:copper_helmet",
+						"components": {
+							"minecraft:custom_data": {"bronze_armor":"helmet"}
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"chest": {
+						"items": "minecraft:copper_chestplate",
+						"components": {
+							"minecraft:custom_data": {"bronze_armor":"chestplate"}
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"legs": {
+						"items": "minecraft:copper_leggings",
+						"components": {
+							"minecraft:custom_data": {"bronze_armor":"leggings"}
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"feet": {
+						"items": "minecraft:copper_boots",
+						"components": {
+							"minecraft:custom_data": {"bronze_armor":"boots"}
+						}
+					}
+				}
+			}
+		}
+	]
+}

@@ -20,6 +20,7 @@ playsound minecraft:item.spear.lunge_1 player @a ~ ~ ~ 4 2
 #use macro
 function bittersweet_functions:enchantments/hook/pull_macro with storage hook_enchant:pull
 
+ride @s dismount
 effect give @s minecraft:weakness 1 255 true
 scoreboard players add @s weaknessTimer 7
 tag @s add cannotAttack

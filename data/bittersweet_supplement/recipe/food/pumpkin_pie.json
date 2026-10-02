@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     "minecraft:sugar",
-    "minecraft:pumpkin",
+    ["minecraft:pumpkin","minecraft:carved_pumpkin"],
     "minecraft:sugar",
     "minecraft:bee_spawn_egg",
     "#minecraft:eggs",

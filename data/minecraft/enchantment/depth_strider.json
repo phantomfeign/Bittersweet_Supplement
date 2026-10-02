@@ -7,15 +7,7 @@
 	"effects": {
 		"minecraft:attributes": [
 			{
-				"amount": {
-					"type": "minecraft:lookup",
-					"values": [
-						0.5,
-						1,
-						-2
-					],
-					"fallback": 0
-				},
+				"amount": -3,
 				"attribute": "minecraft:water_movement_efficiency",
 				"id": "minecraft:enchantment.depth_strider",
 				"operation": "add_value"
@@ -26,7 +18,7 @@
 		"base": 0,
 		"per_level_above_first": 0
 	},
-	"max_level": 3,
+	"max_level": 1,
 	"min_cost": {
 		"base": 0,
 		"per_level_above_first": 0

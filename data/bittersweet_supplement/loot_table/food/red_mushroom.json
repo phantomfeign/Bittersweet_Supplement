@@ -1,0 +1,61 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:red_mushroom",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+                                "minecraft:custom_data":{"adjusted_item":true},
+								"minecraft:lore": [
+									{
+										"text": "☠☠",
+										"color": "#b38ef3",
+										"italic": false
+									},
+									{
+										"text": "A vile sickness courses",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "steadily within you as",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "you hastily choke it down.",
+										"color": "gray",
+										"italic": false
+									}
+								],
+								"minecraft:consumable": {
+									"consume_seconds": 0.5,
+									"on_consume_effects": [
+										{
+											"type": "apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:poison",
+													"amplifier": 1,
+													"duration": 50,
+													"show_particles": false
+												}
+											]
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "bittersweet_supplement:loot_table/food/red_mushroom"
+}

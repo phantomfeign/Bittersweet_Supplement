@@ -9,6 +9,14 @@
 						"predicate": {
 							"items": "#minecraft:axes"
 						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#minecraft:logs"
+							}
+						}
 					}
 				]
 			}

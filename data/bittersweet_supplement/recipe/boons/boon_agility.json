@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:villager_spawn_egg",
+    "A": "minecraft:amethyst_shard",
+    "R": "minecraft:breeze_rod",
+    "L": "minecraft:lapis_lazuli",
+    "W": "minecraft:wind_charge"
+  },
+  "pattern": [
+    "LAL",
+    "WBW",
+    "LRL"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "boon": "boon_agility"
+      },
+      "minecraft:item_model": "minecraft:enchanted_book",
+      "minecraft:stored_enchantments": {
+        "bittersweet_supplement:dashing": 1,
+        "bittersweet_supplement:bounding": 1
+      },
+      "minecraft:item_name": {
+        "text": "Boon of Agility",
+        "color": "#bbf8ff"
+      }
+    },
+    "count": 1
+  }
+}

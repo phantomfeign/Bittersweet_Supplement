@@ -2,3 +2,4 @@ function bittersweet_functions:structure/mob_spawners/marker/spawns/medium_dunge
 function bittersweet_functions:structure/mob_spawners/marker/spawns/medium_dungeon/roll
 function bittersweet_functions:structure/mob_spawners/marker/spawns/medium_dungeon/roll
 execute as @e[type=#bittersweet_functions:spawn_checks,tag=!SpawnChecked,tag=!SpawnBypass] run function bittersweet_functions:mob_adjustments/spawn_filter
+scoreboard players set @s SpawnerTimer 8

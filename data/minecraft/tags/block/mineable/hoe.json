@@ -24,6 +24,11 @@
     "minecraft:pale_moss_block",
     "minecraft:pale_moss_carpet",
     "minecraft:pale_hanging_moss",
-    "minecraft:cobweb"    
+    "minecraft:cobweb",
+    "minecraft:pumpkin",
+    "minecraft:carved_pumpkin",
+    "minecraft:jack_o_lantern",
+    "minecraft:melon",
+    "minecraft:cocoa"
   ]
 }

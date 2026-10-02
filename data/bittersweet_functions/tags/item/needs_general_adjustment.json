@@ -1,6 +1,8 @@
 {
     "values": [
         "minecraft:fire_charge",
-        "minecraft:breeze_rod"
+        "minecraft:breeze_rod",
+        "minecraft:red_mushroom",
+        "minecraft:brown_mushroom"
     ]
 }

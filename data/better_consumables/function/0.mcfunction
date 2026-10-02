@@ -10,12 +10,11 @@ function better_consumables:1
 execute store result storage better_consumables:temp data.temp.id int 1 run scoreboard players add #new 0.better_consumables.id 1
 scoreboard players operation @s 0.better_consumables.id = #new 0.better_consumables.id
 
-
 data modify storage better_consumables:temp data.players append from storage better_consumables:temp data.temp
 
 data remove storage better_consumables:temp data.temp
 
 advancement revoke @s only better_consumables:t_trigger
 
-schedule function better_consumables:s 1t
-schedule function better_consumables:s2 2t
+schedule function better_consumables:s 1t append
+schedule function better_consumables:s2 2t append

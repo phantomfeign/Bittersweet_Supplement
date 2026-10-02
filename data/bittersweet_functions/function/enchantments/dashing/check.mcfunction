@@ -1,0 +1,2 @@
+execute if predicate bittersweet_functions:is_on_ground run tag @s add dashEligible
+execute as @s[tag=dashEligible] unless predicate bittersweet_functions:is_on_ground unless predicate bittersweet_functions:holding_jump if score @s dashingDashTimer matches 2.. run tag @s add canDash

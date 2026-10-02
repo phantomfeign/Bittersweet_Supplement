@@ -19,7 +19,11 @@
       "bittersweet_supplement:alchemy/lesser_fire_resistance",
       "bittersweet_supplement:alchemy/greater_night_vision",
       "bittersweet_supplement:alchemy/lesser_night_vision",
-      "bittersweet_supplement:alchemy/lesser_invisibility"
+      "bittersweet_supplement:alchemy/lesser_invisibility",
+      "bittersweet_supplement:alchemy/lesser_poison",
+      "bittersweet_supplement:alchemy/greater_poison",
+      "bittersweet_supplement:alchemy/lesser_wither",
+      "bittersweet_supplement:alchemy/greater_wither"
     ]
   }
 }

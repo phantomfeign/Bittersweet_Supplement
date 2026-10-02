@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:glass_bottle",
+		"minecraft:red_mushroom",
+		"minecraft:spider_eye"
+	],
+	"result": {
+		"id": "minecraft:splash_potion",
+		"components": {
+			"minecraft:item_name": "Lesser Potion",
+			"minecraft:potion_contents": {
+				"custom_effects": [
+					{
+						"id": "minecraft:poison",
+						"duration": 600,
+						"show_particles": true
+					}
+				]
+			},
+			"max_stack_size": 16,
+			"minecraft:custom_name": {
+				"text": "Lesser Potion",
+				"color": "green",
+				"italic": false
+			}
+		}
+	}
+}

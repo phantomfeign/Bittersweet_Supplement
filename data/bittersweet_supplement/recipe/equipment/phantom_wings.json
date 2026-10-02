@@ -18,7 +18,8 @@
 				"text": "Phantom Wings",
 				"color": "light_purple"
 			},
-			"minecraft:max_damage": 1000
+			"minecraft:enchantments": {"bittersweet_supplement:downdraft": 1},
+			"minecraft:max_damage": 3000
 		}
 	}
 }

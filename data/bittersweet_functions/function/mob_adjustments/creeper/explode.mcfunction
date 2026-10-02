@@ -2,13 +2,10 @@ effect clear @a[distance=..8] minecraft:luck
 effect clear @s minecraft:luck
 
 #poison
-effect give @a[distance=..1] minecraft:poison 10 4
-effect give @a[distance=1.1..2] minecraft:poison 9 4
-effect give @a[distance=2.1..3] minecraft:poison 8 4
-effect give @a[distance=3.1..4] minecraft:poison 7 4
-effect give @a[distance=4.1..5] minecraft:poison 5 4
-effect give @a[distance=5.1..6] minecraft:poison 3 4
-effect give @a[distance=6.1..7] minecraft:poison 1 4
+effect give @a[distance=..2] minecraft:poison 4 4
+effect give @a[distance=..4] minecraft:poison 6 3
+effect give @a[distance=..6] minecraft:poison 8 2
+effect give @a[distance=..8] minecraft:poison 10 1
 
 #explosion damage
 execute as @a[distance=..1] run damage @s 10 minecraft:explosion
@@ -28,6 +25,6 @@ summon breeze_wind_charge ~ ~ ~ {Motion:[0.0,-2.0,0.0]}
 execute as @s run function bittersweet_functions:mob_adjustments/creeper/explosion_fx
 
 #gunpowda
-summon item ~ ~ ~ {Item:{id:"minecraft:gunpowder",Count:1}}
+summon item ~ ~ ~ {Item:{id:"minecraft:gunpowder",count:1}}
 
 kill @s

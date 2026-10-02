@@ -1,34 +1,39 @@
 {
-  "description": {
-    "translate": "enchantment.minecraft.sharpness"
-  },
-  "effects": {
-    "minecraft:damage": [
-      {
-        "effect": {
-          "type": "minecraft:add",
-          "value": {
-            "type": "minecraft:linear",
-            "base": 1,
-            "per_level_above_first": 1
-          }
-        }
-      }
-    ]
-  },
-  "anvil_cost": 0,
-  "max_cost": {
-    "base": 0,
-    "per_level_above_first": 0
-  },
-  "max_level": 3,
-  "min_cost": {
-    "base": 0,
-    "per_level_above_first": 0
-  },
-  "slots": [
-      "mainhand"
-  ],
-  "supported_items": "#minecraft:enchantable/sharp_weapon",
-  "weight": 10
+	"description": {
+		"translate": "enchantment.minecraft.sharpness",
+		"hover_event": {
+			"action": "show_text",
+			"value": {
+				"text": "Deals an additional 4🗡 after a short delay.",
+				"color": "dark_purple"
+			}
+		}
+	},
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "bittersweet_functions:enchantments/laceration/apply"
+				}
+			}
+		]
+	},
+	"anvil_cost": 1,
+	"max_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:enchantable/sharp_weapon",
+	"weight": 10
 }

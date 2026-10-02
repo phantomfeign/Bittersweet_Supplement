@@ -74,8 +74,7 @@
 			},
 			"minecraft:minimum_attack_charge": 1,
 			"minecraft:enchantments": {
-				"bittersweet_supplement:hook": 1,
-				"minecraft:fortune": 1
+				"bittersweet_supplement:hook": 1
 			},
 			"minecraft:repairable": {
 				"items": [

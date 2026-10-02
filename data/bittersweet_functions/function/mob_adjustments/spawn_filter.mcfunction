@@ -11,6 +11,9 @@ if predicate bittersweet_functions:can_see_sky run tag @s add SpawnForbidden
 #death to the babies
 execute as @s[type=#minecraft:zombies,nbt={IsBaby:1b}] run tag @s add SpawnForbidden
 
+#less creepers
+execute as @s[type=minecraft:creeper] if predicate bittersweet_functions:chance/chance_20 run tag @s add SpawnForbidden
+
 #deepslate spiders
 execute as @s[type=minecraft:spider,tag=!dungeon_spawn] if predicate bittersweet_functions:above_deepslate run tag @s add SpawnForbidden
 

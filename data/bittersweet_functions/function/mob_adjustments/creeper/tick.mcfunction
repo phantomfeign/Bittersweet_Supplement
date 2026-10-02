@@ -1,11 +1,13 @@
 tag @e[type=minecraft:creeper,tag=Watched] remove Watched
 
-#check player sight lines from up to 24 blocks away
+#check player sight lines from up to 34 blocks away
+execute as @a at @s anchored eyes positioned ^ ^ ^2 if entity @e[type=minecraft:creeper,distance=..1] run tag @e[type=minecraft:creeper,distance=..1] add Watched
+execute as @a at @s anchored eyes positioned ^ ^ ^4 if entity @e[type=minecraft:creeper,distance=..1] run tag @e[type=minecraft:creeper,distance=..1] add Watched
 execute as @a at @s anchored eyes positioned ^ ^ ^8 if entity @e[type=minecraft:creeper,distance=..2] run tag @e[type=minecraft:creeper,distance=..2] add Watched
 execute as @a at @s anchored eyes positioned ^ ^ ^12 if entity @e[type=minecraft:creeper,distance=..2] run tag @e[type=minecraft:creeper,distance=..2] add Watched
-execute as @a at @s anchored eyes positioned ^ ^ ^16 if entity @e[type=minecraft:creeper,distance=..2] run tag @e[type=minecraft:creeper,distance=..2] add Watched
-execute as @a at @s anchored eyes positioned ^ ^ ^20 if entity @e[type=minecraft:creeper,distance=..2] run tag @e[type=minecraft:creeper,distance=..2] add Watched
-execute as @a at @s anchored eyes positioned ^ ^ ^24 if entity @e[type=minecraft:creeper,distance=..2] run tag @e[type=minecraft:creeper,distance=..2] add Watched
+execute as @a at @s anchored eyes positioned ^ ^ ^17 if entity @e[type=minecraft:creeper,distance=..3] run tag @e[type=minecraft:creeper,distance=..3] add Watched
+execute as @a at @s anchored eyes positioned ^ ^ ^23 if entity @e[type=minecraft:creeper,distance=..3] run tag @e[type=minecraft:creeper,distance=..3] add Watched
+execute as @a at @s anchored eyes positioned ^ ^ ^30 if entity @e[type=minecraft:creeper,distance=..4] run tag @e[type=minecraft:creeper,distance=..4] add Watched
 
 #frozen behavior
 execute as @e[type=minecraft:creeper,tag=Watched] run effect give @s minecraft:slowness infinite 255 true

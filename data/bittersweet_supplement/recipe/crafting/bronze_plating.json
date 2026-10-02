@@ -1,17 +1,20 @@
 {
-	"type": "minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
-	"key": {
-		"#": "minecraft:horse_spawn_egg",
-        "D":"minecraft:diamond"
-	},
-	"pattern": [
-		"###",
-		"D#D",
-		"###"
-	],
+	"ingredients": [
+		"minecraft:horse_spawn_egg",
+		"minecraft:horse_spawn_egg",
+		"minecraft:horse_spawn_egg",
+		"minecraft:horse_spawn_egg",
+        "minecraft:gold_ingot",
+        "minecraft:gold_ingot",
+        "minecraft:gold_ingot",
+        "minecraft:gold_ingot",
+        "minecraft:gold_ingot"
+    ],
 	"result": {
 		"id": "minecraft:piglin_spawn_egg",
+        "count": 2,
 		"components": {
 			"!minecraft:entity_data": {},
             "minecraft:item_name": {
@@ -32,12 +35,12 @@
                 "italic": false
                 },
                 {
-                "text": " Greatswords, Halberds, ",
+                "text": " Gold Armor, Greatswords, Pikes,",
                 "color": "blue",
                 "italic": false
                 },
                 {
-                "text": " Sickles, and Cutlasses",
+                "text": " Sickles, Halberds, and Cutlasses",
                 "color": "blue",
                 "italic": false
                 },

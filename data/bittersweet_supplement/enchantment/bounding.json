@@ -1,0 +1,78 @@
+{
+	"description": {
+		"translate": "enchantment.bittersweet_supplement.bounding",
+		"fallback": "Bounding"
+	},
+	"supported_items": "#minecraft:enchantable/foot_armor",
+	"exclusive_set": "#minecraft:exclusive_set/bounding",
+	"weight": 2,
+	"max_level": 1,
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"feet"
+	],
+	"effects": {
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "bittersweet_functions:enchantments/bounding/check"
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_tags":{"all_of":["canBoundingJump"]},
+						"flags": {
+							"is_sneaking": false,
+							"is_on_ground": false,
+							"is_in_water": false
+						},
+						"minecraft:type_specific/player": {
+          					"input": {
+             				"jump": true
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "bittersweet_functions:enchantments/bounding/tp"
+						},
+						{
+							"type": "minecraft:apply_impulse",
+							"direction": [
+								0,
+								1.25,
+								0.25
+							],
+							"coordinate_scale": [
+								1,
+								1,
+								1
+							],
+							"magnitude": 0.5
+						},
+						{
+							"type": "minecraft:run_function",
+							"function": "bittersweet_functions:enchantments/bounding/double_jump"
+						}
+					]
+				}
+			}
+		]
+	}
+}

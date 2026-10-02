@@ -8,11 +8,7 @@
       {
         "effect": {
           "type": "minecraft:add",
-          "value": {
-            "type": "minecraft:linear",
-            "base": 4,
-            "per_level_above_first": 4
-          }
+          "value": 8
         },
         "requirements": {
           "condition": "minecraft:damage_source_properties",
@@ -36,7 +32,7 @@
     "base": 0,
     "per_level_above_first": 0
   },
-  "max_level": 3,
+  "max_level": 1,
   "min_cost": {
     "base": 0,
     "per_level_above_first": 0

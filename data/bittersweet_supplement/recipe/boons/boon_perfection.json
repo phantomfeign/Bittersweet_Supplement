@@ -3,13 +3,15 @@
   "category": "misc",
   "key": {
     "B": "minecraft:villager_spawn_egg",
-    "F": "minecraft:pig_spawn_egg",
-    "A": "minecraft:diamond_block"
+    "S": "minecraft:nether_star",
+    "D": "minecraft:diamond_block",
+    "E": "minecraft:emerald",
+    "G": "minecraft:gold_block"
   },
   "pattern": [
-    "AFA",
-    "ABA",
-    "AFA"
+    "ESE",
+    "DBD",
+    "GGG"
   ],
   "result": {
     "id": "minecraft:enchanted_book",

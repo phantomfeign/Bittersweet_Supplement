@@ -20,6 +20,11 @@
           "italic": false
         },
         {
+          "text": "❤❤❤❤",
+          "color": "#ffec3d",
+          "italic": false
+        },
+        {
           "text": "Your feel revitalized, and a",
           "color": "gray",
           "italic": false
@@ -49,7 +54,7 @@
               },
               {
                 "id": "minecraft:absorption",
-                "amplifier": 0,
+                "amplifier": 1,
                 "duration": 6000,
                 "show_particles": false
               }

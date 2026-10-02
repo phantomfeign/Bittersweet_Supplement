@@ -1,7 +1,8 @@
 tellraw @a {"text":"Thank you for taking your Bittersweet Supplement!","color":"#e5ed88"}
 tellraw @a {"text":"Lost? Check the Advancement Menu!","color":"#9fa654"}
 
-function bittersweet_functions:main_loop
+schedule function bittersweet_functions:loops/loop_1s 1t
+schedule function bittersweet_functions:loops/loop_0.5s 2t
 execute as @a run function bittersweet_functions:remove_temp_advancements
 
 #sleep
@@ -61,6 +62,7 @@ scoreboard objectives add SpawnerMobCount dummy
 #food
 scoreboard objectives add SeedCount dummy
 scoreboard players set #0 SeedCount 0
+scoreboard players set #1 SeedCount 1
 
 #phantom
 scoreboard objectives add raycastloop dummy
@@ -77,6 +79,24 @@ scoreboard objectives add PullTimer dummy
 
 #fireball
 scoreboard objectives add FireballTimer dummy
+
+#fire debuff
+scoreboard objectives add FireTimer dummy
+scoreboard objectives add FireSeverity dummy
+
+#enchants
+
+#laceration
+scoreboard objectives add lacerationTimer dummy
+
+#bounding
+scoreboard objectives add playerJumps minecraft.custom:minecraft.jump
+
+#dashing
+scoreboard objectives add dashingDashTimer dummy
+
+#dashing
+scoreboard objectives add lungeTimer dummy
 
 #gamerules
 gamerule natural_health_regeneration false

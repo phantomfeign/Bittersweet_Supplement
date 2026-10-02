@@ -6,7 +6,7 @@ execute as @e[type=#bittersweet_functions:spawn_checks,tag=!SpawnChecked,tag=Spa
 execute as @e[tag=SpawnForbidden] run function bittersweet_functions:mob_adjustments/delete
 
 #repeat this function every 20 ticks
-schedule function bittersweet_functions:main_loop 1s
+schedule function bittersweet_functions:loops/loop_1s 1s
 execute at @a if score @p Hunger matches 10.. run effect give @p minecraft:hunger 1 255 true
 execute at @a if score @p Hunger matches ..6 run effect give @p minecraft:saturation 1 1 true
 
@@ -44,4 +44,7 @@ execute as @e[type=minecraft:enderman] at @s run function bittersweet_functions:
 #fireball
 execute as @e[type=fireball,tag=player_fireball] run function bittersweet_functions:weapons/fireball/tick
 
-execute as @a at @s run function bittersweet_functions:main_loop_player
+#fire debuff
+execute as @e[tag=isOnFire] if score @s FireTimer matches 1.. run function bittersweet_functions:misc/mob_fire/tick
+
+execute as @a at @s run function bittersweet_functions:loops/loop_1s_player
