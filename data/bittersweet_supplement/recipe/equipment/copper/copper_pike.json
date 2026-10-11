@@ -13,8 +13,9 @@
 	"result": {
 		"id": "minecraft:copper_spear",
 		"components": {
-			"minecraft:max_damage": 250,
+			"minecraft:max_damage": 400,
 			"minecraft:damage": 0,
+			"minecraft:custom_data": {"bswt":"weapon.pike"},
 			"minecraft:item_name": "Copper Pike",
 			"minecraft:item_model": "bittersweet_textures:copper_pike",
 			"minecraft:attribute_modifiers": [

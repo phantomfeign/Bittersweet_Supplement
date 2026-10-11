@@ -32,6 +32,10 @@
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#minecraft:enchantable/bow",
+	"supported_items": [
+		"minecraft:bow",
+		"minecraft:crossbow"
+		],
+	"exclusive_set": "#bittersweet_supplement:exclusive_set/punch",
 	"weight": 2
 }

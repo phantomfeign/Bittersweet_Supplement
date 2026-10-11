@@ -4,6 +4,7 @@
 		"translate": "enchantment.bittersweet_supplement.downdraft",
 		"fallback": "Downdraft"
 	},
+	"exclusive_set":"#bittersweet_supplement:exclusive_set/elytra",
 	"effects": {
 		"minecraft:location_changed": [
 			{

@@ -1,0 +1,23 @@
+{
+	"description": {
+		"translate": "enchantment.bittersweet_supplement.hefty"
+	},
+	"anvil_cost": 2,
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"mainhand",
+		"offhand"
+	],
+	"effects": {
+	},
+	"supported_items": "#minecraft:enchantable/durability",
+	"weight": 5
+}

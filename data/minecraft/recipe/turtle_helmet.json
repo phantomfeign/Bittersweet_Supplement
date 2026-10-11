@@ -12,7 +12,7 @@
   "result": {
     "id": "minecraft:turtle_helmet",
     "components": {
-      "minecraft:max_damage": 300,
+      "minecraft:max_damage": 500,
       "minecraft:damage": 0,
       "minecraft:enchantments": {
         "minecraft:aqua_affinity": 1,

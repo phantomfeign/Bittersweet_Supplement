@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "right_clicked": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "right_click": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "right_clicked"
+    ]
+
+  ],
+  "rewards": {
+    "function": "bittersweet_functions:misc/right_click/sort"
+  }
+}

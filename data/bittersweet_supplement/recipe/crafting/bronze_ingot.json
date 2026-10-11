@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "key":{
+        "#":"minecraft:donkey_spawn_egg",
+        "X":"minecraft:copper_ingot"
+    },
+    "pattern":[
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "id": "minecraft:horse_spawn_egg",
+        "components":{
+            "!entity_data": {}
+        }
+    }
+}

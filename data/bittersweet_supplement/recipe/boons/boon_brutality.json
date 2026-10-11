@@ -24,8 +24,7 @@
       "minecraft:item_model": "bittersweet_textures:boon_brutality",
       "minecraft:stored_enchantments": {
         "minecraft:sharpness": 1,
-        "minecraft:density": 1,
-        "minecraft:power": 1
+        "minecraft:density": 1
       },
       "minecraft:item_name": {
         "text": "Boon of Brutality",

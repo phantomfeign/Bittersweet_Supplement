@@ -2,7 +2,7 @@
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:netherite_ingot",
   "base": "minecraft:golden_helmet",
-  "template": "minecraft:netherite_upgrade_smithing_template",
+  "template": "minecraft:hoglin_spawn_egg",
   "result": {
     "id": "minecraft:netherite_helmet",
       "components": {

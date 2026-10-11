@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 1,
+          "block": "bedrock"
+        },
+        {
+          "height": 60,
+          "block": "stone"
+        },
+        {
+          "height": 3,
+          "block": "white_concrete"
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

@@ -8,7 +8,7 @@
       {
         "effect": {
           "type": "minecraft:add",
-          "value": 8
+          "value": 10
         },
         "requirements": {
           "condition": "minecraft:damage_source_properties",

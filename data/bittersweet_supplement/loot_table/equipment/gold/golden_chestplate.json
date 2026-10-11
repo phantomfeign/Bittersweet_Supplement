@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:equipment",
+	"functions": [],
+	"pools": [
+		{
+			"entries": [
+					{
+					"type": "minecraft:item",
+					"conditions": [],
+					"functions": [
+						{
+						"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 220,
+								"minecraft:damage": 0,
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "minecraft:armor",
+										"id": "bittersweet:gold_chestplate",
+										"amount": 3,
+										"operation": "add_value",
+										"slot": "chest"
+									}
+								],
+								"minecraft:tooltip_display": {
+									"hidden_components": [
+										"minecraft:attribute_modifiers"
+									]
+								},
+								"minecraft:lore": [
+									{
+										"text": "+3⛨",
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"text": "4/4 = 🔥⛨",
+										"color": "yellow",
+										"italic": false
+									}
+								]
+							}						
+						}
+					],
+					"name": "minecraft:golden_chestplate"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "bittersweet_supplement:loot_table/equipment/gold/golden_chestplate"
+}

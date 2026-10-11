@@ -1,6 +1,7 @@
 #fireball
-execute if items entity @s inventory.* minecraft:fire_charge[!custom_data={adjusted_item:1b}] run give @s fire_charge\
-[custom_data={adjusted_item:1b},\
+execute if items entity @s inventory.* minecraft:fire_charge[!custom_data={adjusted_item:1b}] run give @s snowball\
+[custom_data={adjusted_item:1b,bswt.fireball_snowball:1b},\
+item_model=fire_charge,\
 consumable={consume_seconds:0,\
 animation:"toot_horn",\
 sound:"intentionally_empty",\
@@ -9,8 +10,9 @@ on_consume_effects:[{type:"minecraft:play_sound",sound:"intentionally_empty"}]},
 use_cooldown={seconds:0.5,cooldown_group:"fireball"},\
 custom_name={"italic":false,"text":"Fireball"},!food]
 
-execute if items entity @s hotbar.* minecraft:fire_charge[!custom_data={adjusted_item:1b}] run give @s fire_charge\
-[custom_data={adjusted_item:1b},\
+execute if items entity @s hotbar.* minecraft:fire_charge[!custom_data={adjusted_item:1b}] run give @s snowball\
+[custom_data={adjusted_item:1b,bswt.fireball_snowball:1b},\
+item_model=fire_charge,\
 consumable={consume_seconds:0,\
 animation:"toot_horn",\
 sound:"intentionally_empty",\

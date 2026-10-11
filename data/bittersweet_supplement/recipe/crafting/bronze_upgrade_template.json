@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:horse_spawn_egg",
+		"minecraft:horse_spawn_egg",
+		"minecraft:horse_spawn_egg",
+		"minecraft:horse_spawn_egg",
+        "minecraft:gold_ingot",
+        "minecraft:gold_ingot",
+        "minecraft:gold_ingot",
+        "minecraft:gold_ingot",
+        "minecraft:gold_ingot"
+    ],
+	"result": {
+		"id": "minecraft:piglin_spawn_egg",
+        "count": 2,
+		"components": {
+			"!minecraft:entity_data": {},
+            "minecraft:item_name": {
+            "text": "Bronze Upgrade",
+            "color": "yellow",
+            "italic": false
+            },
+            "minecraft:lore": [
+                {
+                "text": "Smithing Template",
+                "color": "gray",
+                "italic": false
+                },
+                "",
+                {
+                "text": "Applies to:",
+                "color": "gray",
+                "italic": false
+                },
+                {
+                "text": " Gold Armor, Greatswords, Pikes,",
+                "color": "blue",
+                "italic": false
+                },
+                {
+                "text": " Sickles, Halberds, and Cutlasses",
+                "color": "blue",
+                "italic": false
+                },
+                {
+                "text": "Ingredients:",
+                "color": "gray",
+                "italic": false
+                },
+                {
+                "text": " Bronze Ingot",
+                "color": "blue",
+                "italic": false
+                }
+            ]
+		}
+	}
+}

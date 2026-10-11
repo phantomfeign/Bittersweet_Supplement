@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+    "group": "bswt.arrow_cartridge",
+	"key": {
+		"X": "minecraft:copper_ingot",
+		"B": "minecraft:skeleton_spawn_egg",
+		"A": "minecraft:arrow"
+	},
+	"pattern": [
+		"BXB",
+		"AXA"
+	],
+	"result": {
+		"id": "minecraft:stray_spawn_egg",
+		"components": {
+			"!minecraft:entity_data": {},
+			"minecraft:lore": [
+				{
+					"text": "Fully loads a Chambered Crossbow.",
+					"color": "gray"
+				}
+			]
+		},
+		"count": 4
+	}
+}

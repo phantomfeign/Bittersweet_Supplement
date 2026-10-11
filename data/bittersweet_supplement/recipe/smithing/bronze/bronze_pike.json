@@ -8,6 +8,7 @@
 		"components": {
             "minecraft:item_name":"Bronze Pike",
             "minecraft:item_model":"bittersweet_textures:bronze_pike",
+			"minecraft:custom_data": {"bswt":"weapon.pike"},
 			"minecraft:max_damage": 2000,
 			"minecraft:damage": 0,
 			"minecraft:attribute_modifiers": [

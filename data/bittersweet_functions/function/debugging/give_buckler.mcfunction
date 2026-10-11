@@ -1,4 +1,4 @@
-give @p minecraft:shield[minecraft:custom_name="Buckler",\
+give @s minecraft:shield[minecraft:custom_name="Buckler",\
 minecraft:tooltip_display={hidden_components:["minecraft:banner_patterns"]},\
 base_color="black",banner_patterns=[{"pattern":"rhombus","color":"red"},\
 {"pattern":"stripe_downleft","color":"black"},\

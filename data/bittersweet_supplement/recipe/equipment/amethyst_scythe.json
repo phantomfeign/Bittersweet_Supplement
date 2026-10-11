@@ -13,13 +13,14 @@
 		" X "
 	],
 	"result": {
-		"id": "minecraft:stone_hoe",
+		"id": "minecraft:diamond_hoe",
 		"components": {
 			"minecraft:item_model": "bittersweet_textures:amethyst_scythe",
 			"minecraft:item_name": {
 				"text": "Amethyst Scythe",
 				"italic": false
 			},
+			"minecraft:custom_data":{"bswt":"weapon.scythe"},
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:block_interaction_range",

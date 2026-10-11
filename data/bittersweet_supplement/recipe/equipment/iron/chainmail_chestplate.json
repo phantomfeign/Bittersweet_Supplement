@@ -12,7 +12,7 @@
   "result": {
     "id": "minecraft:chainmail_chestplate",
       "components": {
-      "minecraft:max_damage": 240,
+      "minecraft:max_damage": 320,
       "minecraft:damage": 0,
 			"minecraft:attribute_modifiers": [
 				{

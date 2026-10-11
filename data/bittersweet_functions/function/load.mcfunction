@@ -26,6 +26,14 @@ scoreboard objectives add Percent dummy
 scoreboard players set #70 Percent 70
 scoreboard players set #100 Percent 100
 
+#fireball
+scoreboard objectives add threw_snowball minecraft.used:minecraft.snowball
+
+#playerpos
+scoreboard objectives add playerX dummy
+scoreboard objectives add playerY dummy
+scoreboard objectives add playerZ dummy
+
 #hook
 scoreboard objectives add calc dummy
 scoreboard objectives add weaknessTimer dummy
@@ -40,12 +48,6 @@ scoreboard objectives add ZombieChaseTime dummy
 scoreboard objectives add Hunger food
 scoreboard objectives add 0.better_consumables.id dummy
 
-#runes
-scoreboard objectives add RuneCount dummy
-scoreboard objectives add RuneType dummy
-scoreboard objectives add GearType dummy
-scoreboard objectives add EnchantLevelUp dummy
-
 #health
 scoreboard objectives add MaxHealth dummy
 scoreboard players add @a MaxHealth 0
@@ -59,10 +61,11 @@ scoreboard objectives add Deaths deathCount
 scoreboard objectives add SpawnerTimer dummy
 scoreboard objectives add SpawnerMobCount dummy
 
+#dmg item
+scoreboard objectives add damage_item dummy
+
 #food
 scoreboard objectives add SeedCount dummy
-scoreboard players set #0 SeedCount 0
-scoreboard players set #1 SeedCount 1
 
 #phantom
 scoreboard objectives add raycastloop dummy
@@ -82,21 +85,37 @@ scoreboard objectives add FireballTimer dummy
 
 #fire debuff
 scoreboard objectives add FireTimer dummy
-scoreboard objectives add FireSeverity dummy
 
 #enchants
+#overload
+scoreboard objectives add arrowCount dummy
 
 #laceration
 scoreboard objectives add lacerationTimer dummy
 
 #bounding
+scoreboard objectives add boundingJumps dummy
 scoreboard objectives add playerJumps minecraft.custom:minecraft.jump
 
 #dashing
 scoreboard objectives add dashingDashTimer dummy
 
 #dashing
-scoreboard objectives add lungeTimer dummy
+scoreboard objectives add cooldownLunge dummy
+
+#weapon cooldowns
+#mace
+scoreboard objectives add cooldownMaceWind dummy
+scoreboard objectives add cooldownMaceMine dummy
+#tomes
+scoreboard objectives add cooldownTomes dummy
+#sonic amplifier
+scoreboard objectives add cooldownSonicAmplifier dummy
+#dash
+scoreboard objectives add cooldownRapierDash dummy
+#abyss ray
+scoreboard objectives add cooldownAbyssRay dummy
+scoreboard objectives add abyssRayPass dummy
 
 #gamerules
 gamerule natural_health_regeneration false

@@ -1,0 +1,20 @@
+{
+  "values": [
+    "minecraft:stone",
+    "minecraft:cobblestone",
+    "minecraft:deepslate",
+    "minecraft:cobbled_deepslate",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:tuff",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:netherrack",
+    "minecraft:dripstone_block",
+    "minecraft:pointed_dripstone",
+    "minecraft:sulfur",
+    "minecraft:sulfur_spike",
+    "minecraft:cinnabar"
+  ]
+}

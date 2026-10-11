@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:gold_ingot",
+    "~": [
+            "minecraft:string",
+            "minecraft:zombie_spawn_egg"
+        ]
+  },
+  "pattern": [
+    "XXX",
+    "~~~",
+    " # "
+  ],
+  "result": {
+    "id": "minecraft:crossbow",
+        "components": {
+        "minecraft:max_damage": 500,
+	      "minecraft:item_name": {
+				"text": "Gilded Crossbow",
+				"color": "white",
+				"italic": false          
+				},
+        "minecraft:item_model":"bittersweet_textures:gilded_crossbow",
+      "minecraft:repairable":{
+        "items": [
+          "gold_ingot"
+        ]
+      },
+			"enchantments":{
+        "minecraft:quick_charge":1,
+				"bittersweet_supplement:bow_mechanics": 1
+			},
+			"enchantment_glint_override": false
+        }
+    }
+}

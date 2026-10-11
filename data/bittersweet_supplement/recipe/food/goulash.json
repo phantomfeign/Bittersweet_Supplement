@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:bee_spawn_egg",
+    "minecraft:baked_potato",
+    [
+      "minecraft:beef",
+      "minecraft:porkchop",
+      "minecraft:mutton"
+    ],
+    "minecraft:carrot"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Goulash",
+        "italic": false
+      },
+      "minecraft:item_model":"minecraft:rabbit_stew",
+      "minecraft:lore": [
+        {
+          "text": "❤❤❤❤",
+          "color": "#54d877",
+          "italic": false
+        },
+        {
+          "text": "A burst of energy and a soothing warmth",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "courses steadily within as you indulge yourself.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "consume_seconds": 2.5,
+        "on_consume_effects": [
+          {
+            "type": "apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 1,
+                "duration": 200,
+                "show_particles": false
+              },
+              {
+                "id": "minecraft:speed",
+                "amplifier": 0,
+                "duration": 1200,
+                "show_particles": false
+              },
+              {
+                "id": "minecraft:jump_boost",
+                "amplifier": 0,
+                "duration": 1200,
+                "show_particles": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

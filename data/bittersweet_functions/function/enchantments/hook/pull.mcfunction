@@ -11,14 +11,14 @@ scoreboard players operation #attacker_x calc -= #victim_x calc
 scoreboard players operation #attacker_z calc -= #victim_z calc
 
 #divide by 1000ish
-execute store result storage hook_enchant:pull MotionX double 0.0003 run scoreboard players get #attacker_x calc
-execute store result storage hook_enchant:pull MotionZ double 0.0003 run scoreboard players get #attacker_z calc
+execute store result storage bswt:hook.pull MotionX double 0.0003 run scoreboard players get #attacker_x calc
+execute store result storage bswt:hook.pull MotionZ double 0.0003 run scoreboard players get #attacker_z calc
 
 #sound
 playsound minecraft:item.spear.lunge_1 player @a ~ ~ ~ 4 2
 
 #use macro
-function bittersweet_functions:enchantments/hook/pull_macro with storage hook_enchant:pull
+function bittersweet_functions:enchantments/hook/pull_macro with storage bswt:hook.pull
 
 ride @s dismount
 effect give @s minecraft:weakness 1 255 true

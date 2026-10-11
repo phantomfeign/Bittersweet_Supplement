@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"shoot": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+                "item": {
+                    "items": ["minecraft:crossbow"] 
+                }
+            }
+		}
+	},
+	"rewards": {
+		"function": "bittersweet_functions:weapons/crossbow/overload/load/tick"
+	}
+}

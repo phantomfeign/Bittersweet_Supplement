@@ -10,7 +10,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "bittersweet_supplement:progression/going_platinum",
+	"parent": "bittersweet_supplement:progression/diamond_standard",
 	"criteria": {
 		"craft_pulaski": {
 			"trigger": "minecraft:recipe_crafted",
@@ -41,7 +41,7 @@
 		[
 			"craft_mattock",
 			"craft_pulaski",
-      "craft_mattock_alt",
+      		"craft_mattock_alt",
 			"craft_pulaski_alt"
 		]
 	]

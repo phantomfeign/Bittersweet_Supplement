@@ -1,4 +1,4 @@
-give @p minecraft:shield[minecraft:custom_name="Barbed Shield",\
+give @s minecraft:shield[minecraft:custom_name="Barbed Shield",\
 minecraft:tooltip_display={hidden_components:["minecraft:banner_patterns"]},\
 base_color="black",\
 banner_patterns=[{"pattern":"rhombus",\

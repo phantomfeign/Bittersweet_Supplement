@@ -18,9 +18,12 @@
       "bittersweet_supplement:equipment/bundle",
 
       "bittersweet_supplement:crafting/cobweb",
-      "bittersweet_supplement:equipment/shortbow",
-      "bittersweet_supplement:equipment/longbow",
-      "bittersweet_supplement:equipment/crossbow"
+      
+      "bittersweet_supplement:equipment/ranged/shortbow",
+      "bittersweet_supplement:equipment/ranged/longbow",
+      "bittersweet_supplement:equipment/ranged/iron_crossbow",
+      "bittersweet_supplement:equipment/ranged/gilded_crossbow",
+      "bittersweet_supplement:equipment/ranged/chambered_crossbow"
     ]
   }
 }

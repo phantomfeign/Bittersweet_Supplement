@@ -1,0 +1,2 @@
+summon minecraft:skeleton ~ ~ ~ {Tags:["bswt.damageDummy","bswt.ignoreMobCheck"],attributes:[{id:"minecraft:max_health",base:100.0},{id:"minecraft:movement_speed",base:0.0}],Health:100f,equipment:{head:{id:"minecraft:carved_pumpkin"}},DeathLootTable:"bittersweet_functions:empty",NoAI:true}
+execute as @e[type=minecraft:skeleton,tag=bswt.damageDummy] at @s run function bittersweet_functions:misc/round_position

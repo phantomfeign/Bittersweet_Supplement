@@ -6,7 +6,7 @@
 	"effects": {
 		"minecraft:attributes": [
 			{
-				"amount": 0.3,
+				"amount": 1.0,
 				"attribute": "minecraft:sweeping_damage_ratio",
 				"id": "minecraft:enchantment.sweeping_edge",
 				"operation": "add_value"

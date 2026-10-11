@@ -8,7 +8,7 @@
       {
         "effect": {
           "type": "minecraft:add",
-          "value": 4
+          "value": 3
         },
         "requirements": {
           "condition": "minecraft:damage_source_properties",
@@ -25,6 +25,28 @@
             ]
           }
         }
+      }
+    ],
+    "minecraft:damage_immunity": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "minecraft:is_projectile",
+                  "expected": true
+                }
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.05
+          }
+        ],
+        "effect": {}
       }
     ],
     "minecraft:post_attack": [

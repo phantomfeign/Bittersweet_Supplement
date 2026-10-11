@@ -19,7 +19,8 @@ execute as @e[distance=0..2] if entity @s[type=#minecraft:zombies] run effect gi
 execute as @e[distance=2.1..4] if entity @s[type=#minecraft:zombies] run effect give @s minecraft:instant_damage 1 1
 
 #knockback
-summon breeze_wind_charge ~ ~ ~ {Motion:[0.0,-2.0,0.0]}
+summon breeze_wind_charge ~ ~1 ~ {Motion:[0.0,-5.0,0.0]}
+summon breeze_wind_charge ~ ~ ~ {Motion:[0.0,-5.0,0.0]}
 
 #play da noize
 execute as @s run function bittersweet_functions:mob_adjustments/creeper/explosion_fx

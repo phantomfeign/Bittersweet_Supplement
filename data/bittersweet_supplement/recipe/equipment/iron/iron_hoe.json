@@ -13,7 +13,7 @@
   "result": {
     "id": "minecraft:iron_hoe",
       "components": {
-      "minecraft:max_damage": 300,
+      "minecraft:max_damage": 500,
       "minecraft:damage": 0,
 			"minecraft:tooltip_display": {
 				"hidden_components": [

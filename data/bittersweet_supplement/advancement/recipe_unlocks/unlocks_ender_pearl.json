@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "get_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":"minecraft:ender_pearl"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/ender_eye",
+      "minecraft:ender_chest",
+      "bittersweet_supplement:equipment/refractor"
+    ]
+  }
+}

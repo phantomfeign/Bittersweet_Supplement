@@ -43,21 +43,15 @@
 					"name": "minecraft:gold_ingot"
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_pickaxe",
-					"weight": 5,
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:equipment/iron/iron_pickaxe",
+					"weight": 1,
 					"functions": [
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 300
-							}
-						},
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.3,
-								"max": 0.8
+						"function": "minecraft:set_damage",
+						"damage": {
+							"min": 0.16,
+							"max": 0.66
 							}
 						}
 					]
@@ -92,21 +86,15 @@
 					"weight": 15
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_shovel",
-					"weight": 5,
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:equipment/iron/iron_shovel",
+					"weight": 1,
 					"functions": [
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 300
-							}
-						},
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.3,
-								"max": 0.8
+						"function": "minecraft:set_damage",
+						"damage": {
+							"min": 0.16,
+							"max": 0.66
 							}
 						}
 					]

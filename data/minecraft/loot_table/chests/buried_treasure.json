@@ -90,20 +90,14 @@
 		{
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:golden_spear",
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:equipment/gold/random_gold_equipment",
 					"functions": [
 						{
 							"function": "minecraft:set_damage",
 							"damage": {
-								"min": 0.3,
-								"max": 0.8
-							}
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 200
+								"min": 0.1,
+								"max": 0.2
 							}
 						}
 					]

@@ -5,16 +5,10 @@
       "rolls": 2,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_pickaxe",
+          "type": "minecraft:loot_table",
+          "value": "bittersweet_supplement:equipment/iron/iron_pickaxe",
           "weight": 1,
           "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:max_damage": 300
-              }
-            },
             {
               "function": "minecraft:set_damage",
               "damage": {

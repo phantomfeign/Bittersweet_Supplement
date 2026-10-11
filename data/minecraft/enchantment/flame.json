@@ -8,7 +8,7 @@
 			{
 				"effect": {
 					"type": "minecraft:ignite",
-					"duration": 100
+					"duration": 10
 				}
 			}
 		]
@@ -29,5 +29,6 @@
 		"minecraft:bow",
 		"minecraft:crossbow"
 	],
+	"exclusive_set": "#bittersweet_supplement:exclusive_set/punch",
 	"weight": 2
 }

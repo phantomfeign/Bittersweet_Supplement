@@ -1,0 +1,1 @@
+execute if items entity @s weapon.mainhand minecraft:crossbow run item modify entity @s weapon.mainhand bittersweet_functions:piglin_crossbow

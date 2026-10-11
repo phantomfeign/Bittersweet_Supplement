@@ -1,0 +1,48 @@
+{
+	"type": "minecraft:equipment",
+	"functions": [],
+	"pools": [
+		{
+			"entries": [
+					{
+					"type": "minecraft:item",
+					"conditions": [],
+					"functions": [
+						{
+						"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 500,
+								"minecraft:damage": 0,
+								"minecraft:tooltip_display": {
+									"hidden_components": [
+										"minecraft:attribute_modifiers"
+									]
+								},
+								"minecraft:lore": [
+									{
+										"text": "3🗡",
+										"color": "red",
+										"italic": false
+									},
+									{
+										"text": "0.8⌚",
+										"color": "yellow",
+										"italic": false
+									},
+									{
+										"text": "2-4.5→",
+										"color": "green",
+										"italic": false
+									}
+								]
+							}
+						}
+					],
+					"name": "minecraft:iron_spear"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "bittersweet_supplement:loot_table/equipment/gold/iron_spear"
+}

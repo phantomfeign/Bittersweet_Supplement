@@ -1,23 +1,24 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:chicken_spawn_egg"
+      "id": "minecraft:diamond",
+      "components": {}
     },
     "title": "Diamond Standard",
-    "description": "Like Richard Nixon said...",
+    "description": "Miiine diamonds.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "bittersweet_supplement:progression/first_place_real",
+  "parent": "bittersweet_supplement:progression/first_place",
   "criteria": {
-    "acquire a diamond upgrade smithing template": {
+    "acquire diamond": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "chicken_spawn_egg"
+            "items": "minecraft:diamond"
           }
         ]
       }

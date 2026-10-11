@@ -44,6 +44,9 @@
       "path": "^recipe/pumpkin_pie\\.json$"
     },{
         "namespace": "minecraft",
+      "path": "^recipe/mushroom_stew\\.json$"
+    },{
+        "namespace": "minecraft",
       "path": "^recipe/rabbit_stew_from_brown_mushroom\\.json$"
     },{
         "namespace": "minecraft",
@@ -146,6 +149,12 @@
     },{
       "namespace": "minecraft",
       "path": "^recipe/repeater\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/firework_rocket_simple\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/firework_star\\.json$"
 
 
     }

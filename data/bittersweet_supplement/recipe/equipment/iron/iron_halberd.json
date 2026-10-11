@@ -79,7 +79,7 @@
 				"min_creative_reach": 2,
 				"max_creative_reach": 4
 			},
-			"minecraft:max_damage": 300,
+			"minecraft:max_damage": 500,
 			"minecraft:tool": {
 				"rules": [
 					{

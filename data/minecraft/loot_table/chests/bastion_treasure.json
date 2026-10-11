@@ -264,7 +264,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:netherite_upgrade_smithing_template"
+					"name": "minecraft:hoglin_spawn_egg"
 				}
 			],
 			"rolls": 1

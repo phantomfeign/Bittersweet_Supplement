@@ -11,24 +11,17 @@
 						{
 						"function": "minecraft:set_components",
 							"components": {
-							"minecraft:max_damage": 200,
-							"minecraft:damage": 0,
-							"minecraft:attribute_modifiers": [
-								{
-								"type": "minecraft:attack_damage",
-								"amount": 5,
-								"operation": "add_value",
-								"id": "bittersweet:golden_sword_damage",
-								"slot": "mainhand"
-								},
-								{
-								"type": "minecraft:attack_speed",
-								"amount": -2,
-								"operation": "add_value",
-								"id": "bittersweet:golden_sword_speed",
-								"slot": "mainhand"
-								}
-							],
+								"minecraft:max_damage": 220,
+								"minecraft:damage": 0,
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "minecraft:armor",
+										"id": "bittersweet:gold_boots",
+										"amount": 3,
+										"operation": "add_value",
+										"slot": "feet"
+									}
+								],
 								"minecraft:tooltip_display": {
 									"hidden_components": [
 										"minecraft:attribute_modifiers"
@@ -36,24 +29,24 @@
 								},
 								"minecraft:lore": [
 									{
-										"text": "6🗡",
-										"color": "red",
+										"text": "+3⛨",
+										"color": "blue",
 										"italic": false
 									},
 									{
-										"text": "2.0⌚",
+										"text": "4/4 = 🔥⛨",
 										"color": "yellow",
 										"italic": false
 									}
 								]
-							}
+							}						
 						}
 					],
-					"name": "minecraft:golden_sword"
+					"name": "minecraft:golden_boots"
 				}
 			],
 			"rolls": 1
 		}
 	],
-	"random_sequence": "bittersweet_supplement:loot_table/equipment/ranged/golden_sword"
+	"random_sequence": "bittersweet_supplement:loot_table/equipment/gold/golden_boots"
 }

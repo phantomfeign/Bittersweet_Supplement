@@ -1,0 +1,30 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:charged_projectiles": [
+      {
+        "id": "minecraft:firework_rocket",
+        "count": 1,
+        "components": {
+          "minecraft:fireworks": {
+            "explosions": [
+              {
+                "shape": "burst",
+                "has_trail": true,
+                "has_twinkle": false,
+                "colors": [2378283]
+              },
+              {
+                "shape": "burst",
+                "has_trail": true,
+                "has_twinkle": false,
+                "colors": [2378283]
+              }
+            ],
+            "flight_duration": 1
+          }
+        }
+      }
+    ]
+  }
+}

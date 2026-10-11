@@ -64,7 +64,7 @@
 				"max_creative_reach": 3.5,
 				"hitbox_margin": 1
 			},
-			"minecraft:max_damage": 250,
+			"minecraft:max_damage": 400,
 			"minecraft:enchantments": {
 				"minecraft:sweeping_edge": 1
 			},

@@ -1,8 +1,9 @@
+execute unless score @s cooldownTomes matches 5.. run return fail
+scoreboard players set @s cooldownTomes 0
 tag @s add bittersweet_fang_caster
 function bittersweet_functions:weapons/fanged_summon/cast_sound
 effect give @s slowness 2 1 true
 effect give @s resistance 2 4 true
-advancement revoke @s only bittersweet_functions:weapon/used_fang_radius
 execute as @a[tag=bittersweet_fang_caster] at @s rotated ~0 0 summon minecraft:evoker_fangs run data modify entity @s Owner set from entity @a[tag=bittersweet_fang_caster,limit=1] UUID
-execute at @p as @e[distance=..1] unless entity @s[tag=bittersweet_fang_caster] as @s run effect give @s minecraft:slowness 1 255 true
+execute at @a[limit=1,sort=nearest] as @e[distance=..1] unless entity @s[tag=bittersweet_fang_caster] as @s run effect give @s minecraft:slowness 1 255 true
 execute at @a[tag=bittersweet_fang_caster] run schedule function bittersweet_functions:weapons/fanged_summon/summon_fangs_radius/second 10t

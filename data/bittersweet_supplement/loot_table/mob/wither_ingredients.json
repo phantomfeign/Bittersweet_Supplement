@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:soul_sand"
+				}
+			],
+			"rolls": 4
+		},
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wither_skeleton_skull"
+				}
+			]
+		}
+	],
+	"random_sequence": "bittersweet_supplement:mob/wither_ingredients"
+}

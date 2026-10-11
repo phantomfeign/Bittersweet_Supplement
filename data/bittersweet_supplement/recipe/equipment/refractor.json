@@ -1,0 +1,84 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:ender_pearl",
+		"X": "minecraft:amethyst_shard",
+		"C": "minecraft:copper_ingot"
+	},
+	"pattern": [
+		" X",
+		" #",
+		" C"
+	],
+	"result": {
+		"id": "minecraft:copper_sword",
+		"components": {
+			"minecraft:item_name": {
+				"text":"Refractor",
+				"color":"aqua",
+				"italic":false
+			},
+			"minecraft:item_model": "bittersweet_textures:refractor",
+			"minecraft:max_damage": 100,
+			"minecraft:damage": 0,
+            "!minecraft:enchantable":{},
+			"minecraft:custom_data": {
+				"summon_abyss_ray": true,
+				"right_click": true
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "3🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "1.6⌚",
+					"color": "yellow",
+					"italic": false
+				},
+				{
+					"text": "[5⌚ RMB]: Creates a ray",
+					"color": "light_purple",
+					"italic": false
+				},
+				{
+					"text": "of raw abyssal energy.",
+					"color": "light_purple",
+					"italic": false
+				}
+			],
+			"minecraft:repairable": {
+				"items": "minecraft:amethyst_shard"
+			},
+			"minecraft:consumable": {
+				"animation": "none",
+				"consume_seconds": 9999999,
+				"has_consume_particles": false,
+				"sound": "minecraft:intentionally_empty"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_speed",
+					"id": "bittersweet_supplement:refractor",
+					"amount": -2.4,
+					"operation": "add_value",
+                    "slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_damage",
+					"id": "bittersweet_supplement:refractor",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			]
+		}
+	}
+}

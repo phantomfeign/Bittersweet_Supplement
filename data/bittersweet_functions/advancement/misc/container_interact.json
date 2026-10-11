@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          },
+          "slots": {
+            "weapon.mainhand": {
+              "count": 0
+            },
+            "weapon.offhand": {
+              "count": 0
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#bittersweet_functions:container"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bittersweet_functions:utility/backpack/interacted"
+  }
+}

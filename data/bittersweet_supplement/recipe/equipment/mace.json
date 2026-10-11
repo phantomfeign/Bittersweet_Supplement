@@ -14,29 +14,25 @@
 	"result": {
 		"id": "minecraft:mace",
 		"components": {
+			"minecraft:max_damage":800,
 			"minecraft:item_name": {
 				"text": "Wind Mace",
 				"color": "light_purple"
 			},
 			"minecraft:custom_data": {
-				"return": true,
-				"wind_mace": true
+				"right_click": true
 			},
 			"minecraft:consumable": {
-				"consume_seconds": 0,
-				"animation": "block",
+				"consume_seconds": 999999,
+				"animation": "none",
 				"sound": "minecraft:intentionally_empty",
 				"has_consume_particles": false
-			},
-			"minecraft:use_cooldown": {
-				"seconds": 5,
-				"cooldown_group": "minecraft:wind_charge"
 			},
 			"minecraft:tool": {
 				"rules": [
 					{
 						"blocks": "#minecraft:mineable/pickaxe",
-						"speed": 6,
+						"speed": 5,
 						"correct_for_drops": true
 					}
 				],
@@ -50,7 +46,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "6⛏",
+					"text": "5⛏",
 					"color": "gold",
 					"italic": false
 				},
@@ -64,14 +60,23 @@
 					"color": "yellow",
 					"italic": false
 				},
-
 				{
-					"text": "Right-click to create",
+					"text": "[4⌚ RMB]: Creates a ",
 					"color": "light_purple",
 					"italic": false
 				},
 				{
-					"text": "a burst of wind.",
+					"text": "burst of wind at your feet.",
+					"color": "light_purple",
+					"italic": false
+				},
+				{
+					"text": "[2⌚ ↓+RMB]: Mines stone",
+					"color": "light_purple",
+					"italic": false
+				},
+				{
+					"text": "in an area infront of you.",
 					"color": "light_purple",
 					"italic": false
 				}

@@ -9,13 +9,6 @@
 				"effect": {
 					"type": "minecraft:add",
 					"value": 3
-				},
-				"requirements": {
-					"condition": "minecraft:entity_properties",
-					"entity": "direct_attacker",
-					"predicate": {
-						"minecraft:entity_type": "#minecraft:arrows"
-					}
 				}
 			}
 		]
@@ -32,6 +25,7 @@
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#minecraft:enchantable/crossbow",
+	"supported_items":"#minecraft:enchantable/crossbow", 
+	"exclusive_set": "#bittersweet_supplement:exclusive_set/crossbow_variants",
 	"weight": 10
 }

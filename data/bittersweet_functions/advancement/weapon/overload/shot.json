@@ -1,0 +1,11 @@
+{
+	"criteria": {
+		"shoot": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {}
+		}
+	},
+	"rewards": {
+		"function": "bittersweet_functions:weapons/crossbow/overload/shot"
+	}
+}

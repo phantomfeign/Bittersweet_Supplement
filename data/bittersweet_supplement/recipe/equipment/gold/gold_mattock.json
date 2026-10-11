@@ -50,7 +50,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:max_damage": 300,
+			"minecraft:max_damage": 500,
 			"minecraft:item_model": "bittersweet_textures:gold_mattock"
 		}
 	}

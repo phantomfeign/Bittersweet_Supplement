@@ -1,5 +1,5 @@
 function bittersweet_functions:structure/mob_spawners/marker/spawns/mineshaft/roll
 function bittersweet_functions:structure/mob_spawners/marker/spawns/mineshaft/roll
 function bittersweet_functions:structure/mob_spawners/marker/spawns/mineshaft/roll
-execute as @e[type=#bittersweet_functions:spawn_checks,tag=!SpawnChecked,tag=!SpawnBypass] run function bittersweet_functions:mob_adjustments/spawn_filter
+execute as @e[type=#bittersweet_functions:spawn_checks,tag=!bswt.spawnChecked,tag=!SpawnBypass] run function bittersweet_functions:mob_adjustments/spawn_filter
 scoreboard players set @s SpawnerTimer 15

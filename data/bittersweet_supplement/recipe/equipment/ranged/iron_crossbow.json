@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:iron_ingot",
+    "~": [
+            "minecraft:string",
+            "minecraft:zombie_spawn_egg"
+        ]
+  },
+  "pattern": [
+    "XXX",
+    "~~~",
+    " # "
+  ],
+  "result": {
+    "id": "minecraft:crossbow",
+        "components": {
+        "minecraft:max_damage": 500,
+	      "minecraft:item_name": {
+				"text": "Iron Crossbow",
+				"color": "white",
+				"italic": false          
+				},
+      "minecraft:repairable":{
+        "items": [
+          "iron_ingot"
+        ]
+      },
+			"enchantments":{
+        "minecraft:power":1,
+				"bittersweet_supplement:bow_mechanics": 1
+			},
+			"enchantment_glint_override": false
+        }
+    }
+}

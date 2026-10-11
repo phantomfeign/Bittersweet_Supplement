@@ -85,16 +85,10 @@
 			},
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_sword",
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:equipment/iron/iron_sword",
 					"weight": 5,
 					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 300
-							}
-						},
 						{
 							"function": "minecraft:set_damage",
 							"damage": {
@@ -105,16 +99,10 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_spear",
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:equipment/iron/iron_spear",
 					"weight": 5,
 					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 300
-							}
-						},
 						{
 							"function": "minecraft:set_damage",
 							"damage": {

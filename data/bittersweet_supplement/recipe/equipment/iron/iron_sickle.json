@@ -51,7 +51,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:max_damage": 300,
+			"minecraft:max_damage": 500,
 			"minecraft:enchantments": {
 				"bittersweet_supplement:hook": 1
 			},

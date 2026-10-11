@@ -6,7 +6,7 @@ weather thunder
 function bittersweet_functions:mob_adjustments/phantom/check_alive
 
 #MAHORAGA!!!
-execute as @a[limit=1] at @s positioned over motion_blocking run summon minecraft:phantom ~ 100 ~ {Tags:["NightTerror","SpawnChecked"],PersistenceRequired:1b,}
+execute as @a[limit=1] at @s positioned over motion_blocking run summon minecraft:phantom ~ 100 ~ {Tags:["NightTerror","bswt.spawnChecked"],PersistenceRequired:1b,}
 attribute @e[type=minecraft:phantom,tag=NightTerror,sort=nearest,limit=1] minecraft:max_health base set 200
 attribute @e[type=minecraft:phantom,tag=NightTerror,sort=nearest,limit=1] minecraft:movement_speed base set 0.9
 attribute @e[type=minecraft:phantom,tag=NightTerror,sort=nearest,limit=1] minecraft:scale base set 3

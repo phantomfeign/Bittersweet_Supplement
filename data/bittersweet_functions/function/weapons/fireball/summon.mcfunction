@@ -1,8 +1,12 @@
-advancement revoke @s only bittersweet_functions:weapon/fireball
-playsound minecraft:item.firecharge.use
-#summon minecraft:fireball ^ ^1 ^2 {Tags:["player_fireball"],ExplosionPower:1, Motion:[0.0,0.0,0.0]}
-# 1. Summon the fireball slightly ahead of you
-execute at @p run summon minecraft:fireball ^ ^1 ^2 {Tags:["player_fireball"], ExplosionPower:1}
+scoreboard players set @s threw_snowball 0
+execute as @e[type=minecraft:snowball,nbt={Item:{components:{"minecraft:custom_data":{bswt.fireball_snowball:1b}}}},sort=nearest,limit=1] run \
+summon minecraft:fireball ^ ^1 ^1 {Tags:["bswt.player_fireball"],ExplosionPower:1}
 
-# 2. Immediately copy your facing direction into the fireball's momentum
-execute as @e[tag=player_fireball,limit=1,sort=nearest] run data modify entity @s Motion set from entity @p Rotation
+execute at @e[type=minecraft:fireball,tag=bswt.player_fireball,limit=1,sort=nearest] run playsound minecraft:item.firecharge.use
+
+data modify entity @e[type=minecraft:fireball,tag=bswt.player_fireball,limit=1,sort=nearest] \
+Owner set from entity @e[type=minecraft:snowball,nbt={Item:{components:{"minecraft:custom_data":{bswt.fireball_snowball:1b}}}},sort=nearest,limit=1] Owner
+data modify entity @e[type=minecraft:fireball,tag=bswt.player_fireball,limit=1,sort=nearest] \
+Motion set from entity @e[type=minecraft:snowball,nbt={Item:{components:{"minecraft:custom_data":{bswt.fireball_snowball:1b}}}},sort=nearest,limit=1] Motion
+
+kill @e[type=minecraft:snowball,nbt={Item:{components:{"minecraft:custom_data":{bswt.fireball_snowball:1b}}}},sort=nearest,limit=1]

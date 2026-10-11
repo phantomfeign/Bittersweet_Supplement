@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "bittersweet_supplement:equipment/ranged/crossbow",
+					"value": "bittersweet_supplement:equipment/ranged/iron_crossbow",
 					"weight": 5
 				},
 				{

@@ -1,0 +1,32 @@
+{
+	"description": {
+		"translate": "enchantment.bittersweet_supplement.overload"
+	},
+	"anvil_cost": 2,
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"mainhand",
+		"offhand"
+	],
+	"effects": {
+		"minecraft:damage": [
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": -1
+				}
+			}
+		]
+	},
+	"supported_items": "#minecraft:enchantable/crossbow",
+	"exclusive_set": "#bittersweet_supplement:exclusive_set/crossbow_variants",
+	"weight": 5
+}

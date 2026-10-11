@@ -16,10 +16,10 @@
       "components": {
       "minecraft:max_damage": 100,
       "minecraft:damage": 0,
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
 			},
 			"minecraft:lore": [
 				{
@@ -33,11 +33,19 @@
 					"italic": false
 				},
 				{
-					"text": "2-4.5→",
+					"text": "1-4.5→",
 					"color": "green",
 					"italic": false
 				}
-			]
-    }
-  }
+			],
+			"minecraft:attack_range": {
+			"min_reach": 1.0,
+			"max_reach": 4.5,
+			"min_creative_reach": 2.0,
+			"max_creative_reach": 6.5,
+			"hitbox_margin": 0.125,
+			"mob_factor": 0.5
+			}
+		}
+	}
 }

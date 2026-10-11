@@ -1,4 +1,3 @@
-advancement revoke @s only bittersweet_functions:misc/check_almanac
 execute if items entity @s inventory.* written_book[custom_data={bittersweet:{almanac:1}}] run return run function bittersweet_functions:misc/almanac/delete_pages
 execute if items entity @s hotbar.* written_book[custom_data={bittersweet:{almanac:1}}] run return run function bittersweet_functions:misc/almanac/delete_pages
 

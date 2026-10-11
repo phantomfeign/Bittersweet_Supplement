@@ -7,22 +7,42 @@
 	],
 	"pools": [
 		{
+			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:loot_table",
-					"value": "bittersweet_supplement:food/beetroot"
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot_seeds"
 				}
-			],
-			"rolls": 1
+			]
 		},
 		{
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
 					"value": "bittersweet_supplement:food/beetroot"
 				}
 			],
+			
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:beetroots",
+					"properties": {
+						"age": "3"
+					}
+				}
+			]
+		},
+		{
 			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot_seeds"
+				}
+			],
+			
 			"conditions": [
 				{
 					"condition": "minecraft:block_state_property",

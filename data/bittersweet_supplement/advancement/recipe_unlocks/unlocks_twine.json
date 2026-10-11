@@ -18,7 +18,9 @@
 
       "bittersweet_supplement:equipment/ranged/shortbow",
       "bittersweet_supplement:equipment/ranged/longbow",
-      "bittersweet_supplement:equipment/ranged/crossbow"
+      "bittersweet_supplement:equipment/ranged/iron_crossbow",
+      "bittersweet_supplement:equipment/ranged/gilded_crossbow",
+      "bittersweet_supplement:equipment/ranged/chambered_crossbow"
     ]
   }
 }

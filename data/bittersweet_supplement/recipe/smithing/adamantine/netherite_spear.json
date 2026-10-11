@@ -28,12 +28,20 @@
 					"italic": false
 				},
 				{
-					"text": "2-4.5→",
+					"text": "1-4.5→",
 					"color": "green",
 					"italic": false
 				}
-			]
-    }
-  },
-  "template": "minecraft:netherite_upgrade_smithing_template"
+			],
+			"minecraft:attack_range": {
+			"min_reach": 1.0,
+			"max_reach": 4.5,
+			"min_creative_reach": 2.0,
+			"max_creative_reach": 6.5,
+			"hitbox_margin": 0.125,
+			"mob_factor": 0.5
+			}
+		}
+	},
+  "template": "minecraft:hoglin_spawn_egg"
 }

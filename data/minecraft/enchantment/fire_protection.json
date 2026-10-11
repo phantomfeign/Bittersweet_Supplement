@@ -45,7 +45,7 @@
 				"affected": "attacker",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "bittersweet_functions:enchantments/apply_fire"
+					"function": "bittersweet_functions:misc/mob_fire/apply_fire"
 				},
 				"enchanted": "victim",
 				"requirements": {

@@ -1,28 +1,42 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "X": "minecraft:iron_ingot",
-    "W":"#minecraft:logs"
-  },
-  "pattern": [
-    "XWX",
-    "XWX",
-    "XWX"
-
-  ],
-  "result": {
-    "id": "minecraft:shield",
-    "components": {
-      "minecraft:max_damage":100,
-      "minecraft:damage":0,
-      "minecraft:lore": [
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"X": "minecraft:iron_ingot",
+		"W": "#minecraft:logs"
+	},
+	"pattern": [
+		"XWX",
+		"XWX",
+		"XWX"
+	],
+	"result": {
+		"id": "minecraft:shield",
+		"components": {
+			"minecraft:item_name": "Iron Shield",
+			"minecraft:item_model": "minecraft:shield",
+			"minecraft:max_damage": 100,
+			"minecraft:damage": 0,
+			"minecraft:lore": [
 				{
-					"text": "🛡: 100%",
+					"text": "🛡: 90%",
 					"color": "gray",
 					"italic": false
 				}
-			]
-    }
-  }
+			],
+			"minecraft:repairable":{
+				"items": ["minecraft:iron_ingot"]
+			},
+			"minecraft:blocks_attacks": {
+				"damage_reductions": [
+					{
+						"base": 0,
+						"factor": 0.9
+					}
+				],
+				"block_sound": "minecraft:item.shield.block",
+				"disabled_sound": "minecraft:item.shield.break"
+			}
+		}
+	}
 }

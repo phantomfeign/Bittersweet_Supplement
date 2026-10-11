@@ -21,7 +21,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "bittersweet_supplement:equipment/ranged/crossbow",
+					"value": "bittersweet_supplement:equipment/ranged/gilded_crossbow",
 					"weight": 5
 				},
 				{
@@ -189,7 +189,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:netherite_upgrade_smithing_template"
+					"name": "minecraft:hoglin_spawn_egg"
 				}
 			],
 			"rolls": 1

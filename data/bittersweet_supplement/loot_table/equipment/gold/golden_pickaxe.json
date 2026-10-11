@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:equipment",
+	"functions": [],
+	"pools": [
+		{
+			"entries": [
+					{
+					"type": "minecraft:item",
+					"conditions": [],
+					"functions": [
+						{
+						"function": "minecraft:set_components",
+							"components": {
+							"minecraft:max_damage": 250,
+							"minecraft:damage": 0,
+							"tool": {
+								"rules": [
+								{
+									"blocks": "#minecraft:mineable/pickaxe",
+									"speed": 10,
+									"correct_for_drops": true
+								}
+								],
+								"default_mining_speed": 1,
+								"damage_per_block": 1
+							},
+									"minecraft:tooltip_display": {
+										"hidden_components": [
+											"minecraft:attribute_modifiers"
+										]
+									},
+									"minecraft:lore": [
+										{
+											"text": "10⛏",
+											"color": "gold",
+											"italic": false
+										}
+									]
+							}
+						}
+					],
+					"name": "minecraft:golden_pickaxe"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "bittersweet_supplement:loot_table/equipment/gold/golden_pickaxe"
+}

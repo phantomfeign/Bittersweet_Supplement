@@ -12,11 +12,7 @@
       {
         "effect": {
           "type": "minecraft:add",
-          "value": {
-            "type": "minecraft:linear",
-            "base": 1,
-            "per_level_above_first": 1
-          }
+          "value": 2
         }
       }
     ],
@@ -24,11 +20,7 @@
       {
         "effect": {
           "type": "minecraft:add",
-          "value": {
-            "type": "minecraft:linear",
-            "base": 5,
-            "per_level_above_first": 5
-          }
+          "value": 8
         }
       }
     ],
@@ -39,17 +31,13 @@
           "factor": {
             "type": "minecraft:fraction",
             "numerator": 1,
-            "denominator": {
-              "type": "minecraft:linear",
-              "base": 2,
-              "per_level_above_first": 0.5
-            }
+            "denominator": 3
           }
         }
       }
     ]
   },
-  "max_level": 8,
+  "max_level": 1,
   "min_cost": {
     "base": 0,
     "per_level_above_first": 0

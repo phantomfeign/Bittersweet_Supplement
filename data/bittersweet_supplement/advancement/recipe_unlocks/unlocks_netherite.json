@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "get_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/hoglin_spawn_egg"
+    ]
+  }
+}

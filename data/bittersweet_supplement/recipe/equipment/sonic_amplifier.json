@@ -1,0 +1,88 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:echo_shard",
+		"X": "minecraft:amethyst_shard",
+		"C": "minecraft:gold_ingot"
+	},
+	"pattern": [
+		" X",
+		" #",
+		" C"
+	],
+	"result": {
+		"id": "minecraft:diamond_sword",
+		"components": {
+			"minecraft:item_name": {
+				"text":"Sonic Amplifier",
+				"color":"aqua",
+				"italic":false
+			},
+			"minecraft:item_model": "bittersweet_textures:sonic_amplifier",
+			"minecraft:max_damage": 100,
+			"minecraft:damage": 0,
+            "!minecraft:enchantable":{},
+			"minecraft:custom_data": {
+				"summon_sonic_boom": true,
+				"right_click": true
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "3🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "1.6⌚",
+					"color": "yellow",
+					"italic": false
+				},
+				{
+					"text": "[10⌚ RMB]: Creates a",
+					"color": "light_purple",
+					"italic": false
+				},
+				{
+					"text": "piercing sonic boom.",
+					"color": "light_purple",
+					"italic": false
+				}
+			],
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:amethyst_shard",
+					"minecraft:echo_shard",
+					"minecraft:gold_block"
+				]
+			},
+			"minecraft:consumable": {
+				"animation": "none",
+				"consume_seconds": 9999999,
+				"has_consume_particles": false,
+				"sound": "minecraft:intentionally_empty"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_speed",
+					"id": "bittersweet_supplement:sonic_amplifier",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_damage",
+					"id": "bittersweet_supplement:sonic_amplifier",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			]
+		}
+	}
+}

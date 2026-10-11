@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "get_wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bowl"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:food/goulash",
+      "bittersweet_supplement:food/gamey_stew",
+      "bittersweet_supplement:food/mushroom_soup"
+    ]
+  }
+}

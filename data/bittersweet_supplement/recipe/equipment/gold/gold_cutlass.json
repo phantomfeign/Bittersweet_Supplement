@@ -15,7 +15,7 @@
 		"components": {
 			"item_name": "Gilded Cutlass",
 			"item_model": "bittersweet_textures:gold_cutlass",
-			"minecraft:max_damage": 200,
+			"minecraft:max_damage": 250,
 			"minecraft:damage": 0,
 			"minecraft:attribute_modifiers": [
 				{

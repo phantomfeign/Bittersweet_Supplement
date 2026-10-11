@@ -1,0 +1,43 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:iron_ingot",
+		"X": "minecraft:copper_ingot",
+		"~": [
+			"minecraft:string",
+			"minecraft:zombie_spawn_egg"
+		],
+		"R": "minecraft:repeater",
+		"B": "#minecraft:bundles"
+	},
+	"pattern": [
+		"XRX",
+		"~B~",
+		" # "
+	],
+	"result": {
+		"id": "minecraft:crossbow",
+		"components": {
+			"minecraft:max_damage": 500,
+			"minecraft:item_name": {
+				"text": "Chambered Crossbow",
+				"color": "white",
+				"italic": false
+			},
+			"minecraft:item_model": "bittersweet_textures:chambered_crossbow",
+			"minecraft:repairable":{
+				"items": [
+				"copper_ingot",
+				"iron_ingot"
+				]
+			},
+			"enchantments": {
+				"bittersweet_supplement:overload":1,
+        "bittersweet_supplement:hefty":1,
+				"bittersweet_supplement:bow_mechanics": 1
+			},
+			"enchantment_glint_override": false
+		}
+	}
+}

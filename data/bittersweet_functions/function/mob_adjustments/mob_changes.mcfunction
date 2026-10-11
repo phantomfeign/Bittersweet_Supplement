@@ -1,12 +1,6 @@
-tag @s add SpawnChecked
+tag @s add bswt.spawnChecked
 #prevent mobs from dropping equipment
-data modify entity @s drop_chances.head set value 0.0f
-data modify entity @s drop_chances.chest set value 0.0f
-data modify entity @s drop_chances.legs set value 0.0f
-data modify entity @s drop_chances.feet set value 0.0f
-data modify entity @s drop_chances.mainhand set value 0.0f
-data modify entity @s drop_chances.offhand set value 0.0f
-
+data modify entity @s drop_chances set value {head:0.0f,chest:0.0f,legs:0.0f,feet:0.0f,mainhand:0.0f,offhand:0.0f} 
 #zombies take 20% knockback
 execute as @s[type=minecraft:zombie] run function bittersweet_functions:mob_adjustments/zombie/on_spawn
 
@@ -44,8 +38,14 @@ execute as @s[type=minecraft:snow_golem] run function bittersweet_functions:mob_
 #elder guardian
 execute as @s[type=minecraft:elder_guardian] run function bittersweet_functions:mob_adjustments/elder_guardian/on_spawn
 
-#evoker
+#evoker has totems and more hp
 execute as @s[type=minecraft:evoker] run function bittersweet_functions:mob_adjustments/evoker/on_spawn
+
+#pillagers can spawn with fireworks 
+execute as @s[type=minecraft:pillager] run function bittersweet_functions:mob_adjustments/pillager/on_spawn
+
+#piglins have gilded crossbows 
+execute as @s[type=minecraft:piglin] run function bittersweet_functions:mob_adjustments/piglin/on_spawn
 
 #wandering trader
 execute as @s[type=minecraft:wandering_trader] run function bittersweet_functions:mob_adjustments/wandering_trader/on_spawn

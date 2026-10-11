@@ -1,0 +1,102 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+            "entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:equipment/gold/golden_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.2,
+								"max": 0.4
+							}
+						}
+					]
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:equipment/gold/golden_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.2,
+								"max": 0.4
+							}
+						}
+					]
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:equipment/gold/golden_leggings",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.2,
+								"max": 0.4
+							}
+						}
+					]
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:equipment/gold/golden_boots",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.2,
+								"max": 0.4
+							}
+						}
+					]
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:equipment/gold/golden_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.2,
+								"max": 0.4
+							}
+						}
+					]
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:equipment/gold/golden_axe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.2,
+								"max": 0.4
+							}
+						}
+					]
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:equipment/gold/golden_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.2,
+								"max": 0.4
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:chests/village/village_armorer"
+}
