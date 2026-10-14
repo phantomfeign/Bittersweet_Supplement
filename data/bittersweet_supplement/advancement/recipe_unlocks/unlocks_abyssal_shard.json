@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "get_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pig_spawn_egg"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:crafting/shards_to_star",
+      "bittersweet_supplement:equipment/amethyst_scythe",
+      "bittersweet_supplement:equipment/rimed_stiletto",
+      "bittersweet_supplement:crafting/verdum_crystal"
+    ]
+  }
+}

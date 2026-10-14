@@ -40,7 +40,8 @@
 						"minecraft:entity_tags":{"all_of":["canDash"]},
 						"flags": {
 							"is_sneaking": true,
-							"is_on_ground": false
+							"is_on_ground": false,
+							"is_in_water": false
 						}
 					}
 				},

@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "bittersweet_supplement:progression/this_realm",
+  "parent": "bittersweet_supplement:progression/bittersweet_supplement",
   "criteria": {
     "acquire abyssal shard or star": {
       "trigger": "minecraft:inventory_changed",

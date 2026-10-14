@@ -1,3 +1,5 @@
+execute as @s[gamemode=creative] run return run item modify entity @s weapon.mainhand bittersweet_functions:crossbow/overload/set_ammo/4
+
 execute if items entity @s weapon.offhand minecraft:stray_spawn_egg run return run function bittersweet_functions:weapons/crossbow/overload/load_cartridge
 execute if items entity @s inventory.* minecraft:stray_spawn_egg run return run function bittersweet_functions:weapons/crossbow/overload/load_cartridge
 execute if items entity @s hotbar.* minecraft:stray_spawn_egg run return run function bittersweet_functions:weapons/crossbow/overload/load_cartridge

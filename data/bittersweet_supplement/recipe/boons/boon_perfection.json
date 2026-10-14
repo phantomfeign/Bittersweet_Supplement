@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "B": "minecraft:villager_spawn_egg",
-    "S": "minecraft:nether_star",
-    "D": "minecraft:diamond_block",
+    "S": "minecraft:pig_spawn_egg",
+    "D": "minecraft:diamond",
     "E": "minecraft:emerald",
-    "G": "minecraft:gold_block"
+    "G": "minecraft:gold_ingot"
   },
   "pattern": [
     "ESE",

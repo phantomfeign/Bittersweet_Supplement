@@ -25,6 +25,7 @@ scoreboard objectives add ArrowZ dummy
 scoreboard objectives add Percent dummy
 scoreboard players set #70 Percent 70
 scoreboard players set #100 Percent 100
+scoreboard players set #200 Percent 200
 
 #fireball
 scoreboard objectives add threw_snowball minecraft.used:minecraft.snowball
@@ -52,6 +53,8 @@ scoreboard objectives add 0.better_consumables.id dummy
 scoreboard objectives add MaxHealth dummy
 scoreboard players add @a MaxHealth 0
 execute as @a store result score @s MaxHealth run attribute @s minecraft:max_health get 1.0
+
+scoreboard objectives add PlayerHealth health
 
 scoreboard objectives add HealthRecoveryTime dummy
 scoreboard objectives add HealthRecoverySeconds dummy
@@ -87,11 +90,27 @@ scoreboard objectives add FireballTimer dummy
 scoreboard objectives add FireTimer dummy
 
 #enchants
+#floruption
+scoreboard objectives add FloruptionStacks dummy
+scoreboard objectives add VerdumPetalTimer dummy
+
+#verdure
+scoreboard objectives add VerdureTimer dummy
+
+#desperation
+scoreboard objectives add HasDesperation dummy
+
 #overload
 scoreboard objectives add arrowCount dummy
 
+#frostbite
+scoreboard objectives add cooldownFrostStomp dummy
+scoreboard objectives add FrostbiteHealth dummy
+scoreboard objectives add FrostbiteTimer dummy
+scoreboard objectives add IceStatueTimer dummy
+
 #laceration
-scoreboard objectives add lacerationTimer dummy
+scoreboard objectives add lacerationStacks dummy
 
 #bounding
 scoreboard objectives add boundingJumps dummy

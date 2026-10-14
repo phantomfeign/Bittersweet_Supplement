@@ -1,11 +1,11 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:flint",
+      "id": "minecraft:wooden_pickaxe",
       "components": {}
     },
     "title": "Flint and.. Sticks?",
-    "description": "Get some flint to make sturdy tools.",
+    "description": "Acquire flint to make primitive tools.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

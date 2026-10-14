@@ -24,21 +24,21 @@
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:block_interaction_range",
-					"id": "bittersweet_supplement:amethyst_scythe",
+					"id": "bswt:amethyst_scythe",
 					"amount": 1,
 					"operation": "add_value",
 					"slot": "hand"
 				},
 				{
 					"type": "minecraft:attack_speed",
-					"id": "bittersweet_supplement:amethyst_scythe",
+					"id": "bswt:amethyst_scythe",
 					"amount": -3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
 					"type": "minecraft:attack_damage",
-					"id": "bittersweet_supplement:amethyst_scythe",
+					"id": "bswt:amethyst_scythe",
 					"amount": 8,
 					"operation": "add_value",
 					"slot": "mainhand"

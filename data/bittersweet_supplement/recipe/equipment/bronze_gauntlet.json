@@ -2,12 +2,11 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"pattern": [
-		"PPP",
-		"B B",
+		"BBB",
+		"BBB",
 		"B B"
 	],
 	"key": {
-		"P": "minecraft:piglin_spawn_egg",
 		"B": "minecraft:horse_spawn_egg"
 	},
 	"result": {

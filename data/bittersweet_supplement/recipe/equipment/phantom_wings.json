@@ -17,7 +17,7 @@
 				"text": "Phantom Wings",
 				"color": "light_purple"
 			},
-			"minecraft:max_damage": 3000
+			"!minecraft:max_damage":{}
 		}
 	}
 }

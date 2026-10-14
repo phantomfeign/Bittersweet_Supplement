@@ -8,12 +8,11 @@
 			"minecraft:string",
 			"minecraft:zombie_spawn_egg"
 		],
-		"R": "minecraft:repeater",
-		"B": "#minecraft:bundles"
+		"R": "minecraft:repeater"
 	},
 	"pattern": [
-		"XRX",
-		"~B~",
+		"XXX",
+		"~R~",
 		" # "
 	],
 	"result": {

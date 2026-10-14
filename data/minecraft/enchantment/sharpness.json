@@ -1,13 +1,6 @@
 {
 	"description": {
-		"translate": "enchantment.minecraft.sharpness",
-		"hover_event": {
-			"action": "show_text",
-			"value": {
-				"text": "Deals an additional 4🗡 after a short delay.",
-				"color": "dark_purple"
-			}
-		}
+		"translate": "enchantment.minecraft.sharpness"
 	},
 	"effects": {
 		"minecraft:post_attack": [
@@ -35,5 +28,6 @@
 		"mainhand"
 	],
 	"supported_items": "#minecraft:enchantable/sharp_weapon",
+	"exclusive_set": "#minecraft:exclusive_set/damage",
 	"weight": 10
 }

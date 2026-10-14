@@ -1,0 +1,66 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"XX#",
+		" #X",
+		"# X"
+	],
+	"key": {
+		"#": "minecraft:stick",
+		"X": "minecraft:bogged_spawn_egg"
+	},
+	"result": {
+		"count": 1,
+		"id": "minecraft:stone_hoe",
+		"components": {
+			"minecraft:item_name": {
+				"text": "Verdum Mattock",
+				"color": "green",
+                "italic": false
+			},
+			"minecraft:item_model": "bittersweet_textures:verdum_mattock",
+			"minecraft:max_damage": 320,
+            "minecraft:repairable": {
+				"items": [
+                    "minecraft:bogged_spawn_egg"    
+				]
+			},
+			"minecraft:enchantment_glint_override":false,
+			"minecraft:enchantments": {
+				"bittersweet_supplement:verdure": 1
+			},
+			"minecraft:custom_data": {
+				"multitool": "mattock"
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 8,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 8,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "8⛏",
+					"color": "gold",
+					"italic": false
+				}
+			]
+		}
+	}
+}

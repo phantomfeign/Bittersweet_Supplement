@@ -4,6 +4,8 @@ $execute if items entity @s $(slot) *[custom_data~{summon_abyss_ray:true}] run f
 
 $execute if items entity @s $(slot) *[custom_data~{summon_sonic_boom:true}] run function bittersweet_functions:loops/actionbar/items/sonic_boom/sonic_boom
 
+$execute if items entity @s $(slot) *[custom_data~{frostbiteStomp:true}] run function bittersweet_functions:loops/actionbar/items/frostbite_stomp/frostbite_stomp
+
 $execute if items entity @s $(slot) *[custom_data~{summon_fangs_straight:true}] run function bittersweet_functions:loops/actionbar/items/tomes/tomes
 $execute if items entity @s $(slot) *[custom_data~{summon_fangs_radius:true}] run function bittersweet_functions:loops/actionbar/items/tomes/tomes
 
@@ -15,3 +17,6 @@ run function bittersweet_functions:loops/actionbar/items/lunge/lunge
 
 $execute if items entity @s $(slot) *[minecraft:enchantments~[{enchantments:"bittersweet_supplement:overload",levels:1}]] \
 run function bittersweet_functions:loops/actionbar/items/overload/overload
+
+$execute if items entity @s $(slot) *[minecraft:enchantments~[{enchantments:"bittersweet_supplement:floruption",levels:1}]] \
+run function bittersweet_functions:loops/actionbar/items/floruption/floruption

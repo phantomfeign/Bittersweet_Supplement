@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"category": "misc",
+	"cookingtime": 100,
+	"ingredient": "minecraft:stick",
+	"result": {
+		"id": "minecraft:torch"
+	}
+}

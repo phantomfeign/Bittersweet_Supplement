@@ -1,0 +1,2 @@
+execute if predicate bittersweet_functions:chance/chance_50 run scoreboard players add @s VerdureTimer 1
+execute if score @s VerdureTimer matches 8.. run function bittersweet_functions:enchantments/verdure/repair

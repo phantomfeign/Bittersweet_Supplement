@@ -1,0 +1,48 @@
+{
+	"criteria": {
+		"blocked_attack": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "bittersweet_supplement:is_melee",
+								"expected": true
+							},
+							{
+								"id": "minecraft:bypasses_armor",
+								"expected": false
+							},
+							{
+								"expected": false,
+								"id": "minecraft:bypasses_invulnerability"
+							}
+						]
+					},
+					"blocked": true
+				}
+			}
+		},
+		"holding_quarterstaff": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:enchantments":[
+              {
+                "enchantments": "bittersweet_supplement:floruption",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bittersweet_functions:enchantments/floruption/block"
+	}
+}

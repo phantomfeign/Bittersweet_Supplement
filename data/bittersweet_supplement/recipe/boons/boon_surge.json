@@ -25,8 +25,7 @@
       "minecraft:item_model": "minecraft:enchanted_book",
       "minecraft:stored_enchantments": {
         "minecraft:piercing": 1,
-        "minecraft:lunge": 1,
-        "bittersweet_supplement:high_stride": 1
+        "minecraft:lunge": 1
       },
       "minecraft:item_name": {
         "text": "Boon of Surge",

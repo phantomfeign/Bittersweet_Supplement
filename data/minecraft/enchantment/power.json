@@ -1,31 +1,31 @@
 {
-	"anvil_cost": 0,
-	"description": {
-		"translate": "enchantment.minecraft.power"
-	},
-	"effects": {
-		"minecraft:damage": [
-			{
-				"effect": {
-					"type": "minecraft:add",
-					"value": 3
-				}
-			}
-		]
-	},
-	"max_cost": {
-		"base": 0,
-		"per_level_above_first": 0
-	},
-	"max_level": 1,
-	"min_cost": {
-		"base": 0,
-		"per_level_above_first": 0
-	},
-	"slots": [
-		"mainhand"
-	],
-	"supported_items":"#minecraft:enchantable/crossbow", 
-	"exclusive_set": "#bittersweet_supplement:exclusive_set/crossbow_variants",
-	"weight": 10
+  "anvil_cost": 0,
+  "description": {
+    "translate": "enchantment.minecraft.power"
+  },
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "bittersweet_functions:enchantments/power_arrows"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/crossbow",
+  "exclusive_set": "#bittersweet_supplement:exclusive_set/crossbow_variants",
+  "weight": 10
 }

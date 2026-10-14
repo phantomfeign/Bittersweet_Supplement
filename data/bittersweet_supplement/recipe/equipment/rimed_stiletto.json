@@ -1,0 +1,74 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:obsidian",
+		"X": "minecraft:pig_spawn_egg",
+		"B": "minecraft:blue_ice"
+	},
+	"pattern": [
+		" B",
+		" X",
+		" #"
+	],
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+            "minecraft:item_name":{
+				"text":"Rimed Stiletto",
+				"color": "light_purple",
+				"italic": false
+			},
+			"minecraft:item_model": "bittersweet_textures:rimed_stiletto",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_speed",
+					"id": "bittersweet_supplement:rimed_stiletto",
+					"amount": -2,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "1🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "2⌚",
+					"color": "yellow",
+					"italic": false
+				},
+				{
+					"text": "[10⌚ RMB]: Shatters the nearest",
+					"color": "light_purple",
+					"italic": false
+				},
+				{
+					"text": "ice statue within 8→ range.",
+					"color": "light_purple",
+					"italic": false
+				}
+			],
+			"minecraft:enchantments": {
+                "bittersweet_supplement:frostbite": 1
+            },
+				"minecraft:consumable": {
+				"animation": "block",
+				"consume_seconds": 9999999,
+				"has_consume_particles": false,
+				"sound": "minecraft:intentionally_empty"
+			},
+				"minecraft:custom_data": {
+				"frostbiteStomp": true,
+				"right_click": true
+			}
+		}
+	}
+}

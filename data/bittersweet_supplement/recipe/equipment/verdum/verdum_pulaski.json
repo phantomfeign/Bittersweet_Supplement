@@ -1,0 +1,67 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"X#X",
+		" #X",
+		" # "
+	],
+	"key": {
+		"#": "minecraft:stick",
+		"X": "minecraft:bogged_spawn_egg"
+	},
+	"result": {
+		"count": 1,
+		"id": "minecraft:stone_axe",
+		"components": {
+			"minecraft:item_name": {
+				"text": "Verdum Pulaski",
+				"color": "green",
+                "italic": false
+			},
+			"minecraft:item_model": "bittersweet_textures:verdum_pulaski",
+			"minecraft:max_damage": 320,
+			"minecraft:damage":0,
+            "minecraft:repairable": {
+				"items": [
+                    "minecraft:bogged_spawn_egg"    
+				]
+			},
+			"minecraft:enchantment_glint_override":false,
+			"minecraft:enchantments": {
+				"bittersweet_supplement:verdure": 1
+			},
+			"minecraft:custom_data": {
+				"multitool": "pulaski"
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 8,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 8,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "8⛏",
+					"color": "gold",
+					"italic": false
+				}
+			]
+		}
+	}
+}

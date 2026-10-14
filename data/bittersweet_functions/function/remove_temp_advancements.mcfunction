@@ -18,14 +18,11 @@ advancement revoke @s only bittersweet_functions:mob_checks/killed_ghast
 
 advancement revoke @s only bittersweet_functions:food/drink_ichor
 
-advancement revoke @s only bittersweet_functions:weapon/fireball
-
 advancement revoke @s only bittersweet_functions:food/stack_sizes
 advancement revoke @s only bittersweet_functions:equipment/check_set_bonus
 advancement revoke @s only bittersweet_functions:equipment/netherite_set_clear_debuffs
 
 advancement revoke @s only bittersweet_functions:weapon/overload/use
 advancement revoke @s only bittersweet_functions:weapon/overload/shot
-advancement revoke @s only bittersweet_functions:equipment/crossbow
 
 advancement revoke @s only bittersweet_functions:misc/right_click

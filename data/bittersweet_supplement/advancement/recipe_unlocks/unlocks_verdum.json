@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "get_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bogged_spawn_egg"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:equipment/verdum/verdum_mattock",
+      "bittersweet_supplement:equipment/verdum/verdum_pulaski",
+      "bittersweet_supplement:equipment/verdum/verdum_quarterstaff"
+    ]
+  }
+}

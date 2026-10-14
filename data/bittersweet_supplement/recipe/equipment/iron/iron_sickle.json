@@ -6,9 +6,9 @@
 		"X": "minecraft:iron_ingot"
 	},
 	"pattern": [
-		"XX",
-		" X",
-		" #"
+		" X ",
+		"  X",
+		"#X "
 	],
 	"result": {
 		"id": "minecraft:iron_hoe",

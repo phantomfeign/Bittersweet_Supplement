@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:diamond",
+	"base": "minecraft:golden_horse_armor",
+	"template": "minecraft:chicken_spawn_egg",
+	"result": {
+		"id": "minecraft:diamond_horse_armor",
+		"components": {
+			"minecraft:max_damage": 600,
+			"minecraft:damage": 0,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "bittersweet:diamond_horse_armor",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "body"
+				},
+				{
+					"type": "minecraft:movement_speed",
+					"id": "bittersweet:diamond_horse_armor_speed",
+					"amount": 0.008,
+					"operation": "add_value",
+					"slot": "body"
+				}
+			],
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond",
+					"minecraft:amethyst_shard"
+				]
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "+5⛨",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "+8%⏩",
+					"color": "blue",
+					"italic": false
+				}
+			]
+		}
+	}
+}

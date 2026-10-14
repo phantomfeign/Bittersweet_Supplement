@@ -44,7 +44,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:max_damage": 3000,
+			"minecraft:max_damage": 4000,
 			"minecraft:item_model": "bittersweet_textures:netherite_mattock"
 		}
 	}

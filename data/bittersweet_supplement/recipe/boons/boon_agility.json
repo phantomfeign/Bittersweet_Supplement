@@ -22,7 +22,8 @@
       "minecraft:item_model": "minecraft:enchanted_book",
       "minecraft:stored_enchantments": {
         "bittersweet_supplement:dashing": 1,
-        "bittersweet_supplement:bounding": 1
+        "bittersweet_supplement:bounding": 1,
+        "bittersweet_supplement:high_stride": 1
       },
       "minecraft:item_name": {
         "text": "Boon of Agility",

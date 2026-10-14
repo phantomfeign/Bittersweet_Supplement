@@ -21,4 +21,14 @@ execute as @e[type=minecraft:pillager,tag=bswt.fireworkPillager] if entity @a[di
 execute as @a at @s run function bittersweet_functions:tick_players
 
 #FIRE DEBUFF
-execute as @e[type=!player,type=!#minecraft:arrows,type=!minecraft:small_fireball,type=!minecraft:fireball,predicate=bittersweet_functions:is_on_fire] at @s run function bittersweet_functions:misc/mob_fire/apply_fire
+execute as @e[type=!player,type=!#minecraft:arrows,type=!minecraft:small_fireball,type=!minecraft:fireball,predicate=bittersweet_functions:is_on_fire] at @s run function bittersweet_functions:misc/mob_effect/fire/apply
+
+#ICE STATUES
+execute as @e[tag=bswt.iceStatue,nbt=!{Health:100.0f}] at @s run function bittersweet_functions:enchantments/frostbite/ice_statue/shatter
+
+#FROSTBITE STOMP
+execute as @e[type=marker,tag=bswt.frostbiteStompMarker] at @s run function bittersweet_functions:enchantments/frostbite/stomp/tick
+
+#FLORUPTION
+execute as @e[type=block_display,tag=bswt.verdumPetal] at @s run function bittersweet_functions:enchantments/floruption/petals/tick
+

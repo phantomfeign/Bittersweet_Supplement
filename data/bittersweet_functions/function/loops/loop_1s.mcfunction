@@ -43,5 +43,11 @@ execute as @e[type=minecraft:enderman] at @s run function bittersweet_functions:
 execute as @e[type=fireball,tag=bswt.player_fireball] run function bittersweet_functions:weapons/fireball/tick
 
 #fire debuff
-execute as @e[type=!#minecraft:arrows,type=!minecraft:small_fireball,type=!minecraft:fireball,tag=isOnFire] if score @s FireTimer matches 1.. run function bittersweet_functions:misc/mob_fire/tick
+execute as @e[type=!#minecraft:arrows,type=!minecraft:small_fireball,type=!minecraft:fireball,tag=isOnFire] if score @s FireTimer matches 1.. run function bittersweet_functions:misc/mob_effect/fire/tick
 
+#laceration
+execute as @e[tag=bswt.lacerated] at @s run function bittersweet_functions:enchantments/laceration/tick
+
+#frostbite
+execute as @e[tag=bswt.iceStatue] if score @s IceStatueTimer matches ..0 run damage @s 1 minecraft:freeze
+execute as @e[tag=bswt.iceStatue] if score @s IceStatueTimer matches 1.. run scoreboard players remove @s IceStatueTimer 1

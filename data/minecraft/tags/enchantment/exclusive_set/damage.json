@@ -3,8 +3,12 @@
     "minecraft:sharpness",
     "minecraft:smite",
     "minecraft:bane_of_arthropods",
+    "minecraft:fire_aspect",
+    "bittersweet_supplement:frostbite",
     "minecraft:density",
     "minecraft:sweeping_edge",
-    "minecraft:breach"
+    "minecraft:breach",
+    "minecraft:fortune",
+    "minecraft:silk_touch"
   ]
 }

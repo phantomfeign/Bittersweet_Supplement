@@ -9,20 +9,6 @@
         "effect": {
           "type": "minecraft:set",
           "value": 0
-        },
-        "requirements": {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "items": "minecraft:arrow"
-          }
-        }
-      }
-    ],
-    "minecraft:projectile_spawned": [
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "bittersweet_functions:enchantments/infinity_arrows"
         }
       }
     ]

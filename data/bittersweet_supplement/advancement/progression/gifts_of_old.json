@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "bittersweet_supplement:progression/this_realm",
+  "parent": "bittersweet_supplement:progression/first_place",
   "criteria": {
     "acquire empty boon": {
       "trigger": "minecraft:inventory_changed",

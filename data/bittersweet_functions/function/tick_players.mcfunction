@@ -9,6 +9,14 @@ execute as @s[scores={threw_snowball=1..}] at @s run function bittersweet_functi
 
 #hefty
 execute if predicate bittersweet_functions:enchantment/hefty run function bittersweet_functions:utility/swap_hands
-#overload cartridges
-execute if predicate bittersweet_functions:enchantment/overload unless items entity @s saddle minecraft:arrow run function bittersweet_functions:weapons/crossbow/ghost_arrow/check
-execute unless predicate bittersweet_functions:enchantment/overload if items entity @s saddle minecraft:arrow run function bittersweet_functions:weapons/crossbow/ghost_arrow/remove
+
+#arrows
+execute if predicate bittersweet_functions:needs_ghost_arrow unless items entity @s saddle minecraft:arrow \
+run function bittersweet_functions:weapons/crossbow/ghost_arrow/check
+
+execute unless predicate bittersweet_functions:needs_ghost_arrow if items entity @s saddle minecraft:arrow \
+run function bittersweet_functions:weapons/crossbow/ghost_arrow/remove
+
+#desperation
+execute store success score @s HasDesperation run attribute @s minecraft:attack_speed modifier value get bswt:desperation 1
+execute if score @s HasDesperation matches 1 unless predicate bittersweet_functions:enchantment/desperation run attribute @s minecraft:attack_speed modifier remove bswt:desperation

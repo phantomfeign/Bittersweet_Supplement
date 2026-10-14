@@ -39,6 +39,16 @@ execute unless score @s cooldownSonicAmplifier matches 10.. run scoreboard playe
 #rapier dash
 execute unless score @s cooldownRapierDash matches 4.. run scoreboard players add @s cooldownRapierDash 1
 
+#frostbite
+execute unless score @s cooldownFrostStomp matches 10.. run scoreboard players add @s cooldownFrostStomp 1
+
+    #ENCHANT CD
+#VERDURE
+execute if predicate bittersweet_functions:enchantment/verdure/either_hand if predicate bittersweet_functions:enchantment/verdure/light run function bittersweet_functions:enchantments/verdure/tick
+
+#FLORUTPION
+execute if entity @s[tag=bswt.floruptionCaster] unless entity @e[type=minecraft:block_display,tag=bswt.verdumPetal,distance=..20] run tag @s remove bswt.floruptionCaster
+
 #actionbar cooldown display
 function bittersweet_functions:loops/actionbar/build/call
 

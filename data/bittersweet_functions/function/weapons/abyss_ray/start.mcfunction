@@ -4,6 +4,9 @@ scoreboard players set @s abyssRayPass 0
 tag @s add abyssRayOwner
 function bittersweet_functions:utility/damage_item/calculate {dmg:1}
 playsound minecraft:entity.player.teleport player @a ~ ~ ~ 4 2
+playsound entity.ender_eye.death player @a ~ ~ ~ 4 2
+playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 4 2
+playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 4 1
 
 function bittersweet_functions:weapons/abyss_ray/segment {dist:0.5}
 execute if score @s abyssRayPass matches 1.. run return fail

@@ -5,3 +5,4 @@ $execute if items entity @s $(slot) *[custom_data~{summon_fangs_straight:true}] 
 $execute if items entity @s $(slot) *[custom_data~{summon_fangs_radius:true}] run function bittersweet_functions:weapons/fanged_summon/summon_fangs_radius/first
 $execute if items entity @s $(slot) *[custom_data~{summon_sonic_boom:true}] at @s run function bittersweet_functions:weapons/sonic_boom/start
 $execute if items entity @s $(slot) *[custom_data~{rapier_dash:true}] at @s run function bittersweet_functions:weapons/rapier_dash/dash
+$execute if items entity @s $(slot) *[custom_data~{frostbiteStomp:true}] at @s run function bittersweet_functions:enchantments/frostbite/stomp/start

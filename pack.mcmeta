@@ -142,6 +142,9 @@
       "path": "^recipe/conduit\\.json$"
     },{
       "namespace": "minecraft",
+      "path": "^recipe/glow_item_frame\\.json$"
+    },{
+      "namespace": "minecraft",
       "path": "^recipe/end_rod\\.json$"
     },{
       "namespace": "minecraft",
@@ -272,6 +275,9 @@
       "namespace": "minecraft",
       "path": "^recipe/netherite_upgrade_smithing_template\\.json$"
     },{      
+      "namespace": "minecraft",
+      "path": "^recipe/netherite_horse_armor_smithing\\.json$"
+    },{
       "namespace": "minecraft",
       "path": "^recipe/netherite_spear_smithing\\.json$"
     },{

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "minecraft:leather",
+		"T": "minecraft:torch"
+	},
+	"pattern": [
+		"###",
+		"#X#",
+		"#T#"
+	],
+	"result": {
+		"id": "minecraft:glow_item_frame"
+	}
+}

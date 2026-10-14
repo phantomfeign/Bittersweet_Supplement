@@ -1,0 +1,66 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"weapon.mainhand": {
+						"items": "minecraft:crossbow",
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "bittersweet_supplement:overload",
+									"levels": {
+										"min": 1
+									}
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"weapon.mainhand": {
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "minecraft:infinity",
+									"levels": {
+										"min": 1
+									}
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"weapon.offhand": {
+						"predicates": {
+							"minecraft:enchantments": [
+								{
+									"enchantments": "minecraft:infinity",
+									"levels": {
+										"min": 1
+									}
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	]
+}

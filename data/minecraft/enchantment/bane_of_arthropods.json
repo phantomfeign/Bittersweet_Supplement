@@ -3,50 +3,49 @@
 		"translate": "enchantment.minecraft.bane_of_arthropods"
 	},
 	"effects": {
-		"minecraft:damage": [
+		"minecraft:tick": [
 			{
 				"effect": {
-					"type": "minecraft:add",
-					"value": 4
-				},
-				"requirements": {
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#minecraft:sensitive_to_bane_of_arthropods"
-					}
+					"type": "minecraft:run_function",
+					"function": "bittersweet_functions:enchantments/desperation/buff"
 				}
 			}
 		],
 		"minecraft:post_attack": [
 			{
-				"affected": "victim",
-				"enchanted": "attacker",
+				"requirements": {
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:entity_type": "#bittersweet_functions:nonliving_entity"
+						}
+					}
+				},
 				"effect": {
-					"type": "minecraft:apply_mob_effect",
-					"max_amplifier": 0,
-					"min_amplifier": 0,
-					"max_duration": 2,
-					"min_duration": 1,
-					"to_apply": "minecraft:slowness"
-				}
+					"type": "minecraft:run_function",
+					"function": "bittersweet_functions:enchantments/desperation/lifesteal"
+				},
+				"enchanted": "attacker",
+				"affected": "attacker"
 			}
 		]
 	},
-	"exclusive_set": "#minecraft:exclusive_set/damage",
-	"anvil_cost": 0,
+	"anvil_cost": 1,
 	"max_cost": {
-		"base": 0,
-		"per_level_above_first": 0
+		"base": 1,
+		"per_level_above_first": 1
 	},
 	"max_level": 1,
 	"min_cost": {
-		"base": 0,
-		"per_level_above_first": 0
+		"base": 1,
+		"per_level_above_first": 1
 	},
 	"slots": [
 		"mainhand"
 	],
 	"supported_items": "#minecraft:enchantable/melee_weapon",
-	"weight": 5
+	"exclusive_set": "#minecraft:exclusive_set/damage",
+	"weight": 10
 }
