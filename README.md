@@ -66,7 +66,7 @@ Bittersweet Supplement is a Minecraft datapack project focused on slowing down p
   
 # New Content
 ## General
-- Pulaskis (Shovel+Axe) and Mattocks (Pickaxe+Hoe) are made with one piece of the next tier in progression. They are more durable, but slower than their non multitool counterparts.
+- Pulaskis (Shovel-Axes) and Mattocks (Pickaxe-Hoes) are made with one piece of the next tier in progression. They are more durable, but slower than their non multitool counterparts.
 - New tier-exclusive weapons have been added to serve specific purposes for their stages of the game.
 - New weapons to fit specific gaps in equipment niches.
 - 3+ New structures!
@@ -86,4 +86,3 @@ Bittersweet Supplement is a Minecraft datapack project focused on slowing down p
 - Gilded Crossbow: Comes with Quick Charge, which has been buffed to shoot even faster.
 - Chambered Crossbow: Comes with Overload, loading up to 5 arrows at once.
 
-# References
