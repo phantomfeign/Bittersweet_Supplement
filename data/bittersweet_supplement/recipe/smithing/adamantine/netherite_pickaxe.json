@@ -5,7 +5,7 @@
   "result": {
     "id": "minecraft:netherite_pickaxe",
       "components": {
-      "minecraft:max_damage": 2200,
+      "minecraft:max_damage": 3000,
       "minecraft:damage": 0,
 			"!minecraft:attribute_modifiers": {},
 			"minecraft:tool": {

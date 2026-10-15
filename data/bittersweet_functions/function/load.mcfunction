@@ -3,6 +3,9 @@ tellraw @a {"text":"Lost? Check the Advancement Menu!","color":"#9fa654"}
 
 schedule function bittersweet_functions:loops/loop_1s 1t
 schedule function bittersweet_functions:loops/loop_0.5s 2t
+schedule function bittersweet_functions:time_extender 3t
+schedule function bittersweet_functions:misc/campfire/check 4t
+
 execute as @a run function bittersweet_functions:remove_temp_advancements
 
 #sleep
@@ -145,6 +148,4 @@ gamerule block_explosion_drop_decay false
 gamerule mob_explosion_drop_decay false
 gamerule ender_pearls_vanish_on_death false
 gamerule command_block_output false
-schedule function bittersweet_functions:time_extender 2t
-schedule function bittersweet_functions:misc/campfire/check 2t
 

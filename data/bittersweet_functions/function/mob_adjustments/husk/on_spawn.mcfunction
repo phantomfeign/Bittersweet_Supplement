@@ -15,6 +15,6 @@ attribute @s minecraft:follow_range base set 50
 attribute @s minecraft:scale base set 1.1
 attribute @s minecraft:movement_speed base set 0.25
 attribute @s minecraft:water_movement_efficiency base set 1
-attribute @s minecraft:attack_damage base set 3
+attribute @s minecraft:attack_damage base set 4
 attribute @s minecraft:knockback_resistance base set 0.8
 attribute @s minecraft:step_height base set 2

@@ -2,10 +2,7 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
-			"rolls": {
-				"min": 3,
-				"max": 5
-			},
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -13,8 +10,8 @@
 						{
 							"count": {
 								"type": "minecraft:uniform",
-								"max": 2,
-								"min": 1
+								"max": 5,
+								"min": 4
 							},
 							"function": "minecraft:set_count"
 						},
@@ -27,7 +24,15 @@
 					],
 					"name": "minecraft:bogged_spawn_egg",
 					"weight": 3
-				},
+				}
+			]
+		},
+		{
+			"rolls": {
+				"max": 4,
+				"min": 3
+			},
+			"entries": [
 				{
 					"type": "minecraft:item",
 					"functions": [
