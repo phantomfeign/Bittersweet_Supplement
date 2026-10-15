@@ -1,8 +1,8 @@
-# Philosophy
-Bittersweet Supplement is a Minecraft datapack project focused on slowing down progression while giving some unknown or obscure mechanics and items more uses and time in the spotlight. I also aim to reward exploration and remove the need for redstone farms and mob grinders.
-
 # Special Thanks
 To D.R, D.A, Ink, Pepper, P.C, and all my friends in general for supporting me, giving me feedback, and contributing to the mod via ideas or critique.
+
+# Philosophy
+Bittersweet Supplement is a Minecraft datapack project focused on slowing down progression while giving some unknown or obscure mechanics and items more uses and time in the spotlight. I also aim to reward exploration and remove the need for redstone farms and mob grinders.
 
 # Changes
 ## Enchanting and Repairing
