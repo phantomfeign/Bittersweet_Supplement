@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bittersweet_functions:mob_adjustments/warden/stunned_by_horn"
+		"function": "bittersweet_functions:mob_adjustments/individual_mobs/warden/stunned_by_horn"
 	}
 }

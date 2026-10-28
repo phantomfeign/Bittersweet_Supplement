@@ -1,0 +1,79 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:shield",
+	"addition": "minecraft:goat_spawn_egg",
+	"result": {
+		"id": "minecraft:shield",
+		"components": {
+			"minecraft:item_name": "Magnetic Shield",
+			"minecraft:item_model": "minecraft:shield",
+			"minecraft:max_damage": 800,
+			"minecraft:damage": 0,
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:banner_patterns"
+				]
+			},
+			"minecraft:custom_data": {
+				"bswt.attractsItems": true
+			},
+			"banner_patterns": [
+				{
+					"pattern": "minecraft:half_vertical_right",
+					"color": "red"
+				},
+				{
+					"pattern": "half_vertical",
+					"color": "blue"
+				},
+				{
+					"pattern": "gradient_up",
+					"color": "black"
+				},
+				{
+					"pattern": "stripe_bottom",
+					"color": "gray"
+				},
+				{
+					"pattern": "stripe_center",
+					"color": "black"
+				},
+				{
+					"pattern": "triangles_bottom",
+					"color": "gray"
+				},
+				{
+					"pattern": "border",
+					"color": "black"
+				}
+			],
+			"minecraft:lore": [
+				{
+					"text": "Attracts items, moreso while sneaking.",
+					"color": "gray"
+				},
+				{
+					"text": "🛡: 90%",
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:iron_ingot"
+				]
+			},
+			"minecraft:blocks_attacks": {
+				"damage_reductions": [
+					{
+						"base": 0,
+						"factor": 0.9
+					}
+				],
+				"block_sound": "minecraft:item.shield.block",
+				"disabled_sound": "minecraft:item.shield.break"
+			},
+            "!minecraft:equippable": {}
+		}
+	}
+}

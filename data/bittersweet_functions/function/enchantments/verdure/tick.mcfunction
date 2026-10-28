@@ -1,2 +1,3 @@
-execute if predicate bittersweet_functions:chance/chance_50 run scoreboard players add @s VerdureTimer 1
-execute if score @s VerdureTimer matches 8.. run function bittersweet_functions:enchantments/verdure/repair
+execute if predicate bittersweet_functions:chance/chance_10 run return fail
+execute if predicate bittersweet_functions:enchantment/verdure/mainhand run function bittersweet_functions:utility/bswt.damage_item/calculate {heal:1,dmg:0,hand_slot:weapon.mainhand,slot:SelectedItem}
+execute if predicate bittersweet_functions:enchantment/verdure/offhand run function bittersweet_functions:utility/bswt.damage_item/calculate {heal:1,dmg:0,hand_slot:"weapon.offhand",slot:equipment.offhand}

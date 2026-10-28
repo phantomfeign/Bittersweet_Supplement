@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:crying_obsidian"
+		},
+		"title": "Eternal Damnation",
+		"description": "Enter Tartarus.",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "bittersweet_supplement:progression/bucket_lava",
+	"criteria": {
+		"enter": {
+			"trigger": "minecraft:nether_travel"
+		}
+	}
+}

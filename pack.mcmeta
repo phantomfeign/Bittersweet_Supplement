@@ -4,15 +4,15 @@
         "max_format": [107,1],
         "description": [
             {
-                "text": "Bittersweet Supplement v1.0.6 for Java 1.26.2",
-                "color": "#a1d09a"
+                "text": "Bittersweet Supplement for Java 26.2",
+                "color": "#e9dee9"
             },
             {
                 "text": "\n"
             },
             {
                 "text": "by phantomfeign",
-                "color": "#767876"
+                "color": "#a990a9"
             }
         ]
     },
@@ -172,17 +172,22 @@
     },{
       "namespace": "minecraft",
       "path": "^recipe/quartz_from_blasting\\.json$"
-
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/bamboo_planks\\.json$"
 
     }
     ,
     {
-  
+
       "namespace": "minecraft",
       "path": "^recipe/turtle_helmet\\.json$"
     },{
       "namespace": "minecraft",
       "path": "^recipe/bundle\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/lead\\.json$"
     },{
       "namespace": "minecraft",
       "path": "^recipe/leather_helmet\\.json$"
@@ -229,6 +234,9 @@
       "path": "^recipe/wooden_hoe\\.json$"
     },{
       "namespace": "minecraft",
+      "path": "^recipe/fishing_rod\\.json$"
+    },{
+      "namespace": "minecraft",
       "path": "^recipe/arrow\\.json$"
 
     }
@@ -267,6 +275,9 @@
     },{
       "namespace": "minecraft",
       "path": "^recipe/copper_boots\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/spyglass\\.json$"
 
     }
     ,
@@ -384,6 +395,9 @@
     },{
       "namespace": "minecraft",
       "path": "^recipe/iron_boots\\.json$"
+    },{
+      "namespace": "minecraft",
+      "path": "^recipe/shears\\.json$"
     },{
       "namespace": "minecraft",
       "path": "^recipe/iron_ingot_from_smelting_raw_iron\\.json$"

@@ -26,12 +26,12 @@
 				"rules": [
 					{
 						"blocks": "#minecraft:mineable/pickaxe",
-						"speed": 5,
+						"speed": 6,
 						"correct_for_drops": true
 					},
 					{
 						"blocks": "#minecraft:mineable/hoe",
-						"speed": 5,
+						"speed": 6,
 						"correct_for_drops": true
 					}
 				],
@@ -46,7 +46,7 @@
 			"minecraft:lore": [
 				
 				{
-					"text": "5⛏",
+					"text": "6⛏",
 					"color": "gold",
 					"italic": false
 				}

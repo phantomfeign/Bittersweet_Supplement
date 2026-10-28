@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-        "function":"bittersweet_functions:mob_adjustments/phantom/phantom_heal"
+        "function":"bittersweet_functions:mob_adjustments/individual_mobs/phantom/kill_player"
     }
 }

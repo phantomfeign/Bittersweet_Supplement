@@ -1,0 +1,93 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:iron_ingot",
+		"X": "minecraft:bogged_spawn_egg",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"XXX",
+		" # ",
+		" S "
+	],
+	"result": {
+		"id": "minecraft:trident",
+		"components": {
+			"minecraft:item_model": "bittersweet_textures:verdum_piercer",
+			"minecraft:item_name": {
+				"text": "Verdum Piercer",
+				"color": "green"
+			},
+            "minecraft:max_damage":600,
+			"minecraft:damage":0,
+            "minecraft:repairable": {
+				"items": [
+					"minecraft:iron_ingot",
+                    "minecraft:bogged_spawn_egg"    
+				]
+			},
+
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_speed",
+					"id": "bswt:verdum_piercer",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_damage",
+					"id": "bswt:verdum_piercer",
+					"amount": 6,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "7🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "1.6⌚",
+					"color": "yellow",
+					"italic": false
+				},
+				{
+					"text": "+0.5→",
+					"color": "green",
+					"italic": false
+				}
+			],
+			"minecraft:piercing_weapon": {
+				"deals_knockback": true,
+				"dismounts": true,
+				"sound": "minecraft:item.spear.attack",
+				"hit_sound": "minecraft:item.spear.hit"
+			},
+			"minecraft:attack_range": {
+				"min_reach": 1,
+				"max_reach": 3.5,
+				"min_creative_reach": 1,
+				"max_creative_reach": 3.5
+			},
+			"minecraft:swing_animation": {
+				"type": "stab",
+				"duration": 12
+			},
+			"minecraft:minimum_attack_charge": 1,
+			"minecraft:enchantments": {
+				"bittersweet_supplement:verdure": 1,
+				"bittersweet_supplement:viper": 1,
+				"bittersweet_supplement:hook": 1
+			}
+		}
+	}
+}

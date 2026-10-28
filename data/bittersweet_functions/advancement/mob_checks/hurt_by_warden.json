@@ -14,6 +14,6 @@
     }
   },
   "rewards": {
-    "function": "bittersweet_functions:mob_adjustments/warden/revoke_hurt"
+    "function": "bittersweet_functions:mob_adjustments/individual_mobs/warden/revoke_hurt"
   }
 }

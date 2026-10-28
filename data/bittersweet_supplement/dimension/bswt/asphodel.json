@@ -1,0 +1,11 @@
+{
+	"type": "bittersweet_supplement:asphodel",
+	"generator": {
+		"type": "minecraft:noise",
+		"biome_source": {
+			"type": "minecraft:fixed",
+			"biome": "bittersweet_supplement:asphodel_pale_garden"
+		},
+		"settings": "minecraft:floating_islands"
+	}
+}

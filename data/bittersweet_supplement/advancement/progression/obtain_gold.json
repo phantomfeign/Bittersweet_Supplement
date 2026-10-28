@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot",
+      "components": {}
+    },
+    "title": "Gold Rush",
+    "description": "\"We\"re rich! Rich and gay.\"",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/obtain_copper",
+  "criteria": {
+    "acquire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot",
+              "minecraft:golden_spear",
+              "minecraft:golden_sword",
+              "minecraft:golden_axe",
+              "minecraft:golden_pickaxe",
+              "minecraft:golden_shovel",
+              "minecraft:golden_hoe",
+
+              "minecraft:golden_helmet",
+              "minecraft:golden_chestplate",
+              "minecraft:golden_leggings",
+              "minecraft:golden_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bittersweet_functions:mob_adjustments/equipment/tier_progression/gold"
+  }
+}

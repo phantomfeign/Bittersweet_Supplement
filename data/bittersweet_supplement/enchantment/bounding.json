@@ -76,7 +76,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "bittersweet_functions:enchantments/bounding/tp"
+							"function": "bittersweet_functions:enchantments/tp"
 						},
 						{
 							"type": "minecraft:apply_impulse",

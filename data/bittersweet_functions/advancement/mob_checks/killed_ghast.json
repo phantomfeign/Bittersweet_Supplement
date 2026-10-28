@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bittersweet_functions:mob_adjustments/ghast/loot"
+		"function": "bittersweet_functions:mob_adjustments/individual_mobs/ghast/loot"
 	}
 }

@@ -1,4 +1,5 @@
-playsound minecraft:item.shield.block player @a ~ ~ ~ 3 1.3
+playsound minecraft:item.shield.block player @a ~ ~ ~ 3 2
+playsound minecraft:block.wood.break player @a ~ ~ ~ 3 1
 advancement revoke @s only bittersweet_functions:weapon/floruption/block
 tag @s remove bswt.floruption1
 tag @s remove bswt.floruption2

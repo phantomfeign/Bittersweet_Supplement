@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:iron_ingot",
+    "R": "minecraft:red_dye",
+    "B": "minecraft:blue_dye"
+  },
+  "pattern": [
+    "R B",
+    "X X",
+    "XXX"
+  ],
+  "result": {
+    "id": "minecraft:goat_spawn_egg",
+    "components": {
+        "!minecraft:entity_data": {},
+        "minecraft:max_stack_size":1,
+        "minecraft:item_name": "Magnet",
+        "minecraft:item_model": "bittersweet_textures:magnet",
+        "minecraft:max_damage": 1000,
+        "minecraft:damage":0,
+        "minecraft:custom_data": {"bswt.attractsItems":true},
+			"minecraft:lore": [
+				{
+					"text": "Attracts items, moreso while sneaking.",
+					"color": "gray"
+				}
+			]
+        }
+    }
+}

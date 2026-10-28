@@ -1,0 +1,1 @@
+execute if score #global MobEquipmentTier matches ..1 run scoreboard players set #global MobEquipmentTier 2

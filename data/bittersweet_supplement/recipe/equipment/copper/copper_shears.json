@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:copper_ingot"
+	},
+	"pattern": [
+		" #",
+		"# "
+	],
+	"result": {
+		"id": "minecraft:shears",
+		"components": {
+			"minecraft:item_name": {
+				"text": "Copper Shears",
+				"italic": false
+			},
+			"minecraft:item_model": "bittersweet_textures:copper_shears",
+			"minecraft:max_damage":300
+		}
+	}
+}

@@ -50,7 +50,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "bittersweet_functions:enchantments/dashing/tp"
+							"function": "bittersweet_functions:enchantments/tp"
 						},
 						{
 							"type": "minecraft:apply_impulse",

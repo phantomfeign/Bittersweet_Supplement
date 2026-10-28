@@ -28,7 +28,8 @@
       "bittersweet_supplement:equipment/copper/copper_leggings",
       "bittersweet_supplement:equipment/copper/copper_boots",
       
-      "minecraft:shears",
+      "bittersweet_supplement:equipment/copper/copper_shears",
+      "bittersweet_supplement:equipment/copper/spy_glass",
       "minecraft:bucket",
 
       "bittersweet_supplement:crafting/copper_wire",

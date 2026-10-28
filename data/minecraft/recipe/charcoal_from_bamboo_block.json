@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "minecraft:bamboo_block",
+  "result": {
+    "id": "minecraft:charcoal",
+    "count":2
+  }
+}

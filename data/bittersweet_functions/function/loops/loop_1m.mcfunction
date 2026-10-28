@@ -1,0 +1,2 @@
+schedule function bittersweet_functions:loops/loop_1m 60s
+function bittersweet_functions:loops/loop_1m_player

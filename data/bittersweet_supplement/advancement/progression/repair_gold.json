@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_hoe",
+      "components": {}
+    },
+    "title": "Worth Its Weight",
+    "description": "Throw a gold ingot on top of damaged gold equipment.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/obtain_gold",
+  "criteria": {
+    "nope": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

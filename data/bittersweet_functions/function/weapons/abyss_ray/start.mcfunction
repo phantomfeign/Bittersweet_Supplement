@@ -1,30 +1,14 @@
 execute unless score @s cooldownAbyssRay matches 5.. run return fail
 scoreboard players set @s cooldownAbyssRay 0
-scoreboard players set @s abyssRayPass 0
-tag @s add abyssRayOwner
-function bittersweet_functions:utility/damage_item/calculate {dmg:1}
+tag @s add bswt.abyssRayOwner
+$function bittersweet_functions:utility/bswt.damage_item/calculate {heal:0,dmg:1,slot:$(slot),hand_slot:$(hand_slot)}
 playsound minecraft:entity.player.teleport player @a ~ ~ ~ 4 2
 playsound entity.ender_eye.death player @a ~ ~ ~ 4 2
 playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 4 2
 playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 4 1
 
-function bittersweet_functions:weapons/abyss_ray/segment {dist:0.5}
-execute if score @s abyssRayPass matches 1.. run return fail
-function bittersweet_functions:weapons/abyss_ray/segment {dist:1}
-execute if score @s abyssRayPass matches 1.. run return fail
-function bittersweet_functions:weapons/abyss_ray/segment {dist:2}
-execute if score @s abyssRayPass matches 1.. run return fail
-function bittersweet_functions:weapons/abyss_ray/segment {dist:3}
-execute if score @s abyssRayPass matches 1.. run return fail
-function bittersweet_functions:weapons/abyss_ray/segment {dist:4}
-execute if score @s abyssRayPass matches 1.. run return fail
-function bittersweet_functions:weapons/abyss_ray/segment {dist:5}
-execute if score @s abyssRayPass matches 1.. run return fail
-function bittersweet_functions:weapons/abyss_ray/segment {dist:6}
-execute if score @s abyssRayPass matches 1.. run return fail
-function bittersweet_functions:weapons/abyss_ray/segment {dist:7}
-execute if score @s abyssRayPass matches 1.. run return fail
-function bittersweet_functions:weapons/abyss_ray/segment {dist:8}
-execute if score @s abyssRayPass matches 1.. run return fail
+execute anchored eyes run summon minecraft:marker ^ ^ ^1 {Tags:["bswt.abyss_ray"]}
+execute as @e[sort=nearest,limit=1,type=minecraft:marker,tag=bswt.abyss_ray] \
+rotated as @e[sort=nearest,limit=1,type=minecraft:player,tag=bswt.abyssRayOwner] run rotate @s ~ ~
 
-tag @s remove abyssRayOwner
+tag @s remove bswt.abyssRayOwner

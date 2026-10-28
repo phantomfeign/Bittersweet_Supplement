@@ -6,7 +6,7 @@
   "effects": {
     "minecraft:attributes": [
       {
-        "amount": -0.3,
+        "amount": -0.4,
         "attribute": "minecraft:burning_time",
         "id": "minecraft:enchantment.fire_protection",
         "operation": "add_multiplied_base"

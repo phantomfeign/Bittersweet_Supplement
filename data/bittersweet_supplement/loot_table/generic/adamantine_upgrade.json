@@ -1,0 +1,55 @@
+    {
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:hoglin_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+                            "components": {
+                                "!minecraft:entity_data": {},
+                                "minecraft:item_name": {
+                                "text": "Adamantine Upgrade",
+                                "color": "yellow",
+                                "italic": false
+                            },
+                            "minecraft:lore": [
+                                {
+                                "text": "Smithing Template",
+                                "color": "gray",
+                                "italic": false
+                                },
+                                "",
+                                {
+                                "text": "Applies to:",
+                                "color": "gray",
+                                "italic": false
+                                },
+                                {
+                                "text": " Gilded Equipment",
+                                "color": "blue",
+                                "italic": false
+                                },
+                                {
+                                "text": "Ingredients:",
+                                "color": "gray",
+                                "italic": false
+                                },
+                                {
+                                "text": " Adamantine Ingot",
+                                "color": "blue",
+                                "italic": false
+                                }
+                            ]
+                            } 
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "bittersweet_supplement:generic/adamantine_upgrade"
+}

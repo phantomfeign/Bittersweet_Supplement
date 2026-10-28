@@ -263,8 +263,8 @@
 		{
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:hoglin_spawn_egg"
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/adamantine_upgrade"
 				}
 			],
 			"rolls": 1

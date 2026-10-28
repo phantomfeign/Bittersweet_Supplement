@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": [
+        "minecraft:string",
+        "minecraft:zombie_spawn_egg"
+    ]
+  },
+  "pattern": [
+    "XX ",
+    "XX ",
+    "  X"
+  ],
+  "result": {
+    "id": "minecraft:lead"
+  }
+}

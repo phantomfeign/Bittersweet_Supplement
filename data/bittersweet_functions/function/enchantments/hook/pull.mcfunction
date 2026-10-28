@@ -1,17 +1,21 @@
 #get attacker pos
 execute on attacker store result score #attacker_x calc run data get entity @s Pos[0] 1000
+execute on attacker store result score #attacker_y calc run data get entity @s Pos[1] 1000
 execute on attacker store result score #attacker_z calc run data get entity @s Pos[2] 1000
 
 #get victim pos
 execute store result score #victim_x calc run data get entity @s Pos[0] 1000
+execute store result score #victim_y calc run data get entity @s Pos[1] 1000
 execute store result score #victim_z calc run data get entity @s Pos[2] 1000
 
 #distance set
 scoreboard players operation #attacker_x calc -= #victim_x calc
+scoreboard players operation #attacker_y calc -= #victim_y calc
 scoreboard players operation #attacker_z calc -= #victim_z calc
 
 #divide by 1000ish
 execute store result storage bswt:hook.pull MotionX double 0.0003 run scoreboard players get #attacker_x calc
+execute store result storage bswt:hook.pull MotionY double 0.0002 run scoreboard players get #attacker_y calc
 execute store result storage bswt:hook.pull MotionZ double 0.0003 run scoreboard players get #attacker_z calc
 
 #sound

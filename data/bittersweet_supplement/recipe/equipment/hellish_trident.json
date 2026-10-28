@@ -1,0 +1,88 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:netherite_ingot",
+		"X": "minecraft:gold_ingot"
+	},
+	"pattern": [
+		"X#X",
+		" X ",
+		" X "
+	],
+	"result": {
+		"id": "minecraft:trident",
+		"components": {
+			"minecraft:item_model": "bittersweet_textures:hellish_trident",
+			"minecraft:item_name": {
+				"text": "Hellish Trident",
+				"color": "light_purple"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_speed",
+					"id": "bswt:hellish_trident",
+					"amount": -3,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_damage",
+					"id": "bswt:hellish_trident",
+					"amount": 8,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "9🗡",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "1.0⌚",
+					"color": "yellow",
+					"italic": false
+				},
+				{
+					"text": "+0.5→",
+					"color": "green",
+					"italic": false
+				}
+			],
+			"minecraft:max_damage": 3000,
+			"minecraft:piercing_weapon": {
+				"deals_knockback": true,
+				"dismounts": true,
+				"sound": "minecraft:item.spear.attack",
+				"hit_sound": "minecraft:item.spear.hit"
+			},
+			"minecraft:attack_range": {
+				"min_reach": 1,
+				"max_reach": 3.5,
+				"min_creative_reach": 1,
+				"max_creative_reach": 3.5
+			},
+			"minecraft:swing_animation": {
+				"type": "stab",
+				"duration": 12
+			},
+			"minecraft:minimum_attack_charge": 1,
+			"minecraft:enchantments": {
+				"minecraft:loyalty": 1
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:netherite_ingot",
+					"minecraft:gold_block"
+				]
+			}
+		}
+	}
+}

@@ -8,5 +8,5 @@ execute if score @s HealthRecoverySeconds matches 60.. run title @s actionbar [{
 {"text":"/15","bold":false,"color":"white"}]
 execute if score @s HealthRecoverySeconds matches 60.. run scoreboard players remove @s HealthRecoverySeconds 60
 
-execute if score @s HealthRecoveryTime matches 15.. run function bittersweet_functions:misc/health/increase_hp
+execute if score @s HealthRecoveryTime matches 15.. unless score @s MaxHealth matches 20.. run function bittersweet_functions:misc/health/increase_hp
 

@@ -79,7 +79,8 @@
 			},
 			"minecraft:repairable": {
 				"items": [
-					"minecraft:iron_block"
+					"minecraft:diamond",
+					"minecraft:amethyst_shard"
 				]
 			},
 			"minecraft:tool": {

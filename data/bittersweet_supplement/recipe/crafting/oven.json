@@ -5,12 +5,12 @@
     "#": "#minecraft:logs",
     "X": "minecraft:campfire",
     "S": "minecraft:stone",
-    "C": "minecraft:copper_block"
+    "B": "minecraft:bricks"
   },
   "pattern": [
-    "S#S",
+    "SSS",
     "#X#",
-    "SCS"
+    "BBB"
   ],
   "result": {
     "id": "minecraft:smoker"

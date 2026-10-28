@@ -1,0 +1,16 @@
+particle minecraft:electric_spark ~8 ~0 ~0 0 0 0 0 1
+particle minecraft:electric_spark ~7.391 ~0 ~3.061 0 0 0 0 1
+particle minecraft:electric_spark ~5.657 ~0 ~5.657 0 0 0 0 1
+particle minecraft:electric_spark ~3.061 ~0 ~7.391 0 0 0 0 1
+particle minecraft:electric_spark ~0 ~0 ~8 0 0 0 0 1
+particle minecraft:electric_spark ~-3.061 ~0 ~7.391 0 0 0 0 1
+particle minecraft:electric_spark ~-5.657 ~0 ~5.657 0 0 0 0 1
+particle minecraft:electric_spark ~-7.391 ~0 ~3.061 0 0 0 0 1
+particle minecraft:electric_spark ~-8 ~0 ~0 0 0 0 0 1
+particle minecraft:electric_spark ~-7.391 ~0 ~-3.061 0 0 0 0 1
+particle minecraft:electric_spark ~-5.657 ~0 ~-5.657 0 0 0 0 1
+particle minecraft:electric_spark ~-3.061 ~0 ~-7.391 0 0 0 0 1
+particle minecraft:electric_spark ~0 ~0 ~-8 0 0 0 0 1
+particle minecraft:electric_spark ~3.061 ~0 ~-7.391 0 0 0 0 1
+particle minecraft:electric_spark ~5.657 ~0 ~-5.657 0 0 0 0 1
+particle minecraft:electric_spark ~7.391 ~0 ~-3.061 0 0 0 0 1

@@ -34,11 +34,11 @@
 						}
 					],
 					"name": "minecraft:emerald",
-					"weight": 3
+					"weight": 1
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "bittersweet_supplement:food/golden_carrots",
+					"value": "bittersweet_supplement:food/golden_carrot",
 					"functions": [
 						{
 							"count": {

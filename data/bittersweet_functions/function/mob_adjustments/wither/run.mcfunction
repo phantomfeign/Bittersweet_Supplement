@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:wither] unless dimension minecraft:the_nether at @s run function bittersweet_functions:mob_adjustments/wither/kill

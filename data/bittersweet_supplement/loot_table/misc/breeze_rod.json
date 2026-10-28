@@ -1,0 +1,46 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:breeze_rod",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "custom_data": {
+                                    "adjusted_item":true
+                                },
+                                "lore": [
+                                    {
+                                        "text": "Creates a strong gust of wind.",
+                                        "color": "gray"
+                                    }
+                                ],
+                                "consumable": {
+                                    "consume_seconds": 0,
+                                    "animation": "toot_horn",
+                                    "sound": "intentionally_empty",
+                                    "has_consume_particles": false,
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:play_sound",
+                                            "sound": "intentionally_empty"
+                                        }
+                                    ]
+                                },
+                                "use_cooldown": {
+                                    "seconds": 0.5,
+                                    "cooldown_group": "bswt.thrown_projectiles"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

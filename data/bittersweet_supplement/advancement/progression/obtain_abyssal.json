@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": "Unheard Lament",
+    "description": "Darkness brews in old dungeons and demigods.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/obtain_iron",
+  "criteria": {
+    "acquire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pig_spawn_egg",
+              "minecraft:nether_star"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -7,6 +7,7 @@
 	},
 	"effects": {
 		"minecraft:tick": [
+			
 			{
 				"requirements": {
 					"condition": "minecraft:entity_properties",
@@ -24,9 +25,15 @@
 		"minecraft:attributes": [
 			{
 				"attribute": "minecraft:water_movement_efficiency",
-				"id": "aqua_mastery",
-				"amount": 2,
+				"id": "bswt:enchantment.aqua_mastery",
+				"amount": 3,
 				"operation": "add_value"
+			},
+			{
+				"amount": 10,
+				"attribute": "minecraft:submerged_mining_speed",
+				"id": "bswt:enchantment.aqua_mastery",
+				"operation": "add_multiplied_total"
 			}
 		]
 	},

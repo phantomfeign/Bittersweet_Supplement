@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_ingot",
+      "components": {}
+    },
+    "title": "Liberty, Liberty, Liberty",
+    "description": "\"Ey, I'm walkin 'ere!\".",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/obtain_flint",
+  "criteria": {
+    "acquire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot",
+              "minecraft:copper_spear",
+              "minecraft:copper_sword",
+              "minecraft:copper_axe",
+              "minecraft:copper_pickaxe",
+              "minecraft:copper_shovel",
+              "minecraft:copper_hoe",
+
+              "minecraft:copper_helmet",
+              "minecraft:copper_chestplate",
+              "minecraft:copper_leggings",
+              "minecraft:copper_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bittersweet_functions:mob_adjustments/equipment/tier_progression/copper"
+  }
+}

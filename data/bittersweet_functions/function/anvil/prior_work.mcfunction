@@ -42,5 +42,5 @@ item modify entity @s weapon.offhand bittersweet_functions:reset_repair_cost
 
 item modify entity @s player.cursor bittersweet_functions:reset_repair_cost
 
-scoreboard players set @s anvil_interaction 0
-stopwatch restart anvil_timer
+execute at @s run fill ~-2 ~-1 ~-2 ~2 ~2 ~2 minecraft:anvil replace minecraft:chipped_anvil
+execute at @s run fill ~-2 ~-1 ~-2 ~2 ~2 ~2 minecraft:anvil replace minecraft:damaged_anvil

@@ -7,7 +7,6 @@
         "minecraft:cave_spider",
         "minecraft:spider",
         "minecraft:slime",
-        "minecraft:silverfish",
-        "minecraft:phantom"
+        "minecraft:silverfish"
     ]
 }

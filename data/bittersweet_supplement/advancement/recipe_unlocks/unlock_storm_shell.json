@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "get_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald",
+              "minecraft:prismarine_shard",
+              "minecraft:prismarine_crystals"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bittersweet_supplement:equipment/storm_shell"
+    ]
+  }
+}

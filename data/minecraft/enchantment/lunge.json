@@ -29,7 +29,7 @@
 								0,
 								1
 							],
-							"magnitude": 0.25
+							"magnitude": 1
 						},
 						{
 							"type": "minecraft:play_sound",
@@ -63,7 +63,6 @@
 							"entity": "this",
 							"predicate": {
 								"minecraft:flags": {
-									"is_in_water": false,
 									"is_fall_flying": false
 								}
 							}
@@ -106,7 +105,7 @@
 								0,
 								1
 							],
-							"magnitude": 1
+							"magnitude": 0.4
 						},
 						{
 							"type": "minecraft:play_sound",
@@ -140,7 +139,6 @@
 							"entity": "this",
 							"predicate": {
 								"minecraft:flags": {
-									"is_in_water": false,
 									"is_fall_flying": true
 								}
 							}

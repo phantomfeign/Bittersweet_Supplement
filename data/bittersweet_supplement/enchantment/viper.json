@@ -1,0 +1,157 @@
+{
+	"anvil_cost": 0,
+	"description": {
+		"translate": "enchantment.bittersweet_supplement.viper"
+	},
+	"effects": {
+		"minecraft:projectile_spawned": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "bittersweet_functions:enchantments/viper/start"
+				}
+			}
+		],
+		"minecraft:tick": [
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_tags": {
+							"all_of": [
+								"bswt.viperOrigin"
+							]
+						},
+						"minecraft:flags": {
+							"is_in_water": false,
+							"is_fall_flying": false
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "bittersweet_functions:enchantments/tp"
+						},
+						{
+							"type": "minecraft:apply_impulse",
+							"direction": [
+								0,
+								0,
+								1
+							],
+							"coordinate_scale": [
+								1,
+								1,
+								1
+							],
+							"magnitude": 2
+						},
+						{
+							"type": "minecraft:run_function",
+							"function": "bittersweet_functions:enchantments/viper/cleanup"
+						}
+					]
+				}
+			},
+			{
+				"requirements": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:entity_tags": {
+								"all_of": [
+									"bswt.viperOrigin"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:flags": {
+										"is_in_water": true
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:flags": {
+										"is_fall_flying": true
+									}
+								}
+							}
+						]
+					}
+				],
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "bittersweet_functions:enchantments/tp"
+						},
+						{
+							"type": "minecraft:apply_impulse",
+							"direction": [
+								0,
+								0,
+								1
+							],
+							"coordinate_scale": [
+								1,
+								1,
+								1
+							],
+							"magnitude": 0.1
+						},
+						{
+							"type": "minecraft:run_function",
+							"function": "bittersweet_functions:enchantments/viper/cleanup"
+						}
+					]
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"ViperTimer": {
+							"min": 0
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "bittersweet_functions:enchantments/viper/tick"
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"hand"
+	],
+	"supported_items": "minecraft:trident",
+	"exclusive_set": "#bittersweet_supplement:exclusive_set/viper",
+	"weight": 1
+}

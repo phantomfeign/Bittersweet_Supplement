@@ -10,10 +10,10 @@ execute at @s run execute if dimension minecraft:overworld run execute if entity
 if predicate bittersweet_functions:can_see_sky run tag @s add bswt.spawnForbidden
 
 #death to the babies
-execute as @s[type=#minecraft:zombies,nbt={IsBaby:1b}] run tag @s add bswt.spawnForbidden
+execute as @s[type=#minecraft:zombies,nbt={IsBaby:1b}] run data merge entity @s {IsBaby:0b}
 
-#less creepers
-execute as @s[type=minecraft:creeper] if predicate bittersweet_functions:chance/chance_20 run tag @s add bswt.spawnForbidden
+#less creepers on surface
+execute if entity @s[type=minecraft:creeper] if predicate bittersweet_functions:surface_spawn unless predicate bittersweet_functions:chance/chance_10 run tag @s add bswt.spawnForbidden
 
 #deepslate spiders
 execute as @s[type=minecraft:spider,tag=!dungeon_spawn] if predicate bittersweet_functions:above_deepslate run tag @s add bswt.spawnForbidden
@@ -21,11 +21,10 @@ execute as @s[type=minecraft:spider,tag=!dungeon_spawn] if predicate bittersweet
 #bye villagers FOR NOW. maybe.
 execute as @s[type=minecraft:villager] run tag @s add bswt.spawnForbidden
 
-execute as @s[tag=bswt.spawnForbidden] run function bittersweet_functions:mob_adjustments/delete
-execute as @s[tag=bswt.spawnForbidden] run return fail
+#deletion
+execute as @s[tag=bswt.spawnForbidden] run return run function bittersweet_functions:mob_adjustments/delete
 
-#if spawn success, apply changes
-execute as @s if entity @s[tag=!bswt.spawnForbidden] run function bittersweet_functions:mob_adjustments/mob_changes
+function bittersweet_functions:mob_adjustments/mob_changes
 
 #make a copy
 execute if entity @s[tag=!bswt.spawnForbidden,tag=!bswt.extraSpawn] if score #sleep SleepStreak matches 2 if predicate bittersweet_functions:chance/chance_10 \

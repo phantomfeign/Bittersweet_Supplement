@@ -8,7 +8,7 @@
 				"minecraft:location": {
 					"position": {
 						"y": {
-							"min": 63,
+							"min": 30,
 							"max": 350
 						}
 					}

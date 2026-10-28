@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bogged_spawn_egg",
+      "components": {}
+    },
+    "title": "Magic Moss",
+    "description": "Acquire Verdum crystals from vine-covered temples or crafting.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/obtain_iron",
+  "criteria": {
+    "acquire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bogged_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

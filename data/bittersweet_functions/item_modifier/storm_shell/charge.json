@@ -1,0 +1,13 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "bittersweet_textures:storm_shell_charged",
+      "minecraft:custom_data": {
+        "bswt.stormShell": true,
+        "bswt.stormShellCharge": true,
+				"right_click": true
+      }
+    }
+  }
+]

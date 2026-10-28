@@ -1,3 +1,0 @@
-execute if predicate bittersweet_functions:chance/chance_40 run return run function bittersweet_functions:mob_adjustments/skeleton/wields_axe
-function bittersweet_functions:mob_adjustments/skeleton/spawn_cousin
-

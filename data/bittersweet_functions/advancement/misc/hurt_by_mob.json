@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"kill": {
+			"trigger": "minecraft:entity_hurt_player"
+		}
+	},
+	"rewards": {
+		"function": "bittersweet_functions:misc/adrenaline/hurt"
+	}
+}

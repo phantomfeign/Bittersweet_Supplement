@@ -4,25 +4,13 @@
 		{
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:long_fire_resistance"
-						}
-					],
-					"name": "minecraft:potion",
-					"weight": 5
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:misc/greater_fire_res",
+					"weight": 4
 				},
 				{
-					"type": "minecraft:item",
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:long_fire_resistance"
-						}
-					],
-					"name": "minecraft:splash_potion",
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:misc/lesser_fire_res",
 					"weight": 5
 				},
 				{
@@ -38,7 +26,7 @@
 						}
 					],
 					"name": "minecraft:ender_pearl",
-					"weight": 3
+					"weight": 2
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -53,7 +41,7 @@
 						}
 					],
 					"value": "bittersweet_supplement:food/golden_apple",
-					"weight": 3
+					"weight": 2
 				}
 			],
 			"rolls": 1

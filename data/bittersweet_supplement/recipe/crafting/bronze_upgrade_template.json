@@ -1,17 +1,17 @@
 {
-	"type": "minecraft:crafting_shapeless",
-	"category": "misc",
-	"ingredients": [
-		"minecraft:horse_spawn_egg",
-		"minecraft:horse_spawn_egg",
-		"minecraft:horse_spawn_egg",
-		"minecraft:horse_spawn_egg",
-        "minecraft:gold_ingot",
-        "minecraft:gold_ingot",
-        "minecraft:gold_ingot",
-        "minecraft:gold_ingot",
-        "minecraft:gold_ingot"
-    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": "minecraft:glowstone_dust",
+    "#": "minecraft:magma_block",
+    "G": "minecraft:copper_block",
+    "X": "minecraft:horse_spawn_egg"
+  },
+  "pattern": [
+    "RGR",
+    "GXG",
+    "R#R"
+  ],
 	"result": {
 		"id": "minecraft:piglin_spawn_egg",
         "count": 2,

@@ -21,7 +21,7 @@
 				{
 					"type": "minecraft:attack_damage",
 					"id": "bittersweet_supplement:copper_greatsword",
-					"amount": 3,
+					"amount": 5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}
@@ -33,7 +33,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "4🗡",
+					"text": "6🗡",
 					"color": "red",
 					"italic": false
 				},

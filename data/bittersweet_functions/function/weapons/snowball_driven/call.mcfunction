@@ -1,0 +1,2 @@
+function bittersweet_functions:weapons/snowball_driven/breeze_rod/summon
+function bittersweet_functions:weapons/snowball_driven/fireball/summon

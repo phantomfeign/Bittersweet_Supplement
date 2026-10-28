@@ -49,14 +49,9 @@
 							"name": "minecraft:diamond"
 						},
 						{
-							"type": "minecraft:item",
+							"type": "minecraft:loot_table",
+							"value": "bittersweet_supplement:generic/rough_diamond",
 							"functions": [
-								{
-									"function": "minecraft:set_components",
-									"components": {
-										"!minecraft:entity_data": {}
-									}
-								},
 								{
 									"enchantment": "minecraft:fortune",
 									"formula": "minecraft:ore_drops",
@@ -65,8 +60,7 @@
 								{
 									"function": "minecraft:explosion_decay"
 								}
-							],
-							"name": "minecraft:allay_spawn_egg"
+							]
 						}
 					]
 				}

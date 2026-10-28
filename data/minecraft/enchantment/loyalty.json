@@ -11,6 +11,14 @@
 					"value": 5
 				}
 			}
+		],
+		"minecraft:projectile_spawned": [
+		{
+			"effect": {
+			"type": "run_function",
+			"function": "bittersweet_functions:enchantments/loyalty_throw"
+			}
+		}
 		]
 	},
 	"max_cost": {

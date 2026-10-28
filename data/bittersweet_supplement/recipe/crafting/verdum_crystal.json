@@ -1,15 +1,16 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"key": {
+		"L":"minecraft:jungle_leaves",
 		"#": "minecraft:moss_block",
 		"X": "minecraft:pig_spawn_egg",
 		"A": "minecraft:amethyst_shard",
 		"E": "minecraft:emerald"
 	},
 	"pattern": [
-		"###",
-		"EXA",
-		"###"
+		"LEL",
+		"#X#",
+		"LAL"
 	],
 	"result": {
 		"count": 3,

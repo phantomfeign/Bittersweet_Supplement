@@ -1,0 +1,66 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "minecraft:spawners/ominous/trial_chamber/key",
+      "weight": 3
+    },
+    {
+      "data": "minecraft:spawners/ominous/trial_chamber/consumables",
+      "weight": 7
+    }
+  ],
+  "simultaneous_mobs": 3.0,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:husk",
+          "DeathLootTable": "bittersweet_functions:empty",
+          "Tags": ["bswt.trialChamberSpawn"],
+          "Health": 28.0,
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 28
+            },
+            {
+              "id": "minecraft:follow_range",
+              "base": 50
+            },
+            {
+              "id": "minecraft:scale",
+              "base": 1.1
+            },
+            {
+              "id": "minecraft:movement_speed",
+              "base": 0.25
+            },
+            {
+              "id": "minecraft:water_movement_efficiency",
+              "base": 1
+            },
+            {
+              "id": "minecraft:attack_damage",
+              "base": 4
+            },
+            {
+              "id": "minecraft:knockback_resistance",
+              "base": 0.8
+            },
+            {
+              "id": "minecraft:step_height",
+              "base": 2
+            }
+          ]
+        },
+        "equipment": {
+          "loot_table": "minecraft:equipment/trial_chamber_melee",
+          "slot_drop_chances": 0.0
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 20
+}

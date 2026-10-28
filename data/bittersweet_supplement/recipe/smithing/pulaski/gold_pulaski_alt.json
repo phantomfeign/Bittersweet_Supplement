@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-	"addition": "minecraft:diamond",
+	"addition": "minecraft:amethyst_shard",
 	"base": "minecraft:golden_axe",
 	"template": "minecraft:golden_shovel",
 	"result": {
@@ -18,12 +18,12 @@
 				"rules": [
 					{
 						"blocks": "#minecraft:mineable/axe",
-						"speed": 9,
+						"speed": 10,
 						"correct_for_drops": true
 					},
 					{
 						"blocks": "#minecraft:mineable/shovel",
-						"speed": 9,
+						"speed": 10,
 						"correct_for_drops": true
 					}
 				],
@@ -37,7 +37,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "9⛏",
+					"text": "10⛏",
 					"color": "gold",
 					"italic": false
 				}

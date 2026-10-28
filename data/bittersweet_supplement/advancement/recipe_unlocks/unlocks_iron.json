@@ -36,6 +36,9 @@
       "minecraft:smithing_table",
       "bittersweet_supplement:equipment/iron/shield",
       "bittersweet_supplement:equipment/iron/compass",
+      "bittersweet_supplement:equipment/iron/north_compass",
+      "bittersweet_supplement:equipment/iron/shears",
+      "bittersweet_supplement:equipment/magnet",
       
       "minecraft:rail",
       "minecraft:anvil"

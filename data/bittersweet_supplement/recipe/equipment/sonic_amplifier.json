@@ -62,7 +62,7 @@
 				]
 			},
 			"minecraft:consumable": {
-				"animation": "bow",
+				"animation": "none",
 				"consume_seconds": 9999999,
 				"has_consume_particles": false,
 				"sound": "minecraft:intentionally_empty"

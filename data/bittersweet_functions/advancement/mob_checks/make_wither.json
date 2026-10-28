@@ -15,6 +15,6 @@
 		]
 	],
 	"rewards": {
-		"function": "bittersweet_functions:mob_adjustments/wither/forbid"
+		"function": "bittersweet_functions:mob_adjustments/individual_mobs/wither/forbid"
 	}
 }

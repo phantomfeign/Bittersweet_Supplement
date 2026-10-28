@@ -1,0 +1,40 @@
+{
+  "simultaneous_mobs": 3.0,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:zombie",
+          "DeathLootTable": "bittersweet_functions:empty",
+          "Tags": ["bswt.trialChamberSpawn"],
+          "Health": 20.0,
+          "attributes": [
+            {
+              "id": "minecraft:attack_damage",
+              "base": 3
+            },
+            {
+              "id": "minecraft:knockback_resistance",
+              "base": 0.5
+            },
+            {
+              "id": "minecraft:follow_range",
+              "base": 25
+            },
+            {
+              "id": "minecraft:step_height",
+              "base": 1
+            },
+            {
+              "id": "minecraft:max_health",
+              "base": 20
+            }
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 20
+}

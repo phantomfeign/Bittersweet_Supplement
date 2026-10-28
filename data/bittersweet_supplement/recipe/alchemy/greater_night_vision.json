@@ -17,6 +17,7 @@
 		"count":2,
 		"components": {
 			"minecraft:item_name": "Lesser Potion",
+			"!minecraft:use_remainder":{},
 			"minecraft:potion_contents": {
 				"custom_effects": [
 					{

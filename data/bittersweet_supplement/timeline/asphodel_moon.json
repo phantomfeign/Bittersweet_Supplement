@@ -1,0 +1,60 @@
+{
+	"period_ticks": 576000,
+	"clock": "bittersweet_supplement:asphodel",
+	"tracks": {
+		"minecraft:visual/moon_phase": {
+			"keyframes": [
+				{
+					"ticks": 0,
+					"value": "full_moon"
+				},
+				{
+					"ticks": 36000,
+					"value": "waning_gibbous"
+				},
+				{
+					"ticks": 108000,
+					"value": "first_quarter"
+				},
+				{
+					"ticks": 180000,
+					"value": "waning_crescent"
+				},
+				{
+					"ticks": 252000,
+					"value": "new_moon"
+				},
+				{
+					"ticks": 324000,
+					"value": "waxing_crescent"
+				},
+				{
+					"ticks": 396000,
+					"value": "third_quarter"
+				},
+				{
+					"ticks": 468000,
+					"value": "waxing_gibbous"
+				},
+				{
+					"ticks": 540000,
+					"value": "full_moon"
+				}
+			]
+		},
+		"minecraft:visual/moon_angle": {
+			"ease": "linear",
+			"modifier": "override",
+			"keyframes": [
+				{
+					"ticks": 0,
+					"value": 90
+				},
+				{
+					"ticks": 576000,
+					"value": 2610
+				}
+			]
+		}
+	}
+}

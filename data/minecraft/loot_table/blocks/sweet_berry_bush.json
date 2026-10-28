@@ -26,8 +26,8 @@
 				{
 					"count": {
 						"type": "minecraft:uniform",
-						"max": 3,
-						"min": 2
+						"max": 2,
+						"min": 1
 					},
 					"function": "minecraft:set_count"
 				},
@@ -43,15 +43,7 @@
 			"rolls": 1
 		},
 		{
-			"conditions": [
-				{
-					"block": "minecraft:sweet_berry_bush",
-					"condition": "minecraft:block_state_property",
-					"properties": {
-						"age": "2"
-					}
-				}
-			],
+			"conditions": [],
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
@@ -60,20 +52,8 @@
 			],
 			"functions": [
 				{
-					"count": {
-						"type": "minecraft:uniform",
-						"max": 2,
-						"min": 1
-					},
+					"count": 1,
 					"function": "minecraft:set_count"
-				},
-				{
-					"enchantment": "minecraft:fortune",
-					"formula": "minecraft:uniform_bonus_count",
-					"function": "minecraft:apply_bonus",
-					"parameters": {
-						"bonusMultiplier": 1
-					}
 				}
 			],
 			"rolls": 1

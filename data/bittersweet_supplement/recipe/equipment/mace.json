@@ -19,6 +19,11 @@
 				"text": "Wind Mace",
 				"color": "light_purple"
 			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:iron_block"
+				]
+			},
 			"minecraft:custom_data": {
 				"right_click": true
 			},

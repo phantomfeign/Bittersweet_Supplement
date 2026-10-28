@@ -12,7 +12,7 @@
 		" C"
 	],
 	"result": {
-		"id": "minecraft:copper_sword",
+		"id": "minecraft:diamond_sword",
 		"components": {
 			"minecraft:item_name": {
 				"text":"Refractor",
@@ -58,7 +58,7 @@
 				"items": "minecraft:amethyst_shard"
 			},
 			"minecraft:consumable": {
-				"animation": "bow",
+				"animation": "none",
 				"consume_seconds": 9999999,
 				"has_consume_particles": false,
 				"sound": "minecraft:intentionally_empty"

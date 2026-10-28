@@ -17,12 +17,12 @@
 				"rules": [
 					{
 						"blocks": "#minecraft:mineable/axe",
-						"speed": 10,
+						"speed": 11,
 						"correct_for_drops": true
 					},
 					{
 						"blocks": "#minecraft:mineable/shovel",
-						"speed": 10,
+						"speed": 11,
 						"correct_for_drops": true
 					}
 				],
@@ -45,7 +45,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "10⛏",
+					"text": "11⛏",
 					"color": "gold",
 					"italic": false
 				}

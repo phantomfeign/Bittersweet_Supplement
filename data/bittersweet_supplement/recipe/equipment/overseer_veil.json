@@ -18,6 +18,7 @@
 			"!minecraft:entity_data": {},
 			"minecraft:equippable": {
 				"slot": "head",
+				"swappable": true,
 				"equip_sound": "minecraft:item.armor.equip_chain"
 			},
 			"minecraft:item_name": {

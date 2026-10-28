@@ -13,7 +13,8 @@
 	"result": {
 		"id": "minecraft:potion",
 		"components": {
-			"minecraft:item_name": "Lesser Potion",
+			"minecraft:item_name": "Greater Potion",
+			"!minecraft:use_remainder":{},
 			"minecraft:potion_contents": {
 				"custom_effects": [
 					{

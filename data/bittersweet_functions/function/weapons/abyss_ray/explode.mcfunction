@@ -10,4 +10,4 @@ execute as @e[type=!#bittersweet_functions:nonliving_entity,tag=!abyssRayOwner,d
 execute as @e[type=!#bittersweet_functions:nonliving_entity,tag=!abyssRayOwner,distance=..3] run damage @s 4 minecraft:player_explosion
 
 summon breeze_wind_charge ~ ~1 ~ {Motion:[0.0,-5.0,0.0]}
-execute as @a[tag=abyssRayOwner] run tag @s remove abyssRayOwner
+kill @s

@@ -1,0 +1,1 @@
+effect give @e[type=#minecraft:sensitive_to_smite] minecraft:slowness 1 0

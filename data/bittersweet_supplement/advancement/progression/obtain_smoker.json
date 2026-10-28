@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smoker",
+      "components": {}
+    },
+    "title": "Sous Chef",
+    "description": "Ovens cook food faster & draw out flavors from meat.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/obtain_campfire",
+  "criteria": {
+    "acquire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smoker"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [],
+    "function": "bittersweet_functions:food/smoker_recipes_unlock"
+  }
+}

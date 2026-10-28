@@ -5,7 +5,19 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:lodestone"
+					"name": "minecraft:lodestone",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Compasses can be calibrated to track its location.",
+									"color": "gray"
+								}
+							],
+							"mode": "append"
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
@@ -188,8 +200,8 @@
 					"weight": 5
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:hoglin_spawn_egg"
+					"type": "minecraft:loot_table",
+					"value": "bittersweet_supplement:generic/adamantine_upgrade"
 				}
 			],
 			"rolls": 1

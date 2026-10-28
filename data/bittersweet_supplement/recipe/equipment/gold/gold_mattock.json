@@ -8,7 +8,7 @@
 	],
 	"key": {
 		"#": "minecraft:stick",
-		"G": "minecraft:diamond",
+		"G": "minecraft:amethyst_shard",
 		"I": "minecraft:gold_ingot"
 	},
 	"result": {
@@ -26,12 +26,12 @@
 				"rules": [
 					{
 						"blocks": "#minecraft:mineable/pickaxe",
-						"speed": 9,
+						"speed": 10,
 						"correct_for_drops": true
 					},
 					{
 						"blocks": "#minecraft:mineable/hoe",
-						"speed": 9,
+						"speed": 10,
 						"correct_for_drops": true
 					}
 				],
@@ -45,7 +45,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "9⛏",
+					"text": "10⛏",
 					"color": "gold",
 					"italic": false
 				}

@@ -7,10 +7,6 @@
 					"type": {
 						"tags": [
 							{
-								"id": "bittersweet_supplement:is_melee",
-								"expected": true
-							},
-							{
 								"id": "minecraft:bypasses_armor",
 								"expected": false
 							},

@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:horse_spawn_egg",
+      "components": {}
+    },
+    "title": "Alloy of Heroes",
+    "description": "\"Dare you clash against the Champion of Elysium and his most trusted friend?\"",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bittersweet_supplement:progression/enter_tartarus",
+	"criteria": {
+		"pike": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "bittersweet_supplement:smithing/bronze/bronze_pike"
+			}
+    },
+    "halberd": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "bittersweet_supplement:smithing/bronze/bronze_halberd"
+			}
+    },
+    "greatsword": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "bittersweet_supplement:smithing/bronze/bronze_greatsword"
+			}
+    },
+    "sickle": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "bittersweet_supplement:smithing/bronze/bronze_sickle"
+			}
+    },
+    "cutlass": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "bittersweet_supplement:smithing/bronze/bronze_cutlass"
+			}
+    },
+    "helmet": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "bittersweet_supplement:smithing/bronze/bronze_helmet"
+			}
+    },
+    "chestplate": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "bittersweet_supplement:smithing/bronze/bronze_chestplate"
+			}
+    },
+    "leggings": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "bittersweet_supplement:smithing/bronze/bronze_leggings"
+			}
+    },
+    "boots": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "bittersweet_supplement:smithing/bronze/bronze_boots"
+			}
+    }
+  },
+	"requirements": [
+		[
+			"pike",
+			"halberd",
+			"greatsword",
+			"sickle",
+			"cutlass",
+			"helmet",
+			"chestplate",
+			"leggings",
+			"boots"
+		]
+	],
+  "rewards": {
+    "function": "bittersweet_functions:mob_adjustments/equipment/tier_progression/endgame"
+  }
+}

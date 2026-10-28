@@ -18,6 +18,6 @@
     }
   },
   "rewards": {
-    "function": "bittersweet_functions:mob_adjustments/phantom/attack/hit_player"
+    "function": "bittersweet_functions:mob_adjustments/individual_mobs/phantom/hit_player"
   }
 }

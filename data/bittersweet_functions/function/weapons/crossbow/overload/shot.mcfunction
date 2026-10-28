@@ -1,4 +1,4 @@
-execute unless predicate bittersweet_functions:enchantment/overload run return fail
+execute unless predicate bittersweet_functions:enchantment/overload/crossbow run return fail
 item modify entity @s weapon.mainhand bittersweet_functions:crossbow/overload/loaded/false
 
 function bittersweet_functions:weapons/crossbow/overload/remove_ammo {current:1,next:0}

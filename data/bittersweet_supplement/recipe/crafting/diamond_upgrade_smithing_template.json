@@ -2,14 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": "minecraft:amethyst_shard",
+    "X": "minecraft:diamond",
+    "#": "minecraft:amethyst_shard",
     "G": "minecraft:gold_block",
-    "D": "minecraft:diamond"
+    "g": "minecraft:gold_ingot"
   },
   "pattern": [
-    "AGA",
-    "GDG",
-    "AGA"
+    "#g#",
+    "gXg",
+    "#G#"
   ],
   "result": {
     "count": 2,

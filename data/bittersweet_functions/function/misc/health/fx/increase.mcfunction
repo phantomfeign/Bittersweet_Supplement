@@ -1,6 +1,4 @@
-playsound minecraft:item.totem.use master @a ~ ~ ~ 5 1.5
-playsound item.trident.thunder master @a ~ ~ ~ 5 2
-playsound minecraft:item.bottle.fill_dragonbreath master @a ~ ~ ~ 1 0.5
+playsound minecraft:block.bell.resonate player @s ~ ~ ~ 1 1.5
 
 particle minecraft:end_rod ~ ~1 ~ 0 0 0 0.5 10
 particle minecraft:totem_of_undying ~ ~1 ~ 0 0 0 0.5 10

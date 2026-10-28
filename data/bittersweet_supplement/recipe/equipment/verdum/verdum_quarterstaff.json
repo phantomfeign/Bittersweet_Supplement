@@ -11,12 +11,12 @@
 		"X  "
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:stone_pickaxe",
 		"components": {
+			"!minecraft:tool":{},
 			"minecraft:item_name": {
 				"text": "Verdum Quarterstaff",
-				"color": "green",
-                "italic": false
+				"color": "green"
 			},
 			"minecraft:item_model": "bittersweet_textures:verdum_quarterstaff",
             "minecraft:max_stack_size":1,

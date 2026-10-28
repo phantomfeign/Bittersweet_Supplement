@@ -15,7 +15,7 @@
 		"components": {
 			"minecraft:item_name": "Iron Shield",
 			"minecraft:item_model": "minecraft:shield",
-			"minecraft:max_damage": 100,
+			"minecraft:max_damage": 300,
 			"minecraft:damage": 0,
 			"minecraft:lore": [
 				{

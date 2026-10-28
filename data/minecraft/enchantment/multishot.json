@@ -23,18 +23,6 @@
           "value": 8
         }
       }
-    ],
-    "minecraft:damage": [
-      {
-        "effect": {
-          "type": "minecraft:multiply",
-          "factor": {
-            "type": "minecraft:fraction",
-            "numerator": 1,
-            "denominator": 3
-          }
-        }
-      }
     ]
   },
   "max_level": 1,

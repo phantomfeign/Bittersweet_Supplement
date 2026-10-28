@@ -2,3 +2,4 @@ execute if score #sleep SleepStreak matches 2.. run tellraw @a {"text":"The hord
 execute if score #sleep BloodMoonActive matches 1 run scoreboard players set #sleep SleepStreak 0
 execute if score #sleep BloodMoonActive matches 1 run scoreboard players set #sleep BloodMoonActive 0
 execute if score #sleep SleepStreak matches ..-1 run scoreboard players set #sleep SleepStreak 0
+execute as @a unless score @s MaxHealth matches 20.. run function bittersweet_functions:misc/health/increase_hp

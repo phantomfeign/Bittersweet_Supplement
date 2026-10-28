@@ -1,0 +1,1 @@
+schedule function bittersweet_functions:weapons/crossbow/overload/load_detection/schedule 1t

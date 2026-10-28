@@ -12,8 +12,9 @@
 		" #"
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:stone_pickaxe",
 		"components": {
+			"!minecraft:tool":{},
             "minecraft:item_name":{
 				"text":"Rimed Stiletto",
 				"color": "light_purple",

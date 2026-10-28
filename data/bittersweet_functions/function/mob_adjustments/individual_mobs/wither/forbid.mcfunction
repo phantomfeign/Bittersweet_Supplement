@@ -1,0 +1,2 @@
+advancement revoke @s only bittersweet_functions:mob_checks/make_wither
+schedule function bittersweet_functions:mob_adjustments/individual_mobs/wither/run 11s

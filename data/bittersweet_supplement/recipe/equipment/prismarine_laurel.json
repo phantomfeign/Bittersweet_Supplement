@@ -2,11 +2,13 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"pattern": [
-		"#C#",
-		"#S#"
+		"CXC",
+		"#S#",
+		"# #"
 	],
 	"key": {
 		"#": "minecraft:prismarine_shard",
+		"X": "minecraft:heart_of_the_sea",
 		"S": "minecraft:nether_star",
 		"C": "minecraft:prismarine_crystals"
 	},
@@ -16,10 +18,11 @@
 			"!minecraft:entity_data": {},
 			"minecraft:equippable": {
 				"slot": "head",
+				"swappable": true,
 				"equip_sound": "minecraft:item.armor.equip_turtle"
 			},
 			"minecraft:item_name": {
-				"text": "Prismarine Circlet",
+				"text": "Prismarine Laurel",
 				"color": "light_purple"
 			},
 			"minecraft:enchantments": {

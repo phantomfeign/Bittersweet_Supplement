@@ -4,11 +4,12 @@
   "key": {
     "R": "minecraft:resin_brick",
     "G": "minecraft:gold_block",
+    "g": "minecraft:gold_ingot",
     "N": "minecraft:netherite_ingot"
   },
   "pattern": [
-    "RGR",
-    "GNG",
+    "RgR",
+    "gNg",
     "RGR"
   ],
   "result": {

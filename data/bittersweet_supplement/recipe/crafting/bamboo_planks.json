@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category":"building",
+	"key": {
+		"X": "minecraft:bamboo_block"
+    },
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+	"result": {
+		"id": "minecraft:bamboo_planks",
+		"count": 12
+	}
+}

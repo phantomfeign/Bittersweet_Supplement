@@ -2,15 +2,6 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:trial_key"
-				}
-			]
-		},
-		{
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -51,7 +42,7 @@
 												{
 													"id": "minecraft:resistance",
 													"amplifier": 0,
-													"duration": 300,
+													"duration": 600,
 													"show_particles": false
 												}
 											]

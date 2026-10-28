@@ -12,6 +12,7 @@
 							"function": "minecraft:set_components",
 							"components": {
                                 "minecraft:custom_data":{"bittersweet_honey":true},
+								"!minecraft:use_remainder":{},
 								"minecraft:lore": [
 									{
 										"text": "♡",

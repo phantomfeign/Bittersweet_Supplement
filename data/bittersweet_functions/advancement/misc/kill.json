@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"kill": {
+			"conditions": {
+				"killing_blow": {
+					"is_direct": true
+				},
+				"entity": {
+					"entity_type": "#bittersweet_functions:mundane_hostiles"
+				}
+			},
+			"trigger": "minecraft:player_killed_entity"
+		}
+	},
+	"rewards": {
+		"function": "bittersweet_functions:misc/adrenaline/kill"
+	}
+}

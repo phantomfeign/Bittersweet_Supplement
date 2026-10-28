@@ -1,14 +1,13 @@
+#KILL EXP
+execute as @e[type=experience_orb] run kill @s
 #SILVERFISH
 execute as @e[type=minecraft:silverfish,tag=!bswt.spawnChecked,tag=!SpawnBypass] run function bittersweet_functions:mob_adjustments/spawn_filter
 
 #CREEPER 
-execute at @e[type=area_effect_cloud,tag=!creeper_aec_check] run function bittersweet_functions:mob_adjustments/creeper/aec_check
-
-#PHANTOM 
-execute as @e[type=minecraft:phantom,tag=NightTerror,limit=1] run function bittersweet_functions:mob_adjustments/phantom/update_boss_bar
+execute at @e[type=area_effect_cloud,tag=!creeper_aec_check] run function bittersweet_functions:mob_adjustments/individual_mobs/creeper/aec_check
 
 #SPIDER
-execute as @e[type=#bittersweet_functions:spiders] at @s as @a[distance=..25,limit=1] at @s run function bittersweet_functions:mob_adjustments/spiders/replace_light
+execute as @e[type=#bittersweet_functions:spiders] at @s as @a[distance=..25,limit=1] at @s run function bittersweet_functions:mob_adjustments/individual_mobs/spiders/replace_light
 
 #PLAYER DEATH
 execute as @e[type=player,tag=!died_recently,scores={Deaths=1..}] run function bittersweet_functions:misc/health/death
@@ -32,3 +31,8 @@ execute as @e[type=marker,tag=bswt.frostbiteStompMarker] at @s run function bitt
 #FLORUPTION
 execute as @e[type=block_display,tag=bswt.verdumPetal] at @s run function bittersweet_functions:enchantments/floruption/petals/tick
 
+#ABYSS RAY
+execute as @e[type=marker,tag=bswt.abyss_ray] at @s run function bittersweet_functions:weapons/abyss_ray/tick
+
+#SONIC BOOM
+execute as @e[type=marker,tag=bswt.sonicBoom] at @s run function bittersweet_functions:weapons/sonic_boom/tick

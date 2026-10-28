@@ -1,12 +1,27 @@
-tellraw @a {"text":"Thank you for taking your Bittersweet Supplement!","color":"#e5ed88"}
-tellraw @a {"text":"Lost? Check the Advancement Menu!","color":"#9fa654"}
-
+tellraw @a {"text":"Thank you for taking your Bittersweet Supplement!","color":"#c6b3c8"}
+tellraw @a {"text":"Lost? Check the Advancement Menu!","color":"#a990a9"}
+tellraw @a {"text":"Bittersweet Supplement for Java 1.26.2 by phantomfeign","color":"#87658a"}
 schedule function bittersweet_functions:loops/loop_1s 1t
 schedule function bittersweet_functions:loops/loop_0.5s 2t
-schedule function bittersweet_functions:time_extender 3t
+schedule function bittersweet_functions:loops/loop_1m 3t
 schedule function bittersweet_functions:misc/campfire/check 4t
 
-execute as @a run function bittersweet_functions:remove_temp_advancements
+function bittersweet_functions:utility/time_monitor
+
+execute as @a run function bittersweet_functions:utility/remove_temp_advancements
+
+#utils
+scoreboard objectives add bswt.snowballMath dummy
+
+#adrenaline
+scoreboard objectives add Adrenaline dummy
+scoreboard objectives add Rampage dummy
+scoreboard players add #contestedRoll Adrenaline 0
+
+#mob scaling
+scoreboard objectives add MobEquipmentTier dummy
+scoreboard players add #global MobEquipmentTier 0
+scoreboard players add #contestedRoll MobEquipmentTier 0
 
 #sleep
 scoreboard objectives add Day dummy
@@ -27,11 +42,9 @@ scoreboard objectives add ArrowY dummy
 scoreboard objectives add ArrowZ dummy
 scoreboard objectives add Percent dummy
 scoreboard players set #70 Percent 70
+scoreboard players set #90 Percent 90
 scoreboard players set #100 Percent 100
-scoreboard players set #200 Percent 200
-
-#fireball
-scoreboard objectives add threw_snowball minecraft.used:minecraft.snowball
+scoreboard players set #150 Percent 150
 
 #playerpos
 scoreboard objectives add playerX dummy
@@ -68,17 +81,14 @@ scoreboard objectives add SpawnerTimer dummy
 scoreboard objectives add SpawnerMobCount dummy
 
 #dmg item
-scoreboard objectives add damage_item dummy
+scoreboard objectives add bswt.damage_item dummy
 
 #food
 scoreboard objectives add SeedCount dummy
 
 #phantom
 scoreboard objectives add raycastloop dummy
-scoreboard objectives add PhantomYVelocity dummy
-scoreboard objectives add PhantomXVelocity dummy
-scoreboard objectives add PhantomZVelocity dummy
-scoreboard objectives add PhantomVexTimer dummy
+
 
 #spider
 scoreboard objectives add LightFound dummy
@@ -86,19 +96,20 @@ scoreboard objectives add LightFound dummy
 #enderman
 scoreboard objectives add PullTimer dummy
 
-#fireball
-scoreboard objectives add FireballTimer dummy
+#proj
+scoreboard objectives add ProjectileLifetime dummy
 
 #fire debuff
 scoreboard objectives add FireTimer dummy
 
 #enchants
+#viper
+scoreboard objectives add ViperTimer dummy
+
 #floruption
 scoreboard objectives add FloruptionStacks dummy
+scoreboard players add @a FloruptionStacks 0
 scoreboard objectives add VerdumPetalTimer dummy
-
-#verdure
-scoreboard objectives add VerdureTimer dummy
 
 #desperation
 scoreboard objectives add HasDesperation dummy
@@ -125,7 +136,11 @@ scoreboard objectives add dashingDashTimer dummy
 #dashing
 scoreboard objectives add cooldownLunge dummy
 
-#weapon cooldowns
+#item cooldowns
+#storm shell
+scoreboard objectives add cooldownStormShell dummy
+scoreboard objectives add cooldownStormShellSeconds dummy
+
 #mace
 scoreboard objectives add cooldownMaceWind dummy
 scoreboard objectives add cooldownMaceMine dummy
@@ -137,12 +152,11 @@ scoreboard objectives add cooldownSonicAmplifier dummy
 scoreboard objectives add cooldownRapierDash dummy
 #abyss ray
 scoreboard objectives add cooldownAbyssRay dummy
-scoreboard objectives add abyssRayPass dummy
 
 #gamerules
 gamerule natural_health_regeneration false
 gamerule keep_inventory true
-gamerule advance_time false
+gamerule advance_time true
 gamerule spawn_phantoms false
 gamerule block_explosion_drop_decay false
 gamerule mob_explosion_drop_decay false
