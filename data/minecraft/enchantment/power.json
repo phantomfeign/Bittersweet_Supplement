@@ -8,7 +8,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "bittersweet_functions:enchantments/power_arrows"
+          "function": "bittersweet_functions:enchantments/sharpshooter/call"
         }
       }
     ]

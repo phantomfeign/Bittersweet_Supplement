@@ -28,7 +28,7 @@
 				{
 					"type": "minecraft:attack_damage",
 					"id": "bittersweet_supplement:bronze_halberd",
-					"amount": 4,
+					"amount": 6,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}
@@ -41,7 +41,7 @@
 			"minecraft:lore": [
 				
 				{
-					"text": " 5 Attack Damage",
+					"text": " 7 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},

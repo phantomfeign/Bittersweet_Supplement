@@ -1,4 +1,5 @@
 data merge entity @s {NoGravity:1b}
+tag @s add bswt.FastArrow
 # get initial velocity ×1000
 execute store result score @s ArrowX run data get entity @s Motion[0] 1000
 execute store result score @s ArrowY run data get entity @s Motion[1] 1000

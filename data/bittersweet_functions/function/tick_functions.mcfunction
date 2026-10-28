@@ -36,3 +36,6 @@ execute as @e[type=marker,tag=bswt.abyss_ray] at @s run function bittersweet_fun
 
 #SONIC BOOM
 execute as @e[type=marker,tag=bswt.sonicBoom] at @s run function bittersweet_functions:weapons/sonic_boom/tick
+
+#SHARPSHOOTER
+execute as @e[type=arrow,tag=bswt.FastArrow] run function bittersweet_functions:enchantments/sharpshooter/arrow_tick

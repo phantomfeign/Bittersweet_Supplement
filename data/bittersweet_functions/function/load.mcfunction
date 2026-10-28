@@ -11,7 +11,7 @@ function bittersweet_functions:utility/time_monitor
 execute as @a run function bittersweet_functions:utility/remove_temp_advancements
 
 #utils
-scoreboard objectives add bswt.snowballMath dummy
+scoreboard objectives add bswt.projectileMath dummy
 
 #adrenaline
 scoreboard objectives add Adrenaline dummy
@@ -102,7 +102,11 @@ scoreboard objectives add ProjectileLifetime dummy
 #fire debuff
 scoreboard objectives add FireTimer dummy
 
-#enchants
+#ENCHANTMENT
+#sharpshooter
+scoreboard objectives add ArrowAge dummy
+forceload add -1 -1 1 1
+
 #viper
 scoreboard objectives add ViperTimer dummy
 
